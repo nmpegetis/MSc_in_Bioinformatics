@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="aspectj-1.8.7">
+    <archive path="/Users/nmpegetis/Downloads/aspectj-1.8.7.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjrt:1.7.3">
+    <archive path="/Users/nmpegetis/.m2/repository/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar" />
+  </library>
+</eclipse-userlibraries>
+

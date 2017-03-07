@@ -1,0 +1,17 @@
+links
+
+http://en.wikipedia.org/wiki/Brain_metastasis
+http://www.nlm.nih.gov/medlineplus/ency/article/000769.htm
+http://en.wikipedia.org/wiki/Metastasis
+http://www.cancer.gov/cancertopics/factsheet/Sites-Types/metastatic
+
+
+papers
+http://www.google.gr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCwQFjAA&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.29.2896%26rep%3Drep1%26type%3Dpdf&ei=8tnyUPiKNIj54QTD84DwCA&usg=AFQjCNFmmV0SeuFNzFaUVCVoQ_Z_WcEX_A&sig2=gsyBWN_QIybYarWrZxvgNg&bvm=bv.1357700187,d.bGE&cad=rja
+	το ίδιο με το από πάνω: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.29.2896
+
+http://www.google.gr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDAQFjAA&url=http%3A%2F%2Frepository.cmu.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1066%26context%3Dsilicon_valley&ei=vOXyUPTDO8qL4ATsgYG4BA&usg=AFQjCNH70JZ3GX5SChznV-NzmdbqrEMaCA&sig2=ysVHMya7B84OnYx6JXtb_Q
+	το ίδιο με το από πάνω: http://repository.cmu.edu/silicon_valley/66/
+
+πολυπλοκότητα
+	http://users.cecs.anu.edu.au/~jinbo/pr/lecture05.pdf

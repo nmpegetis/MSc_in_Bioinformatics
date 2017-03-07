@@ -1,0 +1,55 @@
+
+
+LATEX:
+P(MC|C) = \frac{P(C|MC) P(MC)}{P(C)} = 
+
+
+
+Ευθεία
+\[P(C,MC) = P(C,SC,B,MC) + P(C,SC',B,MC) + P(C,SC,{B}',MC) + P(C,{SC}',B',MC) = 
+P(C|SC,B)P(SC|MC)P(B|MC)P(MC) + 
+P(C|SC',B)P(SC'|MC)P(B|MC)P(MC) + 
+P(C|SC,B')P(SC|MC)P(B'|MC)P(MC) + 
+P(C|SC',B')P(SC'|MC)P(B'|MC)P(MC) = 
+0.8\cdot0.8\cdot 0.2\cdot 0.2 +
+0.8\cdot0.2\cdot 0.2\cdot 0.2 +
+0.8\cdot0.8\cdot 0.8\cdot 0.2 +
+0.05\cdot0.2\cdot 0.8\cdot 0.2 = 0.1408\]
+
+((0,8*0,8*0,2*0,2)+
+(0,8*0,2*0,2*0,2)+
+(0,8*0,8*0,8*0,2)+
+(0,05*0,2*0,8*0,2))
+= 0.136
+
+Ανάδρομη
+\[P(C) = P(C,SC,B,MC) + P(C,SC,B,{MC}') + P(C,SC,{B}',MC) + P(C,{SC}',B,MC) + 
+P(C,SC,{B}',{MC}')+ P(C,{SC}',B,{MC}') + P(C,{SC}',{B}',MC) + P(C,{SC}',{B}',{MC}') = 
+P(C|SC,B)P(SC|MC)P(B|MC)P(MC) + 
+P(C|SC,B)P(SC|MC')P(B|MC')P(MC') + 
+P(C|SC',B)P(SC'|MC)P(B|MC)P(MC) + 
+P(C|SC',B)P(SC|MC')P(B|MC')P(MC') + 
+P(C|SC,B')P(SC|MC)P(B'|MC)P(MC) + 
+P(C|SC,B')P(SC|MC')P(B'|MC')P(MC') + 
+P(C|SC',B')P(SC'|MC)P(B'|MC)P(MC) + 
+P(C|SC',B')P(SC'|MC')P(B'|MC')P(MC') =
+0.8\cdot0.8\cdot 0.2\cdot 0.2 +
+0.8\cdot0.2\cdot 0.05\cdot 0.8 +
+0.8\cdot0.2\cdot 0.2\cdot 0.2 +
+0.8\cdot0.2\cdot 0.05\cdot 0.8 +
+0.8\cdot0.8\cdot 0.8\cdot 0.2 +
+0.8\cdot0.2\cdot 0.95\cdot 0.8 +
+0.05\cdot0.2\cdot 0.8\cdot 0.2 +
+0.05\cdot0.8\cdot 0.95\cdot 0.8 = 0.3008\]
+
+CALCULATOR:
+((0,8*0,8*0,2*0,2)+
+(0,8*0,2*0,05*0,8)+
+(0,8*0,2*0,2*0,2)+
+(0,8*0,2*0,05*0,8)+
+(0,8*0,8*0,8*0,2)+
+(0,8*0,2*0,95*0,8)+
+(0,05*0,2*0,8*0,2)+
+(0,05*0,8*0,95*0,8))
+= 0,03+0,1024+0,0064+0,0064+0,1216+0,0016+0,0304
+=0.3008
