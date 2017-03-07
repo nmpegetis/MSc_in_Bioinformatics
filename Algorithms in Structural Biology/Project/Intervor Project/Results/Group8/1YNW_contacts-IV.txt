@@ -1,0 +1,5 @@
+IE_A_B pairs: 
+ 1074   CB ALA A  61 2044   CB GLU B 303 ali
+ 1074   CB ALA A  61 2045   CG GLU B 303 ali
+IE_A_Wi pairs: 
+IE_B_Wi pairs: 

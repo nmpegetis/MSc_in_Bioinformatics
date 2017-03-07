@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Begetis Nikolaos - Postgraduate Student - Bioinformatics, ITMB
+%% Supervisor: Sangriotis Manolis - Professor - ITMB
+%% Course: Image Processing and Analysis
+%% Filename: edgelinking_nbegetis.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A program which locates the closed and open lines of shapes and
+% caterorizes them in classes and draws each class shape with a speciific
+% color
+
+% The program creates two different images. In the first one the program 
+% seperates the open from the closed lines and draws the open ones in
+% green color and the closed ones in black color
+% in the second image the program classifies the shapes according to their
+% perimeter and draws in red the class A(squares), in blue the class B 
+% (circles) and in green the rest shapes
+
+function []=edgelinking_nbegetis()
+%% first part of the program
+    clear *;clc;
+    close all; 
+
+    % Read the sample image in
+    im=imread('./sharp.jpg');
+    
+    % Find edges using the Canny operator with hysteresis thresholds of 0.1
+    % and 0.2 with smoothing parameter sigma set to 1.
+    edgeim=edge(im,'canny', [0.1 0.2], 1);
+
+    figure
+    imshow(edgeim);
+    imwrite(edgeim,'shapessm_edges.jpg'); % save image
+
+    % Link edge pixels together into lists of sequential edge points, one
+    % list for each edge contour.  Discard contours less than 10 pixels long.
+    [edgelist, labelededgeim]=edgelink(edgeim, 10);
+    
+    Nedge=length(edgelist);
+    for i=1:Nedge
+        if (edgelist{i}(1,1)==edgelist{i}(length(edgelist{i}),1)...
+                &&edgelist{i}(1,2)==edgelist{i}(length(edgelist{i}),2))
+            drawedgelist(edgelist(i),size(im),2,'black',2);axis('ij')
+            edgeline(i)=1;  % this is a closed line
+        else
+            drawedgelist(edgelist(i),size(im),2,'green',2);axis('ij')
+            edgeline(i)=0;  % this is an open line
+        end
+    end
+    
+%% second part of the program
+    for i=1:Nedge
+		if (edgeline(i)==1)
+			edgelist{i}(:,3)=0;
+		end
+	end
+	
+	k=1;
+	for i=1:Nedge
+	    if (edgeline(i)==1)
+			perimeter(k)=0;
+			cross_product=0;			
+			for j=1:size(edgelist{i}(:,:))-1
+				perimeter(k)=perimeter(k)+norm(edgelist{i}(j+1,:)-edgelist{i}(j,:));
+				cross_product=cross_product+cross(edgelist{i}(j,:), ...
+                    edgelist{i}(j+1,:)-edgelist{i}(j,:));
+            end
+			floor_area(k)=norm(cross_product)/2;
+			t=(perimeter(k)^2)/floor_area(k);
+			k=k+1;
+            if (t<18 && t>16) % if it is a square
+				drawedgelist(edgelist(i),size(im),2,'red',3);axis('ij')
+            elseif ( t<(4*pi+2) && t>(4*pi-2))   % else if it is a circle
+				drawedgelist(edgelist(i),size(im),2,'blue',3);axis('ij')
+            else    % else for all the other shapes
+				drawedgelist(edgelist(i),size(im),2,'green',3);axis('ij')
+            end
+		end
+	end
+end

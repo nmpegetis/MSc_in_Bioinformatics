@@ -1,0 +1,1 @@
+## All assignments of course included with detailed data, code and reports. Code included in Java, C++, MATLAB, Python and Perl. Also used PDBeFold tool, Dali Server, WinCoot, MolProbity and PyMol.

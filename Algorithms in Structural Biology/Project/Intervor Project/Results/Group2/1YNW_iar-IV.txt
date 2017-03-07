@@ -1,0 +1,45 @@
+Atoms of type IA_A
+ 1074   CB ALA A  61; IA_A 0       Cali; 1 1 -1; 0 2 0 0 0
+
+Buried/exposed summary for atom type IA_A [tot=1]: 0 1
+Connectivity to five types ie nb edges: 0 2 0 0 0
+
+Atoms of type IA_B
+ 2044   CB GLU B 303; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2045   CG GLU B 303; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+
+Buried/exposed summary for atom type IA_B [tot=2]: 0 2
+Connectivity to five types ie nb edges: 2 0 0 0 0
+
+Atoms of type IA_Wi
+
+Buried/exposed summary for atom type IA_Wi [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+Atoms of type IA_X
+
+Buried/exposed summary for atom type IA_X [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+
++-+Atoms_residues::dump_ave_interface_connectivity...
+Average connectivity for edges of type IE_A_B
+Atom type - neighbors type IA_A IA_B : 2.00 
+Atom type - neighbors type IA_B IA_A : 1.00 
+#IA_A: 1   #IA_B: 2   #e: 2
+
+Average connectivity for edges of type IE_A_Wi
+Atom type - neighbors type IA_A IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_A :  nan 
+#IA_A: 0   #IA_Wi: 0   #e: 0
+
+Average connectivity for edges of type IE_B_Wi
+Atom type - neighbors type IA_B IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_B :  nan 
+#IA_B: 0   #IA_Wi: 0   #e: 0
+
+Average connectivity for edges of type IE_Wi_Wi
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+#IA_Wi: 0   #IA_Wi: 0   #e: 0
+

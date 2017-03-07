@@ -1,0 +1,803 @@
+// Conversion PDB-Intervor
+// all amino acids names on 3 chars, CAPITAL letters
+//
+// annotations of atoms: 2->4 chars, beginning with a capital letter
+// BEWARE OF BLANKS CF PDB FORMAT
+// annotations of pairs: 3-4 chars, lowercase
+//
+// hydrogens not included radii take this into account.
+//
+
+BEGIN ATOMS ANNOTATIONS
+Cali 1.87  
+Caro 1.76
+Cpep 1.76
+Nhbd 1.65
+Naro 1.65
+NchP 1.50
+Ohbd 1.4
+Opep 1.4
+OchM 1.4
+Owat 1.4
+Sh 1.85
+Unk  2.0
+Pdna 1.9
+Opd 1.4
+Orib 1.4
+END ATOMS ANNOTATIONS
+
+BEGIN PAIRS ANNOTATIONS
+ali
+aro
+hbd
+elf
+elu
+ssb
+unk
+hbw
+unkw
+unkp
+hbdp
+hbwp
+END PAIRS ANNOTATIONS
+
+BEGIN ATOM ANNOTATIONS
+RESIDUE UNK
+ATOM	" C  "	Cali
+ATOM	" O  "	Ohbd
+ATOM	" N  "	Nhbd
+ATOM	" S  "	Sh
+ATOM	" P  "	Unk
+ATOM	" F  "	Unk
+ATOM	" X  "	Unk
+END
+
+RESIDUE GLY
+ATOM	" C  "	Cpep
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE ALA
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE LEU
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CD1"	Cali
+ATOM	" CD2"	Cali
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE ILE
+ATOM	" C  "	Cpep
+ATOM	" N  "	Nhbd
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" CD "	Cali
+ATOM	" CD1"	Cali
+ATOM	" CG1"	Cali
+ATOM	" CG2"	Cali
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE VAL
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CG1"	Cali
+ATOM	" CG2"	Cali
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+	
+RESIDUE ASP
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OD1"	OchM
+ATOM	" OD2"	OchM
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE GLU
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" O  "	Opep
+ATOM	" CD "	Caro
+ATOM	" N  "	Nhbd
+ATOM	" OE2"	OchM
+ATOM	" OE1"	OchM
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE ASN
+ATOM	" C  "	Cpep
+ATOM	" ND2"	Nhbd
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OD1"	Ohbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE GLN
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" O  "	Opep
+ATOM	" CD "	Caro
+ATOM	" N  "	Nhbd
+ATOM	" NE2"	Nhbd
+ATOM	" OE1"	Ohbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE HIS
+ATOM	" C  "	Cpep
+ATOM	" CD2"	Caro
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CE1"	Caro
+ATOM	" ND1"	Naro
+ATOM	" NE2"	Naro
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE HSE
+ATOM	" C  "	Cpep
+ATOM	" CD2"	Caro
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CE1"	Caro
+ATOM	" ND1"	Naro
+ATOM	" NE2"	Naro
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+	
+RESIDUE SER
+ATOM	" C  "	Cpep
+ATOM	" OG "	Ohbd
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+	
+RESIDUE THR	
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" OG1"	Ohbd
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CG2"	Cali
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE CYS
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" SG "	Sh
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE MET
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" CE "	Cali
+ATOM	" N  "	Nhbd
+ATOM	" SD "	Sh
+ATOM	" O  "	Opep
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE MSE
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" CE "	Cali
+ATOM	" N  "	Nhbd
+ATOM	" SD "	Sh
+ATOM	" O  "	Opep
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+ATOM	"SE  "	Sh
+END
+
+
+RESIDUE PRO
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" O  "	Opep
+ATOM	" CD "	Cali
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE ARG
+ATOM	" NE "	NchP
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" O  "	Opep
+ATOM	" CD "	Cali
+ATOM	" CZ "	Caro
+ATOM	" NH1"	NchP
+ATOM	" NH2"	NchP
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE LYS
+ATOM	" NZ "	NchP
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Cali
+ATOM	" CE "	Cali
+ATOM	" CD "	Cali
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE PHE
+ATOM	" C  "	Cpep
+ATOM	" CD2"	Caro
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" CZ "	Caro
+ATOM	" N  "	Nhbd
+ATOM	" CD1"	Caro
+ATOM	" CE1"	Caro
+ATOM	" CE2"	Caro
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+
+RESIDUE TYR	
+ATOM	" C  "	Cpep
+ATOM	" CD2"	Caro
+ATOM	" OH "	Ohbd
+ATOM	" N  "	Nhbd
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" CZ "	Caro
+ATOM	" CD1"	Caro
+ATOM	" CE1"	Caro
+ATOM	" CE2"	Caro
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+	
+RESIDUE TRP	
+ATOM	" CZ2"	Caro
+ATOM	" CZ3"	Caro
+ATOM	" CD1"	Caro
+ATOM	" CD2"	Caro
+ATOM	" CH2"	Caro
+ATOM	" C  "	Cpep
+ATOM	" CB "	Cali
+ATOM	" CA "	Cali
+ATOM	" CG "	Caro
+ATOM	" O  "	Opep
+ATOM	" N  "	Nhbd
+ATOM	" CE3"	Caro
+ATOM	" CE2"	Caro
+ATOM	" NE1"	Naro
+ATOM	" OXT"	Ohbd
+ATOM	" O1 "	Ohbd
+ATOM	" O2 "	Ohbd
+END
+	
+RESIDUE HOH
+ATOM	" O  "	Owat
+ATOM	" OW "  Owat
+END
+
+RESIDUE SOL
+ATOM	" O  "	Owat
+ATOM	" OW "  Owat
+END
+
+RESIDUE  DG
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " C1'"  Cali
+ATOM   " N9 "  Nhbd
+ATOM   " C8 "  Caro
+ATOM   " N7 "  Naro
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+ATOM   " O6 "  Ohbd
+ATOM   " N1 "  Naro
+ATOM   " C2 "  Caro
+ATOM   " N2 "  Nhbd
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+END
+RESIDUE  DC
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " C1'"  Cali
+ATOM   " N1 "  Nhbd
+ATOM   " C2 "  Caro
+ATOM   " O2 "  Ohbd
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+ATOM   " N4 "  Nhbd
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+END
+RESIDUE  DA
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " C1'"  Cali
+ATOM   " N9 "  Nhbd
+ATOM   " C8 "  Caro
+ATOM   " N7 "  Naro
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+ATOM   " N6 "  Nhbd
+ATOM   " N1 "  Nhbd
+ATOM   " C2 "  Caro
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+END
+RESIDUE  DT
+ATOM    " P  "  Pdna
+ATOM    " OP1"  Opd
+ATOM    " OP2"  Opd
+ATOM    " OP3"  Opd
+ATOM    " O5'"  Ohbd
+ATOM    " C5'"  Cali
+ATOM    " C4'"  Cali
+ATOM    " O4'"  Orib
+ATOM    " C3'"  Cali
+ATOM    " O3'"  Ohbd
+ATOM    " C2'"  Cali
+ATOM    " C1'"  Cali
+ATOM    " N1 "  Nhbd
+ATOM    " C2 "  Caro
+ATOM    " O2 "  Ohbd
+ATOM    " N3 "  Nhbd
+ATOM    " C4 "  Caro
+ATOM    " O4 "  Ohbd
+ATOM    " C5 "  Caro
+ATOM    " C7 "  Cali
+ATOM    " C6 "  Caro
+END
+
+RESIDUE   G
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " O2'"  Ohbd
+ATOM   " C1'"  Cali
+ATOM   " N9 "  Nhbd
+ATOM   " C8 "  Caro
+ATOM   " N7 "  Naro
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+ATOM   " O6 "  Ohbd
+ATOM   " N1 "  Naro
+ATOM   " C2 "  Caro
+ATOM   " N2 "  Nhbd
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+ATOM   " C10" Cali
+ATOM   " C11" Caro
+ATOM   " C12" Caro
+ATOM   " C13" Cali
+ATOM   " C14" Cali
+ATOM   " C15" Cali
+ATOM   " C16" Cali
+ATOM   " C19" Cali
+ATOM   " C21" Cali
+ATOM   " C24" Cali
+ATOM   " C3 " Cali
+ATOM   " CM1" Cali
+ATOM   " CM2" Cali
+ATOM   " CM7" Cali
+ATOM   " N20" Nhbd
+ATOM   " O17" Opep
+ATOM   " O18" OchM
+ATOM   " O22" Opep
+ATOM   " O23" OchM
+END
+RESIDUE   C
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " O2'"  Ohbd
+ATOM   " C1'"  Cali
+ATOM   " N1 "  Nhbd
+ATOM   " C2 "  Caro
+ATOM   " O2 "  Ohbd
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+ATOM   " N4 "  Nhbd
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+ATOM   " CM2"  Cali
+ATOM   " CM5"  Cali
+END
+RESIDUE   A
+ATOM   " P  "  Pdna
+ATOM   " OP1"  Opd
+ATOM   " OP2"  Opd
+ATOM   " OP3"  Opd
+ATOM   " O5'"  Ohbd
+ATOM   " C5'"  Cali
+ATOM   " C4'"  Cali
+ATOM   " O4'"  Orib
+ATOM   " C3'"  Cali
+ATOM   " O3'"  Ohbd
+ATOM   " C2'"  Cali
+ATOM   " O2'"  Ohbd
+ATOM   " C1'"  Cali
+ATOM   " N9 "  Nhbd
+ATOM   " C8 "  Caro
+ATOM   " N7 "  Naro
+ATOM   " C5 "  Caro
+ATOM   " C6 "  Caro
+ATOM   " N6 "  Nhbd
+ATOM   " N1 "  Nhbd
+ATOM   " C2 "  Caro
+ATOM   " N3 "  Naro
+ATOM   " C4 "  Caro
+ATOM   " CM1"  Cali
+END
+RESIDUE   U
+ATOM    " P  "  Pdna
+ATOM    " OP1"  Opd
+ATOM    " OP2"  Opd
+ATOM    " OP3"  Opd
+ATOM    " O5'"  Ohbd
+ATOM    " C5'"  Cali
+ATOM    " C4'"  Cali
+ATOM    " O4'"  Orib
+ATOM    " C3'"  Cali
+ATOM    " O3'"  Ohbd
+ATOM    " C2'"  Cali
+ATOM    " O2'"  Ohbd
+ATOM    " C1'"  Cali
+ATOM    " N1 "  Nhbd
+ATOM    " C2 "  Caro
+ATOM    " O2 "  Ohbd
+ATOM    " N3 "  Nhbd
+ATOM    " C4 "  Caro
+ATOM    " O4 "  Ohbd
+ATOM    " C5 "  Caro
+ATOM    " C7 "  Cali
+ATOM    " C6 "  Caro
+ATOM   " C5M"   Cali
+END
+
+RESIDUE DG5
+ATOM   " O5'"    Ohbd
+ATOM   " C5'"    Cali
+ATOM   " C4'"    Cali
+ATOM   " O4'"    Orib
+ATOM   " C3'"    Cali
+ATOM   " O3'"    Ohbd
+ATOM   " C2'"    Cali
+ATOM   " C1'"    Cali
+ATOM   " N9 "    Nhbd
+ATOM   " C8 "    Caro
+ATOM   " N7 "    Naro
+ATOM   " C5 "    Caro
+ATOM   " C6 "    Caro
+ATOM   " O6 "    Ohbd
+ATOM   " N1 "    Naro
+ATOM   " C2 "    Caro
+ATOM   " N2 "    Nhbd
+ATOM   " N3 "    Naro
+ATOM   " C4 "    Caro
+END
+RESIDUE DC5
+ATOM   " O5'"   Ohbd
+ATOM   " C5'"   Cali
+ATOM   " C4'"   Cali
+ATOM   " O4'"   Orib
+ATOM   " C3'"   Cali
+ATOM   " O3'"   Ohbd
+ATOM   " C2'"   Cali
+ATOM   " C1'"   Cali
+ATOM   " N1 "   Nhbd
+ATOM   " C2 "   Caro
+ATOM   " O2 "   Ohbd
+ATOM   " N3 "   Naro
+ATOM   " C4 "   Caro
+ATOM   " N4 "   Nhbd
+ATOM   " C5 "   Caro
+ATOM   " C6 "   Caro
+END
+RESIDUE DA5
+ATOM   " O5'"   Ohbd 
+ATOM   " C5'"   Cali 
+ATOM   " C4'"   Cali 
+ATOM   " O4'"   Orib 
+ATOM   " C3'"   Cali 
+ATOM   " O3'"   Ohbd 
+ATOM   " C2'"   Cali 
+ATOM   " C1'"   Cali 
+ATOM   " N9 "   Nhbd
+ATOM   " C8 "   Caro
+ATOM   " N7 "   Naro
+ATOM   " C5 "   Caro
+ATOM   " C6 "   Caro
+ATOM   " N6 "   Nhbd
+ATOM   " N1 "   Nhbd
+ATOM   " C2 "   Caro
+ATOM   " N3 "   Naro
+ATOM   " C4 "   Caro
+END
+RESIDUE DT5
+ATOM    " O5'"  Ohbd 
+ATOM    " C5'"  Cali 
+ATOM    " C4'"  Cali 
+ATOM    " O4'"  Orib 
+ATOM    " C3'"  Cali 
+ATOM    " O3'"  Ohbd 
+ATOM    " C2'"  Cali 
+ATOM    " C1'"  Cali 
+ATOM    " N1 "  Nhbd
+ATOM    " C2 "  Caro
+ATOM    " O2 "  Ohbd
+ATOM    " N3 "  Nhbd
+ATOM    " C4 "  Caro
+ATOM    " O4 "  Ohbd
+ATOM    " C5 "  Caro
+ATOM    " C7 "  Cali
+ATOM    " C6 "  Caro
+END
+END ATOM ANNOTATIONS
+
+BEGIN ANNOTATED PAIRS MATRIX
+Cali	Cali 	ali
+Cali	Caro 	ali
+Cali	Cpep 	ali
+Cali 	Nhbd	unk
+Cali	Naro	unk
+Cali 	NchP	unk
+Cali 	Ohbd	unk
+Cali 	Opep	unk
+Cali 	OchM	unk
+Cali 	Owat	unkw
+Cali 	Sh	unk
+Cali 	Unk	unk
+Cali 	Pdna	unkp
+Cali 	Opd	unk
+Cali 	Orib	unk
+Caro 	Caro 	aro
+Caro 	Cpep 	ali
+Caro 	Nhbd	unk
+Caro 	Naro	aro
+Caro 	NchP	unk
+Caro 	Ohbd	unk
+Caro 	Opep	unk
+Caro 	OchM	unk
+Caro 	Owat	unkw
+Caro 	Sh	unk
+Caro 	Unk	unk
+Caro 	Pdna	unkp
+Caro 	Opd	unk
+Caro 	Orib	unk
+Cpep    Cpep    ali
+Cpep    Nhbd	unk
+Cpep    Naro	unk
+Cpep    NchP	unk
+Cpep 	Ohbd	unk
+Cpep 	Opep	unk
+Cpep 	OchM	unk
+Cpep	Owat	unkw
+Cpep	Sh	unk
+Cpep	Unk	unk
+Cpep 	Pdna	unkp
+Cpep 	Opd	unk
+Cpep 	Orib	unk
+Nhbd	Nhbd	hbd
+Nhbd	Naro	hbd
+Nhbd	NchP	hbd
+Nhbd	Ohbd	hbd
+Nhbd	Opep	hbd
+Nhbd	OchM	hbd
+Nhbd	Owat	hbw
+Nhbd	Sh	hbd
+Nhbd	Unk	unk
+Nhbd 	Pdna	hbdp
+Nhbd 	Opd	hbd
+Nhbd 	Orib	hbd
+Naro	Naro	hbd
+Naro	NchP	hbd
+Naro	Ohbd	hbd
+Naro	Opep	hbd
+Naro	OchM	hbd
+Naro	Owat	hbw
+Naro	Sh	hbd
+Naro	Unk	unk
+Naro 	Pdna	hbdp
+Naro 	Opd	hbd
+Naro 	Orib	hbd
+NchP	NchP	elu
+NchP	Ohbd	hbd
+NchP	Opep	hbd
+NchP	OchM	elf
+NchP	Owat	hbw
+NchP	Sh	hbd
+NchP	Unk	unk
+NchP 	Pdna	hbdp
+NchP 	Opd	hbd
+NchP 	Orib	hbd
+Ohbd	Ohbd	hbd
+Ohbd	Opep	hbd
+Ohbd	OchM	hbd
+Ohbd	Owat	hbw
+Ohbd	Sh	hbd
+Ohbd	Unk	unk
+Ohbd 	Pdna	hbdp
+Ohbd 	Opd	hbd
+Ohbd 	Orib	hbd
+Opep	Opep	unk
+Opep	OchM	unk
+Opep	Owat	hbw
+Opep	Sh	hbd
+Opep	Unk	unk
+Opep 	Pdna	hbdp
+Opep 	Opd	hbd
+Opep 	Orib	hbd
+OchM	OchM	elu
+OchM	Owat	hbw
+OchM	Sh	hbd
+OchM	Unk	unk
+OchM 	Pdna	hbdp
+OchM 	Opd	hbd
+OchM 	Orib	hbd
+Owat	Owat	hbw
+Owat	Sh	hbw
+Owat	Unk	unk
+Owat 	Pdna	hbwp
+Owat 	Opd	hbw
+Owat 	Orib	hbw
+Sh	Sh	ssb
+Sh	Unk	unk
+Sh 	Pdna	unkp
+Sh 	Opd	unk
+Sh 	Orib	unk
+Unk	Unk	unk
+Unk 	Pdna	unkp
+Unk 	Opd	unk
+Unk 	Orib	unk
+Pdna	Pdna	unk
+Pdna 	Opd	unk
+Pdna 	Orib	unk
+Opd 	Opd	unk
+Opd 	Orib	unk
+Orib 	Orib	unk
+END ANNOTATED PAIRS MATRIX

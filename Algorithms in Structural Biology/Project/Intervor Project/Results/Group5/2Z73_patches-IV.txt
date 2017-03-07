@@ -1,0 +1,121 @@
+Patches: interface AB with 3 patches
+
+
+Patch id 0
+Patch size 538.35
+Patch #atoms: 96
+    2   CA GLU A   9
+    3    C GLU A   9
+    4    O GLU A   9
+    6   CG GLU A   9
+    7   CD GLU A   9
+    8  OE1 GLU A   9
+    9  OE2 GLU A   9
+   10    N THR A  10
+   11   CA THR A  10
+   12    C THR A  10
+   13    O THR A  10
+   14   CB THR A  10
+   16  CG2 THR A  10
+   17    N TRP A  11
+   18   CA TRP A  11
+   21   CB TRP A  11
+   23  CD1 TRP A  11
+   37  CD1 TRP A  12
+   39  NE1 TRP A  12
+   40  CE2 TRP A  12
+   42  CZ2 TRP A  12
+   44  CH2 TRP A  12
+  114   CB PRO A  21
+  143    C ARG A  24
+  144    O ARG A  24
+  145   CB ARG A  24
+  148   NE ARG A  24
+  149   CZ ARG A  24
+  151  NH2 ARG A  24
+  152    N GLU A  25
+  153   CA GLU A  25
+  154    C GLU A  25
+  155    O GLU A  25
+  156   CB GLU A  25
+  157   CG GLU A  25
+  158   CD GLU A  25
+  159  OE1 GLU A  25
+  160  OE2 GLU A  25
+  162   CA PHE A  26
+  165   CB PHE A  26
+  167  CD1 PHE A  26
+  169  CE1 PHE A  26
+  172    N ASP A  27
+  176   CB ASP A  27
+  177   CG ASP A  27
+  178  OD1 ASP A  27
+  179  OD2 ASP A  27
+ 2784    C GLU B   9
+ 2785    O GLU B   9
+ 2786   CB GLU B   9
+ 2792   CA THR B  10
+ 2793    C THR B  10
+ 2794    O THR B  10
+ 2795   CB THR B  10
+ 2797  CG2 THR B  10
+ 2798    N TRP B  11
+ 2802   CB TRP B  11
+ 2804  CD1 TRP B  11
+ 2818  CD1 TRP B  12
+ 2820  NE1 TRP B  12
+ 2821  CE2 TRP B  12
+ 2823  CZ2 TRP B  12
+ 2825  CH2 TRP B  12
+ 2895   CB PRO B  21
+ 2896   CG PRO B  21
+ 2924    C ARG B  24
+ 2925    O ARG B  24
+ 2926   CB ARG B  24
+ 2928   CD ARG B  24
+ 2931  NH1 ARG B  24
+ 2933    N GLU B  25
+ 2934   CA GLU B  25
+ 2935    C GLU B  25
+ 2936    O GLU B  25
+ 2937   CB GLU B  25
+ 2938   CG GLU B  25
+ 2939   CD GLU B  25
+ 2940  OE1 GLU B  25
+ 2941  OE2 GLU B  25
+ 2943   CA PHE B  26
+ 2944    C PHE B  26
+ 2946   CB PHE B  26
+ 2948  CD1 PHE B  26
+ 2950  CE1 PHE B  26
+ 2953    N ASP B  27
+ 2957   CB ASP B  27
+ 2958   CG ASP B  27
+ 2959  OD1 ASP B  27
+ 2960  OD2 ASP B  27
+ 5046   CB THR B 293
+ 5048  CG2 THR B 293
+ 5053   CB PRO B 294
+ 5054   CG PRO B 294
+ 5055   CD PRO B 294
+ 5062  CD1 TYR B 295
+ 5064  CE1 TYR B 295
+
+Patch id 1
+Patch size 99.37
+Patch #atoms: 6
+ 2274   CD PRO A 294
+ 2281  CD1 TYR A 295
+ 2283  CE1 TYR A 295
+ 2788   CD GLU B   9
+ 2789  OE1 GLU B   9
+ 2790  OE2 GLU B   9
+
+Patch id 2
+Patch size 36.53
+Patch #atoms: 2
+ 2267  CG2 THR A 293
+ 2787   CG GLU B   9
+
+
+0 atom(s) in more than 1 patch

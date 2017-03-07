@@ -1,0 +1,142 @@
+Group 1 (molecular transducer activity - all organisms)
+******************************************
+{1A17, 1AZS, 1BTG, 1BY4, 1C8S, 1F35, 1F51, 1FSE, 1GHQ, 1GOT, 1GOT, 1GOT, 1H0M, 1HUR, 1IRJ, 1JLK, 1NXK, 1OXK, 1R0N, 1SGF, 1SHZ, 1SLC, 1U19, 1UAZ, 1W25, 1X0P, 1YNW, 1Z2C, 2B9J, 2CH4, 2EI4, 2F93, 2HDJ, 2IHB, 2OHJ, 2OM2, 2Q0O, 2R40, 2TRC, 2VTB, 2VTB, 2X72, 2Z73, 3A58, 3BT2, 3C7K, 3D42, 3DGE, 3DQB, 3DUI, 3DV3, 3DZU, 3DZY, 3E00, 3F79, 3GCU, 3H5V, 3HH2, 3I5A, 3KC3, 3M2M, 3MDY, 3MYY, 3NNN, 3O29, 3O47, 3OHM, 3ORN, 3OXI, 3OY8, 3PCU, 3PQR, 3PS5, 3Q15, 3QBI, 3QP5, 3QP6, 3SZT, 3U5C, 3V5W, 3VG9, 3VQ2, 4EKD, 4FMQ, 4G8A, 4GMJ, 4HWL}
+
+query: 
+	MolecularFunctionTree Search for molecular transducer activity  (GO ID:60089)
+	and
+	Resolution is between 2.0 and 3.5 
+	and
+	Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000
+	and
+	Chain Type: there is a Protein chain
+	and
+	Ligand Search : Has free ligands=yes
+	and
+	Homologue Removal - 95% Identity Cutoff
+	and
+	EnzymeClassification is 4: Lyases
+
+Group 1 (Human)
+******************************************
+{1A17, 1BY4, 1GHQ, 1HUR, 1IRJ, 1NXK, 1R0N, 1YNW, 1Z2C, 2HDJ, 2IHB, 2OM2, 3BT2, 3DV3, 3DZU, 3DZY, 3E00, 3GCU, 3HH2, 3KC3, 3MDY, 3O47, 3OHM, 3ORN, 3OXI, 3OY8, 3PCU, 3PS5, 3VG9, 4FMQ, 4G8A, 4GMJ}
+
+query:
+	MolecularFunctionTree Search for molecular transducer activity  (GO ID:60089)
+	and
+	Resolution is between 2.0 and 3.5 
+	and
+	Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000
+	and
+	Chain Type: there is a Protein chain
+	and
+	Ligand Search : Has free ligands=yes
+	and
+	Homologue Removal - 95% Identity Cutoff
+	and
+	Taxonomy is just Homo sapiens (human)
+
+#############################################################################
+#############################################################################
+
+Group 2 (transporter activity - all organisms)
+******************************************
+{1A0Z, 1A9W, 1ABW, 1ABW, 1CH4, 1FDH, 1IBR, 1JEB, 1L6L, 1SI4, 1UMO, 2I2R, 2QNA, 2WQA, 2X19, 2Y73, 3A6P, 3ACO, 3D9S, 3EHT, 3GD7, 3HAJ, 3HD6, 3L2J, 3LC8, 3MDY, 3MPH, 3PK1, 3Q0K, 3QB5, 3RIC, 4BD8, 4FEB, 4G1M}
+
+query:
+	Resolution is between 2.0 and 3.5 
+	and
+	Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000
+	and
+	Chain Type: there is a Protein chain
+	and
+	Ligand Search : Has free ligands=yes
+	and
+	Taxonomy is just Homo sapiens (human)
+	and
+	MolecularFunctionTree Search for transporter activity  (GO ID:5215)
+	and
+	Homologue Removal - 95% Identity Cutoff
+
+Group 2 (human)
+******************************************
+{1A0Z, 1A9W, 1ABW, 1ABW, 1CH4, 1FDH, 1IBR, 1JEB, 1L6L, 1SI4, 1UMO, 2I2R, 2QNA, 2WQA, 2X19, 2Y73, 3A6P, 3ACO, 3D9S, 3EHT, 3GD7, 3HAJ, 3HD6, 3L2J, 3LC8, 3MDY, 3MPH, 3PK1, 3Q0K, 3QB5, 3RIC, 4BD8, 4FEB, 4G1M}
+
+query:
+	Resolution is between 2.0 and 3.5 
+	and
+	Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000
+	and
+	Chain Type: there is a Protein chain
+	and
+	Ligand Search : Has free ligands=yes
+	and
+	Taxonomy is just Homo sapiens (human)
+	and
+	MolecularFunctionTree Search for transporter activity  (GO ID:5215)
+	and
+	Homologue Removal - 95% Identity Cutoff
+	and
+	Taxonomy is just Homo sapiens (human)
+
+#############################################################################
+#############################################################################
+
+Group 3 (receptor activity - all organisms)
+******************************************
+{1BY4, 1C8S, 1F51, 1GHQ, 1MAB, 1R0N, 1U19, 1UAZ, 1X0P, 1YNW, 2EI4, 2F93, 2HDJ, 2R40, 2VTB, 2VTB, 2Z73, 3BT2, 3DZU, 3DZY, 3E00, 3H5V, 3JRQ, 3K6S, 3K90, 3MDY, 3MPH, 3NR4, 3O29, 3OQU, 3PCU, 3PS5, 3QBI, 3RT0, 3VG9, 3VQ2, 4DS8, 4FYS, 4G8A, 4HWL, 4JDL}
+
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for receptor activity (GO ID:4872) and Homologue Removal - 95% Identity Cutoff
+
+Group 3 (human)
+******************************************
+{1BY4, 1GHQ, 1R0N, 1YNW, 2HDJ, 3BT2, 3DZU, 3DZY, 3E00, 3K6S, 3MDY, 3MPH, 3PCU, 3PS5, 3VG9, 4FYS, 4G8A}
+
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for receptor activity (GO ID:4872) and Homologue Removal - 95% Identity Cutoff and
+	Taxonomy is just Homo sapiens (human)
+
+
+#############################################################################
+#############################################################################
+
+Group 4 (protein binding trancription factor - all organisms)
+******************************************
+{1A25, 1AU1, 1BY4, 1DCH, 1DE9, 1DEW, 1FBV, 1KU2, 1L0O, 1PVH, 1R0N, 1RIO, 1YNW, 2A6H, 2EXU, 2H27, 2HZM, 2HZM, 2I99, 2IW5, 2P7V, 2P7V, 2PSN, 2Q1Z, 2W48, 2XAH, 2XDV, 3DOE, 3DZU, 3DZY, 3E00, 3LEV, 3M4W, 3N97, 3NBZ, 3PCU, 3PO3, 3UGO, 3UGP, 4BBR, 4DNK, 4G7H, 4G7O, 4GQB, 4H62, 4H62, 4H62, 4HAU, 4IEM}
+
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for protein binding transcription factor activity (GO ID:988) and Homologue Removal - 95% Identity Cutoff
+
+Group 4 (human)
+******************************************
+{1AU1, 1BY4, 1DE9, 1DEW, 1FBV, 1PVH, 1R0N, 1YNW, 2I99, 2IW5, 2PSN, 2XAH, 2XDV, 3DOE, 3DZU, 3DZY, 3E00, 3NBZ, 3PCU, 4DNK, 4GQB, 4HAU, 4IEM}
+
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for protein binding transcription factor activity (GO ID:988) and Homologue Removal - 95% Identity Cutoff and
+	Taxonomy is just Homo sapiens (human)
+
+
+#############################################################################
+#############################################################################
+
+Group 5 (enzyme regulator activity - all organisms)
+******************************************
+{1A2C, 1A46, 1A5G, 1A61, 1A6J, 1AD8, 1AE8, 1AGR, 1AN1, 1AOK, 1AS4, 1AS4, 1AVH, 1AWF, 1B5G, 1B7A, 1BCU, 1BVN, 1CCD, 1CKS, 1CLV, 1D3D, 1D3P, 1D3Q, 1D3T, 1D4P, 1DKT, 1DP5, 1DS5, 1EJA, 1F34, 1FN0, 1G0V, 1GNK, 1GXD, 1HP7, 1HXE, 1I3O, 1ITU, 1IVY, 1JG5, 1JMO, 1K5D, 1K5D, 1KSG, 1L6L, 1LQ8, 1M4M, 1MEE, 1MHO, 1NB5, 1O7Y, 1P35, 1PJU, 1PLQ, 1QHR, 1QJ1, 1QJ6, 1QJ7, 1QLS, 1QY7, 1R4A, 1RHO, 1SCE, 1SLW, 1SMF, 1SMP, 1TJJ, 1TMQ, 1TMT, 1TX6, 1U4L, 1UEA, 1UL3, 1V9O, 1VG0, 1VIW, 1VS5, 1VS7, 1WAY, 1WPX, 1XJL, 1Y8Q, 1Y8Q, 1YRT, 1YVB, 1ZBD, 1ZLI, 2A5Y, 2ABZ, 2AST, 2AVY, 2AW7, 2B5I, 2B5T, 2BE6, 2BM5, 2C8X, 2C8Y, 2C8Z, 2C90, 2C93, 2CH9, 2CMY, 2CT9, 2E2D, 2FU5, 2GLR, 2HI9, 2I2P, 2I2U, 2IWT, 2JEL, 2JI4, 2NTI, 2O8G, 2ODY, 2PK9, 2QAL, 2QAN, 2QBD, 2QBF, 2QKL, 2QNR, 2QOY, 2QP0, 2QRD, 2QRV, 2QTV, 2R2M, 2RAX, 2RIW, 2RIW, 2SNI, 2VUB, 2W96, 2XZD, 2Y6T, 2YDX, 2Z0G, 2ZHE, 2ZHW, 3AIX, 3AIX, 3BH6, 3BIU, 3BT4, 3CF6, 3CPJ, 3CU7, 3D2F, 3DF1, 3DF3, 3DOE, 3DOE, 3DT0, 3DV3, 3DW8, 3EA5, 3ECS, 3EED, 3EVV, 3FDS, 3FDS, 3GNI, 3H6S, 3HHM, 3HRZ, 3HRZ, 3HRZ, 3I1M, 3I1O, 3IBG, 3IFV, 3IHR, 3ISM, 3K7V, 3KBX, 3KJF, 3KJF, 3KM6, 3KYD, 3LDX, 3LE2, 3M1I, 3MA2, 3MS6, 3MVH, 3MYW, 3O5T, 3O7L, 3OAQ, 3OAR, 3OFA, 3OFB, 3OFO, 3OFP, 3OFX, 3OFY, 3OR9, 3ORA, 3ORN, 3P8F, 3PD0, 3Q02, 3Q29, 3Q33, 3Q66, 3QY2, 3RII, 3RT0, 3S67, 3SFS, 3SMN, 3T4N, 3TNQ, 3TSR, 3TU7, 3U5C, 3UEC, 3UIR, 3UL5, 3UOU, 3V2U, 3VKX, 3ZS9, 4A5W, 4AFX, 4AFX, 4AOQ, 4AZ3, 4AZ3, 4BB2, 4BB2, 4CPA, 4DGL, 4DY0, 4E2E, 4E7R, 4EKD, 4ELZ, 4EV0, 4F38, 4F52, 4FIP, 4FK5, 4FK5, 4FTG, 4FYS, 4G4S, 4G4S, 4GAQ, 4GAS, 4GD1, 4GD2, 4H1W, 4HAU, 4HRH, 4HTC, 5SIC, 7API}
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for enzyme regulator activity (GO ID:30234) and Homologue Removal - 95% Identity Cutoff 
+
+Group 5 (human)
+******************************************
+{1AS4, 1AS4, 1AVH, 1CKS, 1DKT, 1GXD, 1HP7, 1I3O, 1ITU, 1IVY, 1JMO, 1K5D, 1KSG, 1L6L, 1LQ8, 1NB5, 1O7Y, 1QLS, 1RHO, 1TJJ, 1U4L, 1UEA, 1XJL, 1Y8Q, 1Y8Q, 1YRT, 2AST, 2B5I, 2B5T, 2BE6, 2CH9, 2FU5, 2HI9, 2JI4, 2QNR, 2QRV, 2RAX, 2RIW, 2RIW, 2W96, 2XZD, 2YDX, 3BH6, 3CU7, 3DOE, 3DOE, 3DV3, 3DW8, 3ECS, 3EED, 3GNI, 3HHM, 3IHR, 3K7V, 3KBX, 3KJF, 3KJF, 3KM6, 3KYD, 3MA2, 3MS6, 3MVH, 3ORN, 3PD0, 3Q02, 3Q29, 3RII, 3S67, 3SMN, 3UEC, 3VKX, 4A5W, 4AFX, 4AFX, 4AZ3, 4AZ3, 4BB2, 4BB2, 4DGL, 4DY0, 4E2E, 4F52, 4FTG, 4FYS, 4HRH, 7API}
+
+query:
+	Resolution is between 2.0 and 3.5 and Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000 and Chain Type: there is a Protein chain and Ligand Search : Has free ligands=yes and MolecularFunctionTree Search for enzyme regulator activity (GO ID:30234) and Homologue Removal - 95% Identity Cutoff and
+	Taxonomy is just Homo sapiens (human)
+
+
+#############################################################################
+#############################################################################
+
+Αυτά.... Τα υπόλοιπα group ξεφεύγουνε σε αριθμούς...
+

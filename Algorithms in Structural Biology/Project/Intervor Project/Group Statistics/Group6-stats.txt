@@ -1,0 +1,53 @@
+Sum PDBs: 17
+Triangles Group avg: 48773.4705882353
+Tetrahedra Group avg: 24359.8823529412
+Partner A Group avg: 2003.58823529412
+Partner B Group avg: 1431.88235294118
+Partner Wb Group avg: 185.176470588235
+Partner Wi Group avg: 25.3529411764706
+Partner X Group avg: 0
+Interface Atom  Group avg (A B Wb Wi X)s:
+
+ 164.294117647059
+157.235294117647
+0
+25.3529411764706
+0
+Interface Atoms Annotation  Group avg (Cali - Caro - Cpep - Nhbd - Naro - NchP - Ohbd - Opep - OchM - Owat - Sh - Pdna - Opd - Orib - Unk):
+
+ 124.235294117647
+54.8235294117647
+29.8823529411765
+31.8235294117647
+6.41176470588235
+13.0588235294118
+12.5882352941176
+33.9411764705882
+10.5882352941176
+25.3529411764706
+1.17647058823529
+0
+0
+0
+3
+
+Connected Components  Group avg (AB merged) 3.52941176470588
+Connected Components  Group avg (AB - AW - BW merged) 5.29411764705882
+Interface Areas  Group avg (AB - AW - BW merged): 
+
+755.671176470588
+433.525882352941
+755.671176470588
+
+Chemical Interface Areas  Group avg (ali - aro - hbd - hbw - hbdp - elu - elf - hbwp - ssb - unk):
+
+ 301.814117647059
+24.5205882352941
+53.8405882352941
+306.134705882353
+0
+3.66764705882353
+8.00705882352941
+0
+0.508235294117647
+823.691764705882

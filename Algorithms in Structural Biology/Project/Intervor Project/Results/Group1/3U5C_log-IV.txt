@@ -1,0 +1,56 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/3U5C.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group1 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 3286 25293 43946 21938
+
++-+Partners: #atoms kept  [A B Wb X]: 1577 1709 0 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 0
++-+Atoms_residues::#atoms [A B Wb Wi X]: 1577 1709 0 0 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 0 0 0 0 0
++-+Atoms_residues::#interf atoms annotated: Cali: 0 Caro: 0 Cpep: 0 Nhbd: 0 Naro: 0 NchP: 0 Ohbd: 0 Opep: 0 OchM: 0 Owat: 0 Sh: 0 Pdna: 0 Opd: 0 Orib: 0 Unk: 0 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 0 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Total #edges 0
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 0 boundary vor edges
++-+Interf_explorer_SO::shelled 0 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
++-+Manifold_interfaces MI_AB is empty
+
++++LTimer::dumpTimes(
+secondsTime:    0.62 AppliManager_score::load_file
+secondsTime:    0.43 AppliManager_score::building_alpha_complex
+secondsTime:    0.03 AppliManager_score::connectivity_stats
+secondsTime:    0.01 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.01 AppliManager_score::interfaces
+total is:    1.10
+---LTimer::dumpTimes)

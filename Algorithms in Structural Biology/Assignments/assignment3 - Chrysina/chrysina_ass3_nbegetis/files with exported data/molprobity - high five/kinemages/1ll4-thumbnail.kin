@@ -1,0 +1,1851 @@
+@text 
+ coordinates from file: /Websites/molprobity4/public_html/data/rn55r771hh79tjrjfi1cbbmjnplv7j04/coordinates/1ll4.pdb 
+HEADER    HYDROLASE                               26-APR-02   1LL4              
+TITLE     STRUCTURE OF C. IMMITIS CHITINASE 1 COMPLEXED WITH                    
+TITLE    2 ALLOSAMIDIN                                                          
+KEYWDS    BETA-ALPHA BARREL, ENZYME-INHIBITOR COMPLEX, HYDROLASE                
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    K.BORTONE,A.F.MONZINGO,S.ERNST,J.D.ROBERTUS                           
+REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       
+SITE     1 AC1  6 TRP A  47  ARG A  52  THR A 132  TYR A 133                    
+SITE     2 AC1  6 GLU A 316  NAA A 502                                          
+SITE     1 AC2  9 TRP A  47  GLY A 130  TRP A 131  THR A 132                    
+SITE     2 AC2  9 GLU A 316  TRP A 378  NAA A 501  AMI A 503                    
+SITE     3 AC2  9 HOH A1029                                                     
+SITE     1 AC3  6 TRP B  47  ARG B  52  THR B 132  TYR B 133                    
+SITE     2 AC3  6 GLU B 316  NAA B 502                                          
+SITE     1 AC4  8 TRP B  47  GLY B 130  TRP B 131  THR B 132                    
+SITE     2 AC4  8 GLU B 316  TRP B 378  NAA B 501  AMI B 503                    
+SITE     1 AC5  5 TRP C  47  THR C 132  TYR C 133  GLU C 316                    
+SITE     2 AC5  5 NAA C 502                                                     
+SITE     1 AC6  8 TRP C  47  GLY C 130  TRP C 131  THR C 132                    
+SITE     2 AC6  8 GLU C 316  TRP C 378  NAA C 501  AMI C 503                    
+SITE     1 AC7  5 TRP D  47  ARG D  52  THR D 132  GLU D 316                    
+SITE     2 AC7  5 NAA D 502                                                     
+SITE     1 AC8  8 TRP D  47  GLY D 130  TRP D 131  THR D 132                    
+SITE     2 AC8  8 GLU D 316  TRP D 378  NAA D 501  AMI D 503                    
+SITE     1 AC9 11 TYR A  43  PHE A  71  TRP A 131  ASP A 169                    
+SITE     2 AC9 11 GLU A 171  MET A 237  TYR A 239  ASP A 240                    
+SITE     3 AC9 11 TYR A 293  TRP A 378  NAA A 502                               
+SITE     1 BC1 12 TYR B  43  PHE B  71  TRP B 131  ASP B 169                    
+SITE     2 BC1 12 GLU B 171  MET B 237  TYR B 239  ASP B 240                    
+SITE     3 BC1 12 TYR B 293  MET B 376  TRP B 378  NAA B 502                    
+SITE     1 BC2 13 TYR C  43  PHE C  71  GLY C 130  TRP C 131                    
+SITE     2 BC2 13 ASP C 169  GLU C 171  MET C 237  TYR C 239                    
+SITE     3 BC2 13 ASP C 240  TYR C 293  TRP C 378  NAA C 502                    
+SITE     4 BC2 13 HOH C1079                                                     
+SITE     1 BC3 12 TYR D  43  PHE D  71  TRP D 131  ASP D 169                    
+SITE     2 BC3 12 GLU D 171  MET D 237  TYR D 239  ASP D 240                    
+SITE     3 BC3 12 TYR D 293  MET D 376  TRP D 378  NAA D 502                    
+
+@kinemage 1 
+
+@prekin 6.53 090924 
+@caption 
+ coordinates from file: /Websites/molprobity4/public_html/data/rn55r771hh79tjrjfi1cbbmjnplv7j04/coordinates/1ll4.pdb 
+@onewidth 
+@pdbfile {1ll4.pdb} 
+@group {1ll4} dominant
+@subgroup {mainchain} 
+@vectorlist {Calphas} color= white  master= {Calphas} 
+{ ca  gly A  36  B23.11 1ll4} P 67.814, 0.996, 43.159 { ca  gly A  36  B23.11 1ll4} blue L 67.814, 0.996, 43.159
+{ ca  gly A  37  B22.85 1ll4} blue L 65.784, 2.373, 46.115 
+{ ca  phe A  38  B19.73 1ll4} blue L 64.573, 5.888, 46.794 
+{ ca  arg A  39  B12.86 1ll4} blue L 66.672, 9.001, 47.282 
+{ ca  ser A  40  B8.20 1ll4} blue L 66.320, 11.187, 50.323 
+{ ca  val A  41  B8.68 1ll4} blue L 67.794, 14.560, 49.441 
+{ ca  val A  42  B13.62 1ll4} blue L 68.005, 17.585, 51.769 
+{ ca  tyr A  43  B8.73 1ll4} blue L 69.571, 20.985, 51.264 
+{ ca  phe A  44  B8.89 1ll4} blue L 71.867, 22.428, 53.942 
+{ ca  val A  45  B7.35 1ll4} blue L 72.002, 26.117, 53.493 
+{ ca  asn A  46  B12.57 1ll4} blue L 75.186, 28.077, 54.100 
+{ ca  trp A  47  B15.33 1ll4} blue L 73.464, 30.689, 56.170 
+{ ca  ala A  48  B13.00 1ll4} blue L 71.658, 28.388, 58.663 
+{ ca  ile A  49  B13.20 1ll4} blue L 74.741, 28.490, 60.896 
+{ ca  tyr A  50  B14.31 1ll4} blue L 73.819, 32.080, 61.742 
+{ ca  gly A  51  B13.33 1ll4} blue L 70.319, 33.017, 62.999 
+{ ca  arg A  52  B15.84 1ll4} blue L 68.837, 29.533, 62.611 
+{ ca  gly A  53  B14.10 1ll4} blue L 71.611, 27.943, 64.704 
+{ ca  his A  54  B14.44 1ll4} blue L 71.665, 24.861, 62.447 
+{ ca  asn A  55  B15.81 1ll4} blue L 75.045, 23.281, 61.836 
+{ ca  pro A  56  B16.62 1ll4} blue L 75.913, 20.142, 59.690 
+{ ca  gln A  57  B17.60 1ll4} blue L 76.610, 18.218, 62.890 
+{ ca  asp A  58  B19.08 1ll4} blue L 72.902, 18.264, 63.723 
+{ ca  leu A  59  B17.43 1ll4} blue L 71.675, 16.587, 60.555 
+{ ca  lys A  60  B18.93 1ll4} blue L 70.017, 13.160, 61.224 
+{ ca  ala A  61  B11.85 1ll4} blue L 72.365, 11.820, 58.508 
+{ ca  asp A  62  B10.68 1ll4} blue L 71.012, 8.268, 58.692 
+{ ca  gln A  63  B14.93 1ll4} blue L 67.746, 9.624, 57.374 
+{ ca  phe A  64  B17.30 1ll4} blue L 69.311, 10.857, 54.077 
+{ ca  thr A  65  B18.02 1ll4} blue L 71.311, 9.759, 51.098 
+{ ca  his A  66  B18.03 1ll4} blue L 72.234, 13.226, 49.721 
+{ ca  ile A  67  B13.98 1ll4} blue L 73.032, 16.473, 51.482 
+{ ca  leu A  68  B16.94 1ll4} blue L 73.237, 19.311, 48.967 
+{ ca  tyr A  69  B17.30 1ll4} blue L 75.040, 22.409, 50.235 
+{ ca  ala A  70  B13.95 1ll4} blue L 73.568, 25.656, 48.989 
+{ ca  phe A  71  B9.50 1ll4} blue L 74.597, 27.989, 47.626 
+{ ca  ala A  72  B14.14 1ll4} blue L 77.644, 28.643, 45.516 
+{ ca  asn A  73  B18.98 1ll4} blue L 77.792, 31.708, 43.353 
+{ ca  ile A  74  B18.18 1ll4} blue L 79.125, 32.236, 39.775 
+{ ca  arg A  75  B14.53 1ll4} sky L 81.233, 35.137, 38.366 
+{ ca  pro A  76  B19.36 1ll4} sky L 80.731, 36.574, 34.743 
+{ ca  ser A  77  B24.57 1ll4} sky L 83.727, 34.489, 33.735 
+{ ca  gly A  78  B13.80 1ll4} sky L 81.877, 31.307, 34.518 
+{ ca  glu A  79  B16.65 1ll4} sky L 83.817, 30.993, 37.769 
+{ ca  val A  80  B10.07 1ll4} sky L 81.999, 29.178, 40.470 
+{ ca  tyr A  81  B14.63 1ll4} sky L 82.972, 30.340, 43.946 
+{ ca  leu A  82  B17.20 1ll4} sky L 81.949, 29.910, 47.550 
+{ ca  ser A  83  B16.77 1ll4} sky L 79.272, 32.250, 48.966 
+{ ca  asp A  84  B14.82 1ll4} sky L 80.497, 32.474, 52.494 
+{ ca  thr A  85  B10.34 1ll4} sky L 84.031, 31.275, 53.176 
+{ ca  trp A  86  B13.06 1ll4} sky L 83.387, 31.859, 56.924 
+{ ca  ala A  87  B19.86 1ll4} sky L 80.483, 29.363, 56.993 
+{ ca  asp A  88  B15.40 1ll4} sky L 81.990, 27.234, 54.238 
+{ ca  thr A  89  B16.22 1ll4} sky L 85.608, 26.831, 54.951 
+{ ca  asp A  90  B11.05 1ll4} sky L 87.038, 28.831, 57.812 
+{ ca  lys A  91  B11.92 1ll4} sky L 84.933, 28.708, 60.930 
+{ ca  his A  92  B13.13 1ll4} sky L 86.411, 26.402, 63.488 
+{ ca  tyr A  93  B11.67 1ll4} sky L 83.920, 24.068, 65.061 
+{ ca  pro A  94  B15.03 1ll4} sky L 84.499, 22.052, 68.300 
+{ ca  gly A  95  B21.12 1ll4} sky L 87.201, 19.658, 67.203 
+{ ca  asp A  96  B28.39 1ll4} sky L 89.154, 22.017, 65.022 
+{ ca  lys A  97  B25.61 1ll4} sky L 92.688, 22.696, 66.124 
+{ ca  trp A  98  B28.83 1ll4} sky L 93.173, 26.379, 65.480 
+{ ca  asp A  99  B25.22 1ll4} sky L 96.868, 25.993, 64.949 
+{ ca  glu A 100  B19.64 1ll4} sky L 97.784, 22.619, 63.201 
+{ ca  pro A 101  B21.37 1ll4} sky L 100.233, 21.780, 60.300 
+{ ca  gly A 102  B20.32 1ll4} sky L 99.046, 21.816, 56.706 
+{ ca  asn A 103  B19.80 1ll4} sky L 96.859, 23.980, 54.486 
+{ ca  asn A 104  B21.16 1ll4} sky L 93.494, 22.891, 55.954 
+{ ca  val A 105  B23.83 1ll4} sky L 89.648, 23.180, 55.460 
+{ ca  tyr A 106  B24.08 1ll4} sky L 87.236, 23.701, 58.288 
+{ ca  gly A 107  B27.07 1ll4} sky L 83.731, 25.263, 58.216 
+{ ca  cys A 108  B21.99 1ll4} sky L 80.688, 23.349, 57.135 
+{ ca  ile A 109  B17.77 1ll4} sky L 82.813, 21.644, 54.420 
+{ ca  lys A 110  B18.45 1ll4} sky L 84.908, 19.792, 57.063 
+{ ca  gln A 111  B20.52 1ll4} sky L 81.674, 19.057, 58.949 
+{ ca  met A 112  B16.74 1ll4} sky L 79.969, 17.600, 55.915 
+{ ca  tyr A 113  B14.28 1ll4} sky L 83.066, 15.468, 55.199 
+{ ca  leu A 114  B11.24 1ll4} cyan L 82.950, 14.196, 58.790 
+{ ca  leu A 115  B10.37 1ll4} cyan L 79.215, 13.475, 58.239 
+{ ca  lys A 116  B10.39 1ll4} cyan L 80.256, 11.484, 55.165 
+{ ca  lys A 117  B14.55 1ll4} cyan L 83.042, 9.540, 56.903 
+{ ca  asn A 118  B15.99 1ll4} cyan L 80.519, 8.464, 59.471 
+{ ca  asn A 119  B11.71 1ll4} cyan L 77.596, 7.842, 57.111 
+{ ca  arg A 120  B7.47 1ll4} cyan L 79.009, 6.133, 54.073 
+{ ca  asn A 121  B10.42 1ll4} cyan L 75.673, 6.072, 52.215 
+{ ca  leu A 122  B9.10 1ll4} cyan L 75.539, 9.869, 52.610 
+{ ca  lys A 123  B14.55 1ll4} cyan L 76.681, 11.753, 49.535 
+{ ca  thr A 124  B11.76 1ll4} cyan L 77.197, 15.530, 49.457 
+{ ca  leu A 125  B16.33 1ll4} cyan L 76.851, 17.842, 46.454 
+{ ca  leu A 126  B20.62 1ll4} cyan L 77.836, 21.542, 46.120 
+{ ca  ser A 127  B26.04 1ll4} cyan L 74.752, 23.427, 44.902 
+{ ca  ile A 128  B20.18 1ll4} cyan L 75.323, 26.427, 42.663 
+{ ca  gly A 129  B17.28 1ll4} cyan L 72.772, 29.146, 41.949 
+{ ca  gly A 130  B13.52 1ll4} cyan L 69.589, 29.761, 43.856 
+{ ca  trp A 131  B12.72 1ll4} cyan L 66.814, 32.286, 43.263 
+{ ca  thr A 132  B8.68 1ll4} cyan L 69.125, 35.055, 44.416 
+{ ca  tyr A 133  B13.30 1ll4} cyan L 72.169, 34.140, 42.186 
+{ ca  ser A 134  B13.55 1ll4} cyan L 70.346, 32.926, 39.055 
+{ ca  pro A 135  B11.94 1ll4} cyan L 70.509, 36.463, 37.367 
+{ ca  asn A 136  B18.30 1ll4} cyan L 74.123, 35.508, 36.897 
+{ ca  phe A 137  B17.92 1ll4} cyan L 73.913, 32.204, 35.049 
+{ ca  lys A 138  B21.78 1ll4} cyan L 73.026, 33.433, 31.470 
+{ ca  thr A 139  B20.75 1ll4} cyan L 76.197, 35.355, 30.576 
+{ ca  pro A 140  B18.62 1ll4} cyan L 78.814, 32.509, 31.245 
+{ ca  ala A 141  B18.37 1ll4} cyan L 76.374, 29.919, 29.924 
+{ ca  ser A 142  B18.70 1ll4} cyan L 76.213, 31.610, 26.525 
+{ ca  thr A 143  B19.95 1ll4} cyan L 79.849, 31.044, 25.697 
+{ ca  glu A 144  B16.45 1ll4} cyan L 82.073, 28.054, 25.468 
+{ ca  glu A 145  B14.06 1ll4} cyan L 84.677, 29.848, 27.603 
+{ ca  gly A 146  B8.04 1ll4} cyan L 82.104, 30.548, 30.249 
+{ ca  arg A 147  B10.97 1ll4} cyan L 80.785, 27.005, 30.387 
+{ ca  lys A 148  B14.43 1ll4} cyan L 84.304, 25.506, 30.299 
+{ ca  lys A 149  B18.99 1ll4} cyan L 85.232, 27.867, 33.143 
+{ ca  phe A 150  B13.87 1ll4} cyan L 82.054, 26.879, 35.043 
+{ ca  ala A 151  B9.80 1ll4} cyan L 82.817, 23.164, 34.591 
+{ ca  asp A 152  B12.14 1ll4} cyan L 86.422, 23.516, 35.647 
+{ ca  thr A 153  B12.69 1ll4} sea L 85.861, 25.684, 38.722 
+{ ca  ser A 154  B15.58 1ll4} sea L 82.983, 23.478, 39.855 
+{ ca  leu A 155  B18.17 1ll4} sea L 85.161, 20.334, 39.506 
+{ ca  lys A 156  B17.82 1ll4} sea L 88.039, 22.110, 41.290 
+{ ca  leu A 157  B19.77 1ll4} sea L 85.712, 22.962, 44.155 
+{ ca  met A 158  B19.06 1ll4} sea L 84.162, 19.469, 44.277 
+{ ca  lys A 159  B20.47 1ll4} sea L 87.481, 17.633, 44.327 
+{ ca  asp A 160  B19.57 1ll4} sea L 89.037, 20.125, 46.814 
+{ ca  leu A 161  B14.92 1ll4} sea L 86.212, 20.272, 49.313 
+{ ca  gly A 162  B7.79 1ll4} sea L 85.197, 16.584, 49.312 
+{ ca  phe A 163  B6.49 1ll4} sea L 81.958, 16.654, 47.381 
+{ ca  asp A 164  B5.02 1ll4} sea L 80.297, 13.754, 45.650 
+{ ca  gly A 165  B12.10 1ll4} sea L 79.083, 15.998, 42.848 
+{ ca  ile A 166  B15.62 1ll4} sea L 77.526, 19.300, 41.907 
+{ ca  asp A 167  B20.19 1ll4} sea L 73.964, 20.566, 41.608 
+{ ca  ile A 168  B20.01 1ll4} sea L 72.950, 23.588, 39.499 
+{ ca  asp A 169  B21.06 1ll4} sea L 69.920, 25.661, 40.420 
+{ ca  trp A 170  B17.83 1ll4} sea L 69.269, 28.089, 37.539 
+{ ca  glu A 171  B16.00 1ll4} sea L 65.907, 29.697, 38.056 
+{ ca  tyr A 172  B15.89 1ll4} sea L 65.161, 29.839, 35.262 
+{ ca  pro A 173  B17.97 1ll4} sea L 66.580, 29.695, 31.585 
+{ ca  glu A 174  B21.46 1ll4} sea L 64.247, 32.441, 30.389 
+{ ca  asp A 175  B22.30 1ll4} sea L 64.466, 31.897, 26.629 
+{ ca  glu A 176  B21.23 1ll4} sea L 65.219, 29.250, 23.984 
+{ ca  lys A 177  B16.95 1ll4} sea L 68.905, 30.125, 23.802 
+{ ca  gln A 178  B12.82 1ll4} sea L 69.344, 29.946, 27.566 
+{ ca  ala A 179  B13.56 1ll4} sea L 67.725, 26.523, 27.466 
+{ ca  asn A 180  B15.08 1ll4} sea L 70.142, 25.159, 24.850 
+{ ca  asp A 181  B17.43 1ll4} sea L 72.868, 26.836, 26.906 
+{ ca  phe A 182  B15.61 1ll4} sea L 71.655, 24.894, 29.900 
+{ ca  val A 183  B9.51 1ll4} sea L 71.975, 21.573, 28.012 
+{ ca  leu A 184  B5.96 1ll4} sea L 75.504, 22.530, 26.930 
+{ ca  leu A 185  B11.92 1ll4} sea L 76.467, 23.685, 30.408 
+{ ca  leu A 186  B12.00 1ll4} sea L 75.214, 20.389, 31.794 
+{ ca  lys A 187  B14.04 1ll4} sea L 77.294, 18.627, 29.172 
+{ ca  ala A 188  B18.41 1ll4} sea L 80.344, 20.687, 30.218 
+{ ca  cys A 189  B18.79 1ll4} sea L 79.918, 19.603, 33.823 
+{ ca  arg A 190  B16.00 1ll4} sea L 79.215, 15.929, 32.967 
+{ ca  glu A 191  B15.21 1ll4} sea L 82.347, 15.853, 30.817 
+{ ca  ala A 192  B11.51 1ll4} green L 84.321, 17.604, 33.570 
+{ ca  leu A 193  B15.32 1ll4} green L 83.390, 15.199, 36.360 
+{ ca  asp A 194  B13.67 1ll4} green L 83.840, 12.147, 34.159 
+{ ca  ala A 195  B11.54 1ll4} green L 87.365, 13.221, 33.148 
+{ ca  tyr A 196  B17.43 1ll4} green L 88.260, 13.324, 36.845 
+{ ca  ser A 197  B21.53 1ll4} green L 86.846, 9.853, 37.437 
+{ ca  ala A 198  B19.52 1ll4} green L 88.828, 8.644, 34.414 
+{ ca  lys A 199  B20.42 1ll4} green L 91.887, 10.011, 36.203 
+{ ca  his A 200  B18.23 1ll4} green L 90.948, 7.880, 39.246 
+{ ca  pro A 201  B13.88 1ll4} green L 89.442, 4.561, 38.074 
+{ ca  asn A 202  B18.11 1ll4} green L 89.659, 2.885, 41.479 
+{ ca  gly A 203  B19.25 1ll4} green L 87.650, 5.740, 42.954 
+{ ca  lys A 204  B18.20 1ll4} green L 84.029, 6.698, 42.369 
+{ ca  lys A 205  B20.47 1ll4} green L 81.884, 8.144, 39.609 
+{ ca  phe A 206  B17.25 1ll4} green L 80.505, 11.639, 40.480 
+{ ca  leu A 207  B16.59 1ll4} green L 76.983, 13.184, 40.609 
+{ ca  leu A 208  B14.65 1ll4} green L 75.392, 15.991, 38.585 
+{ ca  thr A 209  B15.22 1ll4} green L 71.876, 17.156, 39.432 
+{ ca  ile A 210  B10.47 1ll4} green L 69.618, 20.216, 39.032 
+{ ca  ala A 211  B11.73 1ll4} green L 66.846, 21.787, 41.064 
+{ ca  ser A 212  B12.68 1ll4} green L 64.004, 22.100, 38.518 
+{ ca  pro A 213  B12.68 1ll4} green L 60.683, 23.963, 37.830 
+{ ca  ala A 214  B13.98 1ll4} green L 57.275, 22.503, 38.665 
+{ ca  gly A 215  B8.54 1ll4} green L 55.570, 25.492, 36.990 
+{ ca  pro A 216  B8.78 1ll4} green L 54.616, 24.772, 33.317 
+{ ca  gln A 217  B15.37 1ll4} green L 55.618, 28.265, 32.091 
+{ ca  asn A 218  B15.02 1ll4} green L 59.174, 27.449, 33.101 
+{ ca  tyr A 219  B15.65 1ll4} green L 59.708, 23.745, 32.400 
+{ ca  asn A 220  B19.41 1ll4} green L 58.092, 24.055, 28.938 
+{ ca  lys A 221  B18.65 1ll4} green L 61.036, 26.163, 27.860 
+{ ca  leu A 222  B13.21 1ll4} green L 63.474, 23.511, 29.008 
+{ ca  lys A 223  B14.88 1ll4} green L 64.958, 20.808, 26.822 
+{ ca  leu A 224  B17.06 1ll4} green L 64.238, 18.288, 29.530 
+{ ca  ala A 225  B19.38 1ll4} green L 65.040, 15.025, 27.671 
+{ ca  glu A 226  B20.07 1ll4} green L 68.357, 16.235, 26.252 
+{ ca  met A 227  B17.27 1ll4} green L 69.224, 17.594, 29.703 
+{ ca  asp A 228  B17.18 1ll4} green L 68.333, 14.250, 31.290 
+{ ca  lys A 229  B14.50 1ll4} green L 71.142, 12.524, 29.427 
+{ ca  tyr A 230  B13.73 1ll4} green L 73.655, 14.268, 31.752 
+{ ca  leu A 231  B13.44 1ll4} lime L 71.920, 14.039, 35.039 
+{ ca  asp A 232  B20.81 1ll4} lime L 71.978, 11.638, 37.893 
+{ ca  phe A 233  B18.66 1ll4} lime L 68.514, 12.843, 38.974 
+{ ca  trp A 234  B18.00 1ll4} lime L 66.205, 15.838, 39.078 
+{ ca  asn A 235  B16.29 1ll4} lime L 65.090, 17.628, 42.270 
+{ ca  leu A 236  B14.96 1ll4} lime L 61.718, 18.928, 41.266 
+{ ca  met A 237  B13.15 1ll4} lime L 60.842, 22.041, 43.322 
+{ ca  ala A 238  B8.86 1ll4} lime L 57.210, 21.041, 43.737 
+{ ca  tyr A 239  B7.97 1ll4} lime L 56.443, 24.007, 45.982 
+{ ca  asp A 240  B10.31 1ll4} lime L 56.115, 27.815, 45.977 
+{ ca  phe A 241  B17.85 1ll4} lime L 52.925, 27.357, 44.003 
+{ ca  ser A 242  B18.57 1ll4} lime L 51.243, 30.048, 46.032 
+{ ca  gly A 243  B24.27 1ll4} lime L 52.596, 33.035, 48.022 
+{ ca  ser A 244  B23.90 1ll4} lime L 52.751, 36.894, 48.226 
+{ ca  trp A 245  B16.80 1ll4} lime L 52.639, 37.310, 44.536 
+{ ca  asp A 246  B20.58 1ll4} lime L 49.092, 35.937, 44.187 
+{ ca  lys A 247  B16.35 1ll4} lime L 45.637, 37.392, 44.749 
+{ ca  val A 248  B13.80 1ll4} lime L 43.890, 34.402, 46.340 
+{ ca  ser A 249  B14.02 1ll4} lime L 45.385, 32.154, 49.051 
+{ ca  gly A 250  B13.79 1ll4} lime L 46.311, 28.822, 47.505 
+{ ca  his A 251  B18.22 1ll4} lime L 47.963, 25.613, 48.218 
+{ ca  met A 252  B19.42 1ll4} lime L 51.711, 26.116, 47.844 
+{ ca  ser A 253  B16.59 1ll4} lime L 52.961, 22.537, 47.209 
+{ ca  asn A 254  B10.79 1ll4} lime L 49.801, 20.433, 46.553 
+{ ca  val A 255  B10.46 1ll4} lime L 50.048, 17.146, 44.722 
+{ ca  phe A 256  B12.19 1ll4} lime L 46.701, 17.232, 42.845 
+{ ca  pro A 257  B14.28 1ll4} lime L 44.408, 19.931, 41.348 
+{ ca  ser A 258  B21.40 1ll4} lime L 41.280, 20.743, 43.340 
+{ ca  thr A 259  B20.85 1ll4} lime L 38.369, 20.174, 40.943 
+{ ca  thr A 260  B20.87 1ll4} lime L 36.007, 21.524, 43.538 
+{ ca  lys A 261  B21.53 1ll4} lime L 37.978, 24.664, 44.173 
+{ ca  pro A 262  B23.64 1ll4} lime L 40.282, 25.445, 41.185 
+{ ca  glu A 263  B23.18 1ll4} lime L 41.286, 28.809, 42.631 
+{ ca  ser A 264  B16.72 1ll4} lime L 42.871, 27.054, 45.637 
+{ ca  thr A 265  B11.42 1ll4} lime L 45.293, 25.038, 43.441 
+{ ca  pro A 266  B10.00 1ll4} lime L 47.021, 27.159, 40.682 
+{ ca  phe A 267  B5.81 1ll4} lime L 49.687, 24.434, 40.286 
+{ ca  ser A 268  B9.72 1ll4} lime L 50.155, 20.779, 41.349 
+{ ca  ser A 269  B10.55 1ll4} lime L 53.139, 18.381, 41.628 
+{ ca  asp A 270  B17.57 1ll4} yellow L 51.264, 15.889, 39.438 
+{ ca  lys A 271  B16.90 1ll4} yellow L 51.031, 18.131, 36.424 
+{ ca  ala A 272  B16.82 1ll4} yellow L 54.825, 18.664, 36.561 
+{ ca  val A 273  B15.81 1ll4} yellow L 55.821, 15.002, 37.097 
+{ ca  lys A 274  B15.22 1ll4} yellow L 53.637, 13.520, 34.325 
+{ ca  asp A 275  B19.51 1ll4} yellow L 54.704, 16.414, 32.043 
+{ ca  tyr A 276  B17.55 1ll4} yellow L 58.403, 15.570, 32.623 
+{ ca  ile A 277  B12.63 1ll4} yellow L 57.531, 11.931, 31.966 
+{ ca  lys A 278  B16.67 1ll4} yellow L 55.721, 12.761, 28.685 
+{ ca  ala A 279  B16.96 1ll4} yellow L 58.834, 14.871, 27.903 
+{ ca  gly A 280  B21.04 1ll4} yellow L 60.968, 11.806, 28.430 
+{ ca  val A 281  B20.88 1ll4} yellow L 62.503, 12.016, 31.898 
+{ ca  pro A 282  B20.90 1ll4} yellow L 62.485, 8.591, 33.631 
+{ ca  ala A 283  B18.52 1ll4} yellow L 60.211, 8.931, 36.703 
+{ ca  asn A 284  B15.79 1ll4} yellow L 62.696, 7.115, 38.901 
+{ ca  lys A 285  B17.60 1ll4} yellow L 65.069, 10.062, 38.192 
+{ ca  ile A 286  B15.23 1ll4} yellow L 62.488, 12.659, 39.399 
+{ ca  val A 287  B13.89 1ll4} yellow L 62.904, 13.332, 43.137 
+{ ca  leu A 288  B8.69 1ll4} yellow L 59.777, 15.110, 44.505 
+{ ca  gly A 289  B11.98 1ll4} yellow L 60.670, 18.311, 46.371 
+{ ca  met A 290  B13.68 1ll4} yellow L 58.775, 18.965, 49.600 
+{ ca  pro A 291  B15.36 1ll4} yellow L 58.992, 22.167, 51.693 
+{ ca  leu A 292  B16.16 1ll4} yellow L 59.939, 22.160, 55.352 
+{ ca  tyr A 293  B15.30 1ll4} yellow L 58.523, 25.731, 55.670 
+{ ca  gly A 294  B15.24 1ll4} yellow L 55.023, 27.138, 54.978 
+{ ca  arg A 295  B16.38 1ll4} yellow L 53.686, 30.183, 53.106 
+{ ca  ala A 296  B19.74 1ll4} yellow L 51.282, 32.523, 54.876 
+{ ca  phe A 297  B18.09 1ll4} yellow L 48.420, 34.810, 53.784 
+{ ca  ala A 298  B16.47 1ll4} yellow L 46.925, 37.702, 55.856 
+{ ca  ser A 299  B17.10 1ll4} yellow L 43.278, 39.036, 55.866 
+{ ca  thr A 300  B21.10 1ll4} yellow L 41.829, 35.883, 54.424 
+{ ca  asp A 301  B19.86 1ll4} yellow L 38.620, 33.981, 55.032 
+{ ca  gly A 302  B23.83 1ll4} yellow L 40.408, 30.855, 53.942 
+{ ca  ile A 303  B15.42 1ll4} yellow L 41.851, 28.839, 51.148 
+{ ca  gly A 304  B20.73 1ll4} yellow L 40.884, 30.201, 47.789 
+{ ca  thr A 305  B14.57 1ll4} yellow L 39.784, 33.619, 49.095 
+{ ca  ser A 306  B15.50 1ll4} yellow L 41.645, 36.973, 48.730 
+{ ca  phe A 307  B14.18 1ll4} yellow L 44.268, 38.054, 51.225 
+{ ca  asn A 308  B13.00 1ll4} yellow L 46.168, 41.297, 51.720 
+{ ca  gly A 309  B12.83 1ll4} gold L 49.593, 40.947, 53.215 
+{ ca  val A 310  B7.90 1ll4} gold L 51.332, 37.790, 54.285 
+{ ca  gly A 311  B15.58 1ll4} gold L 52.288, 38.738, 57.866 
+{ ca  gly A 312  B21.59 1ll4} gold L 55.534, 37.810, 59.521 
+{ ca  gly A 313  B22.89 1ll4} gold L 57.499, 34.634, 59.266 
+{ ca  ser A 314  B14.90 1ll4} gold L 60.150, 32.725, 61.144 
+{ ca  trp A 315  B17.62 1ll4} gold L 62.974, 34.432, 59.251 
+{ ca  glu A 316  B20.75 1ll4} gold L 61.392, 36.419, 56.406 
+{ ca  asn A 317  B23.26 1ll4} gold L 57.806, 37.713, 55.888 
+{ ca  gly A 318  B17.03 1ll4} gold L 55.161, 35.265, 54.723 
+{ ca  val A 319  B16.36 1ll4} gold L 57.363, 32.180, 55.308 
+{ ca  trp A 320  B19.93 1ll4} gold L 57.215, 30.068, 58.515 
+{ ca  asp A 321  B10.53 1ll4} gold L 59.424, 27.105, 59.545 
+{ ca  tyr A 322  B12.23 1ll4} gold L 57.378, 23.960, 59.788 
+{ ca  lys A 323  B9.61 1ll4} gold L 58.690, 23.379, 63.368 
+{ ca  asp A 324  B18.51 1ll4} gold L 56.887, 26.550, 64.369 
+{ ca  met A 325  B18.74 1ll4} gold L 53.681, 25.142, 63.045 
+{ ca  pro A 326  B16.97 1ll4} gold L 51.012, 24.937, 64.229 
+{ ca  gln A 327  B15.68 1ll4} gold L 50.563, 28.431, 65.593 
+{ ca  gln A 328  B21.43 1ll4} gold L 48.331, 28.984, 68.591 
+{ ca  gly A 329  B19.37 1ll4} gold L 44.711, 29.578, 67.761 
+{ ca  ala A 330  B17.43 1ll4} gold L 44.832, 28.125, 64.215 
+{ ca  gln A 331  B22.57 1ll4} gold L 42.997, 24.983, 63.179 
+{ ca  val A 332  B22.06 1ll4} gold L 44.769, 22.720, 60.795 
+{ ca  thr A 333  B23.06 1ll4} gold L 42.915, 21.402, 57.775 
+{ ca  glu A 334  B19.31 1ll4} gold L 44.322, 18.343, 55.913 
+{ ca  leu A 335  B20.45 1ll4} gold L 42.980, 17.653, 52.460 
+{ ca  glu A 336  B21.27 1ll4} gold L 44.325, 14.175, 51.780 
+{ ca  asp A 337  B18.12 1ll4} gold L 42.816, 13.677, 48.309 
+{ ca  ile A 338  B16.59 1ll4} gold L 44.949, 16.481, 46.801 
+{ ca  ala A 339  B15.63 1ll4} gold L 47.589, 16.058, 49.519 
+{ ca  ala A 340  B11.67 1ll4} gold L 47.557, 19.559, 50.844 
+{ ca  ser A 341  B13.22 1ll4} gold L 47.144, 21.115, 54.318 
+{ ca  tyr A 342  B16.02 1ll4} gold L 47.106, 24.529, 56.005 
+{ ca  ser A 343  B17.34 1ll4} gold L 46.576, 26.250, 59.334 
+{ ca  tyr A 344  B19.74 1ll4} gold L 44.032, 29.043, 59.504 
+{ ca  asp A 345  B21.24 1ll4} gold L 43.275, 31.355, 62.424 
+{ ca  lys A 346  B23.85 1ll4} gold L 39.638, 32.426, 62.149 
+{ ca  asn A 347  B21.48 1ll4} gold L 40.200, 35.449, 64.448 
+{ ca  lys A 348  B20.54 1ll4} orange L 43.425, 36.845, 62.960 
+{ ca  arg A 349  B17.15 1ll4} orange L 42.208, 35.777, 59.468 
+{ ca  tyr A 350  B16.18 1ll4} orange L 45.621, 34.245, 58.669 
+{ ca  leu A 351  B17.49 1ll4} orange L 46.303, 31.188, 56.471 
+{ ca  ile A 352  B15.48 1ll4} orange L 49.662, 29.250, 56.383 
+{ ca  ser A 353  B18.10 1ll4} orange L 50.014, 26.611, 53.674 
+{ ca  tyr A 354  B19.27 1ll4} orange L 52.362, 23.841, 54.904 
+{ ca  asp A 355  B16.03 1ll4} orange L 52.467, 19.997, 55.066 
+{ ca  thr A 356  B18.41 1ll4} orange L 51.519, 17.983, 58.081 
+{ ca  val A 357  B16.75 1ll4} orange L 52.742, 14.346, 58.687 
+{ ca  lys A 358  B13.09 1ll4} orange L 49.522, 13.001, 57.212 
+{ ca  ile A 359  B12.28 1ll4} orange L 50.218, 15.021, 54.085 
+{ ca  ala A 360  B18.29 1ll4} orange L 53.916, 14.075, 53.953 
+{ ca  gly A 361  B18.54 1ll4} orange L 52.702, 10.482, 54.121 
+{ ca  lys A 362  B13.36 1ll4} orange L 50.379, 11.043, 51.158 
+{ ca  lys A 363  B8.28 1ll4} orange L 53.383, 12.531, 49.328 
+{ ca  ala A 364  B3.57 1ll4} orange L 55.526, 9.463, 50.152 
+{ ca  glu A 365  B4.83 1ll4} orange L 52.585, 7.450, 48.828 
+{ ca  tyr A 366  B4.85 1ll4} orange L 52.670, 9.279, 45.512 
+{ ca  ile A 367  B7.32 1ll4} orange L 56.470, 8.788, 45.248 
+{ ca  thr A 368  B12.47 1ll4} orange L 56.210, 4.972, 45.771 
+{ ca  lys A 369  B14.52 1ll4} orange L 52.958, 4.554, 43.790 
+{ ca  asn A 370  B15.10 1ll4} orange L 54.419, 6.350, 40.797 
+{ ca  gly A 371  B14.85 1ll4} orange L 57.916, 4.843, 41.060 
+{ ca  met A 372  B16.48 1ll4} orange L 59.629, 8.193, 41.388 
+{ ca  gly A 373  B15.76 1ll4} orange L 63.252, 8.784, 42.523 
+{ ca  gly A 374  B15.23 1ll4} orange L 62.454, 9.713, 46.153 
+{ ca  gly A 375  B15.31 1ll4} orange L 61.940, 12.829, 48.195 
+{ ca  met A 376  B16.05 1ll4} orange L 63.830, 16.092, 48.397 
+{ ca  trp A 377  B17.05 1ll4} orange L 63.499, 18.750, 51.147 
+{ ca  trp A 378  B15.42 1ll4} orange L 64.215, 22.519, 51.307 
+{ ca  glu A 379  B16.57 1ll4} orange L 65.604, 23.010, 53.779 
+{ ca  ser A 380  B15.95 1ll4} orange L 67.143, 21.041, 56.706 
+{ ca  ser A 381  B10.15 1ll4} orange L 66.628, 23.419, 59.695 
+{ ca  ser A 382  B13.62 1ll4} orange L 62.927, 24.001, 59.602 
+{ ca  asp A 383  B17.91 1ll4} orange L 61.898, 20.400, 60.181 
+{ ca  lys A 384  B14.33 1ll4} orange L 60.727, 18.894, 63.423 
+{ ca  thr A 385  B17.57 1ll4} orange L 62.164, 15.782, 64.994 
+{ ca  gly A 386  B17.83 1ll4} orange L 60.885, 12.445, 66.250 
+{ ca  asn A 387  B17.11 1ll4} red L 57.405, 11.352, 65.377 
+{ ca  glu A 388  B16.55 1ll4} red L 56.755, 14.812, 63.973 
+{ ca  ser A 389  B16.14 1ll4} red L 59.632, 14.791, 61.450 
+{ ca  leu A 390  B14.95 1ll4} red L 58.115, 15.294, 57.989 
+{ ca  val A 391  B18.38 1ll4} red L 61.245, 13.710, 56.518 
+{ ca  gly A 392  B17.85 1ll4} red L 60.981, 10.821, 59.015 
+{ ca  thr A 393  B24.38 1ll4} red L 57.427, 10.362, 57.863 
+{ ca  val A 394  B22.89 1ll4} red L 58.402, 10.193, 54.178 
+{ ca  val A 395  B18.98 1ll4} red L 61.329, 7.769, 54.694 
+{ ca  asn A 396  B20.36 1ll4} red L 59.030, 5.379, 56.603 
+{ ca  gly A 397  B13.39 1ll4} red L 56.286, 5.578, 53.883 
+{ ca  leu A 398  B15.01 1ll4} red L 59.142, 4.826, 51.474 
+{ ca  gly A 399  B13.55 1ll4} red L 59.602, 1.586, 53.419 
+{ ca  gly A 400  B13.45 1ll4} red L 62.162, 2.978, 55.845 
+{ ca  thr A 401  B21.08 1ll4} red L 65.877, 3.449, 55.276 
+{ ca  gly A 402  B20.92 1ll4} red L 66.183, -0.094, 53.953 
+{ ca  lys A 403  B21.03 1ll4} red L 64.442, 1.091, 50.822 
+{ ca  leu A 404  B15.92 1ll4} red L 66.797, 4.048, 50.314 
+{ ca  glu A 405  B15.29 1ll4} red L 69.292, 3.975, 47.429 
+{ ca  gln A 406  B21.02 1ll4} red L 72.544, 2.378, 48.573 
+{ ca  arg A 407  B17.10 1ll4} red L 75.341, 4.237, 46.800 
+{ ca  glu A 408  B16.81 1ll4} red L 78.532, 4.544, 48.747 
+{ ca  asn A 409  B18.73 1ll4} red L 80.086, 7.978, 48.840 
+{ ca  glu A 410  B15.17 1ll4} red L 83.593, 9.094, 48.035 
+{ ca  leu A 411  B9.32 1ll4} red L 86.072, 9.598, 50.816 
+{ ca  ser A 412  B15.24 1ll4} red L 89.216, 9.784, 48.719 
+{ ca  tyr A 413  B20.57 1ll4} red L 90.150, 13.187, 47.342 
+{ ca  pro A 414  B15.32 1ll4} red L 93.742, 12.651, 46.116 
+{ ca  glu A 415  B8.57 1ll4} red L 94.007, 16.004, 44.339 
+{ ca  ser A 416  B9.04 1ll4} red L 92.725, 18.151, 47.218 
+{ ca  val A 417  B13.94 1ll4} red L 94.489, 21.328, 47.869 
+{ ca  tyr A 418  B18.72 1ll4} red L 93.732, 20.879, 51.601 
+{ ca  asp A 419  B18.86 1ll4} red L 95.886, 18.478, 53.566 
+{ ca  asn A 420  B16.77 1ll4} red L 93.501, 17.397, 56.290 
+{ ca  leu A 421  B18.14 1ll4} red L 90.822, 16.687, 53.618 
+{ ca  lys A 422  B19.81 1ll4} red L 93.335, 14.968, 51.283 
+{ ca  asn A 423  B13.80 1ll4} red L 94.363, 12.767, 54.142 
+{ ca  gly A 424  B5.72 1ll4} red L 90.740, 11.862, 54.889 
+{ ca  met A 425  B11.20 1ll4} red L 90.707, 14.002, 58.016 
+{ ca  pro A 426  B10.93 1ll4} red L 92.641, 12.323, 60.877 
+{ ca  ser A 427  B28.02 1ll4} red L 92.733, 14.108, 64.186 
+
+@group {1ll4} dominant
+@subgroup {mainchain} 
+@vectorlist {Calphas} color= yellowtint  master= {Calphas} 
+{ ca  gly B  36  B16.86 1ll4} P 67.000, 75.309, 40.687 { ca  gly B  36  B16.86 1ll4} blue L 67.000, 75.309, 40.687
+{ ca  gly B  37  B15.88 1ll4} blue L 69.419, 74.058, 43.402 
+{ ca  phe B  38  B14.59 1ll4} blue L 70.699, 70.569, 44.128 
+{ ca  arg B  39  B15.81 1ll4} blue L 68.652, 67.536, 45.091 
+{ ca  ser B  40  B14.10 1ll4} blue L 69.427, 65.542, 48.189 
+{ ca  val B  41  B13.48 1ll4} blue L 67.802, 62.142, 47.739 
+{ ca  val B  42  B11.76 1ll4} blue L 67.883, 59.286, 50.269 
+{ ca  tyr B  43  B4.94 1ll4} blue L 66.231, 55.891, 50.215 
+{ ca  phe B  44  B7.84 1ll4} blue L 64.326, 54.654, 53.270 
+{ ca  val B  45  B12.84 1ll4} blue L 64.099, 50.940, 53.077 
+{ ca  asn B  46  B15.00 1ll4} blue L 61.005, 49.091, 54.289 
+{ ca  trp B  47  B16.32 1ll4} blue L 62.995, 46.558, 56.255 
+{ ca  ala B  48  B18.19 1ll4} blue L 65.180, 48.978, 58.281 
+{ ca  ile B  49  B16.80 1ll4} blue L 62.453, 49.094, 60.956 
+{ ca  tyr B  50  B15.35 1ll4} blue L 63.443, 45.528, 61.885 
+{ ca  gly B  51  B17.08 1ll4} blue L 67.085, 44.603, 62.685 
+{ ca  arg B  52  B15.86 1ll4} blue L 68.539, 48.030, 61.844 
+{ ca  gly B  53  B17.45 1ll4} blue L 66.109, 49.804, 64.206 
+{ ca  his B  54  B19.14 1ll4} blue L 65.774, 52.742, 61.795 
+{ ca  asn B  55  B24.83 1ll4} blue L 62.340, 54.341, 61.587 
+{ ca  pro B  56  B25.15 1ll4} blue L 61.204, 57.372, 59.404 
+{ ca  gln B  57  B18.94 1ll4} blue L 60.999, 59.510, 62.537 
+{ ca  asp B  58  B23.00 1ll4} blue L 64.795, 59.416, 62.826 
+{ ca  leu B  59  B23.82 1ll4} blue L 65.585, 60.879, 59.417 
+{ ca  lys B  60  B22.50 1ll4} blue L 67.345, 64.315, 59.630 
+{ ca  ala B  61  B18.19 1ll4} blue L 64.636, 65.521, 57.203 
+{ ca  asp B  62  B21.34 1ll4} blue L 66.032, 69.057, 56.952 
+{ ca  gln B  63  B16.08 1ll4} blue L 69.064, 67.551, 55.262 
+{ ca  phe B  64  B15.56 1ll4} blue L 67.018, 66.145, 52.316 
+{ ca  thr B  65  B18.02 1ll4} blue L 64.625, 67.088, 49.579 
+{ ca  his B  66  B18.63 1ll4} blue L 63.457, 63.585, 48.582 
+{ ca  ile B  67  B19.09 1ll4} blue L 62.904, 60.461, 50.648 
+{ ca  leu B  68  B13.68 1ll4} blue L 62.292, 57.483, 48.370 
+{ ca  tyr B  69  B13.02 1ll4} blue L 60.648, 54.503, 50.086 
+{ ca  ala B  70  B15.75 1ll4} blue L 61.893, 51.155, 48.834 
+{ ca  phe B  71  B20.37 1ll4} blue L 60.641, 48.761, 47.802 
+{ ca  ala B  72  B26.97 1ll4} blue L 57.320, 48.044, 46.203 
+{ ca  asn B  73  B25.31 1ll4} blue L 56.819, 44.863, 44.292 
+{ ca  ile B  74  B20.13 1ll4} blue L 54.984, 44.140, 40.972 
+{ ca  arg B  75  B17.71 1ll4} sky L 52.656, 41.188, 40.080 
+{ ca  pro B  76  B18.14 1ll4} sky L 52.587, 39.547, 36.524 
+{ ca  ser B  77  B16.90 1ll4} sky L 49.510, 41.621, 35.837 
+{ ca  gly B  78  B13.60 1ll4} sky L 51.490, 44.796, 36.135 
+{ ca  glu B  79  B14.51 1ll4} sky L 50.044, 45.342, 39.601 
+{ ca  val B  80  B14.37 1ll4} sky L 52.258, 47.287, 41.899 
+{ ca  tyr B  81  B14.58 1ll4} sky L 51.790, 46.366, 45.551 
+{ ca  leu B  82  B18.96 1ll4} sky L 53.337, 46.986, 48.924 
+{ ca  ser B  83  B14.08 1ll4} sky L 56.187, 44.679, 50.073 
+{ ca  asp B  84  B14.72 1ll4} sky L 55.486, 44.710, 53.758 
+{ ca  thr B  85  B12.89 1ll4} sky L 52.108, 45.999, 54.874 
+{ ca  trp B  86  B11.75 1ll4} sky L 53.279, 45.648, 58.503 
+{ ca  ala B  87  B11.47 1ll4} sky L 56.201, 48.088, 57.998 
+{ ca  asp B  88  B17.08 1ll4} sky L 54.314, 50.082, 55.359 
+{ ca  thr B  89  B13.54 1ll4} sky L 50.849, 50.581, 56.564 
+{ ca  asp B  90  B16.04 1ll4} sky L 49.822, 48.814, 59.730 
+{ ca  lys B  91  B17.45 1ll4} sky L 52.381, 49.078, 62.497 
+{ ca  his B  92  B17.97 1ll4} sky L 51.320, 51.580, 65.087 
+{ ca  tyr B  93  B25.14 1ll4} sky L 54.037, 53.938, 66.119 
+{ ca  pro B  94  B31.44 1ll4} sky L 53.982, 56.177, 69.257 
+{ ca  gly B  95  B24.48 1ll4} sky L 51.222, 58.586, 68.315 
+{ ca  asp B  96  B23.02 1ll4} sky L 48.876, 56.072, 66.714 
+{ ca  lys B  97  B29.38 1ll4} sky L 45.539, 55.540, 68.346 
+{ ca  trp B  98  B34.06 1ll4} sky L 44.917, 51.835, 68.036 
+{ ca  asp B  99  B30.62 1ll4} sky L 41.193, 52.262, 68.011 
+{ ca  glu B 100  B23.78 1ll4} sky L 40.069, 55.552, 66.221 
+{ ca  pro B 101  B20.05 1ll4} sky L 37.234, 56.265, 63.662 
+{ ca  gly B 102  B19.60 1ll4} sky L 37.822, 55.977, 59.929 
+{ ca  asn B 103  B26.65 1ll4} sky L 39.668, 53.648, 57.550 
+{ ca  asn B 104  B24.98 1ll4} sky L 43.230, 54.724, 58.458 
+{ ca  val B 105  B19.63 1ll4} sky L 46.965, 54.352, 57.421 
+{ ca  tyr B 106  B13.84 1ll4} sky L 49.750, 53.938, 59.884 
+{ ca  gly B 107  B15.09 1ll4} sky L 53.204, 52.309, 59.411 
+{ ca  cys B 108  B16.43 1ll4} sky L 56.072, 54.090, 57.767 
+{ ca  ile B 109  B21.98 1ll4} sky L 53.593, 55.672, 55.313 
+{ ca  lys B 110  B18.94 1ll4} sky L 51.923, 57.737, 58.094 
+{ ca  gln B 111  B18.05 1ll4} sky L 55.418, 58.522, 59.448 
+{ ca  met B 112  B19.62 1ll4} sky L 56.684, 59.743, 56.105 
+{ ca  tyr B 113  B18.86 1ll4} sky L 53.536, 61.888, 55.719 
+{ ca  leu B 114  B18.81 1ll4} cyan L 54.189, 63.369, 59.160 
+{ ca  leu B 115  B23.05 1ll4} cyan L 57.804, 63.991, 58.026 
+{ ca  lys B 116  B20.80 1ll4} cyan L 56.348, 65.819, 55.028 
+{ ca  lys B 117  B18.02 1ll4} cyan L 53.860, 67.924, 57.023 
+{ ca  asn B 118  B17.84 1ll4} cyan L 56.741, 69.100, 59.119 
+{ ca  asn B 119  B10.94 1ll4} cyan L 59.315, 69.520, 56.320 
+{ ca  arg B 120  B11.24 1ll4} cyan L 57.481, 71.064, 53.419 
+{ ca  asn B 121  B11.29 1ll4} cyan L 60.506, 70.945, 51.108 
+{ ca  leu B 122  B11.69 1ll4} cyan L 60.662, 67.173, 51.707 
+{ ca  lys B 123  B10.10 1ll4} cyan L 59.027, 65.134, 48.957 
+{ ca  thr B 124  B11.47 1ll4} cyan L 58.477, 61.373, 49.197 
+{ ca  leu B 125  B10.12 1ll4} cyan L 58.374, 58.871, 46.326 
+{ ca  leu B 126  B14.14 1ll4} cyan L 57.291, 55.165, 46.369 
+{ ca  ser B 127  B17.06 1ll4} cyan L 60.148, 53.154, 44.841 
+{ ca  ile B 128  B16.50 1ll4} cyan L 59.208, 50.024, 42.909 
+{ ca  gly B 129  B16.82 1ll4} cyan L 61.601, 47.226, 41.992 
+{ ca  gly B 130  B14.30 1ll4} cyan L 65.022, 46.661, 43.460 
+{ ca  trp B 131  B14.68 1ll4} cyan L 67.670, 44.056, 42.609 
+{ ca  thr B 132  B14.88 1ll4} cyan L 65.511, 41.420, 44.285 
+{ ca  tyr B 133  B13.94 1ll4} cyan L 62.180, 42.244, 42.471 
+{ ca  ser B 134  B17.69 1ll4} cyan L 63.541, 43.217, 39.025 
+{ ca  pro B 135  B18.70 1ll4} cyan L 63.091, 39.613, 37.622 
+{ ca  asn B 136  B17.13 1ll4} cyan L 59.467, 40.613, 37.620 
+{ ca  phe B 137  B16.72 1ll4} cyan L 59.429, 43.758, 35.548 
+{ ca  lys B 138  B13.31 1ll4} cyan L 59.760, 42.307, 31.964 
+{ ca  thr B 139  B14.65 1ll4} cyan L 56.473, 40.414, 31.670 
+{ ca  pro B 140  B14.31 1ll4} cyan L 54.019, 43.342, 32.527 
+{ ca  ala B 141  B15.51 1ll4} cyan L 56.264, 45.791, 30.705 
+{ ca  ser B 142  B15.73 1ll4} cyan L 55.914, 43.889, 27.433 
+{ ca  thr B 143  B15.99 1ll4} cyan L 52.198, 44.483, 27.134 
+{ ca  glu B 144  B18.17 1ll4} cyan L 49.997, 47.485, 27.017 
+{ ca  glu B 145  B17.84 1ll4} cyan L 47.721, 45.888, 29.616 
+{ ca  gly B 146  B14.86 1ll4} cyan L 50.656, 45.298, 31.906 
+{ ca  arg B 147  B13.72 1ll4} cyan L 52.014, 48.816, 31.627 
+{ ca  lys B 148  B17.05 1ll4} cyan L 48.543, 50.374, 31.951 
+{ ca  lys B 149  B14.62 1ll4} cyan L 48.012, 48.212, 35.034 
+{ ca  phe B 150  B13.69 1ll4} cyan L 51.442, 49.248, 36.409 
+{ ca  ala B 151  B14.09 1ll4} cyan L 50.662, 52.945, 35.814 
+{ ca  asp B 152  B12.50 1ll4} cyan L 47.236, 52.729, 37.413 
+{ ca  thr B 153  B16.84 1ll4} sea L 48.219, 50.752, 40.507 
+{ ca  ser B 154  B23.22 1ll4} sea L 51.247, 52.964, 41.064 
+{ ca  leu B 155  B21.69 1ll4} sea L 49.095, 56.114, 40.837 
+{ ca  lys B 156  B20.62 1ll4} sea L 46.493, 54.528, 43.143 
+{ ca  leu B 157  B14.17 1ll4} sea L 49.208, 53.807, 45.678 
+{ ca  met B 158  B16.29 1ll4} sea L 50.795, 57.256, 45.352 
+{ ca  lys B 159  B15.68 1ll4} sea L 47.535, 59.175, 45.771 
+{ ca  asp B 160  B14.47 1ll4} sea L 46.338, 56.874, 48.605 
+{ ca  leu B 161  B13.71 1ll4} sea L 49.484, 56.799, 50.673 
+{ ca  gly B 162  B13.79 1ll4} sea L 50.538, 60.463, 50.289 
+{ ca  phe B 163  B14.64 1ll4} sea L 53.463, 60.230, 47.918 
+{ ca  asp B 164  B8.90 1ll4} sea L 54.870, 62.976, 45.776 
+{ ca  gly B 165  B11.79 1ll4} sea L 55.666, 60.539, 42.977 
+{ ca  ile B 166  B17.71 1ll4} sea L 57.005, 57.152, 42.021 
+{ ca  asp B 167  B21.51 1ll4} sea L 60.467, 55.790, 41.287 
+{ ca  ile B 168  B22.07 1ll4} sea L 61.120, 52.626, 39.265 
+{ ca  asp B 169  B17.76 1ll4} sea L 64.246, 50.550, 39.866 
+{ ca  trp B 170  B15.00 1ll4} sea L 64.436, 47.944, 37.079 
+{ ca  glu B 171  B19.47 1ll4} sea L 67.810, 46.290, 37.194 
+{ ca  tyr B 172  B18.84 1ll4} sea L 68.139, 45.964, 34.338 
+{ ca  pro B 173  B19.73 1ll4} sea L 66.185, 45.916, 30.910 
+{ ca  glu B 174  B19.88 1ll4} sea L 68.302, 43.051, 29.558 
+{ ca  asp B 175  B20.92 1ll4} sea L 67.523, 43.378, 25.853 
+{ ca  glu B 176  B23.43 1ll4} sea L 66.426, 45.852, 23.163 
+{ ca  lys B 177  B19.19 1ll4} sea L 62.766, 45.050, 23.592 
+{ ca  gln B 178  B24.51 1ll4} sea L 62.859, 45.482, 27.365 
+{ ca  ala B 179  B25.14 1ll4} sea L 64.506, 48.861, 26.811 
+{ ca  asn B 180  B26.39 1ll4} sea L 61.729, 50.094, 24.493 
+{ ca  asp B 181  B27.48 1ll4} sea L 59.324, 48.630, 27.017 
+{ ca  phe B 182  B19.23 1ll4} sea L 60.986, 50.710, 29.687 
+{ ca  val B 183  B20.05 1ll4} sea L 60.424, 53.915, 27.650 
+{ ca  leu B 184  B16.04 1ll4} sea L 56.769, 52.982, 27.145 
+{ ca  leu B 185  B10.45 1ll4} sea L 56.317, 52.050, 30.804 
+{ ca  leu B 186  B5.93 1ll4} sea L 57.787, 55.396, 31.787 
+{ ca  lys B 187  B7.56 1ll4} sea L 55.371, 57.036, 29.386 
+{ ca  ala B 188  B11.01 1ll4} sea L 52.486, 55.113, 30.990 
+{ ca  cys B 189  B16.16 1ll4} sea L 53.454, 56.403, 34.424 
+{ ca  arg B 190  B16.09 1ll4} sea L 54.056, 60.003, 33.235 
+{ ca  glu B 191  B15.43 1ll4} sea L 50.646, 60.008, 31.569 
+{ ca  ala B 192  B13.61 1ll4} green L 49.078, 58.475, 34.683 
+{ ca  leu B 193  B11.44 1ll4} green L 50.442, 61.029, 37.155 
+{ ca  asp B 194  B14.12 1ll4} green L 49.709, 63.955, 34.851 
+{ ca  ala B 195  B12.34 1ll4} green L 46.061, 62.884, 34.432 
+{ ca  tyr B 196  B15.40 1ll4} green L 45.706, 63.025, 38.217 
+{ ca  ser B 197  B17.76 1ll4} green L 47.232, 66.490, 38.378 
+{ ca  ala B 198  B13.74 1ll4} green L 44.852, 67.565, 35.603 
+{ ca  lys B 199  B11.48 1ll4} green L 42.061, 66.367, 37.903 
+{ ca  his B 200  B10.58 1ll4} green L 43.466, 68.661, 40.641 
+{ ca  pro B 201  B8.93 1ll4} green L 44.831, 71.865, 39.054 
+{ ca  asn B 202  B17.53 1ll4} green L 45.123, 73.760, 42.338 
+{ ca  gly B 203  B18.55 1ll4} green L 47.299, 70.956, 43.681 
+{ ca  lys B 204  B15.38 1ll4} green L 50.781, 69.891, 42.631 
+{ ca  lys B 205  B16.80 1ll4} green L 52.491, 68.234, 39.689 
+{ ca  phe B 206  B19.05 1ll4} green L 53.940, 64.761, 40.568 
+{ ca  leu B 207  B18.56 1ll4} green L 57.416, 63.159, 40.278 
+{ ca  leu B 208  B19.08 1ll4} green L 58.674, 60.195, 38.234 
+{ ca  thr B 209  B18.87 1ll4} green L 62.268, 59.031, 38.616 
+{ ca  ile B 210  B16.02 1ll4} green L 64.399, 55.889, 38.096 
+{ ca  ala B 211  B15.54 1ll4} green L 67.425, 54.407, 39.802 
+{ ca  ser B 212  B18.22 1ll4} green L 69.843, 53.879, 36.893 
+{ ca  pro B 213  B16.08 1ll4} green L 73.016, 51.913, 35.835 
+{ ca  ala B 214  B14.61 1ll4} green L 76.527, 53.343, 36.088 
+{ ca  gly B 215  B15.32 1ll4} green L 77.945, 50.223, 34.358 
+{ ca  pro B 216  B13.89 1ll4} green L 78.341, 50.712, 30.543 
+{ ca  gln B 217  B18.60 1ll4} green L 77.145, 47.154, 29.719 
+{ ca  asn B 218  B17.71 1ll4} green L 73.775, 48.105, 31.177 
+{ ca  tyr B 219  B15.74 1ll4} green L 73.188, 51.767, 30.314 
+{ ca  asn B 220  B19.35 1ll4} green L 74.266, 51.214, 26.687 
+{ ca  lys B 221  B15.99 1ll4} green L 71.175, 49.107, 26.203 
+{ ca  leu B 222  B13.35 1ll4} green L 68.982, 51.880, 27.519 
+{ ca  lys B 223  B13.63 1ll4} green L 67.216, 54.468, 25.402 
+{ ca  leu B 224  B14.59 1ll4} green L 68.345, 57.131, 27.805 
+{ ca  ala B 225  B15.47 1ll4} green L 67.310, 60.305, 25.889 
+{ ca  glu B 226  B15.45 1ll4} green L 63.802, 59.066, 25.033 
+{ ca  met B 227  B14.54 1ll4} green L 63.451, 57.944, 28.655 
+{ ca  asp B 228  B13.66 1ll4} green L 64.599, 61.349, 29.888 
+{ ca  lys B 229  B12.32 1ll4} green L 61.559, 63.009, 28.346 
+{ ca  tyr B 230  B14.82 1ll4} green L 59.399, 61.472, 31.118 
+{ ca  leu B 231  B16.64 1ll4} lime L 61.607, 61.865, 34.095 
+{ ca  asp B 232  B16.09 1ll4} lime L 61.991, 64.424, 36.774 
+{ ca  phe B 233  B18.21 1ll4} lime L 65.569, 63.242, 37.397 
+{ ca  trp B 234  B15.89 1ll4} lime L 67.827, 60.189, 37.369 
+{ ca  asn B 235  B16.34 1ll4} lime L 69.375, 58.594, 40.467 
+{ ca  leu B 236  B12.35 1ll4} lime L 72.550, 57.156, 39.066 
+{ ca  met B 237  B10.48 1ll4} lime L 73.690, 54.163, 41.174 
+{ ca  ala B 238  B10.38 1ll4} lime L 77.342, 55.113, 40.977 
+{ ca  tyr B 239  B13.72 1ll4} lime L 78.410, 52.268, 43.268 
+{ ca  asp B 240  B16.66 1ll4} lime L 78.690, 48.459, 43.457 
+{ ca  phe B 241  B19.49 1ll4} lime L 81.563, 48.735, 41.017 
+{ ca  ser B 242  B21.32 1ll4} lime L 83.497, 46.149, 42.943 
+{ ca  gly B 243  B23.84 1ll4} lime L 82.416, 43.303, 45.284 
+{ ca  ser B 244  B21.35 1ll4} lime L 82.231, 39.479, 45.767 
+{ ca  trp B 245  B19.07 1ll4} lime L 81.815, 38.830, 42.126 
+{ ca  asp B 246  B25.41 1ll4} lime L 85.279, 40.121, 41.162 
+{ ca  lys B 247  B30.03 1ll4} lime L 88.772, 38.635, 41.307 
+{ ca  val B 248  B29.25 1ll4} lime L 90.751, 41.669, 42.452 
+{ ca  ser B 249  B27.06 1ll4} lime L 89.705, 44.111, 45.198 
+{ ca  gly B 250  B27.25 1ll4} lime L 88.581, 47.340, 43.577 
+{ ca  his B 251  B19.96 1ll4} lime L 87.105, 50.632, 44.349 
+{ ca  met B 252  B16.57 1ll4} lime L 83.336, 50.192, 44.567 
+{ ca  ser B 253  B19.27 1ll4} lime L 82.059, 53.739, 43.887 
+{ ca  asn B 254  B18.45 1ll4} lime L 85.091, 55.733, 42.638 
+{ ca  val B 255  B16.14 1ll4} lime L 84.631, 58.920, 40.659 
+{ ca  phe B 256  B17.58 1ll4} lime L 87.657, 58.647, 38.315 
+{ ca  pro B 257  B19.71 1ll4} lime L 89.677, 55.816, 36.686 
+{ ca  ser B 258  B24.67 1ll4} lime L 93.054, 55.041, 38.237 
+{ ca  thr B 259  B24.94 1ll4} lime L 95.591, 55.405, 35.411 
+{ ca  thr B 260  B26.03 1ll4} lime L 98.303, 54.183, 37.714 
+{ ca  lys B 261  B22.40 1ll4} lime L 96.410, 51.105, 38.835 
+{ ca  pro B 262  B24.31 1ll4} lime L 93.672, 50.209, 36.268 
+{ ca  glu B 263  B25.38 1ll4} lime L 92.857, 46.966, 38.052 
+{ ca  ser B 264  B20.72 1ll4} lime L 91.745, 48.932, 41.137 
+{ ca  thr B 265  B10.62 1ll4} lime L 89.044, 50.850, 39.198 
+{ ca  pro B 266  B12.08 1ll4} lime L 86.923, 48.606, 36.864 
+{ ca  phe B 267  B17.71 1ll4} lime L 84.245, 51.360, 36.700 
+{ ca  ser B 268  B20.96 1ll4} lime L 83.974, 55.081, 37.574 
+{ ca  ser B 269  B18.25 1ll4} lime L 81.123, 57.573, 38.130 
+{ ca  asp B 270  B14.11 1ll4} yellow L 82.637, 59.894, 35.547 
+{ ca  lys B 271  B10.96 1ll4} yellow L 82.424, 57.422, 32.686 
+{ ca  ala B 272  B11.05 1ll4} yellow L 78.678, 56.993, 33.394 
+{ ca  val B 273  B13.96 1ll4} yellow L 77.808, 60.697, 33.845 
+{ ca  lys B 274  B19.73 1ll4} yellow L 79.573, 61.966, 30.691 
+{ ca  asp B 275  B22.77 1ll4} yellow L 78.150, 58.972, 28.783 
+{ ca  tyr B 276  B22.02 1ll4} yellow L 74.602, 59.913, 29.842 
+{ ca  ile B 277  B16.91 1ll4} yellow L 75.388, 63.504, 28.835 
+{ ca  lys B 278  B22.99 1ll4} yellow L 76.712, 62.434, 25.378 
+{ ca  ala B 279  B24.78 1ll4} yellow L 73.495, 60.345, 25.200 
+{ ca  gly B 280  B21.70 1ll4} yellow L 71.494, 63.472, 25.830 
+{ ca  val B 281  B19.60 1ll4} yellow L 70.487, 63.495, 29.493 
+{ ca  pro B 282  B18.49 1ll4} yellow L 70.781, 67.022, 30.992 
+{ ca  ala B 283  B13.28 1ll4} yellow L 73.483, 66.836, 33.694 
+{ ca  asn B 284  B10.43 1ll4} yellow L 71.370, 68.825, 36.118 
+{ ca  lys B 285  B11.00 1ll4} yellow L 68.897, 65.883, 35.960 
+{ ca  ile B 286  B11.93 1ll4} yellow L 71.591, 63.309, 36.935 
+{ ca  val B 287  B11.06 1ll4} yellow L 71.716, 62.887, 40.722 
+{ ca  leu B 288  B10.81 1ll4} yellow L 74.994, 61.140, 41.743 
+{ ca  gly B 289  B12.93 1ll4} yellow L 74.337, 58.073, 43.920 
+{ ca  met B 290  B17.64 1ll4} yellow L 76.681, 57.568, 46.856 
+{ ca  pro B 291  B16.73 1ll4} yellow L 76.750, 54.520, 49.159 
+{ ca  leu B 292  B17.36 1ll4} yellow L 76.338, 54.754, 52.918 
+{ ca  tyr B 293  B18.61 1ll4} yellow L 77.768, 51.191, 53.249 
+{ ca  gly B 294  B14.14 1ll4} yellow L 81.102, 49.674, 52.154 
+{ ca  arg B 295  B15.33 1ll4} yellow L 82.118, 46.498, 50.293 
+{ ca  ala B 296  B15.30 1ll4} yellow L 84.726, 44.210, 51.841 
+{ ca  phe B 297  B24.18 1ll4} yellow L 87.377, 41.811, 50.493 
+{ ca  ala B 298  B26.30 1ll4} yellow L 89.141, 39.028, 52.497 
+{ ca  ser B 299  B25.18 1ll4} yellow L 92.708, 37.608, 52.050 
+{ ca  thr B 300  B26.08 1ll4} yellow L 93.981, 40.640, 50.213 
+{ ca  asp B 301  B30.93 1ll4} yellow L 97.265, 42.509, 50.239 
+{ ca  gly B 302  B31.65 1ll4} yellow L 95.344, 45.591, 49.212 
+{ ca  ile B 303  B29.69 1ll4} yellow L 93.523, 47.454, 46.546 
+{ ca  gly B 304  B28.77 1ll4} yellow L 93.977, 45.885, 43.176 
+{ ca  thr B 305  B26.41 1ll4} yellow L 95.232, 42.527, 44.509 
+{ ca  ser B 306  B23.49 1ll4} yellow L 93.293, 39.199, 44.645 
+{ ca  phe B 307  B16.89 1ll4} yellow L 91.062, 38.328, 47.568 
+{ ca  asn B 308  B17.76 1ll4} yellow L 89.230, 35.150, 48.524 
+{ ca  gly B 309  B19.94 1ll4} gold L 86.042, 35.672, 50.466 
+{ ca  val B 310  B16.74 1ll4} gold L 84.535, 38.914, 51.602 
+{ ca  gly B 311  B17.17 1ll4} gold L 84.091, 38.221, 55.330 
+{ ca  gly B 312  B16.48 1ll4} gold L 81.149, 39.318, 57.374 
+{ ca  gly B 313  B15.59 1ll4} gold L 79.187, 42.492, 57.204 
+{ ca  ser B 314  B15.28 1ll4} gold L 76.863, 44.574, 59.319 
+{ ca  trp B 315  B16.13 1ll4} gold L 73.771, 42.830, 57.983 
+{ ca  glu B 316  B19.86 1ll4} gold L 74.901, 40.622, 55.075 
+{ ca  asn B 317  B17.64 1ll4} gold L 78.370, 39.231, 54.128 
+{ ca  gly B 318  B9.41 1ll4} gold L 80.848, 41.538, 52.409 
+{ ca  val B 319  B9.73 1ll4} gold L 78.776, 44.701, 53.130 
+{ ca  trp B 320  B15.44 1ll4} gold L 79.414, 47.002, 56.149 
+{ ca  asp B 321  B18.50 1ll4} gold L 77.418, 50.065, 57.283 
+{ ca  tyr B 322  B16.46 1ll4} gold L 79.508, 53.193, 57.031 
+{ ca  lys B 323  B14.27 1ll4} gold L 78.751, 54.017, 60.730 
+{ ca  asp B 324  B14.72 1ll4} gold L 80.641, 50.864, 61.653 
+{ ca  met B 325  B17.82 1ll4} gold L 83.632, 52.124, 59.779 
+{ ca  pro B 326  B19.97 1ll4} gold L 86.462, 52.342, 60.546 
+{ ca  gln B 327  B23.92 1ll4} gold L 87.045, 48.935, 62.060 
+{ ca  gln B 328  B27.57 1ll4} gold L 89.690, 48.513, 64.730 
+{ ca  gly B 329  B23.09 1ll4} gold L 93.132, 47.776, 63.401 
+{ ca  ala B 330  B18.13 1ll4} gold L 92.516, 49.034, 59.829 
+{ ca  gln B 331  B21.27 1ll4} gold L 94.218, 52.092, 58.353 
+{ ca  val B 332  B21.30 1ll4} gold L 92.139, 54.216, 56.101 
+{ ca  thr B 333  B18.71 1ll4} gold L 93.560, 55.289, 52.764 
+{ ca  glu B 334  B24.69 1ll4} gold L 91.916, 58.277, 50.945 
+{ ca  leu B 335  B25.06 1ll4} gold L 92.750, 58.728, 47.295 
+{ ca  glu B 336  B25.80 1ll4} gold L 91.356, 62.190, 46.600 
+{ ca  asp B 337  B21.58 1ll4} gold L 92.339, 62.432, 42.927 
+{ ca  ile B 338  B18.98 1ll4} gold L 89.992, 59.599, 41.935 
+{ ca  ala B 339  B15.27 1ll4} gold L 87.777, 60.243, 44.971 
+{ ca  ala B 340  B8.86 1ll4} gold L 87.989, 56.826, 46.482 
+{ ca  ser B 341  B14.33 1ll4} gold L 88.846, 55.476, 49.949 
+{ ca  tyr B 342  B21.06 1ll4} gold L 89.115, 52.165, 51.833 
+{ ca  ser B 343  B20.96 1ll4} gold L 90.101, 50.652, 55.151 
+{ ca  tyr B 344  B27.07 1ll4} gold L 92.615, 47.810, 55.132 
+{ ca  asp B 345  B26.66 1ll4} gold L 93.764, 45.663, 58.044 
+{ ca  lys B 346  B30.06 1ll4} gold L 97.316, 44.503, 57.313 
+{ ca  asn B 347  B31.21 1ll4} gold L 97.070, 41.648, 59.848 
+{ ca  lys B 348  B25.19 1ll4} orange L 93.628, 40.210, 58.943 
+{ ca  arg B 349  B26.22 1ll4} orange L 94.328, 41.052, 55.251 
+{ ca  tyr B 350  B27.07 1ll4} orange L 90.852, 42.616, 54.880 
+{ ca  leu B 351  B24.58 1ll4} orange L 89.914, 45.555, 52.602 
+{ ca  ile B 352  B14.82 1ll4} orange L 86.586, 47.532, 52.890 
+{ ca  ser B 353  B13.90 1ll4} orange L 85.869, 50.005, 50.089 
+{ ca  tyr B 354  B18.47 1ll4} orange L 83.766, 52.902, 51.493 
+{ ca  asp B 355  B19.79 1ll4} orange L 83.720, 56.747, 51.407 
+{ ca  thr B 356  B20.58 1ll4} orange L 85.131, 58.921, 54.102 
+{ ca  val B 357  B20.77 1ll4} orange L 84.043, 62.613, 54.662 
+{ ca  lys B 358  B21.08 1ll4} orange L 87.033, 63.793, 52.652 
+{ ca  ile B 359  B20.45 1ll4} orange L 85.862, 61.599, 49.795 
+{ ca  ala B 360  B18.36 1ll4} orange L 82.188, 62.621, 50.150 
+{ ca  gly B 361  B20.41 1ll4} orange L 83.467, 66.183, 49.901 
+{ ca  lys B 362  B17.03 1ll4} orange L 85.315, 65.409, 46.674 
+{ ca  lys B 363  B16.74 1ll4} orange L 82.060, 63.861, 45.397 
+{ ca  ala B 364  B15.16 1ll4} orange L 80.093, 67.028, 46.335 
+{ ca  glu B 365  B18.03 1ll4} orange L 82.815, 68.896, 44.468 
+{ ca  tyr B 366  B16.10 1ll4} orange L 82.229, 66.860, 41.328 
+{ ca  ile B 367  B17.13 1ll4} orange L 78.442, 67.419, 41.579 
+{ ca  thr B 368  B17.67 1ll4} orange L 78.818, 71.253, 41.817 
+{ ca  lys B 369  B17.17 1ll4} orange L 81.739, 71.496, 39.365 
+{ ca  asn B 370  B15.10 1ll4} orange L 79.834, 69.537, 36.735 
+{ ca  gly B 371  B15.13 1ll4} orange L 76.435, 71.113, 37.423 
+{ ca  met B 372  B19.40 1ll4} orange L 74.759, 67.835, 38.199 
+{ ca  gly B 373  B18.03 1ll4} orange L 71.337, 67.409, 39.887 
+{ ca  gly B 374  B16.36 1ll4} orange L 72.629, 66.664, 43.419 
+{ ca  gly B 375  B17.86 1ll4} orange L 73.408, 63.676, 45.541 
+{ ca  met B 376  B21.14 1ll4} orange L 71.548, 60.453, 46.229 
+{ ca  trp B 377  B20.43 1ll4} orange L 72.242, 57.987, 49.068 
+{ ca  trp B 378  B15.89 1ll4} orange L 71.521, 54.242, 49.569 
+{ ca  glu B 379  B14.20 1ll4} orange L 70.507, 53.934, 52.227 
+{ ca  ser B 380  B12.41 1ll4} orange L 69.449, 56.128, 55.231 
+{ ca  ser B 381  B18.10 1ll4} orange L 70.351, 53.906, 58.261 
+{ ca  ser B 382  B21.28 1ll4} orange L 73.997, 53.254, 57.641 
+{ ca  asp B 383  B22.26 1ll4} orange L 75.140, 56.858, 57.852 
+{ ca  lys B 384  B22.23 1ll4} orange L 76.785, 58.515, 60.794 
+{ ca  thr B 385  B26.31 1ll4} orange L 75.626, 61.758, 62.349 
+{ ca  gly B 386  B25.52 1ll4} orange L 77.142, 65.128, 63.198 
+{ ca  asn B 387  B26.44 1ll4} red L 80.445, 66.108, 61.749 
+{ ca  glu B 388  B28.37 1ll4} red L 80.851, 62.552, 60.486 
+{ ca  ser B 389  B24.84 1ll4} red L 77.632, 62.478, 58.425 
+{ ca  leu B 390  B25.21 1ll4} red L 78.623, 61.740, 54.816 
+{ ca  val B 391  B21.15 1ll4} red L 75.329, 63.295, 53.720 
+{ ca  gly B 392  B18.01 1ll4} red L 75.996, 66.320, 55.966 
+{ ca  thr B 393  B19.71 1ll4} red L 79.332, 66.658, 54.294 
+{ ca  val B 394  B17.18 1ll4} red L 77.826, 66.607, 50.775 
+{ ca  val B 395  B12.70 1ll4} red L 75.047, 69.120, 51.555 
+{ ca  asn B 396  B8.55 1ll4} red L 77.620, 71.565, 52.957 
+{ ca  gly B 397  B11.08 1ll4} red L 79.914, 71.135, 49.878 
+{ ca  leu B 398  B20.36 1ll4} red L 76.754, 71.809, 47.878 
+{ ca  gly B 399  B16.94 1ll4} red L 76.613, 75.162, 49.645 
+{ ca  gly B 400  B16.65 1ll4} red L 74.443, 74.004, 52.516 
+{ ca  thr B 401  B19.58 1ll4} red L 70.670, 73.549, 52.526 
+{ ca  gly B 402  B20.18 1ll4} red L 70.199, 77.003, 51.035 
+{ ca  lys B 403  B19.04 1ll4} red L 71.466, 75.576, 47.777 
+{ ca  leu B 404  B20.00 1ll4} red L 69.037, 72.660, 47.803 
+{ ca  glu B 405  B22.45 1ll4} red L 66.136, 72.597, 45.304 
+{ ca  gln B 406  B18.87 1ll4} red L 63.102, 74.338, 46.803 
+{ ca  arg B 407  B14.69 1ll4} red L 60.058, 72.440, 45.583 
+{ ca  glu B 408  B19.55 1ll4} red L 57.181, 72.305, 48.014 
+{ ca  asn B 409  B14.39 1ll4} red L 55.619, 68.913, 48.534 
+{ ca  glu B 410  B13.52 1ll4} red L 52.030, 67.819, 48.326 
+{ ca  leu B 411  B16.84 1ll4} red L 49.980, 67.535, 51.463 
+{ ca  ser B 412  B10.41 1ll4} red L 46.564, 67.313, 49.852 
+{ ca  tyr B 413  B14.56 1ll4} red L 45.392, 63.835, 48.855 
+{ ca  pro B 414  B18.86 1ll4} red L 41.664, 64.379, 48.122 
+{ ca  glu B 415  B19.17 1ll4} red L 41.088, 60.920, 46.632 
+{ ca  ser B 416  B13.67 1ll4} red L 42.774, 58.929, 49.427 
+{ ca  val B 417  B11.13 1ll4} red L 41.067, 55.841, 50.521 
+{ ca  tyr B 418  B19.40 1ll4} red L 42.378, 56.505, 54.056 
+{ ca  asp B 419  B19.01 1ll4} red L 40.562, 59.055, 56.165 
+{ ca  asn B 420  B22.06 1ll4} red L 43.346, 60.240, 58.432 
+{ ca  leu B 421  B20.78 1ll4} red L 45.608, 60.741, 55.368 
+{ ca  lys B 422  B13.89 1ll4} red L 42.802, 62.367, 53.321 
+{ ca  asn B 423  B4.89 1ll4} red L 42.233, 64.748, 56.156 
+{ ca  gly B 424  B7.69 1ll4} red L 45.932, 65.632, 56.299 
+{ ca  met B 425  B15.27 1ll4} red L 46.394, 63.698, 59.513 
+{ ca  pro B 426  B19.93 1ll4} red L 44.924, 65.587, 62.520 
+{ ca  ser B 427  B33.92 1ll4} red L 45.292, 64.009, 65.915 
+
+@group {1ll4} dominant
+@subgroup {mainchain} 
+@vectorlist {Calphas} color= peachtint  master= {Calphas} 
+{ ca  gly C  36  B32.28 1ll4} P 49.225, 89.139, 91.313 { ca  gly C  36  B32.28 1ll4} blue L 49.225, 89.139, 91.313
+{ ca  gly C  37  B22.45 1ll4} blue L 47.175, 87.747, 88.388 
+{ ca  phe C  38  B13.37 1ll4} blue L 45.937, 84.238, 87.728 
+{ ca  arg C  39  B11.15 1ll4} blue L 48.013, 81.108, 87.273 
+{ ca  ser C  40  B9.20 1ll4} blue L 47.623, 78.897, 84.236 
+{ ca  val C  41  B11.52 1ll4} blue L 49.071, 75.519, 85.152 
+{ ca  val C  42  B12.10 1ll4} blue L 49.273, 72.488, 82.844 
+{ ca  tyr C  43  B7.71 1ll4} blue L 50.798, 69.078, 83.363 
+{ ca  phe C  44  B11.50 1ll4} blue L 53.085, 67.599, 80.694 
+{ ca  val C  45  B14.33 1ll4} blue L 53.166, 63.899, 81.185 
+{ ca  asn C  46  B19.02 1ll4} blue L 56.363, 61.914, 80.567 
+{ ca  trp C  47  B20.38 1ll4} blue L 54.596, 59.283, 78.531 
+{ ca  ala C  48  B17.23 1ll4} blue L 52.796, 61.582, 76.024 
+{ ca  ile C  49  B16.63 1ll4} blue L 55.853, 61.450, 73.780 
+{ ca  tyr C  50  B12.35 1ll4} blue L 54.895, 57.860, 72.981 
+{ ca  gly C  51  B12.79 1ll4} blue L 51.384, 56.934, 71.790 
+{ ca  arg C  52  B16.84 1ll4} blue L 49.932, 60.429, 72.110 
+{ ca  gly C  53  B15.26 1ll4} blue L 52.699, 61.990, 70.004 
+{ ca  his C  54  B15.25 1ll4} blue L 52.794, 65.077, 72.215 
+{ ca  asn C  55  B18.51 1ll4} blue L 56.182, 66.636, 72.785 
+{ ca  pro C  56  B18.08 1ll4} blue L 57.097, 69.795, 74.885 
+{ ca  gln C  57  B18.77 1ll4} blue L 57.784, 71.681, 71.677 
+{ ca  asp C  58  B21.05 1ll4} blue L 54.069, 71.665, 70.859 
+{ ca  leu C  59  B19.13 1ll4} blue L 52.858, 73.382, 74.022 
+{ ca  lys C  60  B17.87 1ll4} blue L 51.239, 76.814, 73.329 
+{ ca  ala C  61  B15.11 1ll4} blue L 53.615, 78.155, 76.016 
+{ ca  asp C  62  B12.51 1ll4} blue L 52.292, 81.727, 75.822 
+{ ca  gln C  63  B10.60 1ll4} blue L 49.016, 80.378, 77.169 
+{ ca  phe C  64  B13.47 1ll4} blue L 50.599, 79.171, 80.463 
+{ ca  thr C  65  B15.21 1ll4} blue L 52.623, 80.289, 83.429 
+{ ca  his C  66  B16.42 1ll4} blue L 53.525, 76.827, 84.835 
+{ ca  ile C  67  B13.71 1ll4} blue L 54.286, 73.560, 83.092 
+{ ca  leu C  68  B15.42 1ll4} blue L 54.486, 70.747, 85.629 
+{ ca  tyr C  69  B18.51 1ll4} blue L 56.272, 67.609, 84.381 
+{ ca  ala C  70  B15.10 1ll4} blue L 54.779, 64.392, 85.673 
+{ ca  phe C  71  B13.95 1ll4} blue L 55.795, 62.060, 87.045 
+{ ca  ala C  72  B9.38 1ll4} blue L 58.841, 61.404, 89.128 
+{ ca  asn C  73  B10.83 1ll4} blue L 58.986, 58.358, 91.320 
+{ ca  ile C  74  B15.75 1ll4} blue L 60.336, 57.849, 94.885 
+{ ca  arg C  75  B15.72 1ll4} sky L 62.443, 54.946, 96.307 
+{ ca  pro C  76  B16.15 1ll4} sky L 61.968, 53.551, 99.950 
+{ ca  ser C  77  B16.19 1ll4} sky L 64.969, 55.618, 100.918 
+{ ca  gly C  78  B21.11 1ll4} sky L 63.126, 58.808, 100.129 
+{ ca  glu C  79  B22.85 1ll4} sky L 65.062, 59.081, 96.865 
+{ ca  val C  80  B17.51 1ll4} sky L 63.223, 60.868, 94.146 
+{ ca  tyr C  81  B12.29 1ll4} sky L 64.181, 59.672, 90.688 
+{ ca  leu C  82  B12.14 1ll4} sky L 63.129, 60.093, 87.080 
+{ ca  ser C  83  B16.08 1ll4} sky L 60.429, 57.758, 85.707 
+{ ca  asp C  84  B17.43 1ll4} sky L 61.636, 57.496, 82.171 
+{ ca  thr C  85  B16.32 1ll4} sky L 65.175, 58.672, 81.454 
+{ ca  trp C  86  B15.63 1ll4} sky L 64.494, 58.047, 77.719 
+{ ca  ala C  87  B17.70 1ll4} sky L 61.609, 60.572, 77.650 
+{ ca  asp C  88  B18.55 1ll4} sky L 63.150, 62.725, 80.372 
+{ ca  thr C  89  B21.54 1ll4} sky L 66.767, 63.074, 79.631 
+{ ca  asp C  90  B22.54 1ll4} sky L 68.167, 61.044, 76.788 
+{ ca  lys C  91  B20.15 1ll4} sky L 66.033, 61.161, 73.673 
+{ ca  his C  92  B17.24 1ll4} sky L 67.525, 63.437, 71.088 
+{ ca  tyr C  93  B16.53 1ll4} sky L 65.030, 65.767, 69.504 
+{ ca  pro C  94  B15.08 1ll4} sky L 65.611, 67.756, 66.254 
+{ ca  gly C  95  B16.61 1ll4} sky L 68.340, 70.145, 67.309 
+{ ca  asp C  96  B19.72 1ll4} sky L 70.283, 67.779, 69.503 
+{ ca  lys C  97  B16.32 1ll4} sky L 73.799, 67.070, 68.395 
+{ ca  trp C  98  B20.91 1ll4} sky L 74.270, 63.375, 69.066 
+{ ca  asp C  99  B27.15 1ll4} sky L 77.970, 63.756, 69.563 
+{ ca  glu C 100  B25.27 1ll4} sky L 78.921, 67.135, 71.270 
+{ ca  pro C 101  B20.16 1ll4} sky L 81.381, 68.003, 74.146 
+{ ca  gly C 102  B16.89 1ll4} sky L 80.259, 67.970, 77.765 
+{ ca  asn C 103  B22.57 1ll4} sky L 78.056, 65.877, 80.023 
+{ ca  asn C 104  B21.64 1ll4} sky L 74.676, 66.961, 78.550 
+{ ca  val C 105  B20.58 1ll4} sky L 70.836, 66.706, 79.072 
+{ ca  tyr C 106  B14.91 1ll4} sky L 68.403, 66.172, 76.266 
+{ ca  gly C 107  B20.75 1ll4} sky L 64.875, 64.626, 76.362 
+{ ca  cys C 108  B20.19 1ll4} sky L 61.863, 66.578, 77.458 
+{ ca  ile C 109  B15.96 1ll4} sky L 64.012, 68.288, 80.126 
+{ ca  lys C 110  B15.10 1ll4} sky L 66.107, 70.106, 77.472 
+{ ca  gln C 111  B16.53 1ll4} sky L 62.866, 70.855, 75.591 
+{ ca  met C 112  B12.76 1ll4} sky L 61.171, 72.342, 78.627 
+{ ca  tyr C 113  B10.40 1ll4} sky L 64.306, 74.460, 79.306 
+{ ca  leu C 114  B10.34 1ll4} cyan L 64.175, 75.687, 75.715 
+{ ca  leu C 115  B10.61 1ll4} cyan L 60.443, 76.448, 76.269 
+{ ca  lys C 116  B12.97 1ll4} cyan L 61.532, 78.466, 79.317 
+{ ca  lys C 117  B16.09 1ll4} cyan L 64.320, 80.376, 77.549 
+{ ca  asn C 118  B16.25 1ll4} cyan L 61.787, 81.452, 74.990 
+{ ca  asn C 119  B13.44 1ll4} cyan L 58.879, 82.104, 77.354 
+{ ca  arg C 120  B14.28 1ll4} cyan L 60.315, 83.827, 80.367 
+{ ca  asn C 121  B15.04 1ll4} cyan L 57.003, 83.928, 82.257 
+{ ca  leu C 122  B10.40 1ll4} cyan L 56.839, 80.130, 81.888 
+{ ca  lys C 123  B12.89 1ll4} cyan L 57.982, 78.271, 84.973 
+{ ca  thr C 124  B10.80 1ll4} cyan L 58.487, 74.502, 85.087 
+{ ca  leu C 125  B17.73 1ll4} cyan L 58.128, 72.211, 88.109 
+{ ca  leu C 126  B16.91 1ll4} cyan L 59.096, 68.497, 88.472 
+{ ca  ser C 127  B19.31 1ll4} cyan L 55.997, 66.659, 89.740 
+{ ca  ile C 128  B17.24 1ll4} cyan L 56.563, 63.671, 91.991 
+{ ca  gly C 129  B16.16 1ll4} cyan L 53.994, 60.975, 92.739 
+{ ca  gly C 130  B14.10 1ll4} cyan L 50.808, 60.353, 90.857 
+{ ca  trp C 131  B15.56 1ll4} cyan L 48.009, 57.858, 91.501 
+{ ca  thr C 132  B12.59 1ll4} cyan L 50.300, 55.057, 90.337 
+{ ca  tyr C 133  B10.72 1ll4} cyan L 53.364, 55.984, 92.534 
+{ ca  ser C 134  B8.90 1ll4} cyan L 51.566, 57.219, 95.686 
+{ ca  pro C 135  B10.25 1ll4} cyan L 51.716, 53.706, 97.384 
+{ ca  asn C 136  B11.29 1ll4} cyan L 55.336, 54.644, 97.830 
+{ ca  phe C 137  B19.53 1ll4} cyan L 55.172, 57.949, 99.660 
+{ ca  lys C 138  B18.27 1ll4} cyan L 54.296, 56.752, 103.250 
+{ ca  thr C 139  B15.16 1ll4} cyan L 57.466, 54.836, 104.152 
+{ ca  pro C 140  B18.07 1ll4} cyan L 60.072, 57.654, 103.436 
+{ ca  ala C 141  B18.69 1ll4} cyan L 57.676, 60.274, 104.744 
+{ ca  ser C 142  B11.08 1ll4} cyan L 57.517, 58.614, 108.163 
+{ ca  thr C 143  B14.03 1ll4} cyan L 61.167, 59.163, 108.952 
+{ ca  glu C 144  B15.57 1ll4} cyan L 63.419, 62.128, 109.143 
+{ ca  glu C 145  B16.48 1ll4} cyan L 65.987, 60.313, 107.017 
+{ ca  gly C 146  B12.14 1ll4} cyan L 63.379, 59.602, 104.385 
+{ ca  arg C 147  B8.57 1ll4} cyan L 62.092, 63.158, 104.225 
+{ ca  lys C 148  B10.89 1ll4} cyan L 65.629, 64.620, 104.280 
+{ ca  lys C 149  B14.39 1ll4} cyan L 66.517, 62.237, 101.461 
+{ ca  phe C 150  B12.80 1ll4} cyan L 63.336, 63.222, 99.561 
+{ ca  ala C 151  B13.11 1ll4} cyan L 64.130, 66.932, 99.992 
+{ ca  asp C 152  B17.80 1ll4} cyan L 67.731, 66.564, 98.903 
+{ ca  thr C 153  B18.25 1ll4} sea L 67.137, 64.367, 95.852 
+{ ca  ser C 154  B19.07 1ll4} sea L 64.263, 66.585, 94.719 
+{ ca  leu C 155  B20.26 1ll4} sea L 66.455, 69.708, 95.022 
+{ ca  lys C 156  B21.54 1ll4} sea L 69.312, 67.901, 93.238 
+{ ca  leu C 157  B16.90 1ll4} sea L 66.965, 67.037, 90.400 
+{ ca  met C 158  B14.52 1ll4} sea L 65.435, 70.541, 90.250 
+{ ca  lys C 159  B17.55 1ll4} sea L 68.774, 72.357, 90.163 
+{ ca  asp C 160  B20.87 1ll4} sea L 70.290, 69.838, 87.685 
+{ ca  leu C 161  B22.10 1ll4} sea L 67.455, 69.683, 85.216 
+{ ca  gly C 162  B16.69 1ll4} sea L 66.482, 73.393, 85.188 
+{ ca  phe C 163  B12.17 1ll4} sea L 63.233, 73.358, 87.131 
+{ ca  asp C 164  B15.43 1ll4} sea L 61.618, 76.280, 88.858 
+{ ca  gly C 165  B12.34 1ll4} sea L 60.391, 74.062, 91.690 
+{ ca  ile C 166  B12.60 1ll4} sea L 58.821, 70.784, 92.666 
+{ ca  asp C 167  B14.41 1ll4} sea L 55.256, 69.543, 93.002 
+{ ca  ile C 168  B16.31 1ll4} sea L 54.236, 66.551, 95.136 
+{ ca  asp C 169  B13.67 1ll4} sea L 51.181, 64.481, 94.252 
+{ ca  trp C 170  B14.22 1ll4} sea L 50.522, 62.086, 97.144 
+{ ca  glu C 171  B12.37 1ll4} sea L 47.162, 60.484, 96.666 
+{ ca  tyr C 172  B12.18 1ll4} sea L 46.433, 60.381, 99.470 
+{ ca  pro C 173  B16.53 1ll4} sea L 47.874, 60.553, 103.141 
+{ ca  glu C 174  B14.69 1ll4} sea L 45.514, 57.836, 104.376 
+{ ca  asp C 175  B13.95 1ll4} sea L 45.759, 58.409, 108.127 
+{ ca  glu C 176  B19.71 1ll4} sea L 46.552, 61.063, 110.745 
+{ ca  lys C 177  B15.08 1ll4} sea L 50.240, 60.162, 110.911 
+{ ca  gln C 178  B12.99 1ll4} sea L 50.666, 60.308, 107.147 
+{ ca  ala C 179  B11.24 1ll4} sea L 49.059, 63.758, 107.221 
+{ ca  asn C 180  B13.01 1ll4} sea L 51.508, 65.110, 109.807 
+{ ca  asp C 181  B18.17 1ll4} sea L 54.205, 63.401, 107.748 
+{ ca  phe C 182  B15.94 1ll4} sea L 52.996, 65.326, 104.735 
+{ ca  val C 183  B14.18 1ll4} sea L 53.343, 68.662, 106.608 
+{ ca  leu C 184  B10.15 1ll4} sea L 56.874, 67.690, 107.685 
+{ ca  leu C 185  B10.56 1ll4} sea L 57.814, 66.508, 104.204 
+{ ca  leu C 186  B12.66 1ll4} sea L 56.568, 69.791, 102.800 
+{ ca  lys C 187  B17.62 1ll4} sea L 58.680, 71.567, 105.390 
+{ ca  ala C 188  B22.30 1ll4} sea L 61.717, 69.479, 104.352 
+{ ca  cys C 189  B20.33 1ll4} sea L 61.259, 70.535, 100.733 
+{ ca  arg C 190  B14.88 1ll4} sea L 60.598, 74.212, 101.570 
+{ ca  glu C 191  B11.57 1ll4} sea L 63.740, 74.300, 103.701 
+{ ca  ala C 192  B11.47 1ll4} green L 65.675, 72.504, 100.929 
+{ ca  leu C 193  B18.59 1ll4} green L 64.754, 74.891, 98.120 
+{ ca  asp C 194  B18.40 1ll4} green L 65.233, 77.961, 100.315 
+{ ca  ala C 195  B18.90 1ll4} green L 68.763, 76.862, 101.306 
+{ ca  tyr C 196  B18.57 1ll4} green L 69.638, 76.716, 97.608 
+{ ca  ser C 197  B15.89 1ll4} green L 68.238, 80.200, 96.983 
+{ ca  ala C 198  B16.20 1ll4} green L 70.240, 81.440, 99.993 
+{ ca  lys C 199  B21.10 1ll4} green L 73.298, 80.013, 98.202 
+{ ca  his C 200  B20.51 1ll4} green L 72.353, 82.153, 95.137 
+{ ca  pro C 201  B16.52 1ll4} green L 70.850, 85.469, 96.307 
+{ ca  asn C 202  B14.10 1ll4} green L 71.067, 87.132, 92.871 
+{ ca  gly C 203  B14.28 1ll4} green L 69.038, 84.260, 91.457 
+{ ca  lys C 204  B16.70 1ll4} green L 65.406, 83.339, 92.056 
+{ ca  lys C 205  B13.75 1ll4} green L 63.267, 81.924, 94.830 
+{ ca  phe C 206  B9.87 1ll4} green L 61.853, 78.440, 94.010 
+{ ca  leu C 207  B14.47 1ll4} green L 58.339, 76.913, 93.919 
+{ ca  leu C 208  B19.83 1ll4} green L 56.728, 74.135, 95.969 
+{ ca  thr C 209  B20.87 1ll4} green L 53.195, 72.991, 95.162 
+{ ca  ile C 210  B15.62 1ll4} green L 50.929, 69.951, 95.594 
+{ ca  ala C 211  B15.64 1ll4} green L 48.136, 68.380, 93.595 
+{ ca  ser C 212  B16.45 1ll4} green L 45.313, 68.093, 96.157 
+{ ca  pro C 213  B14.46 1ll4} green L 41.979, 66.267, 96.885 
+{ ca  ala C 214  B16.16 1ll4} green L 38.573, 67.739, 96.040 
+{ ca  gly C 215  B13.19 1ll4} green L 36.828, 64.789, 97.759 
+{ ca  pro C 216  B16.47 1ll4} green L 35.923, 65.534, 101.440 
+{ ca  gln C 217  B19.87 1ll4} green L 36.905, 62.049, 102.672 
+{ ca  asn C 218  B18.42 1ll4} green L 40.457, 62.832, 101.653 
+{ ca  tyr C 219  B9.53 1ll4} green L 41.020, 66.541, 102.324 
+{ ca  asn C 220  B9.17 1ll4} green L 39.446, 66.263, 105.780 
+{ ca  lys C 221  B11.76 1ll4} green L 42.375, 64.143, 106.870 
+{ ca  leu C 222  B17.66 1ll4} green L 44.811, 66.776, 105.678 
+{ ca  lys C 223  B18.19 1ll4} green L 46.331, 69.489, 107.828 
+{ ca  leu C 224  B12.73 1ll4} green L 45.614, 72.004, 105.119 
+{ ca  ala C 225  B11.69 1ll4} green L 46.455, 75.274, 106.926 
+{ ca  glu C 226  B19.54 1ll4} green L 49.781, 74.032, 108.354 
+{ ca  met C 227  B15.02 1ll4} green L 50.617, 72.641, 104.910 
+{ ca  asp C 228  B14.73 1ll4} green L 49.731, 75.988, 103.292 
+{ ca  lys C 229  B10.42 1ll4} green L 52.562, 77.693, 105.115 
+{ ca  tyr C 230  B11.97 1ll4} green L 55.051, 75.932, 102.798 
+{ ca  leu C 231  B9.92 1ll4} lime L 53.292, 76.139, 99.519 
+{ ca  asp C 232  B17.07 1ll4} lime L 53.359, 78.513, 96.640 
+{ ca  phe C 233  B16.95 1ll4} lime L 49.869, 77.336, 95.595 
+{ ca  trp C 234  B16.08 1ll4} lime L 47.555, 74.324, 95.528 
+{ ca  asn C 235  B16.28 1ll4} lime L 46.388, 72.532, 92.365 
+{ ca  leu C 236  B17.65 1ll4} lime L 43.030, 71.271, 93.390 
+{ ca  met C 237  B20.70 1ll4} lime L 42.109, 68.139, 91.373 
+{ ca  ala C 238  B15.82 1ll4} lime L 38.490, 69.170, 90.960 
+{ ca  tyr C 239  B10.01 1ll4} lime L 37.669, 66.180, 88.760 
+{ ca  asp C 240  B8.59 1ll4} lime L 37.332, 62.369, 88.807 
+{ ca  phe C 241  B12.53 1ll4} lime L 34.150, 62.877, 90.792 
+{ ca  ser C 242  B14.63 1ll4} lime L 32.439, 60.179, 88.791 
+{ ca  gly C 243  B23.82 1ll4} lime L 33.759, 57.163, 86.824 
+{ ca  ser C 244  B21.35 1ll4} lime L 33.892, 53.304, 86.648 
+{ ca  trp C 245  B14.39 1ll4} lime L 33.797, 52.922, 90.338 
+{ ca  asp C 246  B18.02 1ll4} lime L 30.257, 54.326, 90.700 
+{ ca  lys C 247  B15.12 1ll4} lime L 26.803, 52.887, 90.182 
+{ ca  val C 248  B15.50 1ll4} lime L 25.055, 55.874, 88.564 
+{ ca  ser C 249  B14.98 1ll4} lime L 26.550, 58.088, 85.829 
+{ ca  gly C 250  B12.03 1ll4} lime L 27.499, 61.423, 87.337 
+{ ca  his C 251  B15.35 1ll4} lime L 29.181, 64.607, 86.578 
+{ ca  met C 252  B14.73 1ll4} lime L 32.934, 64.096, 86.935 
+{ ca  ser C 253  B17.21 1ll4} lime L 34.202, 67.659, 87.534 
+{ ca  asn C 254  B18.40 1ll4} lime L 31.061, 69.789, 88.193 
+{ ca  val C 255  B17.98 1ll4} lime L 31.358, 73.100, 90.000 
+{ ca  phe C 256  B13.80 1ll4} lime L 28.006, 73.040, 91.891 
+{ ca  pro C 257  B12.10 1ll4} lime L 25.702, 70.385, 93.424 
+{ ca  ser C 258  B16.99 1ll4} lime L 22.566, 69.571, 91.472 
+{ ca  thr C 259  B23.64 1ll4} lime L 19.666, 70.174, 93.877 
+{ ca  thr C 260  B24.26 1ll4} lime L 17.264, 68.824, 91.304 
+{ ca  lys C 261  B21.56 1ll4} lime L 19.227, 65.681, 90.673 
+{ ca  pro C 262  B21.35 1ll4} lime L 21.535, 64.893, 93.667 
+{ ca  glu C 263  B21.13 1ll4} lime L 22.518, 61.506, 92.245 
+{ ca  ser C 264  B19.11 1ll4} lime L 24.092, 63.237, 89.219 
+{ ca  thr C 265  B13.84 1ll4} lime L 26.532, 65.252, 91.380 
+{ ca  pro C 266  B12.17 1ll4} lime L 28.265, 63.141, 94.149 
+{ ca  phe C 267  B5.85 1ll4} lime L 30.960, 65.854, 94.492 
+{ ca  ser C 268  B8.14 1ll4} lime L 31.444, 69.497, 93.407 
+{ ca  ser C 269  B9.26 1ll4} lime L 34.443, 71.867, 93.084 
+{ ca  asp C 270  B17.01 1ll4} yellow L 32.604, 74.403, 95.260 
+{ ca  lys C 271  B11.25 1ll4} yellow L 32.373, 72.164, 98.280 
+{ ca  ala C 272  B14.25 1ll4} yellow L 36.165, 71.616, 98.134 
+{ ca  val C 273  B15.11 1ll4} yellow L 37.190, 75.266, 97.568 
+{ ca  lys C 274  B21.60 1ll4} yellow L 35.027, 76.799, 100.338 
+{ ca  asp C 275  B21.30 1ll4} yellow L 36.093, 73.910, 102.652 
+{ ca  tyr C 276  B17.82 1ll4} yellow L 39.781, 74.710, 102.044 
+{ ca  ile C 277  B18.15 1ll4} yellow L 38.955, 78.381, 102.662 
+{ ca  lys C 278  B18.35 1ll4} yellow L 37.141, 77.602, 105.959 
+{ ca  ala C 279  B17.82 1ll4} yellow L 40.249, 75.466, 106.733 
+{ ca  gly C 280  B20.50 1ll4} yellow L 42.391, 78.515, 106.173 
+{ ca  val C 281  B18.84 1ll4} yellow L 43.900, 78.246, 102.700 
+{ ca  pro C 282  B14.24 1ll4} yellow L 43.918, 81.653, 100.933 
+{ ca  ala C 283  B15.24 1ll4} yellow L 41.611, 81.310, 97.887 
+{ ca  asn C 284  B16.79 1ll4} yellow L 44.103, 83.091, 95.669 
+{ ca  lys C 285  B11.57 1ll4} yellow L 46.440, 80.127, 96.376 
+{ ca  ile C 286  B8.56 1ll4} yellow L 43.848, 77.537, 95.203 
+{ ca  val C 287  B7.53 1ll4} yellow L 44.236, 76.834, 91.472 
+{ ca  leu C 288  B14.49 1ll4} yellow L 41.091, 75.079, 90.132 
+{ ca  gly C 289  B21.47 1ll4} yellow L 41.964, 71.856, 88.277 
+{ ca  met C 290  B17.76 1ll4} yellow L 40.028, 71.170, 85.086 
+{ ca  pro C 291  B14.60 1ll4} yellow L 40.203, 67.965, 83.022 
+{ ca  leu C 292  B14.45 1ll4} yellow L 41.145, 67.929, 79.347 
+{ ca  tyr C 293  B11.19 1ll4} yellow L 39.695, 64.366, 79.079 
+{ ca  gly C 294  B15.44 1ll4} yellow L 36.198, 62.987, 79.810 
+{ ca  arg C 295  B14.70 1ll4} yellow L 34.834, 59.970, 81.697 
+{ ca  ala C 296  B14.95 1ll4} yellow L 32.406, 57.632, 79.964 
+{ ca  phe C 297  B19.77 1ll4} yellow L 29.543, 55.368, 81.094 
+{ ca  ala C 298  B22.74 1ll4} yellow L 28.004, 52.486, 79.057 
+{ ca  ser C 299  B19.60 1ll4} yellow L 24.357, 51.161, 79.090 
+{ ca  thr C 300  B19.17 1ll4} yellow L 22.934, 54.330, 80.516 
+{ ca  asp C 301  B23.10 1ll4} yellow L 19.721, 56.262, 79.903 
+{ ca  gly C 302  B24.08 1ll4} yellow L 21.554, 59.382, 80.958 
+{ ca  ile C 303  B21.32 1ll4} yellow L 23.050, 61.397, 83.717 
+{ ca  gly C 304  B21.90 1ll4} yellow L 22.074, 60.085, 87.104 
+{ ca  thr C 305  B17.80 1ll4} yellow L 20.945, 56.662, 85.823 
+{ ca  ser C 306  B18.25 1ll4} yellow L 22.768, 53.291, 86.205 
+{ ca  phe C 307  B13.99 1ll4} yellow L 25.380, 52.173, 83.692 
+{ ca  asn C 308  B10.90 1ll4} yellow L 27.251, 48.921, 83.223 
+{ ca  gly C 309  B15.70 1ll4} gold L 30.665, 49.225, 81.703 
+{ ca  val C 310  B12.11 1ll4} gold L 32.426, 52.371, 80.604 
+{ ca  gly C 311  B14.84 1ll4} gold L 33.360, 51.382, 77.015 
+{ ca  gly C 312  B14.84 1ll4} gold L 36.589, 52.271, 75.347 
+{ ca  gly C 313  B22.56 1ll4} gold L 38.599, 55.428, 75.570 
+{ ca  ser C 314  B20.59 1ll4} gold L 41.231, 57.315, 73.656 
+{ ca  trp C 315  B15.25 1ll4} gold L 44.078, 55.614, 75.552 
+{ ca  glu C 316  B17.11 1ll4} gold L 42.490, 53.645, 78.405 
+{ ca  asn C 317  B17.76 1ll4} gold L 38.891, 52.384, 78.952 
+{ ca  gly C 318  B16.33 1ll4} gold L 36.259, 54.857, 80.123 
+{ ca  val C 319  B13.56 1ll4} gold L 38.486, 57.916, 79.498 
+{ ca  trp C 320  B14.02 1ll4} gold L 38.345, 60.009, 76.263 
+{ ca  asp C 321  B17.36 1ll4} gold L 40.559, 62.942, 75.214 
+{ ca  tyr C 322  B13.13 1ll4} gold L 38.526, 66.109, 74.946 
+{ ca  lys C 323  B7.70 1ll4} gold L 39.824, 66.641, 71.351 
+{ ca  asp C 324  B17.52 1ll4} gold L 37.991, 63.482, 70.397 
+{ ca  met C 325  B19.46 1ll4} gold L 34.818, 64.938, 71.732 
+{ ca  pro C 326  B13.63 1ll4} gold L 32.129, 65.129, 70.558 
+{ ca  gln C 327  B14.55 1ll4} gold L 31.650, 61.645, 69.211 
+{ ca  gln C 328  B20.78 1ll4} gold L 29.406, 61.068, 66.240 
+{ ca  gly C 329  B24.09 1ll4} gold L 25.780, 60.499, 67.103 
+{ ca  ala C 330  B21.50 1ll4} gold L 25.934, 61.980, 70.640 
+{ ca  gln C 331  B20.89 1ll4} gold L 24.131, 65.163, 71.656 
+{ ca  val C 332  B19.12 1ll4} gold L 25.933, 67.423, 74.013 
+{ ca  thr C 333  B14.97 1ll4} gold L 24.102, 68.771, 77.037 
+{ ca  glu C 334  B13.28 1ll4} gold L 25.546, 71.850, 78.849 
+{ ca  leu C 335  B9.76 1ll4} gold L 24.225, 72.574, 82.307 
+{ ca  glu C 336  B12.30 1ll4} gold L 25.595, 76.040, 82.958 
+{ ca  asp C 337  B17.36 1ll4} gold L 24.113, 76.565, 86.422 
+{ ca  ile C 338  B20.30 1ll4} gold L 26.225, 73.774, 87.932 
+{ ca  ala C 339  B19.58 1ll4} gold L 28.869, 74.165, 85.199 
+{ ca  ala C 340  B13.33 1ll4} gold L 28.787, 70.650, 83.915 
+{ ca  ser C 341  B18.94 1ll4} gold L 28.364, 69.067, 80.451 
+{ ca  tyr C 342  B21.12 1ll4} gold L 28.278, 65.637, 78.794 
+{ ca  ser C 343  B18.58 1ll4} gold L 27.713, 63.895, 75.481 
+{ ca  tyr C 344  B13.85 1ll4} gold L 25.165, 61.110, 75.360 
+{ ca  asp C 345  B15.72 1ll4} gold L 24.375, 58.775, 72.453 
+{ ca  lys C 346  B14.76 1ll4} gold L 20.719, 57.737, 72.759 
+{ ca  asn C 347  B15.65 1ll4} gold L 21.224, 54.686, 70.490 
+{ ca  lys C 348  B8.95 1ll4} orange L 24.479, 53.274, 71.963 
+{ ca  arg C 349  B13.65 1ll4} orange L 23.302, 54.385, 75.466 
+{ ca  tyr C 350  B16.91 1ll4} orange L 26.720, 55.910, 76.217 
+{ ca  leu C 351  B18.11 1ll4} orange L 27.432, 58.984, 78.382 
+{ ca  ile C 352  B8.83 1ll4} orange L 30.802, 60.895, 78.433 
+{ ca  ser C 353  B14.26 1ll4} orange L 31.187, 63.547, 81.121 
+{ ca  tyr C 354  B17.73 1ll4} orange L 33.552, 66.299, 79.843 
+{ ca  asp C 355  B11.48 1ll4} orange L 33.689, 70.137, 79.660 
+{ ca  thr C 356  B13.15 1ll4} orange L 32.722, 72.142, 76.636 
+{ ca  val C 357  B14.66 1ll4} orange L 33.969, 75.754, 75.989 
+{ ca  lys C 358  B16.92 1ll4} orange L 30.765, 77.142, 77.475 
+{ ca  ile C 359  B19.00 1ll4} orange L 31.467, 75.139, 80.620 
+{ ca  ala C 360  B20.65 1ll4} orange L 35.172, 76.064, 80.709 
+{ ca  gly C 361  B17.27 1ll4} orange L 33.976, 79.665, 80.512 
+{ ca  lys C 362  B13.93 1ll4} orange L 31.672, 79.152, 83.500 
+{ ca  lys C 363  B11.54 1ll4} orange L 34.678, 77.646, 85.331 
+{ ca  ala C 364  B7.07 1ll4} orange L 36.842, 80.699, 84.461 
+{ ca  glu C 365  B11.44 1ll4} orange L 33.920, 82.740, 85.791 
+{ ca  tyr C 366  B11.75 1ll4} orange L 34.012, 80.942, 89.125 
+{ ca  ile C 367  B11.89 1ll4} orange L 37.816, 81.402, 89.358 
+{ ca  thr C 368  B10.80 1ll4} orange L 37.582, 85.226, 88.802 
+{ ca  lys C 369  B10.93 1ll4} orange L 34.354, 85.689, 90.795 
+{ ca  asn C 370  B10.82 1ll4} orange L 35.820, 83.890, 93.796 
+{ ca  gly C 371  B14.67 1ll4} orange L 39.319, 85.379, 93.484 
+{ ca  met C 372  B17.72 1ll4} orange L 41.005, 82.015, 93.189 
+{ ca  gly C 373  B8.85 1ll4} orange L 44.625, 81.390, 92.044 
+{ ca  gly C 374  B4.64 1ll4} orange L 43.812, 80.429, 88.427 
+{ ca  gly C 375  B10.72 1ll4} orange L 43.256, 77.302, 86.417 
+{ ca  met C 376  B15.94 1ll4} orange L 45.107, 74.023, 86.226 
+{ ca  trp C 377  B16.41 1ll4} orange L 44.743, 71.351, 83.503 
+{ ca  trp C 378  B8.81 1ll4} orange L 45.434, 67.576, 83.381 
+{ ca  glu C 379  B2.06 1ll4} orange L 46.798, 67.065, 80.905 
+{ ca  ser C 380  B9.54 1ll4} orange L 48.327, 68.989, 77.949 
+{ ca  ser C 381  B12.35 1ll4} orange L 47.772, 66.594, 74.978 
+{ ca  ser C 382  B14.06 1ll4} orange L 44.088, 66.032, 75.104 
+{ ca  asp C 383  B14.78 1ll4} orange L 43.070, 69.624, 74.490 
+{ ca  lys C 384  B13.57 1ll4} orange L 41.897, 71.116, 71.245 
+{ ca  thr C 385  B18.31 1ll4} orange L 43.347, 74.216, 69.650 
+{ ca  gly C 386  B22.65 1ll4} orange L 42.090, 77.547, 68.369 
+{ ca  asn C 387  B27.89 1ll4} red L 38.618, 78.667, 69.251 
+{ ca  glu C 388  B20.31 1ll4} red L 37.938, 75.229, 70.701 
+{ ca  ser C 389  B12.09 1ll4} red L 40.828, 75.263, 73.197 
+{ ca  leu C 390  B11.54 1ll4} red L 39.349, 74.781, 76.667 
+{ ca  val C 391  B13.77 1ll4} red L 42.488, 76.366, 78.089 
+{ ca  gly C 392  B11.94 1ll4} red L 42.230, 79.235, 75.582 
+{ ca  thr C 393  B12.79 1ll4} red L 38.678, 79.738, 76.740 
+{ ca  val C 394  B17.50 1ll4} red L 39.694, 79.917, 80.431 
+{ ca  val C 395  B17.19 1ll4} red L 42.619, 82.316, 79.872 
+{ ca  asn C 396  B19.25 1ll4} red L 40.322, 84.696, 77.962 
+{ ca  gly C 397  B10.94 1ll4} red L 37.618, 84.536, 80.701 
+{ ca  leu C 398  B14.96 1ll4} red L 40.481, 85.297, 83.080 
+{ ca  gly C 399  B13.91 1ll4} red L 40.959, 88.522, 81.107 
+{ ca  gly C 400  B17.09 1ll4} red L 43.473, 87.092, 78.679 
+{ ca  thr C 401  B13.37 1ll4} red L 47.198, 86.599, 79.228 
+{ ca  gly C 402  B10.15 1ll4} red L 47.568, 90.147, 80.521 
+{ ca  lys C 403  B15.62 1ll4} red L 45.813, 88.993, 83.668 
+{ ca  leu C 404  B11.49 1ll4} red L 48.150, 86.037, 84.185 
+{ ca  glu C 405  B14.06 1ll4} red L 50.659, 86.104, 87.063 
+{ ca  gln C 406  B20.61 1ll4} red L 53.910, 87.679, 85.891 
+{ ca  arg C 407  B21.56 1ll4} red L 56.712, 85.817, 87.663 
+{ ca  glu C 408  B20.36 1ll4} red L 59.892, 85.477, 85.682 
+{ ca  asn C 409  B16.88 1ll4} red L 61.420, 82.010, 85.627 
+{ ca  glu C 410  B10.54 1ll4} red L 64.924, 80.879, 86.414 
+{ ca  leu C 411  B13.62 1ll4} red L 67.373, 80.338, 83.618 
+{ ca  ser C 412  B13.28 1ll4} red L 70.544, 80.169, 85.689 
+{ ca  tyr C 413  B16.24 1ll4} red L 71.452, 76.759, 87.098 
+{ ca  pro C 414  B14.89 1ll4} red L 75.067, 77.284, 88.294 
+{ ca  glu C 415  B10.19 1ll4} red L 75.321, 73.936, 90.110 
+{ ca  ser C 416  B16.25 1ll4} red L 73.987, 71.781, 87.242 
+{ ca  val C 417  B15.48 1ll4} red L 75.730, 68.595, 86.622 
+{ ca  tyr C 418  B12.79 1ll4} red L 74.957, 69.014, 82.881 
+{ ca  asp C 419  B14.51 1ll4} red L 77.111, 71.370, 80.880 
+{ ca  asn C 420  B16.54 1ll4} red L 74.724, 72.444, 78.167 
+{ ca  leu C 421  B16.08 1ll4} red L 72.063, 73.201, 80.842 
+{ ca  lys C 422  B19.08 1ll4} red L 74.609, 74.927, 83.150 
+{ ca  asn C 423  B18.10 1ll4} red L 75.628, 77.083, 80.263 
+{ ca  gly C 424  B14.87 1ll4} red L 72.004, 77.999, 79.532 
+{ ca  met C 425  B12.30 1ll4} red L 71.942, 75.840, 76.427 
+{ ca  pro C 426  B14.88 1ll4} red L 73.873, 77.491, 73.540 
+{ ca  ser C 427  B35.31 1ll4} red L 73.930, 75.681, 70.250 
+
+@group {1ll4} dominant
+@subgroup {mainchain} 
+@vectorlist {Calphas} color= pinktint  master= {Calphas} 
+{ ca  gly D  36  B21.11 1ll4} P 47.906, 14.823, 93.594 { ca  gly D  36  B21.11 1ll4} blue L 47.906, 14.823, 93.594
+{ ca  gly D  37  B16.83 1ll4} blue L 50.290, 16.055, 90.845 
+{ ca  phe D  38  B15.43 1ll4} blue L 51.565, 19.541, 90.097 
+{ ca  arg D  39  B10.04 1ll4} blue L 49.524, 22.578, 89.157 
+{ ca  ser D  40  B13.22 1ll4} blue L 50.247, 24.570, 86.049 
+{ ca  val D  41  B13.45 1ll4} blue L 48.641, 27.970, 86.511 
+{ ca  val D  42  B12.31 1ll4} blue L 48.718, 30.835, 83.989 
+{ ca  tyr D  43  B5.56 1ll4} blue L 47.093, 34.237, 84.067 
+{ ca  phe D  44  B9.71 1ll4} blue L 45.135, 35.483, 81.047 
+{ ca  val D  45  B12.90 1ll4} blue L 44.942, 39.197, 81.241 
+{ ca  asn D  46  B11.89 1ll4} blue L 41.835, 41.067, 80.083 
+{ ca  trp D  47  B15.01 1ll4} blue L 43.805, 43.577, 78.093 
+{ ca  ala D  48  B16.99 1ll4} blue L 45.922, 41.136, 76.009 
+{ ca  ile D  49  B17.97 1ll4} blue L 43.171, 41.050, 73.388 
+{ ca  tyr D  50  B14.04 1ll4} blue L 44.164, 44.609, 72.439 
+{ ca  gly D  51  B15.91 1ll4} blue L 47.786, 45.499, 71.596 
+{ ca  arg D  52  B18.14 1ll4} blue L 49.230, 42.081, 72.391 
+{ ca  gly D  53  B15.84 1ll4} blue L 46.759, 40.320, 70.076 
+{ ca  his D  54  B13.98 1ll4} blue L 46.444, 37.374, 72.491 
+{ ca  asn D  55  B19.74 1ll4} blue L 43.019, 35.800, 72.756 
+{ ca  pro D  56  B23.62 1ll4} blue L 41.901, 32.783, 74.976 
+{ ca  gln D  57  B20.17 1ll4} blue L 41.632, 30.651, 71.845 
+{ ca  asp D  58  B17.90 1ll4} blue L 45.408, 30.709, 71.493 
+{ ca  leu D  59  B14.96 1ll4} blue L 46.256, 29.250, 74.886 
+{ ca  lys D  60  B15.03 1ll4} blue L 47.981, 25.796, 74.661 
+{ ca  ala D  61  B14.77 1ll4} blue L 45.312, 24.599, 77.117 
+{ ca  asp D  62  B10.11 1ll4} blue L 46.696, 21.063, 77.348 
+{ ca  gln D  63  B11.45 1ll4} blue L 49.764, 22.559, 78.978 
+{ ca  phe D  64  B11.89 1ll4} blue L 47.773, 23.960, 81.969 
+{ ca  thr D  65  B12.18 1ll4} blue L 45.422, 23.043, 84.744 
+{ ca  his D  66  B9.69 1ll4} blue L 44.283, 26.555, 85.755 
+{ ca  ile D  67  B11.56 1ll4} blue L 43.720, 29.673, 83.705 
+{ ca  leu D  68  B16.01 1ll4} blue L 43.169, 32.663, 85.979 
+{ ca  tyr D  69  B16.35 1ll4} blue L 41.513, 35.663, 84.297 
+{ ca  ala D  70  B9.79 1ll4} blue L 42.794, 38.997, 85.532 
+{ ca  phe D  71  B13.80 1ll4} blue L 41.585, 41.395, 86.581 
+{ ca  ala D  72  B13.09 1ll4} blue L 38.292, 42.131, 88.238 
+{ ca  asn D  73  B14.42 1ll4} blue L 37.859, 45.333, 90.156 
+{ ca  ile D  74  B15.83 1ll4} blue L 36.078, 46.065, 93.497 
+{ ca  arg D  75  B10.96 1ll4} sky L 33.782, 49.025, 94.421 
+{ ca  pro D  76  B7.91 1ll4} sky L 33.784, 50.675, 97.987 
+{ ca  ser D  77  B14.38 1ll4} sky L 30.706, 48.626, 98.725 
+{ ca  gly D  78  B20.15 1ll4} sky L 32.654, 45.425, 98.393 
+{ ca  glu D  79  B23.17 1ll4} sky L 31.151, 44.894, 94.957 
+{ ca  val D  80  B16.33 1ll4} sky L 33.326, 42.936, 92.627 
+{ ca  tyr D  81  B12.57 1ll4} sky L 32.794, 43.849, 88.991 
+{ ca  leu D  82  B15.22 1ll4} sky L 34.291, 43.208, 85.590 
+{ ca  ser D  83  B20.85 1ll4} sky L 37.103, 45.512, 84.384 
+{ ca  asp D  84  B15.98 1ll4} sky L 36.346, 45.497, 80.701 
+{ ca  thr D  85  B14.58 1ll4} sky L 32.935, 44.209, 79.653 
+{ ca  trp D  86  B12.78 1ll4} sky L 34.071, 44.551, 76.006 
+{ ca  ala D  87  B15.25 1ll4} sky L 36.968, 42.102, 76.464 
+{ ca  asp D  88  B15.83 1ll4} sky L 35.120, 40.123, 79.147 
+{ ca  thr D  89  B17.05 1ll4} sky L 31.621, 39.628, 77.989 
+{ ca  asp D  90  B16.03 1ll4} sky L 30.567, 41.429, 74.841 
+{ ca  lys D  91  B19.24 1ll4} sky L 33.065, 41.130, 72.036 
+{ ca  his D  92  B22.61 1ll4} sky L 31.939, 38.650, 69.457 
+{ ca  tyr D  93  B18.94 1ll4} sky L 34.637, 36.263, 68.363 
+{ ca  pro D  94  B18.29 1ll4} sky L 34.481, 34.052, 65.225 
+{ ca  gly D  95  B22.94 1ll4} sky L 31.675, 31.693, 66.132 
+{ ca  asp D  96  B26.66 1ll4} sky L 29.447, 34.167, 67.880 
+{ ca  lys D  97  B31.36 1ll4} sky L 26.074, 34.699, 66.311 
+{ ca  trp D  98  B33.45 1ll4} sky L 25.490, 38.424, 66.636 
+{ ca  asp D  99  B32.32 1ll4} sky L 21.762, 38.004, 66.698 
+{ ca  glu D 100  B29.31 1ll4} sky L 20.639, 34.729, 68.516 
+{ ca  pro D 101  B23.63 1ll4} sky L 17.867, 34.025, 71.130 
+{ ca  gly D 102  B20.56 1ll4} sky L 18.521, 34.317, 74.856 
+{ ca  asn D 103  B19.99 1ll4} sky L 20.421, 36.635, 77.188 
+{ ca  asn D 104  B20.12 1ll4} sky L 23.964, 35.535, 76.238 
+{ ca  val D 105  B17.13 1ll4} sky L 27.704, 35.870, 77.192 
+{ ca  tyr D 106  B20.53 1ll4} sky L 30.462, 36.292, 74.692 
+{ ca  gly D 107  B15.31 1ll4} sky L 33.927, 37.899, 75.104 
+{ ca  cys D 108  B15.77 1ll4} sky L 36.806, 36.094, 76.683 
+{ ca  ile D 109  B20.50 1ll4} sky L 34.368, 34.534, 79.188 
+{ ca  lys D 110  B23.06 1ll4} sky L 32.631, 32.480, 76.442 
+{ ca  gln D 111  B23.51 1ll4} sky L 36.092, 31.679, 75.033 
+{ ca  met D 112  B17.90 1ll4} sky L 37.418, 30.429, 78.348 
+{ ca  tyr D 113  B13.21 1ll4} sky L 34.265, 28.308, 78.788 
+{ ca  leu D 114  B9.29 1ll4} cyan L 34.841, 26.833, 75.340 
+{ ca  leu D 115  B16.95 1ll4} cyan L 38.487, 26.183, 76.410 
+{ ca  lys D 116  B17.88 1ll4} cyan L 37.045, 24.368, 79.437 
+{ ca  lys D 117  B21.38 1ll4} cyan L 34.518, 22.281, 77.494 
+{ ca  asn D 118  B23.35 1ll4} cyan L 37.373, 21.075, 75.330 
+{ ca  asn D 119  B17.63 1ll4} cyan L 39.971, 20.646, 78.087 
+{ ca  arg D 120  B13.52 1ll4} cyan L 38.197, 19.104, 81.023 
+{ ca  asn D 121  B13.10 1ll4} cyan L 41.253, 19.217, 83.285 
+{ ca  leu D 122  B11.86 1ll4} cyan L 41.407, 22.983, 82.682 
+{ ca  lys D 123  B12.07 1ll4} cyan L 39.863, 25.043, 85.459 
+{ ca  thr D 124  B11.22 1ll4} cyan L 39.320, 28.797, 85.234 
+{ ca  leu D 125  B16.60 1ll4} cyan L 39.279, 31.312, 88.097 
+{ ca  leu D 126  B20.49 1ll4} cyan L 38.224, 35.014, 88.082 
+{ ca  ser D 127  B17.74 1ll4} cyan L 41.114, 37.004, 89.550 
+{ ca  ile D 128  B13.79 1ll4} cyan L 40.238, 40.138, 91.504 
+{ ca  gly D 129  B6.87 1ll4} cyan L 42.665, 42.917, 92.367 
+{ ca  gly D 130  B13.00 1ll4} cyan L 46.057, 43.473, 90.861 
+{ ca  trp D 131  B16.76 1ll4} cyan L 48.728, 46.067, 91.635 
+{ ca  thr D 132  B15.65 1ll4} cyan L 46.556, 48.713, 90.005 
+{ ca  tyr D 133  B12.93 1ll4} cyan L 43.252, 47.908, 91.874 
+{ ca  ser D 134  B12.18 1ll4} cyan L 44.680, 46.941, 95.294 
+{ ca  pro D 135  B12.72 1ll4} cyan L 44.265, 50.548, 96.708 
+{ ca  asn D 136  B15.55 1ll4} cyan L 40.639, 49.562, 96.767 
+{ ca  phe D 137  B10.42 1ll4} cyan L 40.613, 46.412, 98.845 
+{ ca  lys D 138  B9.46 1ll4} cyan L 41.026, 47.871, 102.411 
+{ ca  thr D 139  B17.40 1ll4} cyan L 37.746, 49.787, 102.763 
+{ ca  pro D 140  B16.20 1ll4} cyan L 35.266, 46.874, 101.955 
+{ ca  ala D 141  B19.01 1ll4} cyan L 37.536, 44.419, 103.736 
+{ ca  ser D 142  B18.22 1ll4} cyan L 37.238, 46.321, 107.020 
+{ ca  thr D 143  B14.50 1ll4} cyan L 33.525, 45.748, 107.384 
+{ ca  glu D 144  B14.99 1ll4} cyan L 31.323, 42.745, 107.535 
+{ ca  glu D 145  B20.08 1ll4} cyan L 29.004, 44.370, 104.983 
+{ ca  gly D 146  B16.75 1ll4} cyan L 31.893, 44.941, 102.633 
+{ ca  arg D 147  B19.10 1ll4} cyan L 33.234, 41.406, 102.896 
+{ ca  lys D 148  B20.33 1ll4} cyan L 29.748, 39.857, 102.632 
+{ ca  lys D 149  B20.68 1ll4} cyan L 29.163, 42.030, 99.552 
+{ ca  phe D 150  B18.45 1ll4} cyan L 32.577, 40.975, 98.139 
+{ ca  ala D 151  B19.95 1ll4} cyan L 31.793, 37.279, 98.734 
+{ ca  asp D 152  B16.33 1ll4} cyan L 28.328, 37.530, 97.193 
+{ ca  thr D 153  B12.22 1ll4} sea L 29.276, 39.491, 94.091 
+{ ca  ser D 154  B13.81 1ll4} sea L 32.271, 37.257, 93.487 
+{ ca  leu D 155  B19.55 1ll4} sea L 30.116, 34.137, 93.747 
+{ ca  lys D 156  B22.06 1ll4} sea L 27.468, 35.725, 91.491 
+{ ca  leu D 157  B15.00 1ll4} sea L 30.152, 36.434, 88.897 
+{ ca  met D 158  B13.99 1ll4} sea L 31.732, 32.967, 89.201 
+{ ca  lys D 159  B12.30 1ll4} sea L 28.458, 31.072, 88.843 
+{ ca  asp D 160  B13.44 1ll4} sea L 27.214, 33.383, 86.023 
+{ ca  leu D 161  B15.85 1ll4} sea L 30.337, 33.429, 83.905 
+{ ca  gly D 162  B14.05 1ll4} sea L 31.353, 29.759, 84.280 
+{ ca  phe D 163  B15.74 1ll4} sea L 34.346, 29.986, 86.590 
+{ ca  asp D 164  B10.95 1ll4} sea L 35.759, 27.235, 88.707 
+{ ca  gly D 165  B7.01 1ll4} sea L 36.600, 29.666, 91.487 
+{ ca  ile D 166  B14.84 1ll4} sea L 38.002, 33.029, 92.419 
+{ ca  asp D 167  B18.15 1ll4} sea L 41.486, 34.376, 93.100 
+{ ca  ile D 168  B20.75 1ll4} sea L 42.187, 37.543, 95.103 
+{ ca  asp D 169  B16.26 1ll4} sea L 45.318, 39.588, 94.444 
+{ ca  trp D 170  B13.47 1ll4} sea L 45.572, 42.198, 97.234 
+{ ca  glu D 171  B14.49 1ll4} sea L 48.964, 43.835, 97.052 
+{ ca  tyr D 172  B14.79 1ll4} sea L 49.327, 44.159, 99.905 
+{ ca  pro D 173  B16.62 1ll4} sea L 47.446, 44.213, 103.370 
+{ ca  glu D 174  B18.28 1ll4} sea L 49.612, 47.069, 104.683 
+{ ca  asp D 175  B16.52 1ll4} sea L 48.899, 46.753, 108.411 
+{ ca  glu D 176  B14.72 1ll4} sea L 47.825, 44.279, 111.109 
+{ ca  lys D 177  B10.16 1ll4} sea L 44.143, 45.112, 110.747 
+{ ca  gln D 178  B13.14 1ll4} sea L 44.180, 44.682, 106.965 
+{ ca  ala D 179  B17.10 1ll4} sea L 45.812, 41.291, 107.502 
+{ ca  asn D 180  B21.91 1ll4} sea L 43.070, 40.076, 109.863 
+{ ca  asp D 181  B19.62 1ll4} sea L 40.638, 41.560, 107.377 
+{ ca  phe D 182  B14.73 1ll4} sea L 42.233, 39.462, 104.688 
+{ ca  val D 183  B12.56 1ll4} sea L 41.689, 36.267, 106.723 
+{ ca  leu D 184  B9.86 1ll4} sea L 38.043, 37.228, 107.299 
+{ ca  leu D 185  B11.75 1ll4} sea L 37.535, 38.150, 103.648 
+{ ca  leu D 186  B9.11 1ll4} sea L 38.966, 34.785, 102.641 
+{ ca  lys D 187  B9.62 1ll4} sea L 36.589, 33.162, 105.085 
+{ ca  ala D 188  B14.04 1ll4} sea L 33.691, 35.119, 103.531 
+{ ca  cys D 189  B12.99 1ll4} sea L 34.587, 33.807, 100.083 
+{ ca  arg D 190  B12.87 1ll4} sea L 35.176, 30.224, 101.267 
+{ ca  glu D 191  B15.28 1ll4} sea L 31.803, 30.212, 102.988 
+{ ca  ala D 192  B8.68 1ll4} green L 30.195, 31.772, 99.896 
+{ ca  leu D 193  B4.79 1ll4} green L 31.495, 29.204, 97.406 
+{ ca  asp D 194  B11.93 1ll4} green L 30.782, 26.288, 99.718 
+{ ca  ala D 195  B11.29 1ll4} green L 27.142, 27.385, 100.193 
+{ ca  tyr D 196  B17.64 1ll4} green L 26.721, 27.246, 96.424 
+{ ca  ser D 197  B19.86 1ll4} green L 28.235, 23.756, 96.239 
+{ ca  ala D 198  B13.31 1ll4} green L 25.893, 22.688, 99.063 
+{ ca  lys D 199  B15.33 1ll4} green L 23.074, 23.918, 96.805 
+{ ca  his D 200  B17.66 1ll4} green L 24.413, 21.610, 94.040 
+{ ca  pro D 201  B17.32 1ll4} green L 25.786, 18.404, 95.617 
+{ ca  asn D 202  B12.85 1ll4} green L 26.014, 16.500, 92.320 
+{ ca  gly D 203  B13.33 1ll4} green L 28.179, 19.284, 90.942 
+{ ca  lys D 204  B15.86 1ll4} green L 31.694, 20.336, 91.930 
+{ ca  lys D 205  B14.89 1ll4} green L 33.464, 21.979, 94.839 
+{ ca  phe D 206  B12.14 1ll4} green L 34.922, 25.435, 93.932 
+{ ca  leu D 207  B13.73 1ll4} green L 38.399, 27.028, 94.166 
+{ ca  leu D 208  B14.20 1ll4} green L 39.718, 29.983, 96.184 
+{ ca  thr D 209  B20.49 1ll4} green L 43.305, 31.127, 95.739 
+{ ca  ile D 210  B21.78 1ll4} green L 45.468, 34.246, 96.226 
+{ ca  ala D 211  B16.72 1ll4} green L 48.468, 35.717, 94.464 
+{ ca  ser D 212  B14.40 1ll4} green L 50.949, 36.230, 97.323 
+{ ca  pro D 213  B13.42 1ll4} green L 54.150, 38.207, 98.323 
+{ ca  ala D 214  B17.34 1ll4} green L 57.639, 36.730, 98.019 
+{ ca  gly D 215  B17.19 1ll4} green L 59.117, 39.855, 99.716 
+{ ca  pro D 216  B21.27 1ll4} green L 59.569, 39.359, 103.527 
+{ ca  gln D 217  B22.79 1ll4} green L 58.405, 42.918, 104.366 
+{ ca  asn D 218  B18.45 1ll4} green L 55.006, 41.990, 102.978 
+{ ca  tyr D 219  B17.88 1ll4} green L 54.403, 38.331, 103.846 
+{ ca  asn D 220  B17.18 1ll4} green L 55.553, 38.885, 107.452 
+{ ca  lys D 221  B16.26 1ll4} green L 52.489, 41.020, 107.998 
+{ ca  leu D 222  B13.29 1ll4} green L 50.238, 38.254, 106.724 
+{ ca  lys D 223  B15.86 1ll4} green L 48.529, 35.664, 108.857 
+{ ca  leu D 224  B17.01 1ll4} green L 49.591, 32.995, 106.426 
+{ ca  ala D 225  B19.65 1ll4} green L 48.566, 29.833, 108.382 
+{ ca  glu D 226  B20.93 1ll4} green L 45.067, 31.092, 109.292 
+{ ca  met D 227  B16.40 1ll4} green L 44.670, 32.225, 105.678 
+{ ca  asp D 228  B16.28 1ll4} green L 45.787, 28.807, 104.417 
+{ ca  lys D 229  B13.40 1ll4} green L 42.746, 27.172, 106.027 
+{ ca  tyr D 230  B16.34 1ll4} green L 40.551, 28.712, 103.288 
+{ ca  leu D 231  B16.50 1ll4} lime L 42.708, 28.301, 100.268 
+{ ca  asp D 232  B22.07 1ll4} lime L 43.023, 25.738, 97.588 
+{ ca  phe D 233  B18.01 1ll4} lime L 46.594, 26.898, 96.902 
+{ ca  trp D 234  B17.02 1ll4} lime L 48.877, 29.935, 96.893 
+{ ca  asn D 235  B19.28 1ll4} lime L 50.389, 31.523, 93.762 
+{ ca  leu D 236  B15.12 1ll4} lime L 53.590, 32.942, 95.105 
+{ ca  met D 237  B19.64 1ll4} lime L 54.715, 35.922, 92.987 
+{ ca  ala D 238  B21.49 1ll4} lime L 58.372, 34.958, 93.110 
+{ ca  tyr D 239  B21.84 1ll4} lime L 59.411, 37.784, 90.806 
+{ ca  asp D 240  B19.75 1ll4} lime L 59.704, 41.596, 90.609 
+{ ca  phe D 241  B17.97 1ll4} lime L 62.617, 41.307, 92.987 
+{ ca  ser D 242  B18.35 1ll4} lime L 64.532, 43.882, 91.029 
+{ ca  gly D 243  B20.46 1ll4} lime L 63.440, 46.737, 88.717 
+{ ca  ser D 244  B23.92 1ll4} lime L 63.267, 50.561, 88.228 
+{ ca  trp D 245  B20.63 1ll4} lime L 62.905, 51.209, 91.874 
+{ ca  asp D 246  B18.91 1ll4} lime L 66.393, 49.904, 92.786 
+{ ca  lys D 247  B20.06 1ll4} lime L 69.881, 51.372, 92.563 
+{ ca  val D 248  B17.03 1ll4} lime L 71.837, 48.309, 91.389 
+{ ca  ser D 249  B20.55 1ll4} lime L 70.734, 45.870, 88.673 
+{ ca  gly D 250  B20.37 1ll4} lime L 69.621, 42.645, 90.291 
+{ ca  his D 251  B12.99 1ll4} lime L 68.083, 39.374, 89.563 
+{ ca  met D 252  B13.44 1ll4} lime L 64.324, 39.830, 89.418 
+{ ca  ser D 253  B13.90 1ll4} lime L 63.038, 36.305, 90.115 
+{ ca  asn D 254  B13.10 1ll4} lime L 66.071, 34.290, 91.314 
+{ ca  val D 255  B12.02 1ll4} lime L 65.633, 31.108, 93.305 
+{ ca  phe D 256  B12.53 1ll4} lime L 68.694, 31.361, 95.594 
+{ ca  pro D 257  B15.17 1ll4} lime L 70.765, 34.182, 97.194 
+{ ca  ser D 258  B21.87 1ll4} lime L 74.124, 34.920, 95.572 
+{ ca  thr D 259  B23.78 1ll4} lime L 76.706, 34.553, 98.351 
+{ ca  thr D 260  B25.77 1ll4} lime L 79.380, 35.764, 96.008 
+{ ca  lys D 261  B22.03 1ll4} lime L 77.482, 38.851, 94.918 
+{ ca  pro D 262  B21.23 1ll4} lime L 74.804, 39.757, 97.531 
+{ ca  glu D 263  B17.66 1ll4} lime L 73.978, 43.013, 95.758 
+{ ca  ser D 264  B12.00 1ll4} lime L 72.794, 41.057, 92.690 
+{ ca  thr D 265  B10.57 1ll4} lime L 70.124, 39.149, 94.685 
+{ ca  pro D 266  B11.67 1ll4} lime L 68.041, 41.399, 97.060 
+{ ca  phe D 267  B12.33 1ll4} lime L 65.363, 38.671, 97.273 
+{ ca  ser D 268  B15.61 1ll4} lime L 65.055, 34.947, 96.395 
+{ ca  ser D 269  B15.68 1ll4} lime L 62.162, 32.498, 95.895 
+{ ca  asp D 270  B16.22 1ll4} yellow L 63.730, 30.155, 98.454 
+{ ca  lys D 271  B13.37 1ll4} yellow L 63.573, 32.619, 101.315 
+{ ca  ala D 272  B11.13 1ll4} yellow L 59.832, 33.064, 100.672 
+{ ca  val D 273  B11.77 1ll4} yellow L 58.911, 29.375, 100.246 
+{ ca  lys D 274  B19.49 1ll4} yellow L 60.740, 28.100, 103.362 
+{ ca  asp D 275  B18.48 1ll4} yellow L 59.374, 31.111, 105.312 
+{ ca  tyr D 276  B14.85 1ll4} yellow L 55.777, 30.195, 104.310 
+{ ca  ile D 277  B7.98 1ll4} yellow L 56.574, 26.589, 105.301 
+{ ca  lys D 278  B11.82 1ll4} yellow L 57.952, 27.657, 108.726 
+{ ca  ala D 279  B18.61 1ll4} yellow L 54.758, 29.766, 108.960 
+{ ca  gly D 280  B22.77 1ll4} yellow L 52.717, 26.650, 108.374 
+{ ca  val D 281  B21.71 1ll4} yellow L 51.654, 26.624, 104.724 
+{ ca  pro D 282  B21.55 1ll4} yellow L 51.914, 23.089, 103.230 
+{ ca  ala D 283  B22.62 1ll4} yellow L 54.563, 23.261, 100.470 
+{ ca  asn D 284  B18.60 1ll4} yellow L 52.392, 21.279, 98.083 
+{ ca  lys D 285  B15.30 1ll4} yellow L 49.940, 24.247, 98.297 
+{ ca  ile D 286  B13.03 1ll4} yellow L 52.629, 26.794, 97.264 
+{ ca  val D 287  B12.33 1ll4} yellow L 52.692, 27.217, 93.474 
+{ ca  leu D 288  B11.90 1ll4} yellow L 55.953, 28.944, 92.397 
+{ ca  gly D 289  B6.08 1ll4} yellow L 55.293, 32.018, 90.229 
+{ ca  met D 290  B5.66 1ll4} yellow L 57.582, 32.502, 87.247 
+{ ca  pro D 291  B6.88 1ll4} yellow L 57.630, 35.538, 84.948 
+{ ca  leu D 292  B12.46 1ll4} yellow L 57.155, 35.297, 81.194 
+{ ca  tyr D 293  B14.70 1ll4} yellow L 58.587, 38.866, 80.835 
+{ ca  gly D 294  B13.56 1ll4} yellow L 61.962, 40.367, 81.875 
+{ ca  arg D 295  B15.23 1ll4} yellow L 63.039, 43.531, 83.694 
+{ ca  ala D 296  B15.99 1ll4} yellow L 65.624, 45.800, 82.119 
+{ ca  phe D 297  B19.47 1ll4} yellow L 68.292, 48.186, 83.409 
+{ ca  ala D 298  B21.16 1ll4} yellow L 70.044, 50.954, 81.370 
+{ ca  ser D 299  B21.53 1ll4} yellow L 73.638, 52.364, 81.754 
+{ ca  thr D 300  B22.75 1ll4} yellow L 74.923, 49.319, 83.580 
+{ ca  asp D 301  B18.43 1ll4} yellow L 78.205, 47.422, 83.484 
+{ ca  gly D 302  B18.26 1ll4} yellow L 76.289, 44.353, 84.558 
+{ ca  ile D 303  B19.25 1ll4} yellow L 74.492, 42.510, 87.254 
+{ ca  gly D 304  B20.00 1ll4} yellow L 75.033, 44.078, 90.617 
+{ ca  thr D 305  B20.54 1ll4} yellow L 76.258, 47.428, 89.242 
+{ ca  ser D 306  B20.66 1ll4} yellow L 74.357, 50.774, 89.145 
+{ ca  phe D 307  B15.94 1ll4} yellow L 72.067, 51.657, 86.255 
+{ ca  asn D 308  B16.85 1ll4} yellow L 70.241, 54.830, 85.332 
+{ ca  gly D 309  B17.57 1ll4} gold L 67.036, 54.322, 83.452 
+{ ca  val D 310  B13.04 1ll4} gold L 65.465, 51.089, 82.358 
+{ ca  gly D 311  B12.64 1ll4} gold L 64.961, 51.807, 78.618 
+{ ca  gly D 312  B9.81 1ll4} gold L 61.975, 50.716, 76.640 
+{ ca  gly D 313  B11.34 1ll4} gold L 60.001, 47.550, 76.845 
+{ ca  ser D 314  B19.54 1ll4} gold L 57.628, 45.489, 74.777 
+{ ca  trp D 315  B22.20 1ll4} gold L 54.566, 47.250, 76.160 
+{ ca  glu D 316  B21.32 1ll4} gold L 55.772, 49.430, 79.060 
+{ ca  asn D 317  B19.38 1ll4} gold L 59.250, 50.826, 79.942 
+{ ca  gly D 318  B16.36 1ll4} gold L 61.750, 48.498, 81.608 
+{ ca  val D 319  B9.91 1ll4} gold L 59.643, 45.349, 80.929 
+{ ca  trp D 320  B14.16 1ll4} gold L 60.202, 43.041, 77.903 
+{ ca  asp D 321  B18.47 1ll4} gold L 58.176, 39.981, 76.805 
+{ ca  tyr D 322  B19.22 1ll4} gold L 60.263, 36.855, 77.024 
+{ ca  lys D 323  B11.46 1ll4} gold L 59.434, 36.022, 73.342 
+{ ca  asp D 324  B14.15 1ll4} gold L 61.325, 39.160, 72.380 
+{ ca  met D 325  B15.46 1ll4} gold L 64.330, 37.883, 74.200 
+{ ca  pro D 326  B15.36 1ll4} gold L 67.140, 37.657, 73.382 
+{ ca  gln D 327  B17.27 1ll4} gold L 67.732, 41.054, 71.855 
+{ ca  gln D 328  B21.24 1ll4} gold L 70.328, 41.464, 69.137 
+{ ca  gly D 329  B20.86 1ll4} gold L 73.818, 42.158, 70.409 
+{ ca  ala D 330  B24.02 1ll4} gold L 73.244, 40.934, 73.987 
+{ ca  gln D 331  B27.17 1ll4} gold L 74.947, 37.871, 75.454 
+{ ca  val D 332  B18.65 1ll4} gold L 72.897, 35.748, 77.729 
+{ ca  thr D 333  B18.02 1ll4} gold L 74.352, 34.666, 81.049 
+{ ca  glu D 334  B19.10 1ll4} gold L 72.738, 31.689, 82.885 
+{ ca  leu D 335  B18.56 1ll4} gold L 73.611, 31.246, 86.527 
+{ ca  glu D 336  B19.59 1ll4} gold L 72.240, 27.786, 87.257 
+{ ca  asp D 337  B20.05 1ll4} gold L 73.285, 27.554, 90.904 
+{ ca  ile D 338  B15.79 1ll4} gold L 70.967, 30.406, 91.941 
+{ ca  ala D 339  B14.11 1ll4} gold L 68.689, 29.751, 88.948 
+{ ca  ala D 340  B8.56 1ll4} gold L 68.871, 33.186, 87.422 
+{ ca  ser D 341  B11.71 1ll4} gold L 69.712, 34.524, 83.943 
+{ ca  tyr D 342  B15.47 1ll4} gold L 69.960, 37.814, 82.042 
+{ ca  ser D 343  B17.27 1ll4} gold L 70.891, 39.322, 78.711 
+{ ca  tyr D 344  B20.14 1ll4} gold L 73.414, 42.153, 78.693 
+{ ca  asp D 345  B24.29 1ll4} gold L 74.529, 44.305, 75.743 
+{ ca  lys D 346  B26.11 1ll4} gold L 78.119, 45.423, 76.404 
+{ ca  asn D 347  B26.65 1ll4} gold L 77.840, 48.285, 73.892 
+{ ca  lys D 348  B22.27 1ll4} orange L 74.426, 49.752, 74.844 
+{ ca  arg D 349  B20.39 1ll4} orange L 75.167, 48.912, 78.533 
+{ ca  tyr D 350  B18.75 1ll4} orange L 71.702, 47.368, 78.977 
+{ ca  leu D 351  B19.27 1ll4} orange L 70.777, 44.431, 81.255 
+{ ca  ile D 352  B16.33 1ll4} orange L 67.445, 42.470, 81.039 
+{ ca  ser D 353  B14.09 1ll4} orange L 66.759, 39.992, 83.850 
+{ ca  tyr D 354  B14.03 1ll4} orange L 64.598, 37.113, 82.507 
+{ ca  asp D 355  B17.08 1ll4} orange L 64.523, 33.275, 82.570 
+{ ca  thr D 356  B21.22 1ll4} orange L 65.894, 31.084, 79.848 
+{ ca  val D 357  B19.45 1ll4} orange L 64.777, 27.406, 79.313 
+{ ca  lys D 358  B18.53 1ll4} orange L 67.782, 26.202, 81.278 
+{ ca  ile D 359  B17.45 1ll4} orange L 66.675, 28.411, 84.155 
+{ ca  ala D 360  B20.09 1ll4} orange L 63.005, 27.420, 83.873 
+{ ca  gly D 361  B24.57 1ll4} orange L 64.265, 23.847, 84.095 
+{ ca  lys D 362  B22.39 1ll4} orange L 66.170, 24.611, 87.292 
+{ ca  lys D 363  B18.07 1ll4} orange L 62.948, 26.172, 88.615 
+{ ca  ala D 364  B16.60 1ll4} orange L 60.950, 23.023, 87.721 
+{ ca  glu D 365  B15.00 1ll4} orange L 63.692, 21.122, 89.543 
+{ ca  tyr D 366  B15.21 1ll4} orange L 63.170, 23.179, 92.681 
+{ ca  ile D 367  B16.96 1ll4} orange L 59.369, 22.639, 92.500 
+{ ca  thr D 368  B19.40 1ll4} orange L 59.725, 18.802, 92.257 
+{ ca  lys D 369  B21.83 1ll4} orange L 62.691, 18.553, 94.656 
+{ ca  asn D 370  B20.10 1ll4} orange L 60.848, 20.523, 97.316 
+{ ca  gly D 371  B18.43 1ll4} orange L 57.421, 18.950, 96.719 
+{ ca  met D 372  B15.58 1ll4} orange L 55.755, 22.252, 95.952 
+{ ca  gly D 373  B12.62 1ll4} orange L 52.305, 22.698, 94.320 
+{ ca  gly D 374  B10.24 1ll4} orange L 53.539, 23.431, 90.771 
+{ ca  gly D 375  B11.13 1ll4} orange L 54.297, 26.420, 88.625 
+{ ca  met D 376  B14.76 1ll4} orange L 52.428, 29.634, 87.961 
+{ ca  trp D 377  B19.22 1ll4} orange L 53.100, 32.105, 85.119 
+{ ca  trp D 378  B15.01 1ll4} orange L 52.403, 35.852, 84.626 
+{ ca  glu D 379  B13.48 1ll4} orange L 51.333, 36.164, 81.984 
+{ ca  ser D 380  B17.49 1ll4} orange L 50.208, 33.995, 79.003 
+{ ca  ser D 381  B18.62 1ll4} orange L 51.079, 36.186, 75.950 
+{ ca  ser D 382  B19.96 1ll4} orange L 54.725, 36.823, 76.495 
+{ ca  asp D 383  B22.57 1ll4} orange L 55.847, 33.216, 76.285 
+{ ca  lys D 384  B19.70 1ll4} orange L 57.439, 31.526, 73.324 
+{ ca  thr D 385  B18.24 1ll4} orange L 56.232, 28.296, 71.787 
+{ ca  gly D 386  B19.05 1ll4} orange L 57.697, 24.908, 70.908 
+{ ca  asn D 387  B24.33 1ll4} red L 61.036, 23.925, 72.306 
+{ ca  glu D 388  B22.18 1ll4} red L 61.485, 27.473, 73.551 
+{ ca  ser D 389  B10.55 1ll4} red L 58.316, 27.566, 75.677 
+{ ca  leu D 390  B12.15 1ll4} red L 59.348, 28.312, 79.267 
+{ ca  val D 391  B21.24 1ll4} red L 56.078, 26.776, 80.411 
+{ ca  gly D 392  B17.44 1ll4} red L 56.689, 23.737, 78.144 
+{ ca  thr D 393  B17.27 1ll4} red L 60.060, 23.405, 79.773 
+{ ca  val D 394  B16.16 1ll4} red L 58.607, 23.454, 83.326 
+{ ca  val D 395  B17.42 1ll4} red L 55.799, 20.964, 82.581 
+{ ca  asn D 396  B15.35 1ll4} red L 58.335, 18.498, 81.147 
+{ ca  gly D 397  B14.35 1ll4} red L 60.675, 18.921, 84.178 
+{ ca  leu D 398  B23.78 1ll4} red L 57.560, 18.255, 86.249 
+{ ca  gly D 399  B22.55 1ll4} red L 57.368, 14.903, 84.461 
+{ ca  gly D 400  B16.02 1ll4} red L 55.145, 16.077, 81.645 
+{ ca  thr D 401  B16.63 1ll4} red L 51.380, 16.544, 81.695 
+{ ca  gly D 402  B20.16 1ll4} red L 50.918, 13.090, 83.198 
+{ ca  lys D 403  B21.62 1ll4} red L 52.243, 14.515, 86.433 
+{ ca  leu D 404  B19.39 1ll4} red L 49.835, 17.448, 86.449 
+{ ca  glu D 405  B20.25 1ll4} red L 46.981, 17.529, 89.006 
+{ ca  gln D 406  B23.95 1ll4} red L 43.919, 15.808, 87.553 
+{ ca  arg D 407  B23.46 1ll4} red L 40.895, 17.736, 88.821 
+{ ca  glu D 408  B19.73 1ll4} red L 37.972, 17.874, 86.448 
+{ ca  asn D 409  B14.60 1ll4} red L 36.424, 21.284, 85.943 
+{ ca  glu D 410  B9.78 1ll4} red L 32.847, 22.384, 86.214 
+{ ca  leu D 411  B9.51 1ll4} red L 30.747, 22.697, 83.118 
+{ ca  ser D 412  B12.61 1ll4} red L 27.351, 22.948, 84.784 
+{ ca  tyr D 413  B20.75 1ll4} red L 26.226, 26.418, 85.800 
+{ ca  pro D 414  B22.89 1ll4} red L 22.509, 25.909, 86.587 
+{ ca  glu D 415  B18.78 1ll4} red L 22.002, 29.353, 88.100 
+{ ca  ser D 416  B10.24 1ll4} red L 23.629, 31.335, 85.265 
+{ ca  val D 417  B4.81 1ll4} red L 21.929, 34.435, 84.201 
+{ ca  tyr D 418  B12.25 1ll4} red L 23.166, 33.767, 80.635 
+{ ca  asp D 419  B17.96 1ll4} red L 21.309, 31.226, 78.573 
+{ ca  asn D 420  B19.38 1ll4} red L 24.037, 30.010, 76.257 
+{ ca  leu D 421  B18.72 1ll4} red L 26.354, 29.504, 79.276 
+{ ca  lys D 422  B19.52 1ll4} red L 23.571, 27.900, 81.379 
+{ ca  asn D 423  B14.42 1ll4} red L 22.937, 25.513, 78.547 
+{ ca  gly D 424  B18.99 1ll4} red L 26.615, 24.618, 78.341 
+{ ca  met D 425  B14.81 1ll4} red L 27.040, 26.562, 75.108 
+{ ca  pro D 426  B17.16 1ll4} red L 25.509, 24.656, 72.139 
+{ ca  ser D 427  B33.47 1ll4} red L 25.824, 26.240, 68.754 
+
+@group {1ll4} dominant
+@subgroup {het groups}
+@vectorlist {het} color= pink  master= {hets}
+{ c1  naa A 501  B13.78 1ll4} P 68.329, 34.129, 51.679 { c1  naa A 501  B13.78 1ll4}white L 68.329, 34.129, 51.679
+{ c1  naa A 501  B13.78 1ll4} P 68.329, 34.129, 51.679 { c2  naa A 501  B12.81 1ll4}white L 69.578, 35.015, 51.573
+{ c2  naa A 501  B12.81 1ll4} P 69.578, 35.015, 51.573 { c3  naa A 501  B14.40 1ll4}white L 70.164, 35.451, 52.866
+{ c3  naa A 501  B14.40 1ll4} P 70.164, 35.451, 52.866 { c4  naa A 501  B15.00 1ll4}white L 69.048, 35.847, 53.839
+{ c4  naa A 501  B15.00 1ll4} P 69.048, 35.847, 53.839 { c5  naa A 501  B18.31 1ll4}white L 67.903, 34.845, 53.854
+{ c5  naa A 501  B18.31 1ll4} P 67.903, 34.845, 53.854 { c6  naa A 501  B19.54 1ll4}white L 66.698, 35.021, 54.817
+{ c7  naa A 501  B15.11 1ll4} P 71.154, 34.634, 49.847 { c8  naa A 501  B16.09 1ll4}white L 70.777, 35.971, 49.293
+{ c2  naa A 501  B12.81 1ll4} P 69.578, 35.015, 51.573 { n2  naa A 501  B13.68 1ll4}white L 70.641, 34.247, 50.982
+{ c3  naa A 501  B14.40 1ll4} P 70.164, 35.451, 52.866 { o3  naa A 501  B16.98 1ll4}white L 71.001, 34.465, 53.436
+{ c4  naa A 501  B15.00 1ll4} P 69.048, 35.847, 53.839 { o4  naa A 501  B18.04 1ll4}white L 69.653, 35.820, 55.117
+{ c1  naa A 501  B13.78 1ll4} P 68.329, 34.129, 51.679 { o5  naa A 501  B15.86 1ll4}white L 67.361, 34.737, 52.523
+{ c6  naa A 501  B19.54 1ll4} P 66.698, 35.021, 54.817 { o6  naa A 501  B17.64 1ll4}white L 65.751, 33.949, 54.687
+{ c7  naa A 501  B15.11 1ll4} P 71.154, 34.634, 49.847 { o7  naa A 501  B19.64 1ll4}white L 71.921, 33.917, 49.231
+{ c7  naa A 501  B15.11 1ll4} P 71.154, 34.634, 49.847 { n2  naa A 501  B13.68 1ll4}white L ghost 70.641, 34.247, 50.982
+{ c5  naa A 501  B18.31 1ll4} P 67.903, 34.845, 53.854 { o5  naa A 501  B15.86 1ll4}white L ghost 67.361, 34.737, 52.523
+{ c1  naa A 502  B8.62 1ll4} P 65.401, 30.685, 49.045 { c1  naa A 502  B8.62 1ll4}white L 65.401, 30.685, 49.045
+{ c1  naa A 502  B8.62 1ll4} P 65.401, 30.685, 49.045 { c2  naa A 502  B9.23 1ll4}white L 65.378, 30.867, 50.569
+{ c2  naa A 502  B9.23 1ll4} P 65.378, 30.867, 50.569 { c3  naa A 502  B9.61 1ll4}white L 65.932, 32.245, 51.023
+{ c3  naa A 502  B9.61 1ll4} P 65.932, 32.245, 51.023 { c4  naa A 502  B10.26 1ll4}white L 67.309, 32.468, 50.299
+{ c4  naa A 502  B10.26 1ll4} P 67.309, 32.468, 50.299 { c5  naa A 502  B9.63 1ll4}white L 67.207, 32.170, 48.812
+{ c5  naa A 502  B9.63 1ll4} P 67.207, 32.170, 48.812 { c6  naa A 502  B12.20 1ll4}white L 68.490, 32.206, 47.966
+{ c7  naa A 502  B7.08 1ll4} P 63.587, 30.054, 52.011 { c8  naa A 502  B9.54 1ll4}white L 64.701, 29.620, 52.953
+{ c2  naa A 502  B9.23 1ll4} P 65.378, 30.867, 50.569 { n2  naa A 502  B8.81 1ll4}white L 63.982, 30.753, 50.959
+{ c3  naa A 502  B9.61 1ll4} P 65.932, 32.245, 51.023 { o3  naa A 502  B7.01 1ll4}white L 65.046, 33.359, 50.866
+{ c4  naa A 502  B10.26 1ll4} P 67.309, 32.468, 50.299 { o4  naa A 502  B12.87 1ll4}white L 67.774, 33.850, 50.438
+{ c1  naa A 502  B8.62 1ll4} P 65.401, 30.685, 49.045 { o5  naa A 502  B8.61 1ll4}white L 66.693, 30.871, 48.565
+{ c6  naa A 502  B12.20 1ll4} P 68.490, 32.206, 47.966 { o6  naa A 502  B18.73 1ll4}white L 68.239, 31.830, 46.581
+{ c7  naa A 502  B7.08 1ll4} P 63.587, 30.054, 52.011 { o7  naa A 502  B5.71 1ll4}white L 62.402, 29.734, 52.190
+{ c7  naa A 502  B7.08 1ll4} P 63.587, 30.054, 52.011 { n2  naa A 502  B8.81 1ll4}white L ghost 63.982, 30.753, 50.959
+{ c5  naa A 502  B9.63 1ll4} P 67.207, 32.170, 48.812 { o5  naa A 502  B8.61 1ll4}white L ghost 66.693, 30.871, 48.565
+{ o4  naa A 502  B12.87 1ll4} P 67.774, 33.850, 50.438 { c1  naa A 501  B13.78       1ll4}white L 68.329, 34.129, 51.679
+{ c1  ami A 503  B16.17 1ll4} P 63.906, 26.974, 46.366 { c1  ami A 503  B16.17 1ll4}white L 63.906, 26.974, 46.366
+{ c1  ami A 503  B16.17 1ll4} P 63.906, 26.974, 46.366 { c2  ami A 503  B14.85 1ll4}white L 64.938, 27.807, 45.637
+{ c2  ami A 503  B14.85 1ll4} P 64.938, 27.807, 45.637 { c3  ami A 503  B12.08 1ll4}white L 65.680, 28.438, 46.753
+{ c3  ami A 503  B12.08 1ll4} P 65.680, 28.438, 46.753 { c4  ami A 503  B12.39 1ll4}white L 64.571, 28.951, 47.573
+{ c1  ami A 503  B16.17 1ll4} P 63.906, 26.974, 46.366 { c5  ami A 503  B16.78 1ll4}white L 63.650, 27.742, 47.673
+{ c5  ami A 503  B16.78 1ll4} P 63.650, 27.742, 47.673 { c6  ami A 503  B17.75 1ll4}white L 62.187, 28.040, 47.906
+{ c8  ami A 503  B29.06 1ll4} P 67.897, 24.695, 45.461 { c8  ami A 503  B29.06 1ll4}white L 67.897, 24.695, 45.461
+{ c9  ami A 503  B25.64 1ll4} P 65.978, 23.362, 46.124 { c9  ami A 503  B25.64 1ll4}white L 65.978, 23.362, 46.124
+{ c2  ami A 503  B14.85 1ll4} P 64.938, 27.807, 45.637 { n2  ami A 503  B18.48 1ll4}white L 65.918, 26.916, 45.091
+{ c7  ami A 503  B23.45 1ll4} P 65.767, 25.765, 45.800 { n7  ami A 503  B25.88 1ll4}white L 66.523, 24.638, 45.801
+{ c3  ami A 503  B12.08 1ll4} P 65.680, 28.438, 46.753 { o3  ami A 503  B11.79 1ll4}white L 66.530, 29.330, 46.077
+{ c4  ami A 503  B12.39 1ll4} P 64.571, 28.951, 47.573 { o4  ami A 503  B10.30 1ll4}white L 65.085, 29.375, 48.817
+{ c6  ami A 503  B17.75 1ll4} P 62.187, 28.040, 47.906 { o6  ami A 503  B20.18 1ll4}white L 62.033, 28.732, 49.113
+{ c1  ami A 503  B16.17 1ll4} P 63.906, 26.974, 46.366 { o7  ami A 503  B19.58 1ll4}white L 64.678, 25.785, 46.624
+{ c4  ami A 503  B12.39 1ll4} P 64.571, 28.951, 47.573 { c5  ami A 503  B16.78 1ll4}white L ghost 63.650, 27.742, 47.673
+{ c7  ami A 503  B23.45 1ll4} P 65.767, 25.765, 45.800 { n2  ami A 503  B18.48 1ll4}white L ghost 65.918, 26.916, 45.091
+{ c8  ami A 503  B29.06 1ll4} P 67.897, 24.695, 45.461 { n7  ami A 503  B25.88 1ll4}white L ghost 66.523, 24.638, 45.801
+{ c9  ami A 503  B25.64 1ll4} P 65.978, 23.362, 46.124 { n7  ami A 503  B25.88 1ll4}white L ghost 66.523, 24.638, 45.801
+{ c7  ami A 503  B23.45 1ll4} P 65.767, 25.765, 45.800 { o7  ami A 503  B19.58 1ll4}white L ghost 64.678, 25.785, 46.624
+{ o4  ami A 503  B10.30 1ll4} P 65.085, 29.375, 48.817 { c1  naa A 502  B8.62       1ll4}white L 65.401, 30.685, 49.045
+
+@group {1ll4} dominant
+@subgroup {het groups}
+@vectorlist {het} color= pink  master= {hets}
+{ c1  naa B 501  B23.86 1ll4} P 67.231, 42.993, 51.245 { c1  naa B 501  B23.86 1ll4}white L 67.231, 42.993, 51.245
+{ c1  naa B 501  B23.86 1ll4} P 67.231, 42.993, 51.245 { c2  naa B 501  B22.62 1ll4}white L 65.963, 42.150, 51.342
+{ c2  naa B 501  B22.62 1ll4} P 65.963, 42.150, 51.342 { c3  naa B 501  B24.65 1ll4}white L 65.524, 41.761, 52.726
+{ c3  naa B 501  B24.65 1ll4} P 65.524, 41.761, 52.726 { c4  naa B 501  B25.94 1ll4}white L 66.754, 41.329, 53.554
+{ c4  naa B 501  B25.94 1ll4} P 66.754, 41.329, 53.554 { c5  naa B 501  B28.32 1ll4}white L 67.921, 42.290, 53.392
+{ c5  naa B 501  B28.32 1ll4} P 67.921, 42.290, 53.392 { c6  naa B 501  B29.93 1ll4}white L 69.261, 42.031, 54.158
+{ c7  naa B 501  B15.24 1ll4} P 64.207, 42.490, 49.841 { c8  naa B 501  B11.26 1ll4}white L 64.422, 41.107, 49.290
+{ c2  naa B 501  B22.62 1ll4} P 65.963, 42.150, 51.342 { n2  naa B 501  B15.46 1ll4}white L 64.876, 42.937, 50.865
+{ c3  naa B 501  B24.65 1ll4} P 65.524, 41.761, 52.726 { o3  naa B 501  B23.15 1ll4}white L 64.787, 42.778, 53.372
+{ c4  naa B 501  B25.94 1ll4} P 66.754, 41.329, 53.554 { o4  naa B 501  B30.48 1ll4}white L 66.301, 41.407, 54.886
+{ c1  naa B 501  B23.86 1ll4} P 67.231, 42.993, 51.245 { o5  naa B 501  B28.90 1ll4}white L 68.256, 42.364, 51.992
+{ c6  naa B 501  B29.93 1ll4} P 69.261, 42.031, 54.158 { o6  naa B 501  B29.95 1ll4}white L 70.279, 43.035, 53.849
+{ c7  naa B 501  B15.24 1ll4} P 64.207, 42.490, 49.841 { o7  naa B 501  B21.99 1ll4}white L 63.401, 43.219, 49.302
+{ c7  naa B 501  B15.24 1ll4} P 64.207, 42.490, 49.841 { n2  naa B 501  B15.46 1ll4}white L ghost 64.876, 42.937, 50.865
+{ c5  naa B 501  B28.32 1ll4} P 67.921, 42.290, 53.392 { o5  naa B 501  B28.90 1ll4}white L ghost 68.256, 42.364, 51.992
+{ c1  naa B 502  B17.20 1ll4} P 69.941, 46.159, 48.116 { c1  naa B 502  B17.20 1ll4}white L 69.941, 46.159, 48.116
+{ c1  naa B 502  B17.20 1ll4} P 69.941, 46.159, 48.116 { c2  naa B 502  B17.26 1ll4}white L 70.152, 46.019, 49.612
+{ c2  naa B 502  B17.26 1ll4} P 70.152, 46.019, 49.612 { c3  naa B 502  B16.34 1ll4}white L 69.602, 44.688, 50.184
+{ c3  naa B 502  B16.34 1ll4} P 69.602, 44.688, 50.184 { c4  naa B 502  B16.03 1ll4}white L 68.155, 44.487, 49.661
+{ c4  naa B 502  B16.03 1ll4} P 68.155, 44.487, 49.661 { c5  naa B 502  B17.45 1ll4}white L 68.059, 44.716, 48.171
+{ c5  naa B 502  B17.45 1ll4} P 68.059, 44.716, 48.171 { c6  naa B 502  B18.41 1ll4}white L 66.671, 44.685, 47.476
+{ c7  naa B 502  B17.31 1ll4} P 72.167, 46.785, 50.739 { c8  naa B 502  B18.05 1ll4}white L 71.224, 47.320, 51.831
+{ c2  naa B 502  B17.26 1ll4} P 70.152, 46.019, 49.612 { n2  naa B 502  B17.03 1ll4}white L 71.601, 46.066, 49.777
+{ c3  naa B 502  B16.34 1ll4} P 69.602, 44.688, 50.184 { o3  naa B 502  B15.40 1ll4}white L 70.412, 43.550, 49.961
+{ c4  naa B 502  B16.03 1ll4} P 68.155, 44.487, 49.661 { o4  naa B 502  B21.68 1ll4}white L 67.663, 43.151, 49.924
+{ c1  naa B 502  B17.20 1ll4} P 69.941, 46.159, 48.116 { o5  naa B 502  B19.64 1ll4}white L 68.578, 46.000, 47.800
+{ c6  naa B 502  B18.41 1ll4} P 66.671, 44.685, 47.476 { o6  naa B 502  B18.45 1ll4}white L 66.794, 45.035, 46.063
+{ c7  naa B 502  B17.31 1ll4} P 72.167, 46.785, 50.739 { o7  naa B 502  B15.33 1ll4}white L 73.378, 47.039, 50.736
+{ c7  naa B 502  B17.31 1ll4} P 72.167, 46.785, 50.739 { n2  naa B 502  B17.03 1ll4}white L ghost 71.601, 46.066, 49.777
+{ c5  naa B 502  B17.45 1ll4} P 68.059, 44.716, 48.171 { o5  naa B 502  B19.64 1ll4}white L ghost 68.578, 46.000, 47.800
+{ o4  naa B 502  B21.68 1ll4} P 67.663, 43.151, 49.924 { c1  naa B 501  B23.86       1ll4}white L ghost 67.231, 42.993, 51.245
+{ c1  ami B 503  B19.87 1ll4} P 71.224, 49.641, 45.062 { c1  ami B 503  B19.87 1ll4}white L 71.224, 49.641, 45.062
+{ c1  ami B 503  B19.87 1ll4} P 71.224, 49.641, 45.062 { c2  ami B 503  B18.08 1ll4}white L 70.035, 48.841, 44.551
+{ c2  ami B 503  B18.08 1ll4} P 70.035, 48.841, 44.551 { c3  ami B 503  B15.80 1ll4}white L 69.432, 48.300, 45.795
+{ c3  ami B 503  B15.80 1ll4} P 69.432, 48.300, 45.795 { c4  ami B 503  B17.28 1ll4}white L 70.637, 47.786, 46.459
+{ c1  ami B 503  B19.87 1ll4} P 71.224, 49.641, 45.062 { c5  ami B 503  B18.85 1ll4}white L 71.630, 48.930, 46.355
+{ c5  ami B 503  B18.85 1ll4} P 71.630, 48.930, 46.355 { c6  ami B 503  B20.74 1ll4}white L 73.106, 48.558, 46.394
+{ c8  ami B 503  B18.58 1ll4} P 67.230, 52.093, 44.580 { c8  ami B 503  B18.58 1ll4}white L 67.230, 52.093, 44.580
+{ c9  ami B 503  B19.00 1ll4} P 69.267, 53.353, 44.905 { c9  ami B 503  B19.00 1ll4}white L 69.267, 53.353, 44.905
+{ c2  ami B 503  B18.08 1ll4} P 70.035, 48.841, 44.551 { n2  ami B 503  B20.54 1ll4}white L 69.039, 49.754, 44.078
+{ c7  ami B 503  B21.99 1ll4} P 69.366, 50.941, 44.670 { n7  ami B 503  B19.71 1ll4}white L 68.643, 52.096, 44.721
+{ c3  ami B 503  B15.80 1ll4} P 69.432, 48.300, 45.795 { o3  ami B 503  B15.73 1ll4}white L 68.481, 47.396, 45.307
+{ c4  ami B 503  B17.28 1ll4} P 70.637, 47.786, 46.459 { o4  ami B 503  B18.17 1ll4}white L 70.315, 47.452, 47.804
+{ c6  ami B 503  B20.74 1ll4} P 73.106, 48.558, 46.394 { o6  ami B 503  B24.52 1ll4}white L 73.403, 47.928, 47.629
+{ c1  ami B 503  B19.87 1ll4} P 71.224, 49.641, 45.062 { o7  ami B 503  B19.99 1ll4}white L 70.595, 50.924, 45.281
+{ c4  ami B 503  B17.28 1ll4} P 70.637, 47.786, 46.459 { c5  ami B 503  B18.85 1ll4}white L ghost 71.630, 48.930, 46.355
+{ c7  ami B 503  B21.99 1ll4} P 69.366, 50.941, 44.670 { n2  ami B 503  B20.54 1ll4}white L ghost 69.039, 49.754, 44.078
+{ c8  ami B 503  B18.58 1ll4} P 67.230, 52.093, 44.580 { n7  ami B 503  B19.71 1ll4}white L ghost 68.643, 52.096, 44.721
+{ c9  ami B 503  B19.00 1ll4} P 69.267, 53.353, 44.905 { n7  ami B 503  B19.71 1ll4}white L ghost 68.643, 52.096, 44.721
+{ c7  ami B 503  B21.99 1ll4} P 69.366, 50.941, 44.670 { o7  ami B 503  B19.99 1ll4}white L ghost 70.595, 50.924, 45.281
+{ o4  ami B 503  B18.17 1ll4} P 70.315, 47.452, 47.804 { c1  naa B 502  B17.20       1ll4}white L 69.941, 46.159, 48.116
+
+@group {1ll4} dominant
+@subgroup {het groups}
+@vectorlist {het} color= pink  master= {hets}
+{ c1  naa C 501  B20.02 1ll4} P 49.651, 56.059, 83.095 { c1  naa C 501  B20.02 1ll4}white L 49.651, 56.059, 83.095
+{ c1  naa C 501  B20.02 1ll4} P 49.651, 56.059, 83.095 { c2  naa C 501  B18.69 1ll4}white L 50.953, 55.227, 83.181
+{ c2  naa C 501  B18.69 1ll4} P 50.953, 55.227, 83.181 { c3  naa C 501  B19.96 1ll4}white L 51.527, 54.775, 81.878
+{ c3  naa C 501  B19.96 1ll4} P 51.527, 54.775, 81.878 { c4  naa C 501  B22.15 1ll4}white L 50.383, 54.314, 80.948
+{ c4  naa C 501  B22.15 1ll4} P 50.383, 54.314, 80.948 { c5  naa C 501  B23.04 1ll4}white L 49.204, 55.286, 80.946
+{ c5  naa C 501  B23.04 1ll4} P 49.204, 55.286, 80.946 { c6  naa C 501  B24.35 1ll4}white L 47.988, 55.016, 80.041
+{ c7  naa C 501  B12.06 1ll4} P 52.551, 55.667, 84.872 { c8  naa C 501  B10.96 1ll4}white L 52.233, 54.320, 85.473
+{ c2  naa C 501  B18.69 1ll4} P 50.953, 55.227, 83.181 { n2  naa C 501  B13.39 1ll4}white L 52.009, 56.038, 83.737
+{ c3  naa C 501  B19.96 1ll4} P 51.527, 54.775, 81.878 { o3  naa C 501  B17.27 1ll4}white L 52.323, 55.767, 81.273
+{ c4  naa C 501  B22.15 1ll4} P 50.383, 54.314, 80.948 { o4  naa C 501  B29.88 1ll4}white L 50.977, 54.343, 79.660
+{ c1  naa C 501  B20.02 1ll4} P 49.651, 56.059, 83.095 { o5  naa C 501  B20.96 1ll4}white L 48.702, 55.408, 82.283
+{ c6  naa C 501  B24.35 1ll4} P 47.988, 55.016, 80.041 { o6  naa C 501  B24.16 1ll4}white L 46.988, 56.049, 80.166
+{ c7  naa C 501  B12.06 1ll4} P 52.551, 55.667, 84.872 { o7  naa C 501  B11.54 1ll4}white L 53.290, 56.429, 85.461
+{ c7  naa C 501  B12.06 1ll4} P 52.551, 55.667, 84.872 { n2  naa C 501  B13.39 1ll4}white L ghost 52.009, 56.038, 83.737
+{ c5  naa C 501  B23.04 1ll4} P 49.204, 55.286, 80.946 { o5  naa C 501  B20.96 1ll4}white L ghost 48.702, 55.408, 82.283
+{ c1  naa C 502  B19.51 1ll4} P 46.700, 59.421, 85.763 { c1  naa C 502  B19.51 1ll4}white L 46.700, 59.421, 85.763
+{ c1  naa C 502  B19.51 1ll4} P 46.700, 59.421, 85.763 { c2  naa C 502  B17.91 1ll4}white L 46.639, 59.206, 84.252
+{ c2  naa C 502  B17.91 1ll4} P 46.639, 59.206, 84.252 { c3  naa C 502  B19.76 1ll4}white L 47.223, 57.844, 83.818
+{ c3  naa C 502  B19.76 1ll4} P 47.223, 57.844, 83.818 { c4  naa C 502  B22.52 1ll4}white L 48.622, 57.642, 84.492
+{ c4  naa C 502  B22.52 1ll4} P 48.622, 57.642, 84.492 { c5  naa C 502  B23.23 1ll4}white L 48.557, 57.974, 85.993
+{ c5  naa C 502  B23.23 1ll4} P 48.557, 57.974, 85.993 { c6  naa C 502  B23.24 1ll4}white L 49.843, 57.980, 86.810
+{ c7  naa C 502  B10.16 1ll4} P 44.808, 59.925, 82.866 { c8  naa C 502  B12.70 1ll4}white L 45.863, 60.393, 81.872
+{ c2  naa C 502  B17.91 1ll4} P 46.639, 59.206, 84.252 { n2  naa C 502  B10.75 1ll4}white L 45.238, 59.262, 83.916
+{ c3  naa C 502  B19.76 1ll4} P 47.223, 57.844, 83.818 { o3  naa C 502  B19.75 1ll4}white L 46.389, 56.708, 84.040
+{ c4  naa C 502  B22.52 1ll4} P 48.622, 57.642, 84.492 { o4  naa C 502  B21.78 1ll4}white L 49.070, 56.253, 84.340
+{ c1  naa C 502  B19.51 1ll4} P 46.700, 59.421, 85.763 { o5  naa C 502  B24.02 1ll4}white L 48.034, 59.281, 86.222
+{ c6  naa C 502  B23.24 1ll4} P 49.843, 57.980, 86.810 { o6  naa C 502  B23.48 1ll4}white L 49.583, 58.334, 88.186
+{ c7  naa C 502  B10.16 1ll4} P 44.808, 59.925, 82.866 { o7  naa C 502  B10.47 1ll4}white L 43.611, 60.173, 82.707
+{ c7  naa C 502  B10.16 1ll4} P 44.808, 59.925, 82.866 { n2  naa C 502  B10.75 1ll4}white L ghost 45.238, 59.262, 83.916
+{ c5  naa C 502  B23.23 1ll4} P 48.557, 57.974, 85.993 { o5  naa C 502  B24.02 1ll4}white L ghost 48.034, 59.281, 86.222
+{ o4  naa C 502  B21.78 1ll4} P 49.070, 56.253, 84.340 { c1  naa C 501  B20.02       1ll4}white L ghost 49.651, 56.059, 83.095
+{ c1  ami C 503  B16.30 1ll4} P 45.184, 63.110, 88.433 { c1  ami C 503  B16.30 1ll4}white L 45.184, 63.110, 88.433
+{ c1  ami C 503  B16.30 1ll4} P 45.184, 63.110, 88.433 { c2  ami C 503  B15.26 1ll4}white L 46.253, 62.316, 89.149
+{ c2  ami C 503  B15.26 1ll4} P 46.253, 62.316, 89.149 { c3  ami C 503  B15.37 1ll4}white L 46.988, 61.693, 88.023
+{ c3  ami C 503  B15.37 1ll4} P 46.988, 61.693, 88.023 { c4  ami C 503  B17.06 1ll4}white L 45.861, 61.152, 87.246
+{ c1  ami C 503  B16.30 1ll4} P 45.184, 63.110, 88.433 { c5  ami C 503  B16.37 1ll4}white L 44.886, 62.326, 87.155
+{ c5  ami C 503  B16.37 1ll4} P 44.886, 62.326, 87.155 { c6  ami C 503  B13.90 1ll4}white L 43.430, 61.978, 86.978
+{ c8  ami C 503  B17.76 1ll4} P 49.131, 65.506, 89.210 { c8  ami C 503  B17.76 1ll4}white L 49.131, 65.506, 89.210
+{ c9  ami C 503  B18.08 1ll4} P 47.136, 66.791, 88.652 { c9  ami C 503  B18.08 1ll4}white L 47.136, 66.791, 88.652
+{ c2  ami C 503  B15.26 1ll4} P 46.253, 62.316, 89.149 { n2  ami C 503  B14.69 1ll4}white L 47.200, 63.257, 89.665
+{ c7  ami C 503  B16.20 1ll4} P 47.016, 64.388, 88.956 { n7  ami C 503  B18.14 1ll4}white L 47.736, 65.527, 88.937
+{ c3  ami C 503  B15.37 1ll4} P 46.988, 61.693, 88.023 { o3  ami C 503  B16.40 1ll4}white L 47.871, 60.830, 88.678
+{ c4  ami C 503  B17.06 1ll4} P 45.861, 61.152, 87.246 { o4  ami C 503  B20.75 1ll4}white L 46.340, 60.737, 85.968
+{ c6  ami C 503  B13.90 1ll4} P 43.430, 61.978, 86.978 { o6  ami C 503  B21.30 1ll4}white L 43.278, 61.311, 85.758
+{ c1  ami C 503  B16.30 1ll4} P 45.184, 63.110, 88.433 { o7  ami C 503  B16.54 1ll4}white L 45.931, 64.313, 88.155
+{ c4  ami C 503  B17.06 1ll4} P 45.861, 61.152, 87.246 { c5  ami C 503  B16.37 1ll4}white L ghost 44.886, 62.326, 87.155
+{ c7  ami C 503  B16.20 1ll4} P 47.016, 64.388, 88.956 { n2  ami C 503  B14.69 1ll4}white L ghost 47.200, 63.257, 89.665
+{ c8  ami C 503  B17.76 1ll4} P 49.131, 65.506, 89.210 { n7  ami C 503  B18.14 1ll4}white L ghost 47.736, 65.527, 88.937
+{ c9  ami C 503  B18.08 1ll4} P 47.136, 66.791, 88.652 { n7  ami C 503  B18.14 1ll4}white L ghost 47.736, 65.527, 88.937
+{ c7  ami C 503  B16.20 1ll4} P 47.016, 64.388, 88.956 { o7  ami C 503  B16.54 1ll4}white L ghost 45.931, 64.313, 88.155
+{ o4  ami C 503  B20.75 1ll4} P 46.340, 60.737, 85.968 { c1  naa C 502  B19.51       1ll4}white L 46.700, 59.421, 85.763
+
+@group {1ll4} dominant
+@subgroup {het groups}
+@vectorlist {het} color= pink  master= {hets}
+{ c1  naa D 501  B16.67 1ll4} P 48.562, 47.217, 82.849 { c1  naa D 501  B16.67 1ll4}white L 48.562, 47.217, 82.849
+{ c1  naa D 501  B16.67 1ll4} P 48.562, 47.217, 82.849 { c2  naa D 501  B12.33 1ll4}white L 47.285, 48.055, 82.679
+{ c2  naa D 501  B12.33 1ll4} P 47.285, 48.055, 82.679 { c3  naa D 501  B15.67 1ll4}white L 46.929, 48.420, 81.279
+{ c3  naa D 501  B15.67 1ll4} P 46.929, 48.420, 81.279 { c4  naa D 501  B17.02 1ll4}white L 48.213, 48.847, 80.518
+{ c4  naa D 501  B17.02 1ll4} P 48.213, 48.847, 80.518 { c5  naa D 501  B20.10 1ll4}white L 49.359, 47.869, 80.751
+{ c5  naa D 501  B20.10 1ll4} P 49.359, 47.869, 80.751 { c6  naa D 501  B20.35 1ll4}white L 50.703, 48.062, 80.015
+{ c7  naa D 501  B5.24 1ll4} P 45.458, 47.717, 84.101 { c8  naa D 501  B9.11 1ll4}white L 45.691, 49.097, 84.659
+{ c2  naa D 501  B12.33 1ll4} P 47.285, 48.055, 82.679 { n2  naa D 501  B4.37 1ll4}white L 46.164, 47.286, 83.103
+{ c3  naa D 501  B15.67 1ll4} P 46.929, 48.420, 81.279 { o3  naa D 501  B13.02 1ll4}white L 46.233, 47.383, 80.607
+{ c4  naa D 501  B17.02 1ll4} P 48.213, 48.847, 80.518 { o4  naa D 501  B24.35 1ll4}white L 47.855, 48.785, 79.158
+{ c1  naa D 501  B16.67 1ll4} P 48.562, 47.217, 82.849 { o5  naa D 501  B19.27 1ll4}white L 49.641, 47.829, 82.170
+{ c6  naa D 501  B20.35 1ll4} P 50.703, 48.062, 80.015 { o6  naa D 501  B19.14 1ll4}white L 51.645, 47.054, 80.376
+{ c7  naa D 501  B5.24 1ll4} P 45.458, 47.717, 84.101 { o7  naa D 501  B6.13 1ll4}white L 44.632, 46.985, 84.600
+{ c7  naa D 501  B5.24 1ll4} P 45.458, 47.717, 84.101 { n2  naa D 501  B4.37 1ll4}white L ghost 46.164, 47.286, 83.103
+{ c5  naa D 501  B20.10 1ll4} P 49.359, 47.869, 80.751 { o5  naa D 501  B19.27 1ll4}white L ghost 49.641, 47.829, 82.170
+{ c1  naa D 502  B22.96 1ll4} P 51.030, 44.019, 86.163 { c1  naa D 502  B22.96 1ll4}white L 51.030, 44.019, 86.163
+{ c1  naa D 502  B22.96 1ll4} P 51.030, 44.019, 86.163 { c2  naa D 502  B25.19 1ll4}white L 51.320, 44.135, 84.660
+{ c2  naa D 502  B25.19 1ll4} P 51.320, 44.135, 84.660 { c3  naa D 502  B24.26 1ll4}white L 50.806, 45.460, 84.014
+{ c3  naa D 502  B24.26 1ll4} P 50.806, 45.460, 84.014 { c4  naa D 502  B22.86 1ll4}white L 49.327, 45.700, 84.479
+{ c4  naa D 502  B22.86 1ll4} P 49.327, 45.700, 84.479 { c5  naa D 502  B22.16 1ll4}white L 49.174, 45.499, 85.995
+{ c5  naa D 502  B22.16 1ll4} P 49.174, 45.499, 85.995 { c6  naa D 502  B22.03 1ll4}white L 47.772, 45.569, 86.627
+{ c7  naa D 502  B26.07 1ll4} P 53.375, 43.336, 83.646 { c8  naa D 502  B26.58 1ll4}white L 52.502, 42.780, 82.525
+{ c2  naa D 502  B25.19 1ll4} P 51.320, 44.135, 84.660 { n2  naa D 502  B27.29 1ll4}white L 52.774, 44.085, 84.560
+{ c3  naa D 502  B24.26 1ll4} P 50.806, 45.460, 84.014 { o3  naa D 502  B27.03 1ll4}white L 51.622, 46.609, 84.262
+{ c4  naa D 502  B22.86 1ll4} P 49.327, 45.700, 84.479 { o4  naa D 502  B20.97 1ll4}white L 48.923, 47.068, 84.173
+{ c1  naa D 502  B22.96 1ll4} P 51.030, 44.019, 86.163 { o5  naa D 502  B24.26 1ll4}white L 49.661, 44.208, 86.412
+{ c6  naa D 502  B22.03 1ll4} P 47.772, 45.569, 86.627 { o6  naa D 502  B22.95 1ll4}white L 47.809, 45.243, 88.050
+{ c7  naa D 502  B26.07 1ll4} P 53.375, 43.336, 83.646 { o7  naa D 502  B25.11 1ll4}white L 54.581, 43.090, 83.708
+{ c7  naa D 502  B26.07 1ll4} P 53.375, 43.336, 83.646 { n2  naa D 502  B27.29 1ll4}white L ghost 52.774, 44.085, 84.560
+{ c5  naa D 502  B22.16 1ll4} P 49.174, 45.499, 85.995 { o5  naa D 502  B24.26 1ll4}white L ghost 49.661, 44.208, 86.412
+{ o4  naa D 502  B20.97 1ll4} P 48.923, 47.068, 84.173 { c1  naa D 501  B16.67       1ll4}white L ghost 48.562, 47.217, 82.849
+{ c1  ami D 503  B21.53 1ll4} P 52.106, 40.577, 89.331 { c1  ami D 503  B21.53 1ll4}white L 52.106, 40.577, 89.331
+{ c1  ami D 503  B21.53 1ll4} P 52.106, 40.577, 89.331 { c2  ami D 503  B21.99 1ll4}white L 50.920, 41.408, 89.803
+{ c2  ami D 503  B21.99 1ll4} P 50.920, 41.408, 89.803 { c3  ami D 503  B20.82 1ll4}white L 50.372, 41.958, 88.511
+{ c3  ami D 503  B20.82 1ll4} P 50.372, 41.958, 88.511 { c4  ami D 503  B21.98 1ll4}white L 51.616, 42.437, 87.858
+{ c1  ami D 503  B21.53 1ll4} P 52.106, 40.577, 89.331 { c5  ami D 503  B22.14 1ll4}white L 52.590, 41.256, 88.040
+{ c5  ami D 503  B22.14 1ll4} P 52.590, 41.256, 88.040 { c6  ami D 503  B21.11 1ll4}white L 54.057, 41.625, 88.069
+{ c8  ami D 503  B23.16 1ll4} P 48.053, 38.166, 89.645 { c8  ami D 503  B23.16 1ll4}white L 48.053, 38.166, 89.645
+{ c9  ami D 503  B22.85 1ll4} P 50.109, 36.890, 89.467 { c9  ami D 503  B22.85 1ll4}white L 50.109, 36.890, 89.467
+{ c2  ami D 503  B21.99 1ll4} P 50.920, 41.408, 89.803 { n2  ami D 503  B21.77 1ll4}white L 49.868, 40.499, 90.200
+{ c7  ami D 503  B22.48 1ll4} P 50.177, 39.318, 89.634 { n7  ami D 503  B23.87 1ll4}white L 49.470, 38.166, 89.581
+{ c3  ami D 503  B20.82 1ll4} P 50.372, 41.958, 88.511 { o3  ami D 503  B16.04 1ll4}white L 49.410, 42.887, 88.935
+{ c4  ami D 503  B21.98 1ll4} P 51.616, 42.437, 87.858 { o4  ami D 503  B20.19 1ll4}white L 51.322, 42.725, 86.491
+{ c6  ami D 503  B21.11 1ll4} P 54.057, 41.625, 88.069 { o6  ami D 503  B23.69 1ll4}white L 54.442, 42.321, 86.894
+{ c1  ami D 503  B21.53 1ll4} P 52.106, 40.577, 89.331 { o7  ami D 503  B21.72 1ll4}white L 51.401, 39.351, 89.046
+{ c4  ami D 503  B21.98 1ll4} P 51.616, 42.437, 87.858 { c5  ami D 503  B22.14 1ll4}white L ghost 52.590, 41.256, 88.040
+{ c7  ami D 503  B22.48 1ll4} P 50.177, 39.318, 89.634 { n2  ami D 503  B21.77 1ll4}white L ghost 49.868, 40.499, 90.200
+{ c8  ami D 503  B23.16 1ll4} P 48.053, 38.166, 89.645 { n7  ami D 503  B23.87 1ll4}white L ghost 49.470, 38.166, 89.581
+{ c9  ami D 503  B22.85 1ll4} P 50.109, 36.890, 89.467 { n7  ami D 503  B23.87 1ll4}white L ghost 49.470, 38.166, 89.581
+{ c7  ami D 503  B22.48 1ll4} P 50.177, 39.318, 89.634 { o7  ami D 503  B21.72 1ll4}white L ghost 51.401, 39.351, 89.046
+{ o4  ami D 503  B20.19 1ll4} P 51.322, 42.725, 86.491 { c1  naa D 502  B22.96       1ll4}white L 51.030, 44.019, 86.163
+

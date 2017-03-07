@@ -1,0 +1,457 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Begetis Nikolaos - Postgraduate Student - Bioinformatics, ITMB
+%% Supervisor: Cavouras Dionisis - Professor - ITMB
+%% Course: Image Processing and Analysis
+%% Function: This function uses a main program which calls either the
+%% Minimum Distance Classifier with more than 2 features, or the knn or pnn
+%% classifiers or the bayesian or non-linear bayesian, using switch case
+%% statements and being terminated by user.
+%% Filename: Program_6_nbegetis.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+% 1)MDC: Generalize classifier for 2 classes many features
+% 2)KNN and PNN: create functions for the rest of the versions.
+
+% 3)Bayesian generate the non-linear Bayesian
+
+% 4)Incorporate all algorithms in a program with menu for calling them (the 
+% menu should incorporate "while and switch-case statements", so that it 
+% terminates only by user's choice). Use calling program of MDC classifier.
+% Also include a number of pre-defined patterns to be classified by the
+% classifier of choice.
+
+
+% Program_6_nbegetis
+function[]=Program_6_nbegetis()
+    clc;echo off;close all;clear all;
+
+% class1 = [5,5; 6,5; 6,6; 6,7; 7,5]; %Let a 2 feature 5 pattern class1
+% class2 = [ 0,3; -1,3;-2,3;-3,3];%Let a 2 feature 4 pattern class2
+% unknown_pattern= [2 6];% Let a 2 feature uknown vector
+
+	features=randi([2 10],1,1);
+	patterns1=randi([5 10],1,1);
+    patterns2=randi([5 10],1,1);
+	
+    class1=zeros(patterns1,features);
+    class2=zeros(patterns2,features);
+    for i=1:features
+        class1(:,i)=randi([-10 10])+randn(patterns1,1);
+        class2(:,i)=randi([-10 10])+randn(patterns2,1);
+    end
+    
+    unknown_pattern=(mean(class1)+mean(class2))/2+rand(); % unknown vector
+    fprintf('The Unknown Pattern is: \n'); disp(unknown_pattern);
+    
+    classified=0;
+    
+    terminate=false;
+    while (~terminate)
+        choice=0;
+        while choice<1 || choice>6 
+            choice = input('Select the classifier you prefer to use\n1. MDC\n2. k-NN\n3. PNN\n4. Bayesian\n5. Quadratic Bayesian\n6. Terminate Program\nType selection (1-6):  ');
+        end; 
+        switch (choice)
+            case 1  % MDC
+                classified=MDC_classifier(unknown_pattern,class1,class2);                
+            case 2  % k-NN
+                knn_choice=0;
+                while knn_choice < 1 || knn_choice > 4 
+                    knn_choice = input('Select how many neighbours you want \n1. 1 - NN\n2. k - NN\n3. k+k - NN\n4. k - NN with weighted votes\nType selection (1-4):  ');
+                end
+                if (knn_choice==1)
+                    neighbours=1;
+                elseif (knn_choice==2 || knn_choice==4)
+                    neighbours=0
+                    while neighbours < 1 || neighbours > (patterns1+patterns2) 
+                        fprintf('Enter number of neighbours between 1-%d: ',patterns1+patterns2);
+                        neighbours = input(' ');
+                    end
+                elseif (knn_choice==3)
+                    if (patterns1<patterns2)
+                        patt=patterns1;
+                    else
+                        patt=patterns2;
+                    end
+                    
+                    neighbours=0
+                    while neighbours < 1 || neighbours > patt
+                        fprintf('Enter number of neighbours between 1-%d: ', patt);
+                        neighbours = input(' ');
+                    end
+                end
+                classified=KNN_classifier(unknown_pattern,class1,class2,knn_choice,neighbours);                
+            case 3  % PNN
+                pnn_choice=0;
+                while pnn_choice < 1 || pnn_choice > 3 
+                    pnn_choice = input('Select the function you want for PNN classification\n1. Gaussian\n2. Exponential\n3. Reciprocal\nType selection (1-3):  ');
+                end
+                classified=PNN_classifier(unknown_pattern,class1,class2,pnn_choice);                
+            case 4  % Bayesian
+                classified=Bayesian_classifier(unknown_pattern, class1, class2);                
+            case 5  % Quadratic Bayesian
+                classified=QuadraticBayesian_classifier(unknown_pattern,class1,class2);                
+            case 6
+                terminate=true;
+                continue;
+        end
+        
+        if (classified==0)
+            disp('Unknown pattern belongs to no class');
+        else
+            fprintf(1,'Unknown pattern belongs to class: %4.0f\n\n',classified);
+        end
+        figure;
+        plotScatter(unknown_pattern,class1,class2);
+    end
+
+end
+
+
+
+%% ------------------Functions---------------------------------------------
+
+
+%--------------------------------------------------------------------------
+%-------------------MDC_classifier-----------------------------------------
+%--------------------------------------------------------------------------
+function [classified]=MDC_classifier(unknown_pattern,class1,class2)
+    % // Design Minimum Distance Classifier
+    % // Let point X with vector X_patt
+    % // and di its distance from class i then
+    % // di^2= (X_patt[0]-Mean_Class_i[0])^2 + (X_patt[1]-Mean_Class_i[1])^2=
+    % //
+    % // =X_patt[0]^2+X_patt[1]^2-2(Mean_Class_i[0]*X_patt[0]+
+    % // Mean_Class_i[1]*X_patt[1]
+    % // -0.5*(Mean_Class_i[0]^2+Mean_Class_i[1]^2)
+    % // Thus Disciminant function is
+    % // G_Class_i= Mean_Class_i[0]*X_patt[0]+Mean_Class_i[1]*X_patt[1]
+    % // -0.5*(Mean_Class_i[0]^2+Mean_Class_i[1]^2) be maximum
+
+    % Calculate mean vectors for each class
+    N_feat=size(unknown_pattern,2);
+
+    for j=1:N_feat
+        Mean_Class1(j)=mean(class1(:,j));
+        Mean_Class2(j)=mean(class2(:,j));
+    end
+
+    % unknown_f1 = unknown_pattern(1);
+    % unknown_f2 = unknown_pattern(2);
+
+    G_Class_1=0;
+    G_Class_2=0;
+    for i=1:N_feat  % G discriminant functions, one for each N_feat class
+        G_Class_1 = G_Class_1 + Mean_Class1(i)*unknown_pattern(i) - 0.5*Mean_Class1(i)^2;
+        G_Class_2 = G_Class_2 + Mean_Class2(i)*unknown_pattern(i) - 0.5*Mean_Class2(i)^2;
+    end
+    
+    fprintf(1,'\nFor Unknown Pattern: %6.2f, %6.2f \n', unknown_pattern(1), unknown_pattern(2));
+    fprintf('Discriminant 1: %6.2f\n', G_Class_1);
+    fprintf('Discriminant 2: %6.2f\n', G_Class_2);
+    
+    % classify
+    if (G_Class_1 > G_Class_2) classified = 1; end;
+    if (G_Class_1 < G_Class_2) classified = 2; end;
+    if (G_Class_1 == G_Class_2) classified=0;fprintf (1,'\n Unknown Pattern Belongs to no class\n');end;
+end % of MDC classifier
+
+
+
+%--------------------------------------------------------------------------
+%----------------------plotScatter-----------------------------------------
+%--------------------------------------------------------------------------
+function []=plotScatter(unknown_pattern,class1,class2)
+    plot(class1(:,1), class1(:,2), 'gs');
+    hold on;
+    plot(class2(:,1), class2(:,2), 'bo');
+    plot(unknown_pattern(1), unknown_pattern(2), 'r*');
+    N_feat=size(unknown_pattern,2);
+    % %----------------Plot decision boundary-------------
+    % Calculate mean vectors for each class
+    for j=1:N_feat 
+      Mean_Class1(j)=mean(class1(:,j));
+      Mean_Class2(j)=mean(class2(:,j));
+    end 
+    axis equal;
+    v=axis;
+    [X,Y]=meshgrid(v(1):v(2),v(3):v(4)); % form grid
+
+    % replace x,y by grid X,Y and calculate Z=G1-G2
+    Z=Mean_Class1(1)*X+Mean_Class1(2)*Y-0.5*(Mean_Class1(1)^2+Mean_Class1(2)^2)- ...
+        (Mean_Class2(1)*X+Mean_Class2(2)*Y-0.5*(Mean_Class2(1)^2+Mean_Class2(2)^2));
+    contour(X,Y,Z,[0,0],'r'); % plot Z=0, i.e. decision boundary
+    legend('Class 1','Class 2');
+    grid on;
+end %od plotScatter
+
+
+
+%--------------------------------------------------------------------------
+%-------------------KNN_classifier-----------------------------------------
+%--------------------------------------------------------------------------
+function[classified]=KNN_classifier(unknown_pattern,class1,class2,knn_choice,neighbours)
+    features=size(class1,2); %   # features in each class
+    N1=size(class1,1);       %   # patterns in class1
+    N2=size(class2,1);       %   # patterns in class2
+
+    %1.Find distances of unknown_pattern from patterns of class 1
+    for i=1:N1
+        d=0;
+        for j=1:features
+            d=d+sqrt((unknown_pattern(j)-class1(i,j))^2);
+        end
+        val1(i,1)=d;
+        val1(i,2)=1;
+    end
+
+    %1.Find distances of unknown_pattern from patterns of class 2
+    for i=1:N2
+        d=0;
+        for j=1:features
+            d=d+sqrt((unknown_pattern(j)-class2(i,j))^2);
+        end
+        val2(i,1)=d;
+        val2(i,2)=2;
+    end
+    
+    if (knn_choice==1)
+        q1=min(val1);
+        q2=min(val2);
+    
+        if (q1<q2) 
+            classified=1; 
+        else
+            classified=2;
+        end
+        
+    elseif (knn_choice==2)
+        val=[val1;val2];
+        sort_val=sortrows(val,1); %taksinomisi twn apostasewn se auksousa seira
+        counter1=0;
+        counter2=0;
+
+        for i=1:neighbours %pairnoume tous k prwtous geitones pou eixe epileksei o xristis na trexei to programma
+            if (sort_val(i,2)==1) %an anikei stin 1i klasi auksanetai o metritis tis 1is klasis alliws auksanetai o metritis tis 2is klasis
+                counter1=counter1+1; 
+            else
+                counter2=counter2+1;
+            end
+        end
+        
+        if (counter1>counter2) 
+            classified=1; 
+        end;
+        if (counter1<counter2) 
+            classified=2; 
+        end;
+        if (counter1==counter2)
+            classified=0; 
+        end;
+        
+    elseif (knn_choice==3)
+        sort_val1=sort(val1(:,1)); %taksinomisi twn apostasewn tis klasis1 se auksousa seira
+        sort_val2=sort(val2(:,1)); %taksinomisi twn apostasewn tis klasis2 se auksousa seira
+        
+        d1=mean(sort_val1(1:neighbours));
+        d2=mean(sort_val2(1:neighbours));
+
+        if (d1<d2) 
+            classified=1; 
+        end;
+        if (d1>d2) 
+            classified=2; 
+        end;
+        if (d1==d2) 
+            classified=0; 
+        end
+        
+    elseif (knn_choice==4)
+        val=[val1;val2];
+        sort_val=sortrows(val, 1); %taksinomisi twn apostasewn se auksousa seira
+        votes1=0;
+        votes2=0; %the votes of these records are weighted according to the inverse square of their distances
+
+        for i=1:neighbours %pairnoume tous k prwtous geitones pou eixe epileksei o xristis na trexei to programma
+            if (sort_val(i,2)==1)
+                votes1=votes1+1/(sort_val(i,1)+1);
+            else
+                votes2=votes2+1/(sort_val(i,1)+1);
+            end
+        end
+        
+        if (votes1>votes2) 
+            classified=1; 
+        end;
+        if (votes1<votes2)
+            classified=2;
+        end;
+        if (votes1==votes2) 
+            classified=0;
+        end
+    end
+end
+
+
+
+%--------------------------------------------------------------------------
+%-------------------PNN_classifier-----------------------------------------
+%--------------------------------------------------------------------------
+function [classified]=PNN_classifier(X_patt,class1,class2,pnn_choice)
+% //--------------------------PNN-------------------------------------
+% //Class1
+    N_feat=size(X_patt,2);							
+    N_patt_C1=size(class1,1);
+    N_patt_C2=size(class2,1);
+
+    PI=3.14159;sigma=0.24;
+
+    %find exponential distaces of X_patt from class1 patterns
+    val1=(2*PI)^(N_feat/2)*(sigma^N_feat)*N_patt_C1;
+    val2=(2*PI)^(N_feat/2)*(sigma^N_feat)*N_patt_C2;
+    
+    if (pnn_choice==1) % Gaussian function
+        sumi=0;
+        for i=1:N_patt_C1
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+(class1(i,j)-X_patt(j))^2;
+            end % //j
+            sumi=sumi+exp(-sumj/(2*sigma^2));
+        end % //i
+        G_Class_1=sumi/val1;
+
+
+        val2=(2*PI)^(N_feat/2)*(sigma^N_feat)*N_patt_C2;
+        sumi=0;
+        for i=1:N_patt_C2
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+(class2(i,j)-X_patt(j))^2;
+            end % //j
+            sumi=sumi+exp(-sumj/(2*sigma^2));
+        end % //i
+        G_Class_2=sumi/val2;
+        
+    elseif (pnn_choice==2)  % Exponential function
+        sumi=0;
+        for i=1:N_patt_C1
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+abs(class1(i,j)-X_patt(j));
+            end % //j
+            sumi=sumi+exp(-sumj/sigma);
+        end % //i
+        G_Class_1=sumi/val1;
+
+
+        val2=(2*PI)^(N_feat/2)*(sigma^N_feat)*N_patt_C2;
+        sumi=0;
+        for i=1:N_patt_C2
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+abs(class2(i,j)-X_patt(j));
+            end % //j
+            sumi=sumi+exp(-sumj/sigma);
+        end % //i
+        G_Class_2=sumi/val2;
+        
+    elseif (pnn_choice==3) % Reciprocal function
+        sumi=0;
+        for i=1:N_patt_C1
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+(class1(i,j)-X_patt(j))^2;
+            end % //j
+            sumi=sumi+1/(1+sumj/(sigma^2));
+        end % //i
+        G_Class_1=sumi/val1;
+
+
+        val2=(2*PI)^(N_feat/2)*(sigma^N_feat)*N_patt_C2;
+        sumi=0;
+        for i=1:N_patt_C2
+            sumj=0;
+            for j=1:N_feat
+                sumj=sumj+(class2(i,j)-X_patt(j))^2;
+            end % //j
+            sumi=sumi+1/(1+sumj/(sigma^2));
+        end % //i
+        G_Class_2=sumi/val2;
+    end
+    
+    fprintf('Discriminant 1: %6.2f\n',G_Class_1);
+    fprintf('Discriminant 2: %6.2f\n',G_Class_2);
+    
+    if (G_Class_1 > G_Class_2) classified=1; end;
+    if (G_Class_1 < G_Class_2) classified=2; end;
+    if (G_Class_1 == G_Class_2) fprintf(1,'\n Unknown Pattern Belongs to no class\n');classified=0; end;
+end
+
+
+%--------------------------------------------------------------------------
+%-------------------Bayesian_classifier------------------------------------
+%--------------------------------------------------------------------------
+function [classified]=Bayesian_classifier(X_patt,class_a,class_b)
+    [inv_mean_covariance]=BC_inverse_covariance(class_a,class_b); % C^-1
+    G_Class_1=computeDiscrValue(X_patt,class_a,inv_mean_covariance);
+    G_Class_2=computeDiscrValue(X_patt,class_b,inv_mean_covariance);
+    
+    
+    if (G_Class_1 > G_Class_2) classified=1;end;
+    if (G_Class_1 < G_Class_2) classified=2;end;
+    if (G_Class_1 == G_Class_2) 
+        fprintf (1,'\n Unknown Pattern Belongs to no class\n');
+        classified=0; 
+    end;
+end
+
+%==========================================================================
+function [d]=computeDiscrValue (X_patt,class,inv_mean_covariance)
+    Mean_Class=mean(class); % m
+    G1=(X_patt*inv_mean_covariance)*Mean_Class'; % x^T*C^-1*m
+    G2=(Mean_Class*inv_mean_covariance)*Mean_Class'; % m^T*C^-1*m
+    d=G1-0.5*G2; %x^T*C^-1*m-0.5*m^T*C^-1*m
+end
+%==========================================================================
+function [inv_m_covar]=BC_inverse_covariance(class1,class2)
+    covar1=cov(class1,1);   % covariance of class1
+    covar2=cov(class2,1);   % covariance of class2
+    m_covar=(covar1+covar2)/2;  % mean covariance
+    inv_m_covar=inv(m_covar);   % inverse of mean covariance
+end
+
+
+%--------------------------------------------------------------------------
+%-------------------Bayesian_classifier------------------------------------
+%--------------------------------------------------------------------------
+function [classified]=QuadraticBayesian_classifier(X_patt,class_a,class_b)
+    p1=0.5;
+    p2=0.5;
+    [mean_covariance]=BC_covariance(class_a,class_b); % C
+    [inv_mean_covariance]=BC_inverse_covariance(class_a,class_b); % C^-1
+
+    G_Class_1=computeQuadrDiscrValue(X_patt,class_a,p1,mean_covariance,inv_mean_covariance);
+    G_Class_2=computeQuadrDiscrValue(X_patt,class_b,p2,mean_covariance,inv_mean_covariance);
+    
+    if (G_Class_1 > G_Class_2) classified=1;end;
+    if (G_Class_1 < G_Class_2) classified=2;end;
+    if (G_Class_1 == G_Class_2) 
+        fprintf (1,'\n Unknown Pattern Belongs to no class\n');
+        classified=0; 
+    end;
+end
+
+%==========================================================================
+function [d] = computeQuadrDiscrValue (X_patt, class, p, mean_covariance, inv_mean_covariance)
+    Mean_Class=mean(class); % m
+    G=(X_patt-Mean_Class)*inv_mean_covariance*(X_patt-Mean_Class)'; % (x-m)^T*C^-1*(x-m)
+    d=log(p)-0.5*log(det(mean_covariance))-0.5*G; % ln(p)-0.5*ln(C)-0.5*(x-m)^T*C^-1*(x-m)
+end
+%==========================================================================
+function [m_covar] = BC_covariance(class1, class2)
+    covar1=cov(class1,1); %covariance of class1
+    covar2=cov(class2,1); %covariance of class2
+    m_covar=(covar1+covar2)/2; %mean covariance
+end

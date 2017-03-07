@@ -1,0 +1,39 @@
+Patches: interface AB with 2 patches
+
+
+Patch id 0
+Patch size 238.81
+Patch #atoms: 24
+  420    O HIS A 425
+  421   CB HIS A 425
+  422   CG HIS A 425
+  423  ND1 HIS A 425
+  424  CD2 HIS A 425
+  425  CE1 HIS A 425
+  426  NE2 HIS A 425
+  428   CA PRO A 426
+  429    C PRO A 426
+  430    O PRO A 426
+  900   CB PRO B 256
+  901   CG PRO B 256
+  912    C ASP B 258
+  913    O ASP B 258
+  914   CB ASP B 258
+  915   CG ASP B 258
+  917  OD2 ASP B 258
+  919   CA ASP B 259
+  920    C ASP B 259
+  921    O ASP B 259
+  924  OD1 ASP B 259
+  939   CG GLU B 261
+  940   CD GLU B 261
+  942  OE2 GLU B 261
+
+Patch id 1
+Patch size 64.58
+Patch #atoms: 2
+   11   CB LYS A 375
+  941  OE1 GLU B 261
+
+
+0 atom(s) in more than 1 patch

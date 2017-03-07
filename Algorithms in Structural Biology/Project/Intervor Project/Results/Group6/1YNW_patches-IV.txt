@@ -1,0 +1,12 @@
+Patches: interface AB with 1 patches
+
+
+Patch id 0
+Patch size 71.36
+Patch #atoms: 3
+ 1074   CB ALA A  61
+ 2044   CB GLU B 303
+ 2045   CG GLU B 303
+
+
+0 atom(s) in more than 1 patch

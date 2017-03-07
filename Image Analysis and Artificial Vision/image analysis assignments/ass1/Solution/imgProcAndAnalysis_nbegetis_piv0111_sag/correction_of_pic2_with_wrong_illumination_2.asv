@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Begetis Nikolaos - Postgraduate Student - Bioinformatics, ITMB
+%% Supervisor: Sangriotis Manolis - Professor - ITMB
+%% Course: Image Processing and Analysis
+%% Function: This function initially reads the wrong illuminated picture
+%% and then with a customized filter we created for adaptive thresholding, 
+%% it corrects and clears the picture. 
+%% Filename: correction_of_pic2_with_wrong_illumination_2.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function []=correction_of_pic2_with_wrong_illumination_2()
+
+clear *; clc
+close all
+
+I8=imread('picture_with_wrong_illumination_2.bmp');
+
+figure;
+imshow(I8); 
+
+% imread reads an image of 8 bit per pixel assigning them to unsigned
+% integers. But to perform operations on images' data, we firstly have to
+% assign these 8 bpp pictures to 64 bpp.
+% Later, we will round down again these 64 bpp to 8 bpp pictures
+
+I64=double(I8);
+
+% We asregion_sume a real array 'van' where we place the I64 array
+van = I64;
+
+% We normalize the signal 'van' to the [0,255] interval
+ivan=van-min(van(:)); % first the array is transformed to [0,max(van)min(van)]
+% after that van is quantised to 255 level
+
+conx=1/max(ivan(:));
+ivan=round(ivan*conx*255);
+
+% round down real numbers to interers
+ivan=uint8(ivan);       % transform array to unsigned integers
+ivan_real=double(ivan); % and at follow we make the real again, so that we
+% achieve a round down in real numbers
+
+
+lines=size(I64,1);
+columns=size(I64,2);
+
+% As indicated in class lesson we apply adaptive thresholding for every 
+% pixel (k,m) in a region LxL , with L=7, from 3 to -3.
+
+C=5;    % A constant depending from the number of the quantization level 
+% and the noise level. The best value is 5, according to class notes.
+
+for l=4:lines-3
+    for c=4:columns-3 
+        region_sum = I64(l-3:l+3,c-3:c+3);
+        T = mean(region_sum(:)) - C;
+        if ivan_real(l,c) < T
+            ivan_real(l,c) = 0;
+        else
+            ivan_real(l,c) = 255;
+        end
+    end
+end
+
+% now having used the adaptive threshold we display the image and write it
+% in a new bmp file 
+I64_final_picture_2
+
+figure;
+imshow(ivan_real);
+imwrite(I64_final_picture_cleared_and_illuminated,'picture_1_cleared.bmp'); 
+% write in bmp file
+
+end        
+
+             

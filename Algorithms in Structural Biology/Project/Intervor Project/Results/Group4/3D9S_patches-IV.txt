@@ -1,0 +1,13 @@
+Patches: interface AB with 1 patches
+
+
+Patch id 0
+Patch size 64.06
+Patch #atoms: 4
+  330  CD2 LEU A  43
+  360  CD2 LEU A  47
+ 2145  CD2 LEU B  43
+ 2174  CD1 LEU B  47
+
+
+0 atom(s) in more than 1 patch

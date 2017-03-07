@@ -1,0 +1,354 @@
+Atoms of type IA_A
+   40  OD1 ASP A   6; IA_A 0       OchM; 1 1 -1; 0 0 0 1 0
+   65  ND2 ASN A   9; IA_A 0       Nhbd; 1 1 -1; 0 0 0 1 0
+  187    O GLU A  27; IA_A 1       Opep; 3 3 -1; 0 1 0 0 0
+  189   CG GLU A  27; IA_A 0       Cali; 1 2 -1; 0 2 0 0 0
+  190   CD GLU A  27; IA_A 0       Caro; 1 2 -1; 0 1 0 2 0
+  191  OE1 GLU A  27; IA_A 0       OchM; 1 1 -1; 0 0 0 1 0
+  192  OE2 GLU A  27; IA_A 1       OchM; 3 3 -1; 0 0 0 1 0
+  208    C GLU A  30; IA_A 1       Cpep; 3 3 -1; 0 1 0 0 0
+  210   CB GLU A  30; IA_A 0       Cali; 2 2 -1; 0 1 0 0 0
+  211   CG GLU A  30; IA_A 0       Cali; 2 2 -1; 0 2 0 0 0
+  212   CD GLU A  30; IA_A 0       Caro; 1 2 -1; 0 2 0 0 0
+  213  OE1 GLU A  30; IA_A 0       OchM; 1 1 -1; 0 1 0 0 0
+  214  OE2 GLU A  30; IA_A 0       OchM; 1 1 -1; 0 1 0 0 0
+  215    N ARG A  31; IA_A 1       Nhbd; 3 3 -1; 0 2 0 0 0
+  216   CA ARG A  31; IA_A 1       Cali; 3 4 -1; 0 3 0 1 0
+  217    C ARG A  31; IA_A 1       Cpep; 4 5 -1; 0 2 0 1 0
+  218    O ARG A  31; IA_A 1       Opep; 3 4 -1; 0 1 0 1 0
+  219   CB ARG A  31; IA_A 1       Cali; 4 6 -1; 0 3 0 1 0
+  220   CG ARG A  31; IA_A 1       Cali; 3 5 -1; 0 4 0 1 0
+  221   CD ARG A  31; IA_A 1       Cali; 6 7 -1; 0 2 0 0 0
+  222   NE ARG A  31; IA_A 1       NchP; 3 3 -1; 0 1 0 0 0
+  223   CZ ARG A  31; IA_A 1       Caro; 3 6 -1; 0 9 0 0 0
+  224  NH1 ARG A  31; IA_A 1       NchP; 5 7 -1; 0 9 0 0 0
+  225  NH2 ARG A  31; IA_A 1       NchP; 2 4 -1; 0 6 0 2 0
+  247    C LEU A  34; IA_A 1       Cpep; 2 2 -1; 0 1 0 0 0
+  248    O LEU A  34; IA_A 0       Opep; 1 2 -1; 0 1 0 1 0
+  249   CB LEU A  34; IA_A 0       Cali; 1 3 -1; 0 3 0 1 0
+  251  CD1 LEU A  34; IA_A 0       Cali; 1 3 -1; 0 9 0 1 0
+  253    N SER A  35; IA_A 1       Nhbd; 2 3 -1; 0 1 0 1 0
+  254   CA SER A  35; IA_A 1       Cali; 2 3 -1; 0 3 0 2 0
+  255    C SER A  35; IA_A 1       Cpep; 3 3 -1; 0 0 0 1 0
+  256    O SER A  35; IA_A 1       Opep; 2 3 -1; 0 1 0 2 0
+  257   CB SER A  35; IA_A 1       Cali; 3 5 -1; 0 5 0 1 0
+  258   OG SER A  35; IA_A 1       Ohbd; 3 5 -1; 0 8 0 1 0
+  260   CA PHE A  36; IA_A 1       Cali; 1 1 -1; 0 0 0 1 0
+  265  CD1 PHE A  36; IA_A 0       Caro; 1 1 -1; 0 0 0 1 0
+  267  CE1 PHE A  36; IA_A 0       Caro; 1 3 -1; 0 5 0 2 0
+  268  CE2 PHE A  36; IA_A 1       Caro; 5 6 -1; 0 3 0 0 0
+  269   CZ PHE A  36; IA_A 0       Caro; 1 5 -1; 0 7 0 0 0
+  275   CG PRO A  37; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  276   CD PRO A  37; IA_A 0       Cali; 1 2 -1; 0 0 0 2 0
+  743   CA LYS A  99; IA_A 1       Cali; 1 1 -1; 0 0 0 1 0
+  744    C LYS A  99; IA_A 0       Cpep; 2 2 -1; 0 0 0 1 0
+  745    O LYS A  99; IA_A 0       Opep; 1 1 -1; 0 0 0 1 0
+  746   CB LYS A  99; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  747   CG LYS A  99; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  748   CD LYS A  99; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  749   CE LYS A  99; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  769    C SER A 102; IA_A 1       Cpep; 2 2 -1; 0 0 0 1 0
+  771   CB SER A 102; IA_A 1       Cali; 1 1 -1; 0 0 0 2 0
+  773    N HIS A 103; IA_A 1       Nhbd; 2 2 -1; 0 0 0 2 0
+  774   CA HIS A 103; IA_A 1       Cali; 2 3 -1; 0 0 0 3 0
+  776    O HIS A 103; IA_A 1       Opep; 5 5 -1; 0 1 0 0 0
+  777   CB HIS A 103; IA_A 0       Cali; 1 3 -1; 0 1 0 4 0
+  778   CG HIS A 103; IA_A 0       Caro; 2 3 -1; 0 2 0 0 0
+  779  ND1 HIS A 103; IA_A 1       Naro; 2 4 -1; 0 4 0 2 0
+  780  CD2 HIS A 103; IA_A 0       Caro; 2 7 -1; 0 7 0 0 0
+  781  CE1 HIS A 103; IA_A 1       Caro; 4 6 -1; 0 10 0 1 0
+  782  NE2 HIS A 103; IA_A 1       Naro; 4 7 -1; 0 10 0 0 0
+  784   CA CYS A 104; IA_A 1       Cali; 7 7 -1; 0 1 0 0 0
+  787   CB CYS A 104; IA_A 1       Cali; 7 7 -1; 0 1 0 0 0
+  788   SG CYS A 104; IA_A 1         Sh; 6 6 -1; 0 1 0 0 0
+  799    C LEU A 106; IA_A 1       Cpep; 4 4 -1; 0 1 0 0 0
+  800    O LEU A 106; IA_A 1       Opep; 4 4 -1; 0 1 0 0 0
+  801   CB LEU A 106; IA_A 1       Cali; 3 4 -1; 0 1 0 1 0
+  802   CG LEU A 106; IA_A 1       Cali; 1 1 -1; 0 0 0 1 0
+  803  CD1 LEU A 106; IA_A 1       Cali; 1 3 -1; 0 1 0 3 0
+  805    N VAL A 107; IA_A 1       Nhbd; 5 5 -1; 0 1 0 0 0
+  806   CA VAL A 107; IA_A 1       Cali; 4 5 -1; 0 3 0 0 0
+  807    C VAL A 107; IA_A 1       Cpep; 6 6 -1; 0 1 0 0 0
+  808    O VAL A 107; IA_A 1       Opep; 5 5 -1; 0 1 0 0 0
+  809   CB VAL A 107; IA_A 1       Cali; 7 8 -1; 0 2 0 0 0
+  810  CG1 VAL A 107; IA_A 1       Cali; 6 8 -1; 0 10 0 0 0
+  811  CG2 VAL A 107; IA_A 1       Cali; 5 8 -1; 0 9 0 0 0
+  828   CA ALA A 110; IA_A 1       Cali; 4 4 -1; 0 2 0 0 0
+  829    C ALA A 110; IA_A 1       Cpep; 4 5 -1; 0 5 0 0 0
+  830    O ALA A 110; IA_A 1       Opep; 3 4 -1; 0 3 0 1 0
+  831   CB ALA A 110; IA_A 1       Cali; 2 4 -1; 0 11 0 0 0
+  832    N ALA A 111; IA_A 1       Nhbd; 5 6 -1; 0 2 0 0 0
+  833   CA ALA A 111; IA_A 1       Cali; 3 6 -1; 0 5 0 1 0
+  834    C ALA A 111; IA_A 1       Cpep; 2 4 -1; 0 1 0 3 0
+  835    O ALA A 111; IA_A 1       Opep; 2 3 -1; 0 3 0 4 0
+  836   CB ALA A 111; IA_A 1       Cali; 3 6 -1; 0 11 0 2 0
+  838   CA HIS A 112; IA_A 0       Cali; 1 2 -1; 0 0 0 3 0
+  839    C HIS A 112; IA_A 0       Cpep; 1 1 -1; 0 0 0 1 0
+  842   CG HIS A 112; IA_A 1       Caro; 3 3 -1; 0 0 0 1 0
+  843  ND1 HIS A 112; IA_A 1       Naro; 1 2 -1; 0 0 0 2 0
+  844  CD2 HIS A 112; IA_A 1       Caro; 3 3 -1; 0 0 0 2 0
+  845  CE1 HIS A 112; IA_A 0       Caro; 1 2 -1; 0 0 0 3 0
+  846  NE2 HIS A 112; IA_A 1       Naro; 2 3 -1; 0 0 0 2 0
+  849    C LEU A 113; IA_A 1       Cpep; 4 4 -1; 0 1 0 0 0
+  856   CA PRO A 114; IA_A 1       Cali; 2 3 -1; 0 3 0 1 0
+  857    C PRO A 114; IA_A 0       Cpep; 2 3 -1; 0 2 0 0 0
+  858    O PRO A 114; IA_A 0       Opep; 1 2 -1; 0 2 0 1 0
+  859   CB PRO A 114; IA_A 0       Cali; 1 2 -1; 0 3 0 1 0
+  860   CG PRO A 114; IA_A 0       Cali; 1 2 -1; 0 0 0 2 0
+  861   CD PRO A 114; IA_A 0       Cali; 1 2 -1; 0 0 0 2 0
+  863   CA ALA A 115; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  864    C ALA A 115; IA_A 0       Cpep; 2 2 -1; 0 0 0 1 0
+  865    O ALA A 115; IA_A 0       Opep; 1 1 -1; 0 0 0 1 0
+  869    C GLU A 116; IA_A 0       Cpep; 2 2 -1; 0 0 0 1 0
+  876    N PHE A 117; IA_A 0       Nhbd; 2 2 -1; 0 0 0 1 0
+  877   CA PHE A 117; IA_A 0       Cali; 3 3 -1; 0 1 0 0 0
+  878    C PHE A 117; IA_A 1       Cpep; 2 4 -1; 0 2 0 1 0
+  879    O PHE A 117; IA_A 1       Opep; 2 4 -1; 0 8 0 2 0
+  880   CB PHE A 117; IA_A 0       Cali; 3 4 -1; 0 2 0 0 0
+  883  CD2 PHE A 117; IA_A 1       Caro; 2 3 -1; 0 5 0 0 0
+  885  CE2 PHE A 117; IA_A 0       Caro; 1 2 -1; 0 7 0 0 0
+  886   CZ PHE A 117; IA_A 1       Caro; 2 3 -1; 0 2 0 0 0
+  887    N THR A 118; IA_A 1       Nhbd; 2 2 -1; 0 0 0 1 0
+  888   CA THR A 118; IA_A 1       Cali; 2 3 -1; 0 1 0 2 0
+  889    C THR A 118; IA_A 1       Cpep; 4 4 -1; 0 3 0 0 0
+  890    O THR A 118; IA_A 1       Opep; 4 4 -1; 0 1 0 0 0
+  891   CB THR A 118; IA_A 0       Cali; 1 2 -1; 0 0 0 2 0
+  893  CG2 THR A 118; IA_A 0       Cali; 1 1 -1; 0 0 0 2 0
+  894    N PRO A 119; IA_A 1       Nhbd; 4 4 -1; 0 1 0 0 0
+  895   CA PRO A 119; IA_A 1       Cali; 3 4 -1; 0 5 0 0 0
+  896    C PRO A 119; IA_A 1       Cpep; 3 3 -1; 0 1 0 0 0
+  897    O PRO A 119; IA_A 1       Opep; 3 4 -1; 0 2 0 0 0
+  898   CB PRO A 119; IA_A 1       Cali; 2 4 -1; 0 9 0 2 0
+  899   CG PRO A 119; IA_A 0       Cali; 1 3 -1; 0 8 0 2 0
+  900   CD PRO A 119; IA_A 0       Cali; 1 4 -1; 0 3 0 3 0
+  901    N ALA A 120; IA_A 1       Nhbd; 2 3 -1; 0 2 0 1 0
+  902   CA ALA A 120; IA_A 1       Cali; 2 3 -1; 0 3 0 1 0
+  903    C ALA A 120; IA_A 1       Cpep; 2 2 -1; 0 0 0 1 0
+  904    O ALA A 120; IA_A 1       Opep; 2 2 -1; 0 0 0 1 0
+  905   CB ALA A 120; IA_A 0       Cali; 1 2 -1; 0 2 0 2 0
+  915    C HIS A 122; IA_A 1       Cpep; 3 4 -1; 0 2 0 0 0
+  916    O HIS A 122; IA_A 1       Opep; 2 2 -1; 0 1 0 0 0
+  917   CB HIS A 122; IA_A 1       Cali; 3 5 -1; 0 2 0 0 0
+  918   CG HIS A 122; IA_A 1       Caro; 4 4 -1; 0 1 0 0 0
+  919  ND1 HIS A 122; IA_A 1       Naro; 2 4 -1; 0 5 0 0 0
+  920  CD2 HIS A 122; IA_A 1       Caro; 2 3 -1; 0 2 0 1 0
+  921  CE1 HIS A 122; IA_A 1       Caro; 2 4 -1; 0 11 0 1 0
+  922  NE2 HIS A 122; IA_A 1       Naro; 3 4 -1; 0 5 0 1 0
+  923    N ALA A 123; IA_A 1       Nhbd; 4 4 -1; 0 1 0 0 0
+  924   CA ALA A 123; IA_A 0       Cali; 2 3 -1; 0 5 0 0 0
+  926    O ALA A 123; IA_A 0       Opep; 1 2 -1; 0 2 0 0 0
+  927   CB ALA A 123; IA_A 0       Cali; 1 3 -1; 0 7 0 1 0
+  928    N SER A 124; IA_A 1       Nhbd; 1 1 -1; 0 0 0 1 0
+  929   CA SER A 124; IA_A 1       Cali; 1 1 -1; 0 0 0 1 0
+  933   OG SER A 124; IA_A 1       Ohbd; 2 2 -1; 0 0 0 1 0
+  946   CB ASP A 126; IA_A 0       Cali; 1 2 -1; 0 1 0 1 0
+  947   CG ASP A 126; IA_A 0       Caro; 2 3 -1; 0 4 0 1 0
+  948  OD1 ASP A 126; IA_A 0       OchM; 1 2 -1; 0 1 0 3 0
+  949  OD2 ASP A 126; IA_A 0       OchM; 1 2 -1; 0 4 0 0 0
+  955   CG LYS A 127; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+
+Buried/exposed summary for atom type IA_A [tot=147]: 91 56
+Connectivity to five types ie nb edges: 0 347 0 130 0
+
+Atoms of type IA_B
+ 1265  OE2 GLU B  26; IA_B 0       OchM; 1 2 -1; 2 0 0 1 0
+ 1284   CA ARG B  30; IA_B 1       Cali; 4 4 -1; 1 0 0 0 0
+ 1287   CB ARG B  30; IA_B 1       Cali; 3 3 -1; 2 0 0 0 0
+ 1288   CG ARG B  30; IA_B 1       Cali; 2 3 -1; 4 0 0 0 0
+ 1289   CD ARG B  30; IA_B 0       Cali; 1 2 -1; 3 0 0 0 0
+ 1290   NE ARG B  30; IA_B 1       NchP; 3 3 -1; 1 0 0 0 0
+ 1291   CZ ARG B  30; IA_B 0       Caro; 1 4 -1; 8 0 0 0 0
+ 1292  NH1 ARG B  30; IA_B 1       NchP; 2 4 -1; 9 0 0 0 0
+ 1293  NH2 ARG B  30; IA_B 1       NchP; 2 4 -1; 5 0 0 1 0
+ 1312    C VAL B  33; IA_B 1       Cpep; 2 2 -1; 1 0 0 0 0
+ 1313    O VAL B  33; IA_B 0       Opep; 1 1 -1; 1 0 0 0 0
+ 1314   CB VAL B  33; IA_B 1       Cali; 4 4 -1; 1 0 0 0 0
+ 1315  CG1 VAL B  33; IA_B 0       Cali; 1 4 -1; 7 0 0 1 0
+ 1316  CG2 VAL B  33; IA_B 0       Cali; 3 3 -1; 1 0 0 0 0
+ 1318   CA VAL B  34; IA_B 0       Cali; 2 3 -1; 2 0 0 0 0
+ 1320    O VAL B  34; IA_B 0       Opep; 1 2 -1; 5 0 0 0 0
+ 1321   CB VAL B  34; IA_B 1       Cali; 3 4 -1; 3 0 0 0 0
+ 1322  CG1 VAL B  34; IA_B 0       Cali; 1 3 -1; 9 0 0 1 0
+ 1323  CG2 VAL B  34; IA_B 1       Cali; 3 5 -1; 13 0 0 0 0
+ 1332  CE1 TYR B  35; IA_B 0       Caro; 1 2 -1; 2 0 0 0 0
+ 1333  CE2 TYR B  35; IA_B 1       Caro; 2 3 -1; 0 0 0 2 0
+ 1334   CZ TYR B  35; IA_B 0       Caro; 1 3 -1; 1 0 0 2 0
+ 1335   OH TYR B  35; IA_B 0       Ohbd; 1 3 -1; 3 0 0 5 0
+ 1467    C PRO B  51; IA_B 1       Cpep; 3 3 -1; 0 0 0 1 0
+ 1469   CB PRO B  51; IA_B 1       Cali; 2 3 -1; 4 0 0 2 0
+ 1470   CG PRO B  51; IA_B 0       Cali; 1 2 -1; 2 0 0 2 0
+ 1472    N ASP B  52; IA_B 0       Nhbd; 2 2 -1; 0 0 0 1 0
+ 1473   CA ASP B  52; IA_B 0       Cali; 2 2 -1; 0 0 0 1 0
+ 1477   CG ASP B  52; IA_B 0       Caro; 1 2 -1; 0 0 0 2 0
+ 1478  OD1 ASP B  52; IA_B 0       OchM; 1 1 -1; 0 0 0 2 0
+ 1496   CB MET B  55; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 1497   CG MET B  55; IA_B 0       Cali; 1 2 -1; 2 0 0 1 0
+ 1498   SD MET B  55; IA_B 1         Sh; 2 3 -1; 2 0 0 0 0
+ 1499   CE MET B  55; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 1844  OE2 GLU B 101; IA_B 0       OchM; 1 1 -1; 0 0 0 1 0
+ 1866    C ARG B 104; IA_B 1       Cpep; 2 2 -1; 0 0 0 1 0
+ 1868   CB ARG B 104; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 1870   CD ARG B 104; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 1875    N LEU B 105; IA_B 1       Nhbd; 2 2 -1; 0 0 0 1 0
+ 1876   CA LEU B 105; IA_B 1       Cali; 2 2 -1; 0 0 0 2 0
+ 1878    O LEU B 105; IA_B 1       Opep; 3 3 -1; 0 0 0 1 0
+ 1880   CG LEU B 105; IA_B 1       Cali; 2 2 -1; 0 0 0 1 0
+ 1882  CD2 LEU B 105; IA_B 0       Cali; 1 1 -1; 0 0 0 2 0
+ 1896   CA ASN B 108; IA_B 1       Cali; 5 5 -1; 2 0 0 0 0
+ 1897    C ASN B 108; IA_B 1       Cpep; 4 5 -1; 1 0 0 2 0
+ 1898    O ASN B 108; IA_B 1       Opep; 4 5 -1; 1 0 0 1 0
+ 1899   CB ASN B 108; IA_B 1       Cali; 2 4 -1; 2 0 0 3 0
+ 1900   CG ASN B 108; IA_B 1       Caro; 2 4 -1; 6 0 0 0 0
+ 1901  OD1 ASN B 108; IA_B 0       Ohbd; 1 5 -1; 5 0 0 1 0
+ 1902  ND2 ASN B 108; IA_B 0       Nhbd; 1 2 -1; 5 0 0 2 0
+ 1903    N VAL B 109; IA_B 1       Nhbd; 4 4 -1; 0 0 0 1 0
+ 1904   CA VAL B 109; IA_B 1       Cali; 3 4 -1; 1 0 0 1 0
+ 1906    O VAL B 109; IA_B 1       Opep; 3 3 -1; 1 0 0 0 0
+ 1907   CB VAL B 109; IA_B 1       Cali; 4 4 -1; 1 0 0 0 0
+ 1908  CG1 VAL B 109; IA_B 1       Cali; 3 3 -1; 1 0 0 0 0
+ 1909  CG2 VAL B 109; IA_B 1       Cali; 2 4 -1; 2 0 0 2 0
+ 1920    C VAL B 111; IA_B 1       Cpep; 6 6 -1; 1 0 0 0 0
+ 1921    O VAL B 111; IA_B 1       Opep; 6 7 -1; 2 0 0 0 0
+ 1922   CB VAL B 111; IA_B 1       Cali; 6 6 -1; 2 0 0 0 0
+ 1923  CG1 VAL B 111; IA_B 1       Cali; 6 8 -1; 4 0 0 0 0
+ 1924  CG2 VAL B 111; IA_B 0       Cali; 5 5 -1; 1 0 0 0 0
+ 1925    N CYS B 112; IA_B 1       Nhbd; 5 6 -1; 2 0 0 0 0
+ 1926   CA CYS B 112; IA_B 1       Cali; 3 5 -1; 3 0 0 0 0
+ 1927    C CYS B 112; IA_B 0       Cpep; 1 2 -1; 2 0 0 0 0
+ 1928    O CYS B 112; IA_B 1       Opep; 2 3 -1; 2 0 0 0 0
+ 1929   CB CYS B 112; IA_B 0       Cali; 1 2 -1; 4 0 0 0 0
+ 1930   SG CYS B 112; IA_B 1         Sh; 3 5 -1; 14 0 0 2 0
+ 1937  CG2 VAL B 113; IA_B 0       Cali; 3 3 -1; 1 0 0 0 0
+ 1947   CA ALA B 115; IA_B 1       Cali; 5 5 -1; 1 0 0 0 0
+ 1948    C ALA B 115; IA_B 1       Cpep; 4 6 -1; 5 0 0 0 0
+ 1949    O ALA B 115; IA_B 1       Opep; 3 5 -1; 4 0 0 1 0
+ 1950   CB ALA B 115; IA_B 1       Cali; 4 6 -1; 11 0 0 0 0
+ 1951    N HIS B 116; IA_B 1       Nhbd; 3 4 -1; 2 0 0 0 0
+ 1952   CA HIS B 116; IA_B 1       Cali; 3 5 -1; 5 0 0 1 0
+ 1953    C HIS B 116; IA_B 0       Cpep; 3 3 -1; 0 0 0 1 0
+ 1954    O HIS B 116; IA_B 0       Opep; 1 2 -1; 2 0 0 1 0
+ 1955   CB HIS B 116; IA_B 0       Cali; 1 2 -1; 3 0 0 0 0
+ 1956   CG HIS B 116; IA_B 1       Caro; 3 3 -1; 2 0 0 0 0
+ 1957  ND1 HIS B 116; IA_B 0       Naro; 3 3 -1; 1 0 0 0 0
+ 1958  CD2 HIS B 116; IA_B 1       Caro; 2 4 -1; 10 0 0 1 0
+ 1959  CE1 HIS B 116; IA_B 0       Caro; 1 2 -1; 2 0 0 2 0
+ 1960  NE2 HIS B 116; IA_B 0       Naro; 1 3 -1; 8 0 0 1 0
+ 1963    C HIS B 117; IA_B 1       Cpep; 2 2 -1; 0 0 0 1 0
+ 1964    O HIS B 117; IA_B 0       Opep; 1 1 -1; 0 0 0 1 0
+ 1982    N GLY B 119; IA_B 0       Nhbd; 2 2 -1; 0 0 0 1 0
+ 1983   CA GLY B 119; IA_B 0       Cali; 1 3 -1; 4 0 0 2 0
+ 1984    C GLY B 119; IA_B 1       Cpep; 3 4 -1; 2 0 0 1 0
+ 1985    O GLY B 119; IA_B 1       Opep; 3 4 -1; 2 0 0 2 0
+ 1986    N LYS B 120; IA_B 1       Nhbd; 1 2 -1; 1 0 0 3 0
+ 1987   CA LYS B 120; IA_B 1       Cali; 2 3 -1; 1 0 0 3 0
+ 1988    C LYS B 120; IA_B 1       Cpep; 2 2 -1; 0 0 0 1 0
+ 1989    O LYS B 120; IA_B 1       Opep; 1 1 -1; 0 0 0 1 0
+ 1990   CB LYS B 120; IA_B 0       Cali; 1 2 -1; 0 0 0 4 0
+ 1991   CG LYS B 120; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2006    C PHE B 122; IA_B 1       Cpep; 2 2 -1; 0 0 0 1 0
+ 2007    O PHE B 122; IA_B 1       Opep; 3 5 -1; 4 0 0 2 0
+ 2008   CB PHE B 122; IA_B 1       Cali; 5 5 -1; 1 0 0 0 0
+ 2011  CD2 PHE B 122; IA_B 1       Caro; 4 6 -1; 5 0 0 0 0
+ 2013  CE2 PHE B 122; IA_B 1       Caro; 7 7 -1; 2 0 0 0 0
+ 2015    N THR B 123; IA_B 1       Nhbd; 2 2 -1; 0 0 0 1 0
+ 2016   CA THR B 123; IA_B 1       Cali; 2 4 -1; 2 0 0 1 0
+ 2017    C THR B 123; IA_B 1       Cpep; 4 5 -1; 2 0 0 0 0
+ 2018    O THR B 123; IA_B 1       Opep; 6 6 -1; 1 0 0 0 0
+ 2019   CB THR B 123; IA_B 0       Cali; 2 2 -1; 0 0 0 1 0
+ 2021  CG2 THR B 123; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2022    N PRO B 124; IA_B 1       Nhbd; 4 5 -1; 2 0 0 0 0
+ 2023   CA PRO B 124; IA_B 1       Cali; 4 5 -1; 4 0 0 1 0
+ 2024    C PRO B 124; IA_B 1       Cpep; 2 3 -1; 2 0 0 1 0
+ 2025    O PRO B 124; IA_B 1       Opep; 2 3 -1; 2 0 0 1 0
+ 2026   CB PRO B 124; IA_B 0       Cali; 1 4 -1; 8 0 0 1 0
+ 2027   CG PRO B 124; IA_B 0       Cali; 1 4 -1; 12 0 0 0 0
+ 2028   CD PRO B 124; IA_B 0       Cali; 1 3 -1; 4 0 0 1 0
+ 2029    N PRO B 125; IA_B 1       Nhbd; 2 2 -1; 1 0 0 0 0
+ 2030   CA PRO B 125; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2033   CB PRO B 125; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2034   CG PRO B 125; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2035   CD PRO B 125; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2045    C GLN B 127; IA_B 1       Cpep; 5 5 -1; 1 0 0 0 0
+ 2047   CB GLN B 127; IA_B 1       Cali; 4 7 -1; 2 0 0 1 0
+ 2048   CG GLN B 127; IA_B 1       Cali; 4 8 -1; 2 0 0 1 0
+ 2049   CD GLN B 127; IA_B 1       Caro; 4 8 -1; 5 0 0 1 0
+ 2050  OE1 GLN B 127; IA_B 1       Ohbd; 5 7 -1; 6 0 0 1 0
+ 2051  NE2 GLN B 127; IA_B 1       Nhbd; 4 8 -1; 15 0 0 1 0
+ 2052    N ALA B 128; IA_B 1       Nhbd; 3 4 -1; 1 0 0 1 0
+ 2053   CA ALA B 128; IA_B 1       Cali; 3 4 -1; 3 0 0 2 0
+ 2054    C ALA B 128; IA_B 1       Cpep; 2 2 -1; 0 0 0 1 0
+ 2055    O ALA B 128; IA_B 1       Opep; 2 2 -1; 0 0 0 1 0
+ 2056   CB ALA B 128; IA_B 0       Cali; 1 3 -1; 7 0 0 2 0
+ 2075   CA GLN B 131; IA_B 1       Cali; 2 2 -1; 0 0 0 1 0
+ 2076    C GLN B 131; IA_B 0       Cpep; 1 1 -1; 0 0 0 2 0
+ 2077    O GLN B 131; IA_B 1       Opep; 1 1 -1; 0 0 0 1 0
+ 2078   CB GLN B 131; IA_B 0       Cali; 1 3 -1; 4 0 0 3 0
+ 2079   CG GLN B 131; IA_B 1       Cali; 3 5 -1; 4 0 0 0 0
+ 2080   CD GLN B 131; IA_B 1       Caro; 3 6 -1; 6 0 0 0 0
+ 2081  OE1 GLN B 131; IA_B 1       Ohbd; 5 6 -1; 4 0 0 0 0
+ 2082  NE2 GLN B 131; IA_B 0       Nhbd; 1 5 -1; 4 0 0 1 0
+ 2083    N LYS B 132; IA_B 1       Nhbd; 2 2 -1; 0 0 0 1 0
+ 2084   CA LYS B 132; IA_B 1       Cali; 1 1 -1; 0 0 0 1 0
+ 2088   CG LYS B 132; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2090   CE LYS B 132; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2105  CG2 VAL B 134; IA_B 1       Cali; 1 1 -1; 0 0 0 1 0
+ 2106    N ALA B 135; IA_B 1       Nhbd; 2 2 -1; 0 0 0 1 0
+ 2107   CA ALA B 135; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2110   CB ALA B 135; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+
+Buried/exposed summary for atom type IA_B [tot=144]: 86 58
+Connectivity to five types ie nb edges: 347 0 0 121 0
+
+Atoms of type IA_Wi
+ 4568    O HOH A 205; IA_Wi 1       Owat; 2 4 -1; 6 5 0 0 0
+ 4570    O HOH A 220; IA_Wi 0       Owat; 1 4 -1; 8 4 0 0 0
+ 4571    O HOH A 222; IA_Wi 0       Owat; 1 2 -1; 6 2 0 0 0
+ 4575    O HOH A 238; IA_Wi 0       Owat; 1 3 -1; 5 4 0 0 0
+ 4577    O HOH A 249; IA_Wi 0       Owat; 1 3 -1; 8 1 0 0 0
+ 4579    O HOH A 254; IA_Wi 0       Owat; 1 2 -1; 10 2 0 0 0
+ 4586    O HOH A 287; IA_Wi 0       Owat; 2 4 -1; 9 4 0 0 0
+ 4587    O HOH A 289; IA_Wi 0       Owat; 1 2 -1; 6 3 0 0 0
+ 4591    O HOH A 316; IA_Wi 0       Owat; 1 3 -1; 10 1 0 0 0
+ 4593    O HOH A 326; IA_Wi 0       Owat; 1 2 -1; 11 2 0 0 0
+ 4599    O HOH A 382; IA_Wi 0       Owat; 1 2 -1; 4 3 0 0 0
+ 4609    O HOH A 461; IA_Wi 1       Owat; 2 5 -1; 11 12 0 0 0
+ 4611    O HOH A1313; IA_Wi 0       Owat; 1 2 -1; 5 1 0 0 0
+ 4613    O HOH B 153; IA_Wi 0       Owat; 1 3 -1; 6 10 0 0 0
+ 4618    O HOH B 165; IA_Wi 0       Owat; 1 2 -1; 2 9 0 0 0
+ 4620    O HOH B 176; IA_Wi 0       Owat; 1 3 -1; 2 9 0 0 0
+ 4623    O HOH B 212; IA_Wi 1       Owat; 2 4 -1; 7 10 0 0 0
+ 4625    O HOH B 221; IA_Wi 0       Owat; 1 3 -1; 8 9 0 0 0
+ 4632    O HOH B 243; IA_Wi 0       Owat; 1 3 -1; 2 12 0 0 0
+ 4635    O HOH B 262; IA_Wi 0       Owat; 1 3 -1; 3 8 0 0 0
+ 4644    O HOH B 337; IA_Wi 0       Owat; 1 2 -1; 1 10 0 0 0
+
+Buried/exposed summary for atom type IA_Wi [tot=21]: 3 18
+Connectivity to five types ie nb edges: 130 121 0 0 0
+
+Atoms of type IA_X
+
+Buried/exposed summary for atom type IA_X [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+
++-+Atoms_residues::dump_ave_interface_connectivity...
+Average connectivity for edges of type IE_A_B
+Atom type - neighbors type IA_A IA_B : 3.34 
+Atom type - neighbors type IA_B IA_A : 3.40 
+#IA_A: 104   #IA_B: 102   #e: 347
+
+Average connectivity for edges of type IE_A_Wi
+Atom type - neighbors type IA_A IA_Wi : 1.48 
+Atom type - neighbors type IA_Wi IA_A : 6.19 
+#IA_A: 88   #IA_Wi: 21   #e: 130
+
+Average connectivity for edges of type IE_B_Wi
+Atom type - neighbors type IA_B IA_Wi : 1.39 
+Atom type - neighbors type IA_Wi IA_B : 5.76 
+#IA_B: 87   #IA_Wi: 21   #e: 121
+
+Average connectivity for edges of type IE_Wi_Wi
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+#IA_Wi: 0   #IA_Wi: 0   #e: 0
+

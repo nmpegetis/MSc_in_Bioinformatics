@@ -1,0 +1,55 @@
+Atoms of type IA_A
+   81   CA PRO A  13; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+   82    C PRO A  13; IA_A 0       Cpep; 1 1 -1; 0 0 0 1 0
+   84   CB PRO A  13; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+   87    N GLY A  14; IA_A 0       Nhbd; 1 1 -1; 0 0 0 2 0
+   88   CA GLY A  14; IA_A 0       Cali; 1 1 -1; 0 0 0 2 0
+
+Buried/exposed summary for atom type IA_A [tot=5]: 0 5
+Connectivity to five types ie nb edges: 0 0 0 7 0
+
+Atoms of type IA_B
+ 2608    O PHE B  15; IA_B 0       Opep; 1 1 -1; 0 0 0 1 0
+ 2617   CA ASP B  16; IA_B 1       Cali; 1 1 -1; 0 0 0 1 0
+ 2620   CB ASP B  16; IA_B 0       Cali; 1 1 -1; 0 0 0 1 0
+ 2621   CG ASP B  16; IA_B 0       Caro; 1 2 -1; 0 0 0 2 0
+ 2622  OD1 ASP B  16; IA_B 0       OchM; 1 1 -1; 0 0 0 2 0
+ 2623  OD2 ASP B  16; IA_B 0       OchM; 1 1 -1; 0 0 0 2 0
+
+Buried/exposed summary for atom type IA_B [tot=6]: 1 5
+Connectivity to five types ie nb edges: 0 0 0 9 0
+
+Atoms of type IA_Wi
+ 5127    O HOH A 713; IA_Wi 0       Owat; 1 2 -1; 5 3 0 0 0
+ 5217    O HOH B 712; IA_Wi 0       Owat; 1 1 -1; 2 6 0 0 0
+
+Buried/exposed summary for atom type IA_Wi [tot=2]: 0 2
+Connectivity to five types ie nb edges: 7 9 0 0 0
+
+Atoms of type IA_X
+
+Buried/exposed summary for atom type IA_X [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+
++-+Atoms_residues::dump_ave_interface_connectivity...
+Average connectivity for edges of type IE_A_B
+Atom type - neighbors type IA_A IA_B :  nan 
+Atom type - neighbors type IA_B IA_A :  nan 
+#IA_A: 0   #IA_B: 0   #e: 0
+
+Average connectivity for edges of type IE_A_Wi
+Atom type - neighbors type IA_A IA_Wi : 1.40 
+Atom type - neighbors type IA_Wi IA_A : 3.50 
+#IA_A: 5   #IA_Wi: 2   #e: 7
+
+Average connectivity for edges of type IE_B_Wi
+Atom type - neighbors type IA_B IA_Wi : 1.50 
+Atom type - neighbors type IA_Wi IA_B : 4.50 
+#IA_B: 6   #IA_Wi: 2   #e: 9
+
+Average connectivity for edges of type IE_Wi_Wi
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+#IA_Wi: 0   #IA_Wi: 0   #e: 0
+

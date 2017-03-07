@@ -1,0 +1,75 @@
+Atoms of type IA_A
+  722   CA ARG A 152; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  726   CG ARG A 152; IA_A 0       Cali; 1 1 -1; 0 0 0 2 0
+  727   CD ARG A 152; IA_A 0       Cali; 1 1 -1; 0 0 0 1 0
+  732    N ALA A 153; IA_A 0       Nhbd; 2 2 -1; 0 0 0 2 0
+  733   CA ALA A 153; IA_A 0       Cali; 3 3 -1; 0 0 0 1 0
+  734    C ALA A 153; IA_A 0       Cpep; 1 1 -1; 0 1 0 0 0
+  736   CB ALA A 153; IA_A 0       Cali; 1 2 -1; 0 10 0 2 0
+  737    N GLU A 154; IA_A 1       Nhbd; 2 3 -1; 0 2 0 1 0
+  738   CA GLU A 154; IA_A 0       Cali; 1 2 -1; 0 2 0 0 0
+  741   CB GLU A 154; IA_A 1       Cali; 2 3 -1; 0 3 0 1 0
+  742   CG GLU A 154; IA_A 0       Cali; 1 3 -1; 0 6 0 0 0
+  743   CD GLU A 154; IA_A 0       Caro; 1 2 -1; 0 4 0 0 0
+  744  OE1 GLU A 154; IA_A 0       OchM; 1 2 -1; 0 3 0 1 0
+  745  OE2 GLU A 154; IA_A 0       OchM; 1 1 -1; 0 2 0 0 0
+
+Buried/exposed summary for atom type IA_A [tot=14]: 2 12
+Connectivity to five types ie nb edges: 0 33 0 12 0
+
+Atoms of type IA_B
+ 1186   OG SER B  62; IA_B 0       Ohbd; 1 1 -1; 1 0 0 0 0
+ 1187    N ALA B  63; IA_B 0       Nhbd; 1 1 -1; 1 0 0 0 0
+ 1188   CA ALA B  63; IA_B 0       Cali; 2 2 -1; 1 0 0 0 0
+ 1189    C ALA B  63; IA_B 0       Cpep; 2 2 -1; 1 0 0 1 0
+ 1190    O ALA B  63; IA_B 0       Opep; 1 1 -1; 0 0 0 1 0
+ 1191   CB ALA B  63; IA_B 0       Cali; 1 1 -1; 1 0 0 1 0
+ 1192    N ASP B  64; IA_B 1       Nhbd; 2 2 -1; 1 0 0 0 0
+ 1193   CA ASP B  64; IA_B 1       Cali; 2 2 -1; 1 0 0 2 0
+ 1196   CB ASP B  64; IA_B 0       Cali; 1 2 -1; 1 0 0 1 0
+ 1197   CG ASP B  64; IA_B 0       Caro; 1 2 -1; 6 0 0 0 0
+ 1198  OD1 ASP B  64; IA_B 1       OchM; 2 3 -1; 5 0 0 1 0
+ 1199  OD2 ASP B  64; IA_B 0       OchM; 1 1 -1; 1 0 0 0 0
+ 1206   CD PRO B  65; IA_B 0       Cali; 1 1 -1; 0 0 0 2 0
+ 1211   CB ASN B  66; IA_B 0       Cali; 1 1 -1; 2 0 0 0 0
+ 1212   CG ASN B  66; IA_B 0       Caro; 1 2 -1; 4 0 0 0 0
+ 1213  OD1 ASN B  66; IA_B 0       Ohbd; 1 2 -1; 4 0 0 1 0
+ 1214  ND2 ASN B  66; IA_B 0       Nhbd; 1 2 -1; 3 0 0 0 0
+
+Buried/exposed summary for atom type IA_B [tot=17]: 3 14
+Connectivity to five types ie nb edges: 33 0 0 10 0
+
+Atoms of type IA_Wi
+ 3562    O HOH B 589; IA_Wi 0       Owat; 1 3 -1; 8 5 0 0 0
+ 3580    O HOH B 649; IA_Wi 0       Owat; 1 2 -1; 4 5 0 0 0
+
+Buried/exposed summary for atom type IA_Wi [tot=2]: 0 2
+Connectivity to five types ie nb edges: 12 10 0 0 0
+
+Atoms of type IA_X
+
+Buried/exposed summary for atom type IA_X [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+
++-+Atoms_residues::dump_ave_interface_connectivity...
+Average connectivity for edges of type IE_A_B
+Atom type - neighbors type IA_A IA_B : 3.67 
+Atom type - neighbors type IA_B IA_A : 2.20 
+#IA_A: 9   #IA_B: 15   #e: 33
+
+Average connectivity for edges of type IE_A_Wi
+Atom type - neighbors type IA_A IA_Wi : 1.33 
+Atom type - neighbors type IA_Wi IA_A : 6.00 
+#IA_A: 9   #IA_Wi: 2   #e: 12
+
+Average connectivity for edges of type IE_B_Wi
+Atom type - neighbors type IA_B IA_Wi : 1.25 
+Atom type - neighbors type IA_Wi IA_B : 5.00 
+#IA_B: 8   #IA_Wi: 2   #e: 10
+
+Average connectivity for edges of type IE_Wi_Wi
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+#IA_Wi: 0   #IA_Wi: 0   #e: 0
+

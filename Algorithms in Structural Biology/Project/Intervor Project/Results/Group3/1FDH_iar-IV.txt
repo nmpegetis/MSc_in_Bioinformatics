@@ -1,0 +1,110 @@
+Atoms of type IA_A
+    1    N VAL A   1; IA_A 0       Nhbd; 1 1 -1; 0 4 0 0 0
+    4    O VAL A   1; IA_A 0       Opep; 1 2 -1; 0 3 0 0 0
+    5   CB VAL A   1; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+    7  CG2 VAL A   1; IA_A 0       Cali; 1 1 -1; 0 3 0 0 0
+  924   CA ALA A 123; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+  926    O ALA A 123; IA_A 0       Opep; 1 3 -1; 0 4 0 0 0
+  944    C ASP A 126; IA_A 1       Cpep; 2 3 -1; 0 2 0 0 0
+  945    O ASP A 126; IA_A 0       Opep; 2 2 -1; 0 1 0 0 0
+  946   CB ASP A 126; IA_A 0       Cali; 1 2 -1; 0 2 0 0 0
+  947   CG ASP A 126; IA_A 0       Caro; 1 3 -1; 0 3 0 0 0
+  948  OD1 ASP A 126; IA_A 0       OchM; 1 1 -1; 0 1 0 0 0
+  949  OD2 ASP A 126; IA_A 0       OchM; 1 2 -1; 0 3 0 0 0
+  950    N LYS A 127; IA_A 1       Nhbd; 3 3 -1; 0 1 0 0 0
+  951   CA LYS A 127; IA_A 0       Cali; 2 3 -1; 0 3 0 0 0
+  954   CB LYS A 127; IA_A 0       Cali; 2 3 -1; 0 2 0 0 0
+  955   CG LYS A 127; IA_A 0       Cali; 1 2 -1; 0 3 0 0 0
+  956   CD LYS A 127; IA_A 0       Cali; 1 2 -1; 0 5 0 0 0
+  957   CE LYS A 127; IA_A 0       Cali; 2 3 -1; 0 2 0 0 0
+  958   NZ LYS A 127; IA_A 0       NchP; 1 2 -1; 0 5 0 0 0
+  982   CB ALA A 130; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+ 1034    O SER A 138; IA_A 0       Opep; 1 1 -1; 0 3 0 0 0
+ 1035   CB SER A 138; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+ 1036   OG SER A 138; IA_A 0       Ohbd; 1 1 -1; 0 1 0 0 0
+ 1059   CA ARG A 141; IA_A 0       Cali; 1 1 -1; 0 1 0 0 0
+ 1060    C ARG A 141; IA_A 0       Cpep; 1 3 -1; 0 4 0 0 0
+ 1061    O ARG A 141; IA_A 0       Opep; 1 1 -1; 0 3 0 0 0
+ 1062   CB ARG A 141; IA_A 0       Cali; 1 1 -1; 0 2 0 0 0
+ 1063   CG ARG A 141; IA_A 0       Cali; 1 2 -1; 0 2 0 0 0
+ 1064   CD ARG A 141; IA_A 0       Cali; 1 1 -1; 0 2 0 0 0
+ 1065   NE ARG A 141; IA_A 0       NchP; 1 2 -1; 0 5 0 0 0
+ 1066   CZ ARG A 141; IA_A 0       Caro; 2 3 -1; 0 8 0 0 0
+ 1067  NH1 ARG A 141; IA_A 0       NchP; 1 2 -1; 0 8 0 0 0
+ 1068  NH2 ARG A 141; IA_A 0       NchP; 1 2 -1; 0 5 0 0 0
+ 1069  OXT ARG A 141; IA_A 0       Ohbd; 1 2 -1; 0 5 0 0 0
+
+Buried/exposed summary for atom type IA_A [tot=34]: 2 32
+Connectivity to five types ie nb edges: 0 100 0 0 0
+
+Atoms of type IA_B
+ 2205    N VAL B   1; IA_B 0       Nhbd; 1 1 -1; 4 0 0 0 0
+ 2208    O VAL B   1; IA_B 0       Opep; 1 2 -1; 3 0 0 0 0
+ 2209   CB VAL B   1; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 2211  CG2 VAL B   1; IA_B 0       Cali; 1 1 -1; 3 0 0 0 0
+ 3128   CA ALA B 123; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 3130    O ALA B 123; IA_B 0       Opep; 1 3 -1; 4 0 0 0 0
+ 3148    C ASP B 126; IA_B 1       Cpep; 2 3 -1; 2 0 0 0 0
+ 3149    O ASP B 126; IA_B 0       Opep; 2 2 -1; 1 0 0 0 0
+ 3150   CB ASP B 126; IA_B 0       Cali; 1 2 -1; 2 0 0 0 0
+ 3151   CG ASP B 126; IA_B 0       Caro; 1 3 -1; 3 0 0 0 0
+ 3152  OD1 ASP B 126; IA_B 0       OchM; 1 1 -1; 1 0 0 0 0
+ 3153  OD2 ASP B 126; IA_B 0       OchM; 1 2 -1; 3 0 0 0 0
+ 3154    N LYS B 127; IA_B 1       Nhbd; 3 3 -1; 1 0 0 0 0
+ 3155   CA LYS B 127; IA_B 0       Cali; 2 3 -1; 3 0 0 0 0
+ 3158   CB LYS B 127; IA_B 0       Cali; 2 3 -1; 2 0 0 0 0
+ 3159   CG LYS B 127; IA_B 0       Cali; 1 2 -1; 3 0 0 0 0
+ 3160   CD LYS B 127; IA_B 0       Cali; 1 2 -1; 5 0 0 0 0
+ 3161   CE LYS B 127; IA_B 0       Cali; 2 3 -1; 2 0 0 0 0
+ 3162   NZ LYS B 127; IA_B 0       NchP; 1 2 -1; 5 0 0 0 0
+ 3186   CB ALA B 130; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 3238    O SER B 138; IA_B 0       Opep; 1 1 -1; 3 0 0 0 0
+ 3239   CB SER B 138; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 3240   OG SER B 138; IA_B 0       Ohbd; 1 1 -1; 1 0 0 0 0
+ 3263   CA ARG B 141; IA_B 0       Cali; 1 1 -1; 1 0 0 0 0
+ 3264    C ARG B 141; IA_B 0       Cpep; 1 3 -1; 4 0 0 0 0
+ 3265    O ARG B 141; IA_B 0       Opep; 1 1 -1; 3 0 0 0 0
+ 3266   CB ARG B 141; IA_B 0       Cali; 1 1 -1; 2 0 0 0 0
+ 3267   CG ARG B 141; IA_B 0       Cali; 1 2 -1; 2 0 0 0 0
+ 3268   CD ARG B 141; IA_B 0       Cali; 1 1 -1; 2 0 0 0 0
+ 3269   NE ARG B 141; IA_B 0       NchP; 1 2 -1; 5 0 0 0 0
+ 3270   CZ ARG B 141; IA_B 0       Caro; 2 3 -1; 8 0 0 0 0
+ 3271  NH1 ARG B 141; IA_B 0       NchP; 1 2 -1; 8 0 0 0 0
+ 3272  NH2 ARG B 141; IA_B 0       NchP; 1 2 -1; 5 0 0 0 0
+ 3273  OXT ARG B 141; IA_B 0       Ohbd; 1 2 -1; 5 0 0 0 0
+
+Buried/exposed summary for atom type IA_B [tot=34]: 2 32
+Connectivity to five types ie nb edges: 100 0 0 0 0
+
+Atoms of type IA_Wi
+
+Buried/exposed summary for atom type IA_Wi [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+Atoms of type IA_X
+
+Buried/exposed summary for atom type IA_X [tot=0]: 0 0
+Connectivity to five types ie nb edges: 0 0 0 0 0
+
+
++-+Atoms_residues::dump_ave_interface_connectivity...
+Average connectivity for edges of type IE_A_B
+Atom type - neighbors type IA_A IA_B : 2.94 
+Atom type - neighbors type IA_B IA_A : 2.94 
+#IA_A: 34   #IA_B: 34   #e: 100
+
+Average connectivity for edges of type IE_A_Wi
+Atom type - neighbors type IA_A IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_A :  nan 
+#IA_A: 0   #IA_Wi: 0   #e: 0
+
+Average connectivity for edges of type IE_B_Wi
+Atom type - neighbors type IA_B IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_B :  nan 
+#IA_B: 0   #IA_Wi: 0   #e: 0
+
+Average connectivity for edges of type IE_Wi_Wi
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+Atom type - neighbors type IA_Wi IA_Wi :  nan 
+#IA_Wi: 0   #IA_Wi: 0   #e: 0
+

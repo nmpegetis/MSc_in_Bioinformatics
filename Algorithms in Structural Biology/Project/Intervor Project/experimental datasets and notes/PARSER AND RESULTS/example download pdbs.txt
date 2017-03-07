@@ -1,0 +1,1 @@
+wget http://www.ebi.ac.uk/pdbe-srv/view/files/1mbd.pdb

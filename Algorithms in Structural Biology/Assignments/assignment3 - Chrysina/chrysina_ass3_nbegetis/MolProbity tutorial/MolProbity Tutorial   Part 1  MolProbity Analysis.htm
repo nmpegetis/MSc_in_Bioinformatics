@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+   <title>MolProbity Tutorial :: Part 1: MolProbity Analysis</title>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <meta name="description" content="part 1 (of 4) for MolProbity tutorial">
+   <meta name="keywords" content="crystallography, tutorial, MolProbity, all atom contact analysis">
+   <meta name="Author" content="David C. Richardson, Jane S. Richardson, Bryan Arendall, Jeffrey J. Headd">
+   <meta name="created" content="19-Oct-03">
+   <meta name="modified" content="18-Oct-10">
+   <meta name="copyright" content="Copyright © 2002-2010 by David C. Richardson or Jane S. Richardson">
+   <meta name="rating" content="general">
+   <meta name="robots" content="all">
+   <link rel="stylesheet" type="text/css" href="index_files/cshl.css" media="all">
+   <link rel="stylesheet" type="text/css" href="index_files/cshlprint.css" media="print">
+   <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon"> 
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <style type="text/css"></style>
+</head>
+
+<body>
+   <div class="pageHeader">
+      <h1>
+      MolProbity for Crystallographers Tutorial :: 2010
+      </h1>
+      <h2>
+         Using <span class="underline">All-Atom Contact Analysis</span> for Model Diagnosis &amp; Repair
+      </h2>
+   </div>
+      <h3 id="P1A" class="csh">
+         Part 1: MolProbity Analysis
+      </h3>
+      <h4 class="csh-hdr">
+         A. Analyze 1BKR and prepare it for rebuilding in KiNG.
+      </h4>
+      <h4 class="csh-hdr-sub">
+         Fire-up MolProbity and read in the model
+      </h4>
+      <ol class="csh">
+         <li>
+            <img class="rightpic" src="molprobity_files/MP_01.jpg" alt="" height="270" width="360">
+            MolProbity is a web service hosted on the WWW by the Richardson Lab at Duke University. MolProbity's Main Page can be accessed directly via the server address: <a href="http://molprobity.biochem.duke.edu/">http://molprobity.biochem.duke.edu/</a> and via the Richardson Lab website <a href="http://kinemage.biochem.duke.edu/">http://kinemage.biochem.duke.edu/</a>.
+         </li>
+         <li>
+            There is no set-up required for MolProbity - it will run in a "modern, java-enabled" browser. FireFox is being used as an example because it is available for many computer types. Java is enabled via the browser preferences set-up. More detail about Java (especially needed for Windows) is available from the <a href="http://molprobity.biochem.duke.edu/help/java.html">Installing Java</a> link off of the MolProbity Main Page.
+         </li>
+         <li>
+            Enter "1bkr" in the field for choosing a PDB/NDB code and click "Fetch &gt;". Note the molecule identity, resolution, number of chains/residues, crystallographic details, etc. in the resulting info panel, and rotate the small Java thumbnail. Click the  "Continue &gt;" button to continue to the MolProbity main page.<br class="all">
+         </li>
+      </ol>
+
+<div style="page-break-before: always;" ></div>
+<p class="break" ></p>
+
+      <h4 class="csh-hdr-sub">
+         Add hydrogens &amp; evaluate Asn/Gln/His flips
+      </h4>
+      <p class="csh-sub">
+         Notice that two additional panes have been added to the MolProbity Main Page. Options available while running MolProbity are context-sensitive. Before loading a coordinate file, you had two panes - "File Upload/Retrieval" and MolProbity information; after loading "1bkr", you now also have a "Suggested Tools" pane to work on the indicated coordinate file and a "Recently Generated Results" pane to manage the files in your work area above the original two.
+         <br>The tools available in the "Suggested Tools" pane are also context sensitive. We will use the "Add hydrogens" option next; but one could just as well edit the PDB file here, if for instance, there were multiple identical chains in the asymmetric unit and you wanted to focus on just one.
+      </p>
+      <ol class="csh">
+         <li>
+            Choose the "Add hydrogens" function, and accept the defaults on the next dialog-page: "Start adding H &gt;", to run Reduce with Asn/Gln/His flips.
+         </li>
+         <li>
+            All suggested flips are for His (no Asn or Gln) and seem like clear wins from the scores.  Choose "View in KiNG" for the <b>1bkrH-fliphis.kin</b> file ("his", not "nq").  The KiNG "<i>Views</i>" pulldown menu has an entry for each His, with * marking those flipped by Reduce; look at each * view. H25, H73, and H104 are clear and simple; rotate the viewpoint to see the H-bond partner(s), and use the "a" key or the Animate arrows to compare the two flip states. [Side chain is colored green in the preferred state.]
+         </li>
+         <li>
+            <img class="rightpic" src="molprobity_files/MP_02.jpg" alt="" height="270" width="360">
+            His42 is blindingly obvious visually or by score differences in MolProbity, but is puzzling to assign unaided, with 3 potential H-bonding groups nearby (turn to put the His ring flat and find the 3). The preferred flip state makes 2 good H-bonds (try turning off the "vdw contact" button, for a clearer view of the pale green lenses of H-bonding dots). Measure each N to O distance (just pick the 2 atoms in succession, click on the "Markers" button near the bottom right of the KiNG window to help track your picks). Animate to the other flip state. Distance to the Ile49 carbonyl O is too far (measure it) for anything but a very weak H-bond, while both ring CH's produce red clashes. The electron density shows that this ring is very clearly positioned, and the N atoms in the preferred state show higher local density peaks. (You can check this in MolProbity by fetching a map from the EDS and re-opening KiNG, but we suggest you optionally do it later in Part 2 when you are working with map and model in KiNG off-line).
+         </li>
+         <li>
+            Close the KiNG window (button at bottom of page). You now have the choice of rejecting a flip if you don't agree with it. [That's rare, but can happen, especially if you have access to extra information. For example, if a flip state is completely unambiguous in one crystal form (e.g. with ligand bound), then "some evidence" is probably not enough to justify fitting it differently in  another crystal form.] These 4 His flips in 1bkr should very clearly all be accepted, so just click the "Regenerate H,..." button, which moves you on to a flip-report page. Note the information presented on this report and then "Continue &gt;" to the MolProbity Main Page.
+         </li>
+      </ol>
+
+<div style="page-break-before: always;" ></div>
+<p class="break" ></p>
+
+      <h4 class="csh-hdr-sub">
+         Analyze all-atom contacts and geometry
+      </h4>
+      <p class="csh-sub">
+         The Suggested Tools pane now includes the "Analyze all-atom contacts and geometry" tool as you are now working on a coordinate file with hydrogens. Select this tool, and then "Run..." with the default settings.  NOTE:  If your file is extraordinarily large, the default option "Create html version of multi-chart" is turned off. This initiates calculation of the set of analyses requested and the spinning-protein (superoxide dismutase) entertains. However, note that analysis steps are checked off as they are completed and some present links to results immediately viewable. So, if you tire of spinning-SOD, you can look at results before all of the requested set is complete. Otherwise, you'll see next the "Analyzed all-atom contacts and geometry for 1bkrFH.pdb" report. From this page you can see the summary statistics or choose to view any of the requested model quality assessments. Discussed below are the items requested for 1bkrFH.
+      </p>
+      <h4 class="csh-hdr-sub">
+         Summary Statistics &amp; Multi-criterion chart
+      </h4>
+      <p class="csh-sub">
+         <img class="rightpic" src="molprobity_files/MP_03.jpg" alt="" height="270" width="360">
+         The summary statistics for 1bkr show excellent Ramachandran values, but mediocre sterics and poor sidechain rotamers for this resolution range. No backbone bond lengths or angles deviate &gt;4<abbr>&#x3C3;</abbr>, but there are two <abbr>C&#x3B2;</abbr> deviations (see below) &gt;0.25 Angstrom. The important thing, though, is not the overall scores, but the specific good or bad local regions that produce them. Click on "Multi-criterion chart". It comes up ordered by residue number. Scroll down, to see that both N- and C-terminal residues have problems (very common, even at atomic resolution). A click on the title of any column sorts the list by its values: try "Rotamer", to put the most suspect sidechains first, and note that other pink outliers are also enriched. [A misfitting typically shows up on more than one validation criterion.] Both chain termini (res 2 &amp; 109) and the two Thr's are outliers in 2 or 3 columns. In a 100-res protein it would be plausible to have one rotamer &lt;1% score that was valid; however, in 1bkr all 6 are in fact wrong. "Close this (chart) window"
+      </p>
+      <h4 class="csh-hdr-sub">
+         C<abbr>&#x3B2;</abbr> Deviations
+      </h4>
+      <p class="csh-sub">
+         Back on the Analysis results page, ask to view the C<abbr>&#x3B2;</abbr> deviation scatter plot in KiNG. Either zoom way out or choose View2 to understand the bulls-eye pattern of experimental points relative to an ideal-geometry C<abbr>&#x3B2;</abbr> atom. 1bkr has most points in a very reasonable distribution, but with 3 clear outliers (click on each to identify) (turn off the "bullseye" or zoom in to make picking clearer): Lys 108 is at the high-B C-terminus, and Thr 77 and Thr 101 sidechains are misfit, as you will see. [If the distribution is highly asymetric or extremely broad, then probably something was amiss with the angle restraints during refinement. Alternate conformation sidechains with common C<abbr>&#x3B1;</abbr>s also often produce large C<abbr>&#x3B2;</abbr> deviations - understandable, but not ideal.] Close the KiNG window.
+      </p>
+
+<div style="page-break-before: always;" ></div>
+<p class="break" ></p>
+
+      <h4 class="csh-hdr-sub">
+         Multi-criterion kinemage
+      </h4>
+      <p class="csh-sub">
+         <img class="rightpic" src="molprobity_files/MP_04.jpg" alt="" height="270" width="360">
+         The multi-criterion kinemage shows the C<abbr>&#x3B1;</abbr> backbone, with all-atom clashes as hotpink spikes, bad <abbr>C&#x3B2;</abbr> deviations as magenta balls, and poor rotamers as gold sidechains (Ramachandran outliers would be flagged by heavy green lines, and bad bond angles in blue or red). Again, the two Thr and the chain termini show up clearly as clusters of problems. Go to Lys 2 (either locate it visually and right click to center, or use "<i>Find point</i>" on the "<i>Edit</i>" menu) and turn on buttons for mainchain, sidechain, H's, and water rather than Cαs.
+         Check B-factors (click on atom and read info line at bottom of graphics window) for some non-terminal nearby C<abbr>&#x3B1;</abbr>s as controls, which should be around 10. Then try the sidechain atoms of Lys 2; the clash with Asp 6 is probably just a misplacement of the Lys sidechain. The Lys N clashes with a water (both relatively low B); this can be well fit as the 1-2 peptide to the missing residue 1 in helical conformation (the water becomes the carbonyl O); optionally you can confirm this later by looking at the 2Fo-Fc map. The Multi-criterion kinemage contains a wealth of information, which we will explore off-line, so for now, close the KiNG window.
+      </p>
+      <h4 class="csh-hdr-sub">
+         REMARK 40
+      </h4>
+      <p class="csh-sub">
+         The bottom of the Summary statistics page shows the MolProbity statistics as a REMARK 40 for the PDB header. The WorldWide PDB has approved this remark purely as a citation for validation programs other than the official PDB ones, but has decreed that no results may be reported! Hopefully that policy will soon be altered, so that you can brag suitably on your own excellent structures.
+      </p>
+      <h4 class="csh-hdr-sub">
+         Download files for future use
+      </h4>
+      <ol class="csh">
+         <li>
+            "Continue" back to the main page. Expand "coordinates" in the file download section (by clicking the little triangle), find the pdb file WITH the new H atoms: <b>1bkrFH.pdb</b>, and download it to your working directory for this practical (best to right-click and "save link as"). Now expand "kinemages" and download <b>1bkrFH-multi.kin.gz</b>.  
+            If you have access to PHENIX, keep this session of MolProbity open for later comparision with the PHENIX validation GUI.  If not, you may log out (on left side navigation panel), and "destroy" all files.  (Note in file names: F for Flipped, H for Hydrogens added.)
+         </li>
+         <li>
+            Go to the <a href="http://eds.bmc.uu.se/" target="new">EDS</a> (<a href="http://eds.bmc.uu.se/" target="new">http://eds.bmc.uu.se</a>) Electron Density Server and type in 1bkr. Choose "Maps" on the lefthand list, ask for 2Fo-Fc in O format, download the result (right-click), and exit the  browser. You should now have a PDB file with H atoms, a multi-kin, and a map file for 1bkr in your working directory. [The last two files are compressed as *.gz, but you won't need to unzip them.]
+         </li>
+      </ol>
+      <h4 class="csh-hdr-sub">
+         Run MolProbity Analysis on 1BKR Directly in PHENIX
+      </h4>
+      <p class="csh-sub">
+      This part of the exercise requires PHENIX to be installed on your system.  Don't have PHENIX? You can find download instructions <a href="http://www.phenix-online.org/">HERE</a>.
+      </p>
+      <ol class="csh">
+        <li>
+        For this analysis you will need the structure factor data for 1BKR <b>1bkr-sf.mtz</b>, which you can download <a href="http://kinemage.biochem.duke.edu/teaching/workshop/MolProbity/molprobity_files/1bkr-sf.mtz">HERE</a>.
+        The structure factor file will be used to analyze the fit of the model to the data.  
+        You will also need the <b>1brkFH.pdb</b> file that downloaded from the MolProbity session you ran above.
+        </li>
+        <li>
+        Launch the PHENIX GUI, either by typing "<tt>phenix</tt>" at the command line or by launching from your Applications window on Mac OS X.
+    Start a new project with a name such as "<tt>1BKR_validation</tt>".  
+        </li>
+        <li>
+        Under the "<tt>Validation</tt>" heading in the right panel of the "<tt>PHENIX home</tt>" window select "<tt>Comprehensive validation</tt>".
+        Browse for the PDB file (<b>1bkrFH.pdb</b>) and Reflection file (<b>1bkr-sf.mtz</b>), and then click the "<tt>Run</tt>" button.
+        This process will take a few minutes to complete.  
+        </li>
+        <li>
+        When completed, a results window will appear with tabs for "<tt>Model and data</tt>", "<tt>MolProbity</tt>", "<tt>Real-space correlation</tt>", and "<tt>Atomic properties</tt>".
+        Click on "<tt>Open in Coot</tt>" to load the model and map into Coot for interactive analysis.  
+        For this exercise, select the "<tt>MolProbity</tt>" tab in the Phenix Validation window, which contains analogous validation measures to what you've seen on the MolProbity server, broken down into four sub-tabs.  
+        These tabs are:<br>"<tt>Summary</tt>" shows basic summary statistics, such as % rotamer outliers and clashscore.  This tab also gives you the option of loading a multi-crit kinemage, all from within the
+        PHENIX framework.  Click on the "<tt>Show validation in KiNG</tt>" button to load the multi-criterion kinemage to see that it displays the same visual validation available on the web server.
+        <br>"<tt>Basic geometry</tt>" summarizes the bond, angle, dihedral, and chiral statistics, and also lists any outliers. 
+        <br>"<tt>Protein</tt>" breaks down the analysis of the protein components of the model by category.  Here you will find lists of rotamer outliers, C-beta deviations, etc.  
+        Clicking on items in each list will recenter the view in the Coot screen.  For example, click on "<tt>Thr 77</tt>" in the Rotamer outlier list to see that this is a residue in need of rebuilding.  
+        <br>"<tt>Clashes</tt>" gives you a list of all severe clashes greater than 0.4 Angstrom, which also recenter in Coot when clicked.  This tab also 
+        features buttons to "<tt>Reload data</tt>", which reloads clash dots in Coot should they disappear, and "<tt>Re-run Probe</tt>", which re-runs the Probe analysis if you've made changes to your model in
+        Coot.  This feature is especially useful for interactive rebuilding while working in the PHENIX GUI.  In Part 3 of this tutorial you will have a chance to work in this framework.
+        </li>
+        <li>
+        Compare and contrast the data available in the Multi-criterion Chart from your web MolProbity session and those 
+        statistics that you have in the PHENIX Validation GUI.  For example, see that both show you that there are ~6.2% rotamer outliers and 2 C-beta deviations.  
+        </li>
+        <li>
+        Close down PHENIX and Coot.  Log out of your MolProbity session and destroy all files.
+        </li>
+      </ol>
+
+<div style="page-break-before: always;" ></div>
+<p class="break" ></p>
+
+      <h4 id="P1B" class="csh-hdr">
+         B. Prepare 1SBP for later use in Part 3.
+      </h4>
+      <ol class="csh">
+         <li>
+            Start a new MolProbity session and fetch the PDB file for 1sbp.
+         </li>
+         <li>
+            After a sanity-check on the reported info &amp; thumbnail, continue to the Main page, choose "Add hydrogens", and run with the defaults. [If later you are in a tearing hurry you might run without making and looking at flipkins, but you should ALWAYS ask Reduce to make flips.]
+         </li>
+         <li>
+            This time the amides are interesting, so view <b>1sbpFH-flipNQ.kin</b> in KiNG. The startup Gln 4 is very exposed, with no H-bonds but fairly well positioned by vdW contact with a Val methyl. The flip state is still not arbitrary, however, because one alternative has an especially bad self-clash of He22 with Hb2 and is thus not a possible rotamer. [Gln 4 would show up on the bad rotamer and clash lists if you had not done flips - those are problems that MolProbity has already fixed for you.]
+         </li>
+         <li>
+            Asn 258 is part of a pair whose amide flip states are correlated. In the preferred state Hd12 of Asn 258 lines up pretty well to make an H-bond with Oe1 of Gln 19, although it's a little too close. However, in the double-flipped state the Hd2's of Gln 19 have the wrong geometry to make any H-bond with Oe1 of Asn 258. (The original file had the two Oe1's near each other!).
+         </li>
+         <li>
+            Look at the other * views; all the choices are obvious with these tools, but think about which ones would be hard to get right any other way. Close the KiNG window.
+         </li>
+         <li>
+            Accept all flips, continue to the Main page, and choose "Analyze all-atom contacts and geometry".  Under the second set of options "Charts, plots and tables," select "Chart for use with Coot".  This will generate a script to be loaded in Coot which will generate a button window that navigates to problem sites in your structure.  Either as a preview while the analysis is running, or afterward from the Analysis results page, view the Ramachandran kinemage in KiNG. Animate through the 4 categories to see where the one flagged outlier (Gly 204) lies on its plot. The boundaries are from <a href="pdfs/2003LovellPsfg50.pdf" target="new">Lovell et al.(2003)</a> and represent a larger, cleaner dataset than the boundaries found in ProCheck. The favored area contains 98% of the data; the allowed regions contain 99.95% for the general case and 99.8% for the others. Outliers are labeled, but presentation in the kinemage format allows one to pick any individual point and get its identity. Close this KiNG window.
+         </li>
+         <li>
+            Continue to the Main page, expand all sections of the file list, and download <b>1sbpFH.pdb</b> and <b>1sbpFH-multi.kin.gz</b>.  You will also need to download the correct 'Multi-criterion Chart for Coot' script for your system from the "charts" section of "Popular Downloads".  If you are using the Mac OSX version, please download either version of the script.  If you are using the Linux version, please download <b>1sbpFH-multi-coot.scm</b>.  If you are using a Windows operating system or are using python Coot under Linux, you should download <b>1sbpFH-multi-coot.py</b>.  (Note in file names: F for Flipped, H for Hydrogens added.) Logout and destroy files.
+         </li>
+      </ol>
+   <div>
+      <h5 style="margin: 10px 0pt; width: 65%; float: left;">
+         <a style="color: black;" href="http://kinemage.biochem.duke.edu/teaching/workshop/MolProbity/">http://kinemage.biochem.duke.edu/teaching/workshop/MolProbity/</a>
+      </h5>
+      <h5 style="margin: 10px 0pt; float: right;">
+         Jane &amp; Dave Richardson
+      </h5>
+   </div>
+</body>
+</html>

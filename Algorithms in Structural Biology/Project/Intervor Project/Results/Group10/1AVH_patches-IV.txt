@@ -1,0 +1,28 @@
+Patches: interface AB with 0 patches
+
+
+
+0 atom(s) in more than 1 patch
+
+Patches: interface ABW with 1 merged patches
+
+
+Merged patch id 0
+Patch size 110.53
+Patch #atoms: 13
+   81   CA PRO A  13
+   82    C PRO A  13
+   84   CB PRO A  13
+   87    N GLY A  14
+   88   CA GLY A  14
+ 2608    O PHE B  15
+ 2617   CA ASP B  16
+ 2620   CB ASP B  16
+ 2621   CG ASP B  16
+ 2622  OD1 ASP B  16
+ 2623  OD2 ASP B  16
+ 5127    O HOH A 713
+ 5217    O HOH B 712
+
+
+0 atom(s) in more than 1 patch

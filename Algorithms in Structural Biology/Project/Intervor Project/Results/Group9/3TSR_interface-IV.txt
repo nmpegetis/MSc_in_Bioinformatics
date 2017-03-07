@@ -1,0 +1,4 @@
+Begin VSO per interface edge
+End VSO per interface edge
+
+Voronoi Facets of interface MI_AB

@@ -1,0 +1,19 @@
+IE_A_B pairs: 
+IE_A_Wi pairs: 
+   81   CA PRO A  13 5127    O HOH A 713 unk
+   88   CA GLY A  14 5217    O HOH B 712 unk
+   87    N GLY A  14 5127    O HOH A 713 hbw
+   84   CB PRO A  13 5127    O HOH A 713 unk
+   88   CA GLY A  14 5127    O HOH A 713 unk
+   82    C PRO A  13 5127    O HOH A 713 unk
+   87    N GLY A  14 5217    O HOH B 712 hbw
+IE_B_Wi pairs: 
+ 2623  OD2 ASP B  16 5217    O HOH B 712 hbw
+ 2623  OD2 ASP B  16 5127    O HOH A 713 hbw
+ 2608    O PHE B  15 5217    O HOH B 712 hbw
+ 2622  OD1 ASP B  16 5127    O HOH A 713 hbw
+ 2622  OD1 ASP B  16 5217    O HOH B 712 hbw
+ 2621   CG ASP B  16 5127    O HOH A 713 unk
+ 2621   CG ASP B  16 5217    O HOH B 712 unk
+ 2620   CB ASP B  16 5217    O HOH B 712 unk
+ 2617   CA ASP B  16 5217    O HOH B 712 unk

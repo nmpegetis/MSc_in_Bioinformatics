@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Begetis Nikolaos - Postgraduate Student - Bioinformatics, ITMB
+%% Supervisor: Sangriotis Manolis - Professor - ITMB
+%% Course: Image Processing and Analysis
+%% Filename: chess_nbegetis.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A program to demonstrate the formation & display of Hough Transform
+function []=chess_nbegetis()
+
+clear *;clc;
+close all; 
+
+I  = imread('chesimage.png');
+
+% Evaluate the edge image (black-white)
+BW = edge(I,'canny' ,[0.1,0.2],2); 
+% no carpet edges from the background are detected. 
+% These argument values were given in problem definition.
+
+figure;imshow(BW,[]);
+[H,T,R] = hough(BW);
+
+Hneg=max(H(:))-H;% Use of Hneg for display and printing so that printer's 
+% ink is not wasted.
+
+figure
+imshow(Hneg,[0,max(H(:))],'XData',T,'YData',R,'InitialMagnification','fit');
+% The value 0.3*max(H(:)) has been decided by trial end error, so that 
+% an image to be formed on the monitor with clear the Hough buterflies 
+% (points).
+xlabel('\theta'), ylabel('\rho');
+axis on, axis normal, hold on;
+%In the displayed image please notice the butterflies  on the two lines. These
+%ones correspond to the parallel lines of the chessboard.
+
+P  = houghpeaks(H,30,'threshold',0.12*max(H(:)));% The values of 'threshold'
+%           have been decided by trial and error so that as many as possible
+%           butterflies in H-image are marked.  Be Careful! if possible 
+%           only butterflies in the two lines to be marked if possible.
+
+  
+x = T(P(:,2)); y = R(P(:,1));
+plot(x,y,'s','color','k');
+% Find lines and plot them
+lines = houghlines(BW,T,R,P,'FillGap',100,'MinLength',8);% The values 
+%                               of parameters 
+
+figure, imshow(I), hold on
+max_len = 0;
+for k = 1:length(lines)
+   xy = [lines(k).point1; lines(k).point2];
+   plot(xy(:,1),xy(:,2),'LineWidth',2,'Color','green');
+
+end
+
+end

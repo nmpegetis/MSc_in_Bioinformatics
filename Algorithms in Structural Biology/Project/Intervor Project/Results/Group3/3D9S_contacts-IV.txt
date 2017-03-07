@@ -1,0 +1,6 @@
+IE_A_B pairs: 
+  330  CD2 LEU A  43 2145  CD2 LEU B  43 ali
+  330  CD2 LEU A  43 2174  CD1 LEU B  47 ali
+  360  CD2 LEU A  47 2145  CD2 LEU B  43 ali
+IE_A_Wi pairs: 
+IE_B_Wi pairs: 

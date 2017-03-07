@@ -1,0 +1,24 @@
+SP 0 50
+SP 1 -1
+RD ./RVM_dataset/train/cancer_cutaneous_train
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train.od ./RVM_dataset/train/cancer_cutaneous_train.om
+RD ./RVM_dataset/train/cancer_cutaneous_train1
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train1.od ./RVM_dataset/train/cancer_cutaneous_train1.om
+RD ./RVM_dataset/test/cancer_cutaneous_test1
+EV 1 ./RVM_dataset/test/cancer_cutaneous_test1.od ./RVM_dataset/train/cancer_cutaneous_train1.om
+RD ./RVM_dataset/train/cancer_cutaneous_train2
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train2.od ./RVM_dataset/train/cancer_cutaneous_train2.om
+RD ./RVM_dataset/test/cancer_cutaneous_test2
+EV 1 ./RVM_dataset/test/cancer_cutaneous_test2.od ./RVM_dataset/train/cancer_cutaneous_train2.om
+RD ./RVM_dataset/train/cancer_cutaneous_train3
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train3.od ./RVM_dataset/train/cancer_cutaneous_train3.om
+RD ./RVM_dataset/test/cancer_cutaneous_test3
+EV 1 ./RVM_dataset/test/cancer_cutaneous_test3.od ./RVM_dataset/train/cancer_cutaneous_train3.om
+RD ./RVM_dataset/train/cancer_cutaneous_train4
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train4.od ./RVM_dataset/train/cancer_cutaneous_train4.om
+RD ./RVM_dataset/test/cancer_cutaneous_test4
+EV 1 ./RVM_dataset/test/cancer_cutaneous_test4.od ./RVM_dataset/train/cancer_cutaneous_train4.om
+RD ./RVM_dataset/train/cancer_cutaneous_train5
+CL 1 ./RVM_dataset/train/cancer_cutaneous_train5.od ./RVM_dataset/train/cancer_cutaneous_train5.om
+RD ./RVM_dataset/test/cancer_cutaneous_test5
+EV 1 ./RVM_dataset/test/cancer_cutaneous_test5.od ./RVM_dataset/train/cancer_cutaneous_train5.om

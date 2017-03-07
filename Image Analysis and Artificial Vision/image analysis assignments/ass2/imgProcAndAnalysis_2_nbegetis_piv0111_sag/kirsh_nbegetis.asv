@@ -1,0 +1,114 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Begetis Nikolaos - Postgraduate Student - Bioinformatics, ITMB
+%% Supervisor: Sangriotis Manolis - Professor - ITMB
+%% Course: Image Processing and Analysis
+%% Filename: kirsh_nbegetis.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function []=kirsh_nbegetis()
+
+clear *;clc
+close all;
+
+A = imread('./Images/AIRPORT.tif'); % you can also select:
+%                                   AIRPORT_with_noise_10.tif
+%                                   clown.tif
+%                                   MONUMENT.tif
+%                                   WOMAN WITH NOISE.tif
+%                                   WOMAN.tif
+
+imshow(A);
+imwrite(A,'./Output_images/kirsh_AIRPORT.tif'); 
+
+figure;
+
+mask1= [5,5,5; 
+        -3,0,-3; 
+        -3,-3,-3];
+mask2= [5,5,-3; 
+        5,0,-3; 
+        -3,-3,-3];
+mask3= [5,-3,-3; 
+        5,0,-3; 
+        5,-3,-3];
+mask4= [-3,-3,-3; 
+        5,0,-3; 
+        5,5,-3];
+
+m = size(A, 1);
+n = size(A, 2);
+for i=2:m-1
+    for j=2:n-1
+        B(i,j)=sum(sum(double(A(i-1:i+1,j-1:j+1)) .* mask1)); 	
+    end;
+end;
+
+B=uint8(B);
+imshow(B);
+imwrite(B,'./Output_images/kirsh_AIRPORT_with_mask1.tif'); 
+
+figure;
+
+for i=2:m-1
+    for j=2:n-1
+        C(i,j)=sum(sum(double(A(i-1:i+1,j-1:j+1)) .* mask2)); 	
+    end;
+end;
+
+C=uint8(C);
+imshow(C);
+imwrite(C,'./Output_images/kirsh_AIRPORT_with_mask2.tif'); 
+
+figure;
+
+for i=2:m-1
+    for j=2:n-1
+        D(i,j)=sum(sum(double(A(i-1:i+1,j-1:j+1)) .* mask3)); 	
+    end;
+end;
+
+D=uint8(D);
+imshow(D);
+imwrite(D,'./Output_images/kirsh_AIRPORT_with_mask3.tif'); 
+
+figure;
+
+for i=2:m-1
+    for j=2:n-1
+        E(i,j) = sum(sum(double(A(i-1:i+1,j-1:j+1)) .* mask4)); 	
+    end;
+end;
+
+E=uint8(E);
+imshow(E);
+imwrite(E,'./Output_images/kirsh_AIRPORT_with_mask4.tif'); 
+
+figure;
+
+for i=2:m-1
+    for j=2:n-1
+        G(i,j)=max([B(i,j),C(i,j),D(i,j),E(i,j)]);
+    end
+end
+
+G=G-min(G(:));
+G=G/max(G(:))*255;
+G=uint8(round(G));
+G=uint8(G);
+imshow(G);
+imwrite(G,'./Output_images/kirsh_AIRPORT_without_lim_90.tif'); 
+
+figure;
+
+for i=2:m-1
+    for j=2:n-1
+        if G(i,j) > 100
+            H(i,j) = 255;
+        else
+            H(i,j) = 0;
+        end
+    end
+end
+imshow(uint8(H));
+
+end

@@ -1,0 +1,64 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/1FBV.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group7 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 3242 24931 43300 21610
+
++-+Partners: #atoms kept  [A B Wb X]: 3172 70 0 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 0
++-+Atoms_residues::#atoms [A B Wb Wi X]: 3172 70 0 0 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 111 59 0 0 0
++-+Atoms_residues::#interf atoms annotated: Cali: 63 Caro: 28 Cpep: 12 Nhbd: 16 Naro: 1 NchP: 5 Ohbd: 11 Opep: 13 OchM: 6 Owat: 0 Sh: 0 Pdna: 0 Opd: 0 Orib: 0 Unk: 15 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 299 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Total #edges 299
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 67 boundary vor edges
++-+Interf_explorer_SO::shelled 299 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
+ 0 IE_A_B; #facets:  299 area: 2139.99  #loops:   4 #int_edges: 697  #bd_edges: 139; Atom comp. [111;59;0;0;0]; loop lengths [128 3 3 5]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 1 299 139 4
++-+Surf_areas::Interface areas<MI_AB>: IE_A_B: 2139.99 
++-+Surf_areas::Chem Interface areas<MI_AB>: ali: 253.17 aro: 4.78 hbd: 219.59 hbw: 0.00 hbdp: 0.00 elu: 4.11 elf: 22.62 hbwp: 0.00 ssb: 0.00 unk: 1635.72 
+
++-+MI::mean curvature-a sH sAbsH:          -269.41 1027.77
++-+MI::mean curvature-b sA sL:             2139.99 1662.64
++-+MI::mean curvature-c sH/sA sAbsH/sA:    -0.13 0.48
++-+MI::signed   angle mu sigma: -0.16 0.68
++-+MI::signless angle mu sigma: 0.62 0.32
++++LTimer::dumpTimes(
+secondsTime:    0.24 AppliManager_score::load_file
+secondsTime:    0.34 AppliManager_score::building_alpha_complex
+secondsTime:    0.03 AppliManager_score::connectivity_stats
+secondsTime:    0.01 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.02 AppliManager_score::interfaces
+total is:    0.64
+---LTimer::dumpTimes)

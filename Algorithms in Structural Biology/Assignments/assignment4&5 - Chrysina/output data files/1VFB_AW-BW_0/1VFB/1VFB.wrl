@@ -1,0 +1,10218 @@
+#VRML V2.0 ascii
+Background { skyColor 0 0 0 }
+ Viewpoint {
+ position 0 0 0 orientation 1 0 0 -.22
+}
+
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.407410 -7.670953 -7.579103 
+,32.283983 -6.900913 -7.264702 
+,31.044059 -5.972295 -6.601359 
+,30.333375 -7.962524 -7.145751 
+,31.952300 -8.463204 -7.750954 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.952300 -8.463204 -7.750954 
+,32.407410 -7.670953 -7.579103 
+,32.793438 -7.217793 -7.374140 
+,33.606471 -7.364967 -6.644459 
+,34.510788 -8.438126 -5.586830 
+,33.281080 -10.116242 -6.176299 
+,33.102012 -10.172237 -6.313093 
+,32.782838 -10.085708 -6.607323 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.102012 -10.172237 -6.313093 
+,33.193531 -10.266938 -5.910193 
+,32.851168 -11.186360 -1.612429 
+,32.496810 -11.147334 -1.679124 
+,31.375436 -10.683371 -3.441877 
+,32.267671 -10.143143 -6.183938 
+,32.782838 -10.085708 -6.607323 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.375436 -10.683371 -3.441877 
+,30.541826 -9.978746 -4.535737 
+,30.382834 -9.623516 -5.411936 
+,32.267671 -10.143143 -6.183938 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.541826 -9.978746 -4.535737 
+,30.382834 -9.623516 -5.411936 
+,29.244064 -9.691652 -5.249898 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.382834 -9.623516 -5.411936 
+,29.244064 -9.691652 -5.249898 
+,27.234925 -8.934442 -5.881986 
+,27.919738 -8.314196 -6.585473 
+,28.620010 -7.762552 -7.218419 
+,28.709972 -7.757951 -7.230403 
+,30.333375 -7.962524 -7.145751 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 28.620010 -7.762552 -7.218419 
+,28.499150 -7.701310 -7.173420 
+,28.385024 -7.389141 -7.021919 
+,29.471714 -6.776139 -6.927768 
+,28.709972 -7.757951 -7.230403 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 28.385024 -7.389141 -7.021919 
+,29.471714 -6.776139 -6.927768 
+,30.576324 -5.409617 -7.060365 
+,29.631089 -4.247703 -7.662828 
+,29.227089 -4.251528 -7.766642 
+,28.050529 -6.798126 -7.290345 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 28.050529 -6.798126 -7.290345 
+,28.385024 -7.389141 -7.021919 
+,27.460050 -7.534757 -6.014652 
+,27.133350 -7.218843 -6.019957 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.133350 -7.218843 -6.019957 
+,28.050529 -6.798126 -7.290345 
+,27.721733 -6.329340 -7.800887 
+,26.778152 -5.749798 -8.072198 
+,25.750399 -5.596207 -7.623065 
+,25.198670 -6.034084 -6.570772 
+,25.262512 -6.261377 -6.259199 
+,26.962962 -7.192085 -5.947515 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.262512 -6.261377 -6.259199 
+,24.676755 -8.008267 -5.070656 
+,25.401011 -9.119956 -4.489564 
+,26.721364 -8.228374 -5.259366 
+,26.962962 -7.192085 -5.947515 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.262512 -6.261377 -6.259199 
+,24.676755 -8.008267 -5.070656 
+,22.970490 -8.979107 -1.555205 
+,22.652576 -8.510707 -0.891793 
+,24.401212 -4.288791 -4.452756 
+,25.243473 -6.039249 -6.216955 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.401212 -4.288791 -4.452756 
+,25.243473 -6.039249 -6.216955 
+,25.113185 -5.338774 -6.645591 
+,24.769937 -4.080918 -6.815567 
+,24.355466 -3.148550 -6.063298 
+,24.329546 -3.186097 -5.859759 
+,24.336238 -3.899213 -4.732233 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.329546 -3.186097 -5.859759 
+,24.117271 -3.163202 -5.809586 
+,22.942600 -3.580185 -4.670240 
+,24.336238 -3.899213 -4.732233 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.117271 -3.163202 -5.809586 
+,22.942600 -3.580185 -4.670240 
+,16.439959 -1.208440 -2.722902 
+,14.785516 0.479552 -3.237779 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 14.785516 0.479552 -3.237779 
+,24.117271 -3.163202 -5.809586 
+,24.355466 -3.148550 -6.063298 
+,24.713004 -2.639905 -7.294442 
+,23.907556 -1.636824 -8.275750 
+,22.954447 -1.046164 -8.395036 
+,22.509713 -0.898043 -8.227938 
+,14.171168 0.834520 -3.269665 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.713004 -2.639905 -7.294442 
+,23.907556 -1.636824 -8.275750 
+,24.295297 -1.627612 -8.281233 
+,25.269915 -1.854456 -8.052236 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 22.942600 -3.580185 -4.670240 
+,16.439959 -1.208440 -2.722902 
+,12.937135 -5.685906 0.905287 
+,18.610662 -7.068573 -1.101497 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.355466 -3.148550 -6.063298 
+,24.117271 -3.163202 -5.809586 
+,24.329546 -3.186097 -5.859759 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 24.769937 -4.080918 -6.815567 
+,24.355466 -3.148550 -6.063298 
+,24.713004 -2.639905 -7.294442 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.113185 -5.338774 -6.645591 
+,24.769937 -4.080918 -6.815567 
+,24.713004 -2.639905 -7.294442 
+,25.269915 -1.854456 -8.052236 
+,25.338874 -1.933836 -8.081472 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 22.652576 -8.510707 -0.891793 
+,24.401212 -4.288791 -4.452756 
+,24.336238 -3.899213 -4.732233 
+,22.942600 -3.580185 -4.670240 
+,18.610662 -7.068573 -1.101497 
+,21.678859 -9.225849 -0.141595 
+,21.919720 -9.277878 -0.154651 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.198670 -6.034084 -6.570772 
+,25.262512 -6.261377 -6.259199 
+,25.243473 -6.039249 -6.216955 
+,25.113185 -5.338774 -6.645591 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.750399 -5.596207 -7.623065 
+,25.198670 -6.034084 -6.570772 
+,25.113185 -5.338774 -6.645591 
+,25.338874 -1.933836 -8.081472 
+,25.552478 -2.361769 -8.302655 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 25.338874 -1.933836 -8.081472 
+,25.742116 -1.231603 -8.108664 
+,26.048477 -1.277395 -8.279074 
+,27.196727 -2.155007 -9.100273 
+,27.090762 -2.223025 -9.063008 
+,25.552478 -2.361769 -8.302655 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 26.778152 -5.749798 -8.072198 
+,25.750399 -5.596207 -7.623065 
+,25.552478 -2.361769 -8.302655 
+,27.090762 -2.223025 -9.063008 
+,27.378554 -2.371840 -9.163483 
+,27.694488 -4.550116 -8.792144 
+,27.431668 -5.621316 -8.411845 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.378554 -2.371840 -9.163483 
+,27.393740 -2.145114 -9.169301 
+,27.417816 -2.096159 -9.156352 
+,29.131102 -2.963441 -7.924184 
+,29.345944 -3.822585 -7.716089 
+,29.227089 -4.251528 -7.766642 
+,27.694488 -4.550116 -8.792144 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.131102 -2.963441 -7.924184 
+,29.345944 -3.822585 -7.716089 
+,29.631089 -4.247703 -7.662828 
+,31.273136 -4.580515 -8.015482 
+,31.273595 -4.577241 -8.016630 
+,30.620024 -2.982760 -8.331999 
+,30.439222 -2.838693 -8.326654 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.620024 -2.982760 -8.331999 
+,30.532973 -2.802685 -8.401699 
+,30.439222 -2.838693 -8.326654 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.620024 -2.982760 -8.331999 
+,30.532973 -2.802685 -8.401699 
+,30.567782 -2.774223 -8.420247 
+,31.115276 -2.560073 -8.604078 
+,31.144444 -3.400740 -8.220195 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.115276 -2.560073 -8.604078 
+,31.144444 -3.400740 -8.220195 
+,31.534599 -4.259422 -8.047208 
+,32.441093 -3.251524 -9.079922 
+,31.219048 -2.415847 -8.736080 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.441093 -3.251524 -9.079922 
+,31.219048 -2.415847 -8.736080 
+,31.792146 -1.637495 -9.012676 
+,32.815427 -1.230694 -9.409660 
+,32.587205 -3.233645 -9.132643 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.815427 -1.230694 -9.409660 
+,33.132698 -0.812728 -9.464054 
+,34.401572 -3.044012 -9.136177 
+,32.891909 -3.364219 -9.110539 
+,32.587205 -3.233645 -9.132643 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.401572 -3.044012 -9.136177 
+,34.733524 -3.429719 -8.913040 
+,33.770976 -4.236550 -8.594412 
+,33.622639 -4.271470 -8.590158 
+,32.891909 -3.364219 -9.110539 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.770976 -4.236550 -8.594412 
+,33.622639 -4.271470 -8.590158 
+,34.079493 -5.256487 -8.745897 
+,34.110379 -5.280045 -8.750808 
+,34.471211 -4.428977 -8.661132 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.110379 -5.280045 -8.750808 
+,34.428320 -5.790388 -9.258337 
+,35.436926 -3.853242 -9.213286 
+,35.126223 -3.756055 -8.904195 
+,34.471211 -4.428977 -8.661132 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.428320 -5.790388 -9.258337 
+,35.436926 -3.853242 -9.213286 
+,36.414968 -3.851908 -9.246977 
+,37.191790 -4.719796 -9.309556 
+,37.259791 -4.902897 -9.319450 
+,36.410599 -6.459820 -9.354328 
+,35.937422 -6.922183 -9.357061 
+,34.512723 -6.403200 -9.286510 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.937422 -6.922183 -9.357061 
+,36.159455 -7.035672 -9.234035 
+,36.319194 -7.232126 -8.673662 
+,36.381139 -7.453117 -7.861173 
+,34.060575 -6.544637 -8.005834 
+,33.973284 -6.459811 -8.219463 
+,34.512723 -6.403200 -9.286510 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.319194 -7.232126 -8.673662 
+,36.608209 -7.445303 -7.820794 
+,36.381139 -7.453117 -7.861173 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.608209 -7.445303 -7.820794 
+,36.381139 -7.453117 -7.861173 
+,36.263761 -8.087114 -6.921784 
+,36.883818 -7.689190 -7.385561 
+,36.851409 -7.621400 -7.496359 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.851409 -7.621400 -7.496359 
+,36.608209 -7.445303 -7.820794 
+,37.052002 -6.829214 -7.578958 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.883818 -7.689190 -7.385561 
+,36.851409 -7.621400 -7.496359 
+,37.052002 -6.829214 -7.578958 
+,37.672167 -5.511210 -7.117074 
+,37.675616 -5.512008 -7.109352 
+,37.841049 -5.739643 -6.618864 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.841049 -5.739643 -6.618864 
+,36.883818 -7.689190 -7.385561 
+,37.397484 -8.472481 -6.689276 
+,38.057193 -5.822208 -6.364341 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.397484 -8.472481 -6.689276 
+,38.057193 -5.822208 -6.364341 
+,38.478617 -5.930007 -5.334632 
+,38.294695 -7.594706 -5.002544 
+,38.138052 -8.198664 -5.091262 
+,37.421101 -8.585054 -6.582935 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.138052 -8.198664 -5.091262 
+,35.197846 -8.180549 -2.825090 
+,35.151331 -8.193779 -2.859941 
+,36.254310 -8.700498 -6.325105 
+,37.421101 -8.585054 -6.582935 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.151331 -8.193779 -2.859941 
+,34.966820 -8.171300 -3.002877 
+,34.882382 -8.164333 -3.106801 
+,34.681907 -8.274114 -4.819026 
+,35.265576 -8.477109 -5.896921 
+,36.096686 -8.671499 -6.333568 
+,36.254310 -8.700498 -6.325105 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.265576 -8.477109 -5.896921 
+,36.263761 -8.087114 -6.921784 
+,36.096686 -8.671499 -6.333568 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.681907 -8.274114 -4.819026 
+,35.265576 -8.477109 -5.896921 
+,34.510788 -8.438126 -5.586830 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.294695 -7.594706 -5.002544 
+,36.316376 -6.255657 -3.018334 
+,35.597733 -6.799151 -2.654151 
+,35.484155 -7.105103 -2.672787 
+,35.197846 -8.180549 -2.825090 
+,38.138052 -8.198664 -5.091262 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.316376 -6.255657 -3.018334 
+,35.597733 -6.799151 -2.654151 
+,35.579442 -6.838055 -2.559728 
+,35.668836 -6.872629 -2.257974 
+,37.115639 -6.941720 0.959887 
+,37.690138 -6.602308 0.991652 
+,38.059813 -6.253926 0.570615 
+,38.296681 -5.968896 0.090920 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.296681 -5.968896 0.090920 
+,36.316376 -6.255657 -3.018334 
+,36.745327 -5.459109 -3.538236 
+,38.710903 -4.431543 -1.659319 
+,38.413725 -5.696014 -0.141179 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.413725 -5.696014 -0.141179 
+,38.296681 -5.968896 0.090920 
+,39.709611 -6.572796 -0.222485 
+,39.712688 -6.567202 -0.227578 
+,39.500445 -5.409602 -0.861578 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.712688 -6.567202 -0.227578 
+,39.500445 -5.409602 -0.861578 
+,40.622175 -4.900653 -1.300368 
+,41.668480 -5.291480 -1.214700 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.622175 -4.900653 -1.300368 
+,43.464925 -3.024821 -1.574953 
+,43.929691 -3.371663 -1.506981 
+,43.717062 -4.985398 -1.231981 
+,41.668480 -5.291480 -1.214700 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.622175 -4.900653 -1.300368 
+,43.464925 -3.024821 -1.574953 
+,43.129534 -2.364666 -1.977984 
+,42.798202 -1.936252 -2.265609 
+,40.752155 -1.880446 -2.762475 
+,39.116216 -4.321039 -1.932105 
+,39.393641 -4.589022 -1.736094 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.752155 -1.880446 -2.762475 
+,40.233611 -2.763033 -4.103740 
+,39.438774 -4.003762 -4.509130 
+,38.938874 -4.753555 -4.314449 
+,39.116216 -4.321039 -1.932105 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.438774 -4.003762 -4.509130 
+,39.592352 -3.903502 -4.640530 
+,39.075106 -4.989985 -4.610063 
+,38.938874 -4.753555 -4.314449 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.075106 -4.989985 -4.610063 
+,38.938874 -4.753555 -4.314449 
+,37.447259 -5.311195 -4.293662 
+,38.478617 -5.930007 -5.334632 
+,38.912085 -5.810704 -5.384367 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.592352 -3.903502 -4.640530 
+,39.075106 -4.989985 -4.610063 
+,38.912085 -5.810704 -5.384367 
+,39.303845 -5.524742 -6.287469 
+,39.499737 -5.297205 -6.600476 
+,39.966497 -4.119250 -6.304241 
+,39.911056 -3.516415 -5.122076 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.911056 -3.516415 -5.122076 
+,39.592352 -3.903502 -4.640530 
+,40.064873 -3.316908 -4.626601 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.064873 -3.316908 -4.626601 
+,39.911056 -3.516415 -5.122076 
+,40.029159 -2.710812 -6.073043 
+,40.223971 -2.518530 -5.322268 
+,40.218139 -2.983721 -4.407168 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.223971 -2.518530 -5.322268 
+,40.268259 -2.065197 -3.972983 
+,40.233611 -2.763033 -4.103740 
+,40.218139 -2.983721 -4.407168 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.223971 -2.518530 -5.322268 
+,40.268259 -2.065197 -3.972983 
+,40.613343 -1.085796 -3.055145 
+,40.614276 -1.083960 -3.055714 
+,40.983755 -0.395902 -3.428302 
+,41.126493 -0.153796 -3.661345 
+,41.265709 0.013748 -4.146445 
+,41.231989 -0.404386 -5.448059 
+,40.453526 -2.184857 -5.906372 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.231989 -0.404386 -5.448059 
+,41.571060 -0.606945 -6.164404 
+,40.927615 -1.879319 -6.356590 
+,40.453526 -2.184857 -5.906372 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.927615 -1.879319 -6.356590 
+,40.453526 -2.184857 -5.906372 
+,40.035454 -2.701644 -6.089310 
+,40.039011 -2.701014 -6.096583 
+,40.661574 -2.282234 -6.646641 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.039011 -2.701014 -6.096583 
+,40.661574 -2.282234 -6.646641 
+,40.491649 -3.253308 -7.182510 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.661574 -2.282234 -6.646641 
+,40.491649 -3.253308 -7.182510 
+,40.394785 -3.690874 -8.493192 
+,40.580953 -2.507049 -8.945477 
+,40.834414 -0.980137 -8.826106 
+,40.884581 -0.711454 -8.511812 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.834414 -0.980137 -8.826106 
+,40.884581 -0.711454 -8.511812 
+,41.192476 -0.241361 -8.182608 
+,41.991782 0.058996 -8.576415 
+,42.170584 -0.119253 -8.997557 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.170584 -0.119253 -8.997557 
+,40.834414 -0.980137 -8.826106 
+,40.224585 -1.354636 -9.562111 
+,40.484015 -1.174889 -10.152619 
+,41.642388 -0.414569 -10.920028 
+,42.313332 -0.002324 -10.119758 
+,42.176898 -0.115087 -9.002696 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.313332 -0.002324 -10.119758 
+,42.176898 -0.115087 -9.002696 
+,43.719620 -0.783046 -9.939535 
+,43.696529 -0.713686 -10.282790 
+,42.919687 -0.236572 -10.658229 
+,42.743093 -0.137390 -10.687741 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.919687 -0.236572 -10.658229 
+,42.743093 -0.137390 -10.687741 
+,43.292447 0.456892 -11.412760 
+,43.959492 -0.180593 -11.063478 
+,43.864291 -0.344971 -10.882291 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.959492 -0.180593 -11.063478 
+,43.864291 -0.344971 -10.882291 
+,44.685860 -0.601090 -11.680520 
+,44.702801 -0.571861 -11.712753 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.685860 -0.601090 -11.680520 
+,44.702801 -0.571861 -11.712753 
+,47.909288 -0.284000 -12.781933 
+,48.097610 -0.390362 -12.726463 
+,45.216401 -2.236277 -10.242902 
+,44.805163 -2.110669 -10.261709 
+,44.796389 -2.097333 -10.272334 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.805163 -2.110669 -10.261709 
+,44.792035 -2.104356 -10.259416 
+,44.796389 -2.097333 -10.272334 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.216401 -2.236277 -10.242902 
+,48.626823 -2.545403 -9.166493 
+,48.484645 -1.957671 -8.489087 
+,48.054971 -1.561261 -8.175558 
+,46.072138 -0.331490 -7.482029 
+,45.659954 -0.259481 -7.568589 
+,44.569548 -1.937067 -10.144782 
+,44.792035 -2.104356 -10.259416 
+,44.805163 -2.110669 -10.261709 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.659954 -0.259481 -7.568589 
+,45.074130 0.203943 -7.725626 
+,43.719620 -0.783046 -9.939535 
+,44.153751 -1.448629 -10.112818 
+,44.569548 -1.937067 -10.144782 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.659954 -0.259481 -7.568589 
+,45.074130 0.203943 -7.725626 
+,43.411914 0.666779 -7.211912 
+,42.430852 -0.324014 -5.485711 
+,43.747463 -1.762060 -4.686361 
+,45.216908 -1.247556 -6.180381 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.747463 -1.762060 -4.686361 
+,45.216908 -1.247556 -6.180381 
+,45.885622 -1.154108 -6.332276 
+,45.565226 -1.505720 -5.107963 
+,44.013824 -2.015321 -3.656711 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.565226 -1.505720 -5.107963 
+,44.013824 -2.015321 -3.656711 
+,44.074258 -2.433435 -3.234504 
+,44.958538 -2.970582 -3.157033 
+,46.490767 -2.875142 -4.144514 
+,47.300180 -2.276398 -5.265537 
+,47.540710 -1.905509 -5.809595 
+,47.536492 -1.884510 -5.830117 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.540710 -1.905509 -5.809595 
+,47.602117 -2.021270 -5.778486 
+,47.618295 -1.943175 -5.923311 
+,47.544854 -1.876158 -5.859863 
+,47.536492 -1.884510 -5.830117 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.618295 -1.943175 -5.923311 
+,47.618370 -1.869282 -6.326986 
+,47.541452 -1.870082 -5.873144 
+,47.544854 -1.876158 -5.859863 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.618370 -1.869282 -6.326986 
+,47.601333 -1.781902 -7.104179 
+,46.703605 -1.309448 -6.636866 
+,47.541452 -1.870082 -5.873144 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.618370 -1.869282 -6.326986 
+,47.601333 -1.781902 -7.104179 
+,47.839743 -1.788356 -7.444675 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.618295 -1.943175 -5.923311 
+,47.618370 -1.869282 -6.326986 
+,47.839743 -1.788356 -7.444675 
+,48.484645 -1.957671 -8.489087 
+,49.539706 -2.412810 -9.225116 
+,49.805104 -2.556322 -9.251804 
+,49.877623 -2.643016 -8.999858 
+,49.097880 -2.575331 -6.988895 
+,48.365176 -2.287085 -6.325782 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.097880 -2.575331 -6.988895 
+,49.145418 -2.568594 -6.690314 
+,48.365176 -2.287085 -6.325782 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.145418 -2.568594 -6.690314 
+,48.365176 -2.287085 -6.325782 
+,47.658158 -2.091302 -5.738317 
+,49.368248 -3.249890 -4.189004 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.368248 -3.249890 -4.189004 
+,49.145418 -2.568594 -6.690314 
+,50.663862 -2.608264 -7.034324 
+,49.679598 -3.360175 -3.873639 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.679598 -3.360175 -3.873639 
+,49.368248 -3.249890 -4.189004 
+,49.401439 -3.964318 -2.869145 
+,50.146912 -4.393024 -1.812670 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.401439 -3.964318 -2.869145 
+,50.146912 -4.393024 -1.812670 
+,50.451211 -4.690847 -0.598170 
+,47.536961 -3.751353 -0.032112 
+,47.535314 -3.750556 -0.033490 
+,46.315905 -3.098243 -1.449515 
+,46.833439 -2.887052 -3.960695 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 50.663862 -2.608264 -7.034324 
+,49.679598 -3.360175 -3.873639 
+,50.146912 -4.393024 -1.812670 
+,50.746034 -5.015487 -0.968586 
+,53.366155 -6.565702 -0.280500 
+,53.379712 -4.677139 -5.137124 
+,51.629542 -2.871094 -7.571341 
+,51.315980 -2.640449 -7.769321 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.658158 -2.091302 -5.738317 
+,47.582164 -2.100354 -5.694322 
+,47.300180 -2.276398 -5.265537 
+,46.833439 -2.887052 -3.960695 
+,49.401439 -3.964318 -2.869145 
+,49.368248 -3.249890 -4.189004 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.658158 -2.091302 -5.738317 
+,47.582164 -2.100354 -5.694322 
+,47.602117 -2.021270 -5.778486 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 49.877623 -2.643016 -8.999858 
+,50.848781 -2.644347 -8.287809 
+,51.315980 -2.640449 -7.769321 
+,50.663862 -2.608264 -7.034324 
+,49.145418 -2.568594 -6.690314 
+,49.097880 -2.575331 -6.988895 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.602117 -2.021270 -5.778486 
+,47.618295 -1.943175 -5.923311 
+,48.365176 -2.287085 -6.325782 
+,47.658158 -2.091302 -5.738317 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.300180 -2.276398 -5.265537 
+,47.582164 -2.100354 -5.694322 
+,47.602117 -2.021270 -5.778486 
+,47.540710 -1.905509 -5.809595 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 46.490767 -2.875142 -4.144514 
+,47.300180 -2.276398 -5.265537 
+,46.833439 -2.887052 -3.960695 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.958538 -2.970582 -3.157033 
+,46.490767 -2.875142 -4.144514 
+,46.833439 -2.887052 -3.960695 
+,46.315905 -3.098243 -1.449515 
+,45.035109 -3.053785 -2.135873 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.074258 -2.433435 -3.234504 
+,44.958538 -2.970582 -3.157033 
+,45.035109 -3.053785 -2.135873 
+,43.973156 -2.385937 -2.858599 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.885622 -1.154108 -6.332276 
+,45.565226 -1.505720 -5.107963 
+,47.536492 -1.884510 -5.830117 
+,47.544854 -1.876158 -5.859863 
+,47.541452 -1.870082 -5.873144 
+,46.703605 -1.309448 -6.636866 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 46.703605 -1.309448 -6.636866 
+,45.885622 -1.154108 -6.332276 
+,46.170612 -0.663883 -7.023165 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.430852 -0.324014 -5.485711 
+,43.747463 -1.762060 -4.686361 
+,44.013824 -2.015321 -3.656711 
+,43.868655 -1.837416 -3.299063 
+,42.175049 0.010243 -4.376941 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.868655 -1.837416 -3.299063 
+,42.175049 0.010243 -4.376941 
+,41.735130 0.077252 -4.060845 
+,41.475276 -0.129820 -3.518075 
+,41.531050 -0.555867 -2.955396 
+,42.020808 -1.266202 -2.389589 
+,42.840353 -1.811765 -2.371117 
+,43.882432 -2.064056 -2.984826 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.411914 0.666779 -7.211912 
+,42.046152 0.101573 -8.614433 
+,41.991782 0.058996 -8.576415 
+,41.880471 -0.549810 -6.060129 
+,42.430852 -0.324014 -5.485711 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 46.072138 -0.331490 -7.482029 
+,45.659954 -0.259481 -7.568589 
+,45.216908 -1.247556 -6.180381 
+,45.885622 -1.154108 -6.332276 
+,46.170612 -0.663883 -7.023165 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 48.054971 -1.561261 -8.175558 
+,46.072138 -0.331490 -7.482029 
+,46.170612 -0.663883 -7.023165 
+,46.703605 -1.309448 -6.636866 
+,47.601333 -1.781902 -7.104179 
+,47.839743 -1.788356 -7.444675 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 48.484645 -1.957671 -8.489087 
+,48.054971 -1.561261 -8.175558 
+,47.839743 -1.788356 -7.444675 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 48.097610 -0.390362 -12.726463 
+,49.151082 -0.297343 -12.697507 
+,50.026275 -1.666119 -10.344929 
+,49.922955 -2.220881 -9.469148 
+,49.539706 -2.412810 -9.225116 
+,48.626823 -2.545403 -9.166493 
+,45.216401 -2.236277 -10.242902 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.702801 -0.571861 -11.712753 
+,47.909288 -0.284000 -12.781933 
+,45.840052 -0.045432 -13.758104 
+,44.846018 -0.016618 -13.890186 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.840052 -0.045432 -13.758104 
+,44.846018 -0.016618 -13.890186 
+,44.661935 0.291267 -14.416028 
+,44.671875 0.298076 -14.426469 
+,45.046005 0.354376 -14.488029 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.671875 0.298076 -14.426469 
+,45.046005 0.354376 -14.488029 
+,44.887123 0.363713 -14.748960 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.887123 0.363713 -14.748960 
+,44.671875 0.298076 -14.426469 
+,44.627337 0.314642 -14.402608 
+,44.034583 0.609265 -14.190473 
+,43.433562 1.648733 -15.028645 
+,45.360645 0.759944 -15.816496 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.433562 1.648733 -15.028645 
+,45.360645 0.759944 -15.816496 
+,45.911496 0.612722 -17.679961 
+,45.892002 0.623832 -17.704481 
+,43.167343 1.839262 -15.958669 
+,42.894002 1.944074 -15.520971 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.894002 1.944074 -15.520971 
+,43.433562 1.648733 -15.028645 
+,42.747979 2.203975 -14.644931 
+,42.445295 2.382483 -14.849187 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.445295 2.382483 -14.849187 
+,42.894002 1.944074 -15.520971 
+,41.661602 1.805890 -16.314003 
+,41.495520 2.263673 -15.484558 
+,41.615386 2.488594 -14.991786 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.495520 2.263673 -15.484558 
+,41.360828 2.409412 -14.913854 
+,41.615386 2.488594 -14.991786 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.495520 2.263673 -15.484558 
+,41.360828 2.409412 -14.913854 
+,40.813006 2.413672 -14.703329 
+,39.319837 1.782100 -16.436302 
+,39.313863 1.769827 -16.478193 
+,39.319070 1.767067 -16.489948 
+,41.193924 1.876238 -16.766615 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.319070 1.767067 -16.489948 
+,39.316393 1.769374 -16.527484 
+,39.617660 1.825948 -17.172966 
+,41.026583 1.918238 -17.538705 
+,41.193924 1.876238 -16.766615 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.026583 1.918238 -17.538705 
+,41.193924 1.876238 -16.766615 
+,41.384579 1.767828 -16.764514 
+,41.250504 1.809663 -17.264511 
+,41.055739 1.898322 -17.586745 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.250504 1.809663 -17.264511 
+,41.101807 1.807130 -17.773395 
+,41.055739 1.898322 -17.586745 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.250504 1.809663 -17.264511 
+,41.101807 1.807130 -17.773395 
+,41.292034 1.644211 -18.427709 
+,42.908707 1.049668 -17.782019 
+,41.648754 1.706315 -16.766783 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.292034 1.644211 -18.427709 
+,41.361787 1.675883 -18.617824 
+,45.612048 0.844419 -19.702162 
+,45.713927 0.789303 -19.594360 
+,45.133238 0.553367 -18.117130 
+,42.908707 1.049668 -17.782019 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.361787 1.675883 -18.617824 
+,45.612048 0.844419 -19.702162 
+,43.183763 -0.127677 -20.883853 
+,42.231525 -0.294001 -21.079794 
+,40.043992 0.196620 -20.443688 
+,39.772100 0.659831 -19.863980 
+,39.898908 0.821083 -19.664751 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.772100 0.659831 -19.863980 
+,39.898908 0.821083 -19.664751 
+,39.706455 0.782362 -19.837578 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.898908 0.821083 -19.664751 
+,39.706455 0.782362 -19.837578 
+,37.905902 1.276333 -19.240756 
+,37.599126 1.407747 -19.016902 
+,37.495147 1.476969 -18.877219 
+,38.653468 1.847255 -17.482189 
+,39.386989 1.876276 -17.130001 
+,39.617660 1.825948 -17.172966 
+,40.325471 1.091329 -18.804862 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.653468 1.847255 -17.482189 
+,39.142081 1.875865 -16.824910 
+,39.386989 1.876276 -17.130001 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.653468 1.847255 -17.482189 
+,39.142081 1.875865 -16.824910 
+,38.868284 2.026639 -16.483186 
+,36.768314 2.599242 -16.347287 
+,36.695733 2.599482 -16.425814 
+,36.499143 2.241223 -18.166248 
+,36.916767 2.067764 -18.446904 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.499143 2.241223 -18.166248 
+,36.497244 4.192431 -19.310931 
+,36.721474 4.112351 -19.469290 
+,36.916767 2.067764 -18.446904 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.721474 4.112351 -19.469290 
+,36.916767 2.067764 -18.446904 
+,36.930767 2.051065 -18.460805 
+,37.625822 1.590617 -19.398431 
+,36.847540 4.080754 -19.674209 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.625822 1.590617 -19.398431 
+,36.847540 4.080754 -19.674209 
+,37.647637 4.164977 -20.431347 
+,38.576842 3.764098 -21.114394 
+,38.781001 3.082294 -21.030800 
+,37.715771 1.553671 -19.465283 
+,37.693067 1.547938 -19.442482 
+,37.644238 1.568651 -19.406450 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.781001 3.082294 -21.030800 
+,39.463094 1.969837 -20.644634 
+,39.577263 1.052608 -20.094597 
+,37.715771 1.553671 -19.465283 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.463094 1.969837 -20.644634 
+,39.577263 1.052608 -20.094597 
+,39.916570 0.521697 -21.318720 
+,40.003704 0.750849 -22.109085 
+,39.794380 2.158054 -22.760068 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.003704 0.750849 -22.109085 
+,39.901573 0.721361 -22.843212 
+,39.854371 0.960516 -23.035475 
+,39.730015 1.705621 -23.475086 
+,39.625020 2.683389 -23.643449 
+,39.794380 2.158054 -22.760068 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.730015 1.705621 -23.475086 
+,39.625020 2.683389 -23.643449 
+,39.798667 2.880921 -23.883368 
+,41.093048 2.975350 -25.278099 
+,40.037683 1.772962 -23.819432 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.798667 2.880921 -23.883368 
+,41.093048 2.975350 -25.278099 
+,41.093400 2.975715 -25.278903 
+,41.064621 3.257769 -25.604225 
+,40.357968 3.546339 -25.269305 
+,39.177921 3.360292 -23.872422 
+,39.278634 3.244009 -23.825910 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.177921 3.360292 -23.872422 
+,39.278634 3.244009 -23.825910 
+,39.168019 3.385243 -23.764701 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.168019 3.385243 -23.764701 
+,39.177921 3.360292 -23.872422 
+,39.150403 3.379193 -23.883330 
+,39.160956 3.392229 -23.754368 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.150403 3.379193 -23.883330 
+,39.160956 3.392229 -23.754368 
+,38.824980 4.410527 -22.295471 
+,38.080333 5.278393 -24.454688 
+,38.227941 4.917626 -24.759388 
+,38.422577 4.534595 -24.801375 
+,38.703702 4.024638 -24.693994 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.824980 4.410527 -22.295471 
+,38.080333 5.278393 -24.454688 
+,37.196631 6.314206 -24.062576 
+,37.071832 6.460630 -23.935845 
+,38.646408 4.621272 -21.495581 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.071832 6.460630 -23.935845 
+,36.518126 6.643989 -24.048074 
+,35.955768 6.524806 -23.670529 
+,36.141281 4.479496 -20.440036 
+,36.285087 4.408667 -20.373538 
+,37.647637 4.164977 -20.431347 
+,38.557630 4.376303 -21.072003 
+,38.646408 4.621272 -21.495581 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.955768 6.524806 -23.670529 
+,36.141281 4.479496 -20.440036 
+,36.108873 4.388345 -19.530475 
+,35.838655 5.737427 -18.878466 
+,35.503122 8.988038 -23.246699 
+,35.555789 8.740305 -23.423792 
+,35.872750 7.118347 -24.058750 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.838655 5.737427 -18.878466 
+,35.868431 6.011150 -18.670033 
+,35.540626 9.304613 -22.975167 
+,35.503122 8.988038 -23.246699 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.868431 6.011150 -18.670033 
+,35.540626 9.304613 -22.975167 
+,35.497272 9.468945 -22.908625 
+,35.837894 6.109151 -18.581564 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.837894 6.109151 -18.581564 
+,35.868431 6.011150 -18.670033 
+,36.681455 5.529493 -18.257900 
+,36.831145 6.217199 -17.172084 
+,36.826766 6.222600 -17.170653 
+,35.850392 6.175862 -18.478817 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.826766 6.222600 -17.170653 
+,35.850392 6.175862 -18.478817 
+,35.649730 6.849580 -17.331694 
+,36.626571 6.381873 -17.088977 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.626571 6.381873 -17.088977 
+,36.826766 6.222600 -17.170653 
+,36.922716 6.290134 -17.091084 
+,37.321529 6.599915 -16.736364 
+,36.553588 6.621124 -16.909695 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.321529 6.599915 -16.736364 
+,36.553588 6.621124 -16.909695 
+,35.588427 6.859854 -15.279342 
+,37.532586 6.614392 -16.511762 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.588427 6.859854 -15.279342 
+,35.248593 6.848420 -14.729469 
+,36.858239 6.328573 -13.801131 
+,38.232100 6.025216 -13.872536 
+,38.596143 6.080540 -14.726700 
+,38.236339 6.317538 -15.677685 
+,37.532586 6.614392 -16.511762 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.596143 6.080540 -14.726700 
+,38.578083 3.994934 -13.961244 
+,38.474929 3.300801 -13.938434 
+,38.349070 3.187880 -14.195169 
+,37.884893 3.059573 -15.253737 
+,38.236339 6.317538 -15.677685 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.578083 3.994934 -13.961244 
+,38.332542 4.251150 -13.487027 
+,38.312012 3.178986 -13.687996 
+,38.474929 3.300801 -13.938434 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.312012 3.178986 -13.687996 
+,38.474929 3.300801 -13.938434 
+,39.672507 2.951486 -14.135389 
+,39.206066 2.207678 -12.896629 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.206066 2.207678 -12.896629 
+,38.312012 3.178986 -13.687996 
+,37.950664 2.898268 -13.384642 
+,37.934245 2.866956 -13.353683 
+,38.047862 2.324297 -12.865079 
+,39.130101 2.184103 -12.865658 
+,39.206617 2.203640 -12.892957 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.130101 2.184103 -12.865658 
+,37.881974 0.946949 -12.173185 
+,37.828725 0.736670 -12.101256 
+,39.437374 -0.044550 -12.354388 
+,39.888194 0.047279 -12.508962 
+,39.213491 2.197411 -12.893261 
+,39.206617 2.203640 -12.892957 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.888194 0.047279 -12.508962 
+,40.779581 -0.034522 -13.116348 
+,40.998246 1.439185 -13.869114 
+,39.213491 2.197411 -12.893261 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.779581 -0.034522 -13.116348 
+,40.998246 1.439185 -13.869114 
+,43.156629 1.291568 -13.638022 
+,43.298941 1.082836 -13.519029 
+,41.681921 -0.200059 -12.965604 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.888194 0.047279 -12.508962 
+,40.779581 -0.034522 -13.116348 
+,41.681921 -0.200059 -12.965604 
+,41.998296 -0.409225 -11.514240 
+,41.761854 -0.425155 -11.004925 
+,41.642388 -0.414569 -10.920028 
+,41.277556 -0.334311 -11.104317 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.998296 -0.409225 -11.514240 
+,42.046743 -0.399705 -11.432813 
+,42.231238 -0.361083 -11.052415 
+,41.761854 -0.425155 -11.004925 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.046743 -0.399705 -11.432813 
+,42.420421 -0.286506 -10.939562 
+,42.231238 -0.361083 -11.052415 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.437374 -0.044550 -12.354388 
+,39.888194 0.047279 -12.508962 
+,41.277556 -0.334311 -11.104317 
+,39.524526 -0.359602 -11.442320 
+,39.391288 -0.296997 -11.650644 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.524526 -0.359602 -11.442320 
+,39.189799 -0.293280 -11.380378 
+,39.391288 -0.296997 -11.650644 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.828725 0.736670 -12.101256 
+,39.437374 -0.044550 -12.354388 
+,39.391288 -0.296997 -11.650644 
+,39.189799 -0.293280 -11.380378 
+,38.588063 -0.076239 -11.095152 
+,37.794781 0.697617 -11.955167 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.794781 0.697617 -11.955167 
+,37.828725 0.736670 -12.101256 
+,37.809176 0.728524 -12.119573 
+,37.773047 0.684967 -11.949864 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.809176 0.728524 -12.119573 
+,37.446886 0.442225 -12.623199 
+,36.446943 -0.391408 -13.376723 
+,35.282938 -1.525714 -11.851822 
+,35.295659 -1.518339 -11.794889 
+,36.150605 -0.788155 -11.406113 
+,36.832700 -0.181561 -11.448204 
+,37.773047 0.684967 -11.949864 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.150605 -0.788155 -11.406113 
+,37.638089 -1.685977 -10.004760 
+,37.712509 -1.567023 -10.044835 
+,36.832700 -0.181561 -11.448204 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.638089 -1.685977 -10.004760 
+,37.712509 -1.567023 -10.044835 
+,37.848005 -1.651426 -9.793427 
+,37.752588 -1.762937 -9.786235 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.752588 -1.762937 -9.786235 
+,37.638089 -1.685977 -10.004760 
+,37.056048 -3.137740 -9.950250 
+,37.270021 -3.100950 -9.656081 
+,37.326911 -3.008010 -9.630453 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.270021 -3.100950 -9.656081 
+,37.663827 -3.107725 -9.574200 
+,37.326911 -3.008010 -9.630453 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.270021 -3.100950 -9.656081 
+,37.663827 -3.107725 -9.574200 
+,40.198153 -3.770473 -8.908615 
+,40.294798 -4.448886 -8.736983 
+,39.305494 -4.932746 -8.830527 
+,38.342194 -5.064267 -8.997658 
+,37.312808 -4.862584 -9.252887 
+,37.191790 -4.719796 -9.309556 
+,36.774234 -3.702098 -9.622649 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.342194 -5.064267 -8.997658 
+,37.627182 -5.356469 -8.028652 
+,37.312808 -4.862584 -9.252887 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.294798 -4.448886 -8.736983 
+,40.491016 -4.493362 -8.328054 
+,40.346778 -4.902269 -7.401195 
+,40.118337 -5.079831 -7.239809 
+,39.305494 -4.932746 -8.830527 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.491016 -4.493362 -8.328054 
+,40.513709 -4.277059 -8.270716 
+,40.517963 -3.522724 -7.305745 
+,40.358510 -4.718476 -7.275345 
+,40.346778 -4.902269 -7.401195 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.198153 -3.770473 -8.908615 
+,40.394785 -3.690874 -8.493192 
+,40.513709 -4.277059 -8.270716 
+,40.491016 -4.493362 -8.328054 
+,40.294798 -4.448886 -8.736983 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.663827 -3.107725 -9.574200 
+,40.198153 -3.770473 -8.908615 
+,40.237851 -3.187387 -9.257299 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.056048 -3.137740 -9.950250 
+,37.270021 -3.100950 -9.656081 
+,36.774234 -3.702098 -9.622649 
+,36.636556 -3.485894 -10.144393 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.848005 -1.651426 -9.793427 
+,37.752588 -1.762937 -9.786235 
+,37.326911 -3.008010 -9.630453 
+,37.663827 -3.107725 -9.574200 
+,40.237851 -3.187387 -9.257299 
+,40.267701 -3.072290 -9.272821 
+,40.224585 -1.354636 -9.562111 
+,38.978905 -0.916053 -9.781662 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.712509 -1.567023 -10.044835 
+,37.848005 -1.651426 -9.793427 
+,38.978905 -0.916053 -9.781662 
+,38.696376 -0.411644 -10.781822 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.295659 -1.518339 -11.794889 
+,35.759608 -3.163550 -10.901364 
+,36.636556 -3.485894 -10.144393 
+,37.056048 -3.137740 -9.950250 
+,37.638089 -1.685977 -10.004760 
+,36.150605 -0.788155 -11.406113 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.282938 -1.525714 -11.851822 
+,35.295659 -1.518339 -11.794889 
+,34.596051 -1.077298 -11.239494 
+,34.559988 -1.245020 -12.040155 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.596051 -1.077298 -11.239494 
+,34.559988 -1.245020 -12.040155 
+,33.092449 -1.150072 -12.599220 
+,33.320059 -0.604039 -9.917638 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.092449 -1.150072 -12.599220 
+,33.320059 -0.604039 -9.917638 
+,33.026803 -0.159649 -9.341133 
+,32.894579 -0.011191 -9.263507 
+,32.738518 0.109953 -9.361808 
+,31.570479 0.523190 -11.830612 
+,31.677406 0.364999 -12.027322 
+,33.082435 -1.143395 -12.609382 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.677406 0.364999 -12.027322 
+,32.054249 0.265751 -13.319971 
+,32.433599 -0.040889 -13.851668 
+,32.525803 -0.158547 -13.820370 
+,33.082435 -1.143395 -12.609382 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.433599 -0.040889 -13.851668 
+,32.351143 1.436709 -14.172554 
+,32.591609 1.797121 -14.233336 
+,34.027363 1.922474 -14.163735 
+,34.243014 0.344166 -13.812416 
+,32.525803 -0.158547 -13.820370 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.027363 1.922474 -14.163735 
+,34.243014 0.344166 -13.812416 
+,35.722482 0.491757 -14.259118 
+,35.684252 1.859520 -14.604594 
+,35.059729 2.129694 -14.502572 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.059729 2.129694 -14.502572 
+,34.027363 1.922474 -14.163735 
+,33.976886 2.994751 -13.037960 
+,33.987035 3.001630 -13.036330 
+,34.948060 2.782954 -13.773518 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.987035 3.001630 -13.036330 
+,34.948060 2.782954 -13.773518 
+,34.790024 3.711733 -13.184214 
+,34.005320 3.041195 -13.027432 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.790024 3.711733 -13.184214 
+,34.450738 5.713354 -12.708728 
+,34.011800 5.768694 -12.544451 
+,33.761570 5.180746 -12.561018 
+,34.005320 3.041195 -13.027432 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.011800 5.768694 -12.544451 
+,32.837380 6.226300 -12.811145 
+,32.275547 5.730648 -12.896762 
+,32.219543 5.514686 -12.895515 
+,32.186845 4.967608 -12.870062 
+,32.301878 4.171725 -12.799829 
+,33.761570 5.180746 -12.561018 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.186845 4.967608 -12.870062 
+,32.301878 4.171725 -12.799829 
+,32.010228 3.863264 -12.645726 
+,31.545241 3.723679 -12.450323 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.010228 3.863264 -12.645726 
+,31.545241 3.723679 -12.450323 
+,30.759372 3.007286 -12.380106 
+,31.715276 2.144601 -13.403973 
+,32.260061 2.069300 -13.762165 
+,32.438647 2.217961 -13.785773 
+,32.343502 3.779137 -12.885449 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.438647 2.217961 -13.785773 
+,32.343502 3.779137 -12.885449 
+,33.974979 2.994625 -13.038011 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.260061 2.069300 -13.762165 
+,32.438903 2.067802 -13.943130 
+,32.438647 2.217961 -13.785773 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.715276 2.144601 -13.403973 
+,32.260061 2.069300 -13.762165 
+,31.951259 1.753469 -13.610071 
+,31.873694 1.793822 -13.554863 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.951259 1.753469 -13.610071 
+,31.640311 1.145782 -12.908515 
+,31.121564 1.630007 -12.673062 
+,31.873694 1.793822 -13.554863 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.640311 1.145782 -12.908515 
+,31.570479 0.523190 -11.830612 
+,30.214751 1.288797 -10.454838 
+,29.930911 1.682494 -10.521848 
+,29.574403 2.409794 -10.960150 
+,31.121564 1.630007 -12.673062 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.930911 1.682494 -10.521848 
+,29.574403 2.409794 -10.960150 
+,28.293154 2.372440 -10.521137 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.214751 1.288797 -10.454838 
+,29.930911 1.682494 -10.521848 
+,28.293154 2.372440 -10.521137 
+,28.071625 2.335380 -10.489109 
+,27.892237 1.896695 -10.363089 
+,28.149764 0.565027 -10.063642 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 28.149764 0.565027 -10.063642 
+,30.214751 1.288797 -10.454838 
+,32.643574 0.155167 -9.390080 
+,32.879276 -0.060008 -9.205962 
+,30.625532 -0.338608 -9.171826 
+,28.266962 0.302083 -9.852285 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.625532 -0.338608 -9.171826 
+,28.266962 0.302083 -9.852285 
+,27.861111 0.058896 -9.940126 
+,27.913098 -1.776098 -9.774439 
+,30.082429 -2.324929 -9.151924 
+,30.603331 -2.249207 -9.019618 
+,30.886698 -2.085517 -8.957781 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.603331 -2.249207 -9.019618 
+,30.886698 -2.085517 -8.957781 
+,30.852682 -2.293120 -8.862469 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.879276 -0.060008 -9.205962 
+,30.625532 -0.338608 -9.171826 
+,30.886698 -2.085517 -8.957781 
+,31.792146 -1.637495 -9.012676 
+,32.916857 -0.124319 -9.198082 
+,32.886547 -0.061702 -9.205755 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.759372 3.007286 -12.380106 
+,31.715276 2.144601 -13.403973 
+,31.873694 1.793822 -13.554863 
+,31.121564 1.630007 -12.673062 
+,29.574403 2.409794 -10.960150 
+,29.662667 2.913030 -11.107401 
+,29.900541 3.068205 -11.395632 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.662667 2.913030 -11.107401 
+,29.900541 3.068205 -11.395632 
+,29.412814 3.178028 -11.085424 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.545241 3.723679 -12.450323 
+,30.759372 3.007286 -12.380106 
+,29.900541 3.068205 -11.395632 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.301878 4.171725 -12.799829 
+,32.010228 3.863264 -12.645726 
+,32.343502 3.779137 -12.885449 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.219543 5.514686 -12.895515 
+,32.186845 4.967608 -12.870062 
+,31.545241 3.723679 -12.450323 
+,29.900541 3.068205 -11.395632 
+,29.412814 3.178028 -11.085424 
+,28.885363 4.185288 -10.757411 
+,29.773747 6.316740 -11.342029 
+,31.656902 6.588311 -12.545611 
+,32.208668 5.724009 -12.890335 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.773747 6.316740 -11.342029 
+,31.656902 6.588311 -12.545611 
+,30.457523 7.313975 -12.810531 
+,29.920180 7.450430 -12.712674 
+,28.837904 6.838404 -11.497600 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.457523 7.313975 -12.810531 
+,29.920180 7.450430 -12.712674 
+,31.231910 8.303848 -12.919031 
+,31.348179 8.314245 -12.939111 
+,31.541122 7.684250 -12.990174 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.348179 8.314245 -12.939111 
+,31.541122 7.684250 -12.990174 
+,33.358933 7.508836 -15.756481 
+,32.707612 9.792404 -15.646348 
+,32.093376 11.059448 -15.190779 
+,31.520483 9.447488 -13.657511 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.093376 11.059448 -15.190779 
+,31.515891 11.992836 -16.031927 
+,28.252117 9.762471 -13.783588 
+,30.308843 9.194090 -13.358906 
+,31.520483 9.447488 -13.657511 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.515891 11.992836 -16.031927 
+,28.252117 9.762471 -13.783588 
+,26.637537 10.669570 -13.887758 
+,27.746004 12.514111 -15.309069 
+,30.248356 12.891198 -16.226389 
+,31.031815 12.557458 -16.240231 
+,31.455480 12.331943 -16.220464 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.707612 9.792404 -15.646348 
+,33.447222 8.103094 -17.000585 
+,32.971262 8.887874 -17.617600 
+,32.497501 9.830298 -17.437792 
+,31.626794 11.717994 -16.341006 
+,31.515891 11.992836 -16.031927 
+,32.093376 11.059448 -15.190779 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.497501 9.830298 -17.437792 
+,31.626794 11.717994 -16.341006 
+,31.455480 12.331943 -16.220464 
+,31.455916 12.385300 -16.242340 
+,32.505488 11.824585 -18.237888 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.971262 8.887874 -17.617600 
+,32.497501 9.830298 -17.437792 
+,32.505488 11.824585 -18.237888 
+,33.979241 11.539266 -19.846534 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.447222 8.103094 -17.000585 
+,32.971262 8.887874 -17.617600 
+,33.979241 11.539266 -19.846534 
+,34.258637 11.589616 -19.903221 
+,35.286517 10.870845 -19.370765 
+,35.402745 8.974243 -17.822553 
+,35.261024 8.813577 -17.683037 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.261024 8.813577 -17.683037 
+,33.447222 8.103094 -17.000585 
+,33.602450 7.305788 -16.682661 
+,33.673418 7.242074 -16.669230 
+,34.948087 7.217733 -16.919185 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.673418 7.242074 -16.669230 
+,34.948087 7.217733 -16.919185 
+,35.022079 7.039536 -14.862872 
+,35.010693 7.038158 -14.841945 
+,34.976441 7.037736 -14.822625 
+,34.973047 7.037868 -14.822749 
+,33.761294 7.146008 -15.580805 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.973047 7.037868 -14.822749 
+,33.761294 7.146008 -15.580805 
+,33.699543 6.658187 -14.285951 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.976441 7.037736 -14.822625 
+,34.973047 7.037868 -14.822749 
+,33.699543 6.658187 -14.285951 
+,33.678836 6.584647 -14.185703 
+,34.388655 6.088320 -13.523140 
+,34.913951 6.613100 -14.244721 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.388655 6.088320 -13.523140 
+,34.913951 6.613100 -14.244721 
+,34.833876 5.913894 -12.859861 
+,34.639040 5.743972 -12.643122 
+,34.450738 5.713354 -12.708728 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.699543 6.658187 -14.285951 
+,33.678836 6.584647 -14.185703 
+,32.837380 6.226300 -12.811145 
+,32.273967 6.674506 -12.596997 
+,31.905243 7.372918 -12.872570 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.010693 7.038158 -14.841945 
+,34.976441 7.037736 -14.822625 
+,34.913951 6.613100 -14.244721 
+,35.248593 6.848420 -14.729469 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.602450 7.305788 -16.682661 
+,33.673418 7.242074 -16.669230 
+,33.761294 7.146008 -15.580805 
+,33.358933 7.508836 -15.756481 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.402745 8.974243 -17.822553 
+,35.261024 8.813577 -17.683037 
+,34.948087 7.217733 -16.919185 
+,35.619554 6.990345 -17.217136 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.358933 7.508836 -15.756481 
+,33.602450 7.305788 -16.682661 
+,33.447222 8.103094 -17.000585 
+,32.707612 9.792404 -15.646348 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.541122 7.684250 -12.990174 
+,33.358933 7.508836 -15.756481 
+,33.761294 7.146008 -15.580805 
+,33.699543 6.658187 -14.285951 
+,31.905243 7.372918 -12.872570 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.231910 8.303848 -12.919031 
+,31.348179 8.314245 -12.939111 
+,31.520483 9.447488 -13.657511 
+,30.308843 9.194090 -13.358906 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.920180 7.450430 -12.712674 
+,31.231910 8.303848 -12.919031 
+,30.308843 9.194090 -13.358906 
+,28.252117 9.762471 -13.783588 
+,26.441545 7.635899 -13.126457 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.656902 6.588311 -12.545611 
+,30.457523 7.313975 -12.810531 
+,31.541122 7.684250 -12.990174 
+,31.905243 7.372918 -12.872570 
+,32.273967 6.674506 -12.596997 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.275547 5.730648 -12.896762 
+,32.219543 5.514686 -12.895515 
+,32.208668 5.724009 -12.890335 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.837380 6.226300 -12.811145 
+,32.275547 5.730648 -12.896762 
+,32.208668 5.724009 -12.890335 
+,31.656902 6.588311 -12.545611 
+,32.273967 6.674506 -12.596997 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.450738 5.713354 -12.708728 
+,34.388655 6.088320 -13.523140 
+,33.678836 6.584647 -14.185703 
+,32.837380 6.226300 -12.811145 
+,34.011800 5.768694 -12.544451 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.790024 3.711733 -13.184214 
+,34.450738 5.713354 -12.708728 
+,34.639040 5.743972 -12.643122 
+,36.827213 4.757260 -12.268273 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.948060 2.782954 -13.773518 
+,34.790024 3.711733 -13.184214 
+,36.827213 4.757260 -12.268273 
+,37.214742 4.666535 -12.283412 
+,37.929812 2.885635 -13.366401 
+,36.371148 2.152289 -14.023648 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.929812 2.885635 -13.366401 
+,37.934245 2.866956 -13.353683 
+,37.520827 1.086159 -12.699224 
+,36.371148 2.152289 -14.023648 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.976886 2.994751 -13.037960 
+,33.987035 3.001630 -13.036330 
+,34.005320 3.041195 -13.027432 
+,33.761570 5.180746 -12.561018 
+,32.301878 4.171725 -12.799829 
+,32.343502 3.779137 -12.885449 
+,33.974979 2.994625 -13.038011 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.684252 1.859520 -14.604594 
+,35.059729 2.129694 -14.502572 
+,34.948060 2.782954 -13.773518 
+,36.371148 2.152289 -14.023648 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.591609 1.797121 -14.233336 
+,32.438903 2.067802 -13.943130 
+,32.438647 2.217961 -13.785773 
+,33.974979 2.994625 -13.038011 
+,33.976886 2.994751 -13.037960 
+,34.027363 1.922474 -14.163735 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.351143 1.436709 -14.172554 
+,31.951259 1.753469 -13.610071 
+,32.260061 2.069300 -13.762165 
+,32.438903 2.067802 -13.943130 
+,32.591609 1.797121 -14.233336 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.054249 0.265751 -13.319971 
+,31.640311 1.145782 -12.908515 
+,31.951259 1.753469 -13.610071 
+,32.351143 1.436709 -14.172554 
+,32.433599 -0.040889 -13.851668 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.570479 0.523190 -11.830612 
+,31.640311 1.145782 -12.908515 
+,32.054249 0.265751 -13.319971 
+,31.677406 0.364999 -12.027322 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.738518 0.109953 -9.361808 
+,31.570479 0.523190 -11.830612 
+,30.214751 1.288797 -10.454838 
+,32.643574 0.155167 -9.390080 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.894579 -0.011191 -9.263507 
+,32.738518 0.109953 -9.361808 
+,32.643574 0.155167 -9.390080 
+,32.879276 -0.060008 -9.205962 
+,32.886547 -0.061702 -9.205755 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.026803 -0.159649 -9.341133 
+,32.894579 -0.011191 -9.263507 
+,32.886547 -0.061702 -9.205755 
+,32.916857 -0.124319 -9.198082 
+,32.988060 -0.194230 -9.248824 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.320059 -0.604039 -9.917638 
+,33.026803 -0.159649 -9.341133 
+,32.988060 -0.194230 -9.248824 
+,33.132698 -0.812728 -9.464054 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.559988 -1.245020 -12.040155 
+,33.092449 -1.150072 -12.599220 
+,33.082435 -1.143395 -12.609382 
+,32.525803 -0.158547 -13.820370 
+,34.243014 0.344166 -13.812416 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.446943 -0.391408 -13.376723 
+,35.282938 -1.525714 -11.851822 
+,34.559988 -1.245020 -12.040155 
+,34.243014 0.344166 -13.812416 
+,35.722482 0.491757 -14.259118 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.446886 0.442225 -12.623199 
+,36.446943 -0.391408 -13.376723 
+,35.722482 0.491757 -14.259118 
+,35.684252 1.859520 -14.604594 
+,36.371148 2.152289 -14.023648 
+,37.520827 1.086159 -12.699224 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.809176 0.728524 -12.119573 
+,37.446886 0.442225 -12.623199 
+,37.520827 1.086159 -12.699224 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.588063 -0.076239 -11.095152 
+,37.794781 0.697617 -11.955167 
+,37.773047 0.684967 -11.949864 
+,36.832700 -0.181561 -11.448204 
+,37.712509 -1.567023 -10.044835 
+,38.696376 -0.411644 -10.781822 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.189799 -0.293280 -11.380378 
+,38.588063 -0.076239 -11.095152 
+,38.696376 -0.411644 -10.781822 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.047862 2.324297 -12.865079 
+,37.881974 0.946949 -12.173185 
+,39.130101 2.184103 -12.865658 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.934245 2.866956 -13.353683 
+,37.520827 1.086159 -12.699224 
+,37.809176 0.728524 -12.119573 
+,37.828725 0.736670 -12.101256 
+,37.881974 0.946949 -12.173185 
+,38.047862 2.324297 -12.865079 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.950664 2.898268 -13.384642 
+,37.934245 2.866956 -13.353683 
+,37.929812 2.885635 -13.366401 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.672507 2.951486 -14.135389 
+,39.206066 2.207678 -12.896629 
+,39.206617 2.203640 -12.892957 
+,39.213491 2.197411 -12.893261 
+,40.998246 1.439185 -13.869114 
+,41.002196 1.529696 -13.967550 
+,40.813006 2.413672 -14.703329 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.332542 4.251150 -13.487027 
+,37.956691 5.129147 -12.929789 
+,37.214742 4.666535 -12.283412 
+,37.929812 2.885635 -13.366401 
+,37.950664 2.898268 -13.384642 
+,38.312012 3.178986 -13.687996 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.232100 6.025216 -13.872536 
+,37.956691 5.129147 -12.929789 
+,38.332542 4.251150 -13.487027 
+,38.578083 3.994934 -13.961244 
+,38.596143 6.080540 -14.726700 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.858239 6.328573 -13.801131 
+,34.833876 5.913894 -12.859861 
+,34.639040 5.743972 -12.643122 
+,36.827213 4.757260 -12.268273 
+,37.214742 4.666535 -12.283412 
+,37.956691 5.129147 -12.929789 
+,38.232100 6.025216 -13.872536 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.248593 6.848420 -14.729469 
+,34.913951 6.613100 -14.244721 
+,34.833876 5.913894 -12.859861 
+,36.858239 6.328573 -13.801131 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.588427 6.859854 -15.279342 
+,35.248593 6.848420 -14.729469 
+,35.010693 7.038158 -14.841945 
+,35.022079 7.039536 -14.862872 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.553588 6.621124 -16.909695 
+,35.588427 6.859854 -15.279342 
+,35.022079 7.039536 -14.862872 
+,34.948087 7.217733 -16.919185 
+,35.619554 6.990345 -17.217136 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.649730 6.849580 -17.331694 
+,36.626571 6.381873 -17.088977 
+,36.553588 6.621124 -16.909695 
+,35.619554 6.990345 -17.217136 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.850392 6.175862 -18.478817 
+,35.649730 6.849580 -17.331694 
+,35.619554 6.990345 -17.217136 
+,35.402745 8.974243 -17.822553 
+,35.286517 10.870845 -19.370765 
+,35.432943 11.554483 -21.934136 
+,35.489531 11.275314 -22.126641 
+,35.594205 10.636960 -22.303592 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.831145 6.217199 -17.172084 
+,36.922716 6.290134 -17.091084 
+,36.826766 6.222600 -17.170653 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.497272 9.468945 -22.908625 
+,35.837894 6.109151 -18.581564 
+,35.850392 6.175862 -18.478817 
+,35.594205 10.636960 -22.303592 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.108873 4.388345 -19.530475 
+,36.497244 4.192431 -19.310931 
+,36.681455 5.529493 -18.257900 
+,35.868431 6.011150 -18.670033 
+,35.838655 5.737427 -18.878466 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.160956 3.392229 -23.754368 
+,38.824980 4.410527 -22.295471 
+,38.646408 4.621272 -21.495581 
+,38.557630 4.376303 -21.072003 
+,38.576842 3.764098 -21.114394 
+,38.784137 3.395006 -22.033724 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.357968 3.546339 -25.269305 
+,39.626770 3.979164 -25.429293 
+,38.980060 4.222343 -25.309528 
+,38.703702 4.024638 -24.693994 
+,39.150403 3.379193 -23.883330 
+,39.177921 3.360292 -23.872422 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.625020 2.683389 -23.643449 
+,39.798667 2.880921 -23.883368 
+,39.278634 3.244009 -23.825910 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.854371 0.960516 -23.035475 
+,39.730015 1.705621 -23.475086 
+,40.037683 1.772962 -23.819432 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.901573 0.721361 -22.843212 
+,39.854371 0.960516 -23.035475 
+,40.037683 1.772962 -23.819432 
+,41.093048 2.975350 -25.278099 
+,41.093818 2.975376 -25.278414 
+,43.072207 0.001835 -23.417558 
+,41.536723 0.183472 -22.992771 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.072207 0.001835 -23.417558 
+,43.993858 -0.189759 -23.091594 
+,43.189531 -0.200414 -22.124703 
+,42.785382 -0.141235 -22.092904 
+,41.536723 0.183472 -22.992771 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.189531 -0.200414 -22.124703 
+,42.785382 -0.141235 -22.092904 
+,42.952927 -0.271922 -21.855201 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.993858 -0.189759 -23.091594 
+,45.975089 0.779090 -23.016585 
+,43.189531 -0.200414 -22.124703 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.093818 2.975376 -25.278414 
+,45.184724 2.949569 -24.205261 
+,45.472926 2.872863 -24.095721 
+,45.856446 2.310427 -23.741329 
+,45.975089 0.779090 -23.016585 
+,43.993858 -0.189759 -23.091594 
+,43.072207 0.001835 -23.417558 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.003704 0.750849 -22.109085 
+,39.901573 0.721361 -22.843212 
+,41.536723 0.183472 -22.992771 
+,42.785382 -0.141235 -22.092904 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.781001 3.082294 -21.030800 
+,39.463094 1.969837 -20.644634 
+,39.794380 2.158054 -22.760068 
+,39.625020 2.683389 -23.643449 
+,39.278634 3.244009 -23.825910 
+,39.168019 3.385243 -23.764701 
+,39.160956 3.392229 -23.754368 
+,38.784137 3.395006 -22.033724 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.576842 3.764098 -21.114394 
+,38.781001 3.082294 -21.030800 
+,38.784137 3.395006 -22.033724 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.647637 4.164977 -20.431347 
+,38.557630 4.376303 -21.072003 
+,38.576842 3.764098 -21.114394 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.847540 4.080754 -19.674209 
+,37.647637 4.164977 -20.431347 
+,36.285087 4.408667 -20.373538 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.497244 4.192431 -19.310931 
+,36.721474 4.112351 -19.469290 
+,36.847540 4.080754 -19.674209 
+,36.285087 4.408667 -20.373538 
+,36.141281 4.479496 -20.440036 
+,36.108873 4.388345 -19.530475 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.695733 2.599482 -16.425814 
+,36.831145 6.217199 -17.172084 
+,36.681455 5.529493 -18.257900 
+,36.497244 4.192431 -19.310931 
+,36.499143 2.241223 -18.166248 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.768314 2.599242 -16.347287 
+,37.884893 3.059573 -15.253737 
+,38.236339 6.317538 -15.677685 
+,37.532586 6.614392 -16.511762 
+,37.321529 6.599915 -16.736364 
+,36.922716 6.290134 -17.091084 
+,36.831145 6.217199 -17.172084 
+,36.695733 2.599482 -16.425814 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.868284 2.026639 -16.483186 
+,37.884893 3.059573 -15.253737 
+,36.768314 2.599242 -16.347287 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.495147 1.476969 -18.877219 
+,38.653468 1.847255 -17.482189 
+,36.916767 2.067764 -18.446904 
+,36.930767 2.051065 -18.460805 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.599126 1.407747 -19.016902 
+,37.495147 1.476969 -18.877219 
+,36.930767 2.051065 -18.460805 
+,37.625822 1.590617 -19.398431 
+,37.644238 1.568651 -19.406450 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.905902 1.276333 -19.240756 
+,37.599126 1.407747 -19.016902 
+,37.644238 1.568651 -19.406450 
+,37.693067 1.547938 -19.442482 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.706455 0.782362 -19.837578 
+,37.905902 1.276333 -19.240756 
+,37.693067 1.547938 -19.442482 
+,37.715771 1.553671 -19.465283 
+,39.577263 1.052608 -20.094597 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.043992 0.196620 -20.443688 
+,39.772100 0.659831 -19.863980 
+,39.706455 0.782362 -19.837578 
+,39.577263 1.052608 -20.094597 
+,39.916570 0.521697 -21.318720 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.231525 -0.294001 -21.079794 
+,40.043992 0.196620 -20.443688 
+,39.916570 0.521697 -21.318720 
+,40.003704 0.750849 -22.109085 
+,42.785382 -0.141235 -22.092904 
+,42.952927 -0.271922 -21.855201 
+,42.808427 -0.309920 -21.596599 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.183763 -0.127677 -20.883853 
+,42.231525 -0.294001 -21.079794 
+,42.808427 -0.309920 -21.596599 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.612048 0.844419 -19.702162 
+,43.183763 -0.127677 -20.883853 
+,42.808427 -0.309920 -21.596599 
+,42.952927 -0.271922 -21.855201 
+,43.189531 -0.200414 -22.124703 
+,45.975089 0.779090 -23.016585 
+,46.662895 1.033792 -23.023955 
+,48.584342 1.781547 -22.444264 
+,48.557088 1.774625 -22.391432 
+,46.533971 1.167748 -20.011482 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.292034 1.644211 -18.427709 
+,41.361787 1.675883 -18.617824 
+,39.898908 0.821083 -19.664751 
+,40.325471 1.091329 -18.804862 
+,40.767963 1.349651 -18.494474 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.101807 1.807130 -17.773395 
+,41.292034 1.644211 -18.427709 
+,40.767963 1.349651 -18.494474 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.384579 1.767828 -16.764514 
+,41.250504 1.809663 -17.264511 
+,41.648754 1.706315 -16.766783 
+,41.523299 1.733319 -16.661475 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.617660 1.825948 -17.172966 
+,41.026583 1.918238 -17.538705 
+,41.055739 1.898322 -17.586745 
+,41.101807 1.807130 -17.773395 
+,40.767963 1.349651 -18.494474 
+,40.325471 1.091329 -18.804862 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.316393 1.769374 -16.527484 
+,39.142081 1.875865 -16.824910 
+,39.386989 1.876276 -17.130001 
+,39.617660 1.825948 -17.172966 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.313863 1.769827 -16.478193 
+,38.868284 2.026639 -16.483186 
+,39.142081 1.875865 -16.824910 
+,39.316393 1.769374 -16.527484 
+,39.319070 1.767067 -16.489948 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.319837 1.782100 -16.436302 
+,38.349070 3.187880 -14.195169 
+,37.884893 3.059573 -15.253737 
+,38.868284 2.026639 -16.483186 
+,39.313863 1.769827 -16.478193 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.813006 2.413672 -14.703329 
+,39.672507 2.951486 -14.135389 
+,38.474929 3.300801 -13.938434 
+,38.349070 3.187880 -14.195169 
+,39.319837 1.782100 -16.436302 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.360828 2.409412 -14.913854 
+,40.813006 2.413672 -14.703329 
+,41.002196 1.529696 -13.967550 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.661602 1.805890 -16.314003 
+,41.495520 2.263673 -15.484558 
+,41.193924 1.876238 -16.766615 
+,41.384579 1.767828 -16.764514 
+,41.523299 1.733319 -16.661475 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.747979 2.203975 -14.644931 
+,42.445295 2.382483 -14.849187 
+,41.615386 2.488594 -14.991786 
+,41.360828 2.409412 -14.913854 
+,41.002196 1.529696 -13.967550 
+,40.998246 1.439185 -13.869114 
+,43.156629 1.291568 -13.638022 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.167343 1.839262 -15.958669 
+,41.648754 1.706315 -16.766783 
+,41.523299 1.733319 -16.661475 
+,41.661602 1.805890 -16.314003 
+,42.894002 1.944074 -15.520971 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.892002 0.623832 -17.704481 
+,45.133238 0.553367 -18.117130 
+,42.908707 1.049668 -17.782019 
+,41.648754 1.706315 -16.766783 
+,43.167343 1.839262 -15.958669 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.034583 0.609265 -14.190473 
+,43.298941 1.082836 -13.519029 
+,43.156629 1.291568 -13.638022 
+,42.747979 2.203975 -14.644931 
+,43.433562 1.648733 -15.028645 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.627337 0.314642 -14.402608 
+,43.309594 1.084061 -13.498183 
+,43.298941 1.082836 -13.519029 
+,44.034583 0.609265 -14.190473 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 45.046005 0.354376 -14.488029 
+,44.887123 0.363713 -14.748960 
+,45.360645 0.759944 -15.816496 
+,46.256605 1.058826 -15.874688 
+,47.784542 1.251411 -14.594067 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 44.661935 0.291267 -14.416028 
+,44.627337 0.314642 -14.402608 
+,44.671875 0.298076 -14.426469 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 47.909288 -0.284000 -12.781933 
+,45.840052 -0.045432 -13.758104 
+,45.046005 0.354376 -14.488029 
+,47.784542 1.251411 -14.594067 
+,48.690653 1.260140 -14.297088 
+,49.156331 1.003510 -13.843473 
+,48.893309 0.080180 -12.868281 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.864291 -0.344971 -10.882291 
+,44.685860 -0.601090 -11.680520 
+,44.796389 -2.097333 -10.272334 
+,44.792035 -2.104356 -10.259416 
+,44.569548 -1.937067 -10.144782 
+,44.153751 -1.448629 -10.112818 
+,43.696529 -0.713686 -10.282790 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.292447 0.456892 -11.412760 
+,43.959492 -0.180593 -11.063478 
+,44.702801 -0.571861 -11.712753 
+,44.846018 -0.016618 -13.890186 
+,44.661935 0.291267 -14.416028 
+,44.627337 0.314642 -14.402608 
+,43.309594 1.084061 -13.498183 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.743093 -0.137390 -10.687741 
+,43.292447 0.456892 -11.412760 
+,43.309594 1.084061 -13.498183 
+,43.298941 1.082836 -13.519029 
+,41.681921 -0.200059 -12.965604 
+,41.998296 -0.409225 -11.514240 
+,42.046743 -0.399705 -11.432813 
+,42.420421 -0.286506 -10.939562 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.696529 -0.713686 -10.282790 
+,42.919687 -0.236572 -10.658229 
+,43.864291 -0.344971 -10.882291 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.719620 -0.783046 -9.939535 
+,44.153751 -1.448629 -10.112818 
+,43.696529 -0.713686 -10.282790 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.176898 -0.115087 -9.002696 
+,43.719620 -0.783046 -9.939535 
+,45.074130 0.203943 -7.725626 
+,43.411914 0.666779 -7.211912 
+,42.046152 0.101573 -8.614433 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.642388 -0.414569 -10.920028 
+,42.313332 -0.002324 -10.119758 
+,42.743093 -0.137390 -10.687741 
+,42.420421 -0.286506 -10.939562 
+,42.231238 -0.361083 -11.052415 
+,41.761854 -0.425155 -11.004925 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.484015 -1.174889 -10.152619 
+,39.524526 -0.359602 -11.442320 
+,41.277556 -0.334311 -11.104317 
+,41.642388 -0.414569 -10.920028 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.224585 -1.354636 -9.562111 
+,38.978905 -0.916053 -9.781662 
+,38.696376 -0.411644 -10.781822 
+,39.189799 -0.293280 -11.380378 
+,39.524526 -0.359602 -11.442320 
+,40.484015 -1.174889 -10.152619 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.991782 0.058996 -8.576415 
+,42.170584 -0.119253 -8.997557 
+,42.176898 -0.115087 -9.002696 
+,42.046152 0.101573 -8.614433 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.192476 -0.241361 -8.182608 
+,41.571060 -0.606945 -6.164404 
+,41.880471 -0.549810 -6.060129 
+,41.991782 0.058996 -8.576415 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.580953 -2.507049 -8.945477 
+,40.267701 -3.072290 -9.272821 
+,40.224585 -1.354636 -9.562111 
+,40.834414 -0.980137 -8.826106 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.394785 -3.690874 -8.493192 
+,40.198153 -3.770473 -8.908615 
+,40.237851 -3.187387 -9.257299 
+,40.267701 -3.072290 -9.272821 
+,40.580953 -2.507049 -8.945477 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.491649 -3.253308 -7.182510 
+,40.394785 -3.690874 -8.493192 
+,40.513709 -4.277059 -8.270716 
+,40.517963 -3.522724 -7.305745 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.035454 -2.701644 -6.089310 
+,40.039011 -2.701014 -6.096583 
+,40.491649 -3.253308 -7.182510 
+,40.517963 -3.522724 -7.305745 
+,40.358510 -4.718476 -7.275345 
+,39.966497 -4.119250 -6.304241 
+,40.029701 -2.709668 -6.079318 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.571060 -0.606945 -6.164404 
+,40.927615 -1.879319 -6.356590 
+,40.661574 -2.282234 -6.646641 
+,40.884581 -0.711454 -8.511812 
+,41.192476 -0.241361 -8.182608 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.265709 0.013748 -4.146445 
+,41.735130 0.077252 -4.060845 
+,42.175049 0.010243 -4.376941 
+,42.430852 -0.324014 -5.485711 
+,41.880471 -0.549810 -6.060129 
+,41.571060 -0.606945 -6.164404 
+,41.231989 -0.404386 -5.448059 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.613343 -1.085796 -3.055145 
+,40.758363 -1.602993 -2.729233 
+,42.026329 -1.279649 -2.380403 
+,42.020808 -1.266202 -2.389589 
+,41.531050 -0.555867 -2.955396 
+,41.397997 -0.572124 -3.001120 
+,40.614276 -1.083960 -3.055714 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.029159 -2.710812 -6.073043 
+,40.223971 -2.518530 -5.322268 
+,40.453526 -2.184857 -5.906372 
+,40.035454 -2.701644 -6.089310 
+,40.029701 -2.709668 -6.079318 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.966497 -4.119250 -6.304241 
+,40.029701 -2.709668 -6.079318 
+,40.029159 -2.710812 -6.073043 
+,39.911056 -3.516415 -5.122076 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.499737 -5.297205 -6.600476 
+,39.966497 -4.119250 -6.304241 
+,40.358510 -4.718476 -7.275345 
+,40.346778 -4.902269 -7.401195 
+,40.118337 -5.079831 -7.239809 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.233611 -2.763033 -4.103740 
+,40.218139 -2.983721 -4.407168 
+,40.064873 -3.316908 -4.626601 
+,39.592352 -3.903502 -4.640530 
+,39.438774 -4.003762 -4.509130 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.752155 -1.880446 -2.762475 
+,40.233611 -2.763033 -4.103740 
+,40.268259 -2.065197 -3.972983 
+,40.613343 -1.085796 -3.055145 
+,40.758363 -1.602993 -2.729233 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 42.798202 -1.936252 -2.265609 
+,40.752155 -1.880446 -2.762475 
+,40.758363 -1.602993 -2.729233 
+,42.026329 -1.279649 -2.380403 
+,42.738903 -1.854793 -2.270882 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.500445 -5.409602 -0.861578 
+,40.622175 -4.900653 -1.300368 
+,39.393641 -4.589022 -1.736094 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.709611 -6.572796 -0.222485 
+,39.712688 -6.567202 -0.227578 
+,41.668480 -5.291480 -1.214700 
+,43.717062 -4.985398 -1.231981 
+,44.159376 -5.284648 -0.875159 
+,44.154709 -5.872818 -0.295341 
+,43.847635 -6.690816 0.469255 
+,41.953014 -7.122294 0.631693 
+,39.748475 -6.628726 -0.161884 
+,39.712655 -6.594124 -0.201014 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 39.748475 -6.628726 -0.161884 
+,39.770182 -7.162438 0.703550 
+,38.970449 -6.872618 0.622392 
+,39.712655 -6.594124 -0.201014 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.953014 -7.122294 0.631693 
+,40.707470 -7.245182 0.834832 
+,39.770182 -7.162438 0.703550 
+,39.748475 -6.628726 -0.161884 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 40.707470 -7.245182 0.834832 
+,39.770182 -7.162438 0.703550 
+,39.819136 -7.606595 1.155921 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 41.953014 -7.122294 0.631693 
+,40.707470 -7.245182 0.834832 
+,39.819136 -7.606595 1.155921 
+,40.074822 -9.253726 2.190627 
+,43.986148 -13.468360 4.513835 
+,43.505831 -7.597782 0.783096 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 43.847635 -6.690816 0.469255 
+,41.953014 -7.122294 0.631693 
+,43.505831 -7.597782 0.783096 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.710903 -4.431543 -1.659319 
+,38.413725 -5.696014 -0.141179 
+,39.500445 -5.409602 -0.861578 
+,39.393641 -4.589022 -1.736094 
+,39.116216 -4.321039 -1.932105 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.745327 -5.459109 -3.538236 
+,38.710903 -4.431543 -1.659319 
+,39.116216 -4.321039 -1.932105 
+,38.938874 -4.753555 -4.314449 
+,37.447259 -5.311195 -4.293662 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.059813 -6.253926 0.570615 
+,38.970449 -6.872618 0.622392 
+,39.712655 -6.594124 -0.201014 
+,39.709611 -6.572796 -0.222485 
+,38.296681 -5.968896 0.090920 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.478617 -5.930007 -5.334632 
+,37.447259 -5.311195 -4.293662 
+,36.745327 -5.459109 -3.538236 
+,36.316376 -6.255657 -3.018334 
+,38.294695 -7.594706 -5.002544 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 38.057193 -5.822208 -6.364341 
+,38.478617 -5.930007 -5.334632 
+,38.912085 -5.810704 -5.384367 
+,39.303845 -5.524742 -6.287469 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.675616 -5.512008 -7.109352 
+,37.841049 -5.739643 -6.618864 
+,38.057193 -5.822208 -6.364341 
+,39.303845 -5.524742 -6.287469 
+,39.499737 -5.297205 -6.600476 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.672167 -5.511210 -7.117074 
+,37.675616 -5.512008 -7.109352 
+,39.499737 -5.297205 -6.600476 
+,40.118337 -5.079831 -7.239809 
+,39.305494 -4.932746 -8.830527 
+,38.342194 -5.064267 -8.997658 
+,37.627182 -5.356469 -8.028652 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.052002 -6.829214 -7.578958 
+,37.672167 -5.511210 -7.117074 
+,37.627182 -5.356469 -8.028652 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.263761 -8.087114 -6.921784 
+,36.096686 -8.671499 -6.333568 
+,36.254310 -8.700498 -6.325105 
+,37.421101 -8.585054 -6.582935 
+,37.397484 -8.472481 -6.689276 
+,36.883818 -7.689190 -7.385561 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.410599 -6.459820 -9.354328 
+,36.159455 -7.035672 -9.234035 
+,35.937422 -6.922183 -9.357061 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.259791 -4.902897 -9.319450 
+,37.312808 -4.862584 -9.252887 
+,37.627182 -5.356469 -8.028652 
+,37.052002 -6.829214 -7.578958 
+,36.608209 -7.445303 -7.820794 
+,36.319194 -7.232126 -8.673662 
+,36.159455 -7.035672 -9.234035 
+,36.410599 -6.459820 -9.354328 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 37.191790 -4.719796 -9.309556 
+,37.312808 -4.862584 -9.252887 
+,37.259791 -4.902897 -9.319450 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 36.414968 -3.851908 -9.246977 
+,37.191790 -4.719796 -9.309556 
+,36.774234 -3.702098 -9.622649 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 35.436926 -3.853242 -9.213286 
+,36.414968 -3.851908 -9.246977 
+,36.774234 -3.702098 -9.622649 
+,36.636556 -3.485894 -10.144393 
+,35.759608 -3.163550 -10.901364 
+,35.599336 -3.307858 -10.545270 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.110379 -5.280045 -8.750808 
+,34.428320 -5.790388 -9.258337 
+,34.512723 -6.403200 -9.286510 
+,33.973284 -6.459811 -8.219463 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.079493 -5.256487 -8.745897 
+,34.110379 -5.280045 -8.750808 
+,33.973284 -6.459811 -8.219463 
+,32.793438 -7.217793 -7.374140 
+,32.283983 -6.900913 -7.264702 
+,31.476241 -4.862525 -7.700575 
+,31.628389 -4.589906 -7.878964 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.476241 -4.862525 -7.700575 
+,31.628389 -4.589906 -7.878964 
+,31.287871 -4.606624 -7.999453 
+,31.287396 -4.614724 -7.992547 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.287396 -4.614724 -7.992547 
+,31.476241 -4.862525 -7.700575 
+,30.955058 -5.769148 -6.636395 
+,30.576324 -5.409617 -7.060365 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.622639 -4.271470 -8.590158 
+,34.079493 -5.256487 -8.745897 
+,31.628389 -4.589906 -7.878964 
+,31.678180 -4.498284 -7.897289 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.733524 -3.429719 -8.913040 
+,33.770976 -4.236550 -8.594412 
+,34.471211 -4.428977 -8.661132 
+,35.126223 -3.756055 -8.904195 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.401572 -3.044012 -9.136177 
+,34.733524 -3.429719 -8.913040 
+,35.126223 -3.756055 -8.904195 
+,35.436926 -3.853242 -9.213286 
+,35.599336 -3.307858 -10.545270 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.132698 -0.812728 -9.464054 
+,34.401572 -3.044012 -9.136177 
+,35.599336 -3.307858 -10.545270 
+,35.759608 -3.163550 -10.901364 
+,35.295659 -1.518339 -11.794889 
+,34.596051 -1.077298 -11.239494 
+,33.320059 -0.604039 -9.917638 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.792146 -1.637495 -9.012676 
+,32.916857 -0.124319 -9.198082 
+,32.988060 -0.194230 -9.248824 
+,33.132698 -0.812728 -9.464054 
+,32.815427 -1.230694 -9.409660 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.219048 -2.415847 -8.736080 
+,31.792146 -1.637495 -9.012676 
+,30.886698 -2.085517 -8.957781 
+,30.852682 -2.293120 -8.862469 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.534599 -4.259422 -8.047208 
+,32.441093 -3.251524 -9.079922 
+,32.587205 -3.233645 -9.132643 
+,32.891909 -3.364219 -9.110539 
+,33.622639 -4.271470 -8.590158 
+,31.678180 -4.498284 -7.897289 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.567782 -2.774223 -8.420247 
+,31.115276 -2.560073 -8.604078 
+,31.219048 -2.415847 -8.736080 
+,30.852682 -2.293120 -8.862469 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.532973 -2.802685 -8.401699 
+,30.567782 -2.774223 -8.420247 
+,30.852682 -2.293120 -8.862469 
+,30.603331 -2.249207 -9.019618 
+,30.082429 -2.324929 -9.151924 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.273595 -4.577241 -8.016630 
+,30.620024 -2.982760 -8.331999 
+,31.144444 -3.400740 -8.220195 
+,31.534599 -4.259422 -8.047208 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.273136 -4.580515 -8.015482 
+,31.273595 -4.577241 -8.016630 
+,31.534599 -4.259422 -8.047208 
+,31.678180 -4.498284 -7.897289 
+,31.628389 -4.589906 -7.878964 
+,31.287871 -4.606624 -7.999453 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.417816 -2.096159 -9.156352 
+,29.131102 -2.963441 -7.924184 
+,30.439222 -2.838693 -8.326654 
+,30.532973 -2.802685 -8.401699 
+,30.082429 -2.324929 -9.151924 
+,27.913098 -1.776098 -9.774439 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.721733 -6.329340 -7.800887 
+,26.778152 -5.749798 -8.072198 
+,27.431668 -5.621316 -8.411845 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.460050 -7.534757 -6.014652 
+,27.133350 -7.218843 -6.019957 
+,26.962962 -7.192085 -5.947515 
+,26.721364 -8.228374 -5.259366 
+,26.725301 -8.227082 -5.262081 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.227089 -4.251528 -7.766642 
+,27.694488 -4.550116 -8.792144 
+,27.431668 -5.621316 -8.411845 
+,27.721733 -6.329340 -7.800887 
+,28.050529 -6.798126 -7.290345 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.631089 -4.247703 -7.662828 
+,29.227089 -4.251528 -7.766642 
+,29.345944 -3.822585 -7.716089 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.576324 -5.409617 -7.060365 
+,31.287396 -4.614724 -7.992547 
+,31.287871 -4.606624 -7.999453 
+,31.273136 -4.580515 -8.015482 
+,29.631089 -4.247703 -7.662828 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.471714 -6.776139 -6.927768 
+,30.576324 -5.409617 -7.060365 
+,30.955058 -5.769148 -6.636395 
+,30.957367 -5.862956 -6.581873 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.919738 -8.314196 -6.585473 
+,28.499150 -7.701310 -7.173420 
+,28.620010 -7.762552 -7.218419 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 27.234925 -8.934442 -5.881986 
+,26.725301 -8.227082 -5.262081 
+,27.460050 -7.534757 -6.014652 
+,28.385024 -7.389141 -7.021919 
+,28.499150 -7.701310 -7.173420 
+,27.919738 -8.314196 -6.585473 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 29.244064 -9.691652 -5.249898 
+,27.234925 -8.934442 -5.881986 
+,26.814960 -9.393887 -5.691120 
+,26.694284 -9.561023 -5.617914 
+,28.275983 -9.917254 -5.245730 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 26.694284 -9.561023 -5.617914 
+,28.275983 -9.917254 -5.245730 
+,30.860245 -11.633156 -2.426653 
+,31.115907 -12.389916 -1.003137 
+,23.716995 -12.652553 1.017333 
+,23.605270 -11.940672 -0.348016 
+,25.725741 -9.799786 -4.954894 
+,26.612109 -9.569465 -5.584701 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.375436 -10.683371 -3.441877 
+,30.541826 -9.978746 -4.535737 
+,29.244064 -9.691652 -5.249898 
+,28.275983 -9.917254 -5.245730 
+,30.860245 -11.633156 -2.426653 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.496810 -11.147334 -1.679124 
+,31.375436 -10.683371 -3.441877 
+,30.860245 -11.633156 -2.426653 
+,31.115907 -12.389916 -1.003137 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.281080 -10.116242 -6.176299 
+,33.193531 -10.266938 -5.910193 
+,33.102012 -10.172237 -6.313093 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 34.510788 -8.438126 -5.586830 
+,34.681907 -8.274114 -4.819026 
+,34.882382 -8.164333 -3.106801 
+,34.738369 -8.383383 -2.953609 
+,32.927133 -11.079653 -1.606023 
+,32.851168 -11.186360 -1.612429 
+,33.193531 -10.266938 -5.910193 
+,33.281080 -10.116242 -6.176299 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.606471 -7.364967 -6.644459 
+,34.510788 -8.438126 -5.586830 
+,35.265576 -8.477109 -5.896921 
+,36.263761 -8.087114 -6.921784 
+,36.381139 -7.453117 -7.861173 
+,34.060575 -6.544637 -8.005834 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.793438 -7.217793 -7.374140 
+,33.606471 -7.364967 -6.644459 
+,34.060575 -6.544637 -8.005834 
+,33.973284 -6.459811 -8.219463 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 30.333375 -7.962524 -7.145751 
+,31.952300 -8.463204 -7.750954 
+,32.782838 -10.085708 -6.607323 
+,32.267671 -10.143143 -6.183938 
+,30.382834 -9.623516 -5.411936 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.044059 -5.972295 -6.601359 
+,30.957367 -5.862956 -6.581873 
+,29.471714 -6.776139 -6.927768 
+,28.709972 -7.757951 -7.230403 
+,30.333375 -7.962524 -7.145751 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.283983 -6.900913 -7.264702 
+,31.476241 -4.862525 -7.700575 
+,30.955058 -5.769148 -6.636395 
+,30.957367 -5.862956 -6.581873 
+,31.044059 -5.972295 -6.601359 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 32.407410 -7.670953 -7.579103 
+,32.283983 -6.900913 -7.264702 
+,32.793438 -7.217793 -7.374140 
+]}
+coordIndex [ 0, 1, 2, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.080091 17.610484 -25.743168 
+,35.254741 12.780881 -22.378810 
+,35.297406 12.555499 -22.181057 
+,34.541593 11.701262 -20.795877 
+,33.927622 11.558305 -20.226335 
+,33.552798 11.635587 -20.044600 
+,31.514946 13.566389 -20.580108 
+,30.012132 16.492560 -22.490184 
+,32.145101 19.034742 -26.531860 
+]}
+coordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 31.514946 13.566389 -20.580108 
+,31.538120 12.211527 -18.318021 
+,31.276370 12.339234 -17.999613 
+,29.720736 13.251993 -16.369365 
+,30.012132 16.492560 -22.490184 
+]}
+coordIndex [ 0, 1, 2, 3, 4, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}
+Transform {
+ translation 0 0 0
+ rotation 0 1 0 0
+ children [
+
+ Shape {
+
+  geometry IndexedFaceSet {
+     coord Coordinate {
+      point [
+
+ 33.552798 11.635587 -20.044600 
+,32.268032 11.886482 -18.746571 
+,31.538120 12.211527 -18.318021 
+,31.514946 13.566389 -20.580108 
+]}
+coordIndex [ 0, 1, 2, 3, -1 ]
+solid FALSE}
+
+appearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.4 0.4  
+    }
+   }
+}]}

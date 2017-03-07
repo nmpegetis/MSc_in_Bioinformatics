@@ -1,0 +1,16 @@
+queries in dbSNP with different names as related from the OMIM database: (http://www.omim.org/) (http://www.ncbi.nlm.nih.gov/snp)
+
+	cancer OR ((carcinoma OR neoplasia OR tumor))
+	communication
+	cutaneous OR ((cutis OR dermal OR skin OR tegument))
+	endocrine
+	eye OR ((enophthalmos OR enophthalmia OR "deep-set eyes" OR "sunken eyes" OR exophthalmos OR exophthalmia OR proptosis OR "prominent eyes" OR globe OR "eye region"))
+	genetic disorders OR ((androgenetic OR hermaphrodite OR intersex OR pseudohermaphrodite OR "sex reversal" OR "disorder of sex development"))
+	infection OR (("urinary tract infection" OR cystitis OR pyelonephritis OR UTI))
+	intestinal
+	mental OR (("developmental delay" OR "intellectual disability" OR "intellectual impairment" OR "mental retardation" OR "mentally retarded" OR "cognitive delay"))
+	neurologic
+	voice
+	vuvlovaginal
+
+

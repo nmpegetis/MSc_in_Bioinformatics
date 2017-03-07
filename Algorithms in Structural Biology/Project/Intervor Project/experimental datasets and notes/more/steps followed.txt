@@ -1,0 +1,18 @@
+21/06/2013
+1. να βρω τις οικογένεις για να κατατάξω το dataset που θα τρέξω
+2. μπορώ να ψάξω για "function families", "mechanism families", "structure families", "biological function families"
+3. http://proteopedia.org/wiki/index.php/Proteopedia:Table_of_Contents
+4. http://www.genecards.org/cgi-bin/carddisp.pl?gene=SERPINE1&search=inhibitor
+5. http://www.rcsb.org/pdb/general_information/news_publications/newsletters/2010q3/home.html
+6. http://www.rcsb.org/pdb/motm.do
+7. http://www.rcsb.org/pdb/search/advSearch.do  (να κοιτάξω το millecular function browser)
+8. το πρώτο query είναι το:
+MolecularFunctionTree Search for molecular transducer activity  (GO ID:60089)
+and
+Resolution is between 2.0 and 3.5 
+and
+Oligomeric state Search : Min Number of oligomeric state=2 Max Number of oligomeric state=1000
+and
+Chain Type: there is a Protein chain
+and
+Homologue Removal - 95% Identity Cutoff

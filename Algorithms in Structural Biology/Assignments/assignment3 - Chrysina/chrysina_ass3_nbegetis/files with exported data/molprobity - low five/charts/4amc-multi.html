@@ -1,0 +1,263 @@
+<script type='text/javascript'>
+/*
+Original code from http://kryogenix.org/code/browser/sorttable/ [MIT license]
+Modifications by IWD, March 2006:
+  - If table cells have a 'sv' (Sort Value) property,
+    that is used for sorting in preference to all else.
+    e.g. <td sv='42'>text goes here</td>
+*/
+
+//IWD: This speeds up sorting in Mozilla (supposedly);
+// see http://webfx.eae.net/dhtml/sortabletable/implementation.html
+var REMOVE_BEFORE_SORT = true;
+
+addEvent(window, "load", sortables_init);
+
+var SORT_COLUMN_INDEX;
+
+function sortables_init() {
+    // Find all tables with class sortable and make them sortable
+    if (!document.getElementsByTagName) return;
+    tbls = document.getElementsByTagName("table");
+    for (ti=0;ti<tbls.length;ti++) {
+        thisTbl = tbls[ti];
+        if (((' '+thisTbl.className+' ').indexOf("sortable") != -1) && (thisTbl.id)) {
+            ts_makeSortable(thisTbl);
+        }
+    }
+}
+
+function ts_makeSortable(table) {
+    if (table.rows && table.rows.length > 0) {
+        var firstRow = table.rows[0];
+    }
+    if (!firstRow) return;
+    
+    // We have a first row: assume it's the header, and make its contents clickable links
+    for (var i=0;i<firstRow.cells.length;i++) {
+        var cell = firstRow.cells[i];
+        var txt = ts_getInnerText(cell);
+        cell.innerHTML = '<a href="#" class="sortheader" onclick="ts_resortTable(this, '+i+');return false;">'+txt+'<span class="sortarrow">&nbsp;&nbsp;&nbsp;</span></a>';
+    }
+    
+    //IWD:
+    // For other rows, look for sv='...' and convert to fsv
+    // (Sort Value [text, attribute] and Float Sort Value [number, property])
+    for(var r = 1; r < table.rows.length; r++)
+    {
+        var row = table.rows[r];
+        for(var c = 0; c < row.cells.length; c++)
+        {
+            var cell = row.cells[c];
+            // This works in Safari *and* Firefox (and hopefully IE)
+            if(hasAttr(cell, 'sv'))
+                cell.fsv = parseFloat(cell.getAttribute('sv'))
+        }
+    }
+}
+
+function ts_getInnerText(el) {
+	if (typeof el == "string") return el;
+	if (typeof el == "undefined") { return el };
+	if (el.innerText) return el.innerText;	//Not needed but it is faster
+	var str = "";
+	
+	var cs = el.childNodes;
+	var l = cs.length;
+	for (var i = 0; i < l; i++) {
+		switch (cs[i].nodeType) {
+			case 1: //ELEMENT_NODE
+				str += ts_getInnerText(cs[i]);
+				break;
+			case 3:	//TEXT_NODE
+				str += cs[i].nodeValue;
+				break;
+		}
+	}
+	return str;
+}
+
+function ts_resortTable(lnk, cellIdx) {
+    // get the span
+    var span;
+    for (var ci=0;ci<lnk.childNodes.length;ci++) {
+        if (lnk.childNodes[ci].tagName && lnk.childNodes[ci].tagName.toLowerCase() == 'span') span = lnk.childNodes[ci];
+    }
+    var spantext = ts_getInnerText(span);
+    var td = lnk.parentNode;
+    var table = getParent(td,'TABLE');
+    var tableLen = table.rows.length; //IWD: supposedly this also helps with speed
+    var column = cellIdx || td.cellIndex; //IWD: cellIndex is always 0 is Safari
+    SORT_COLUMN_INDEX = column;
+    
+    //IWD: we always sort by fsv
+    var firstRow = new Array();
+    var newRows = new Array();
+    for (i=0;i<table.rows[0].length;i++) { firstRow[i] = table.rows[0][i]; }
+    for (j=1;j<tableLen;j++) { newRows[j-1] = table.rows[j]; }
+
+    //IWD: we use different sort functions b/c missing values always sort to the end
+    var sortfn = ts_sort_fsv_up;
+    // Sort determined by column
+    var sortdir = 1;
+    if(hasAttr(td, 'sortdir')) sortdir = parseInt(td.getAttribute('sortdir'));
+    if(sortdir == -1) {
+        ARROW = '&nbsp;&nbsp;&uarr;';
+        sortfn = ts_sort_fsv_down; //IWD
+    } else {
+        ARROW = '&nbsp;&nbsp;&darr;';
+        sortfn = ts_sort_fsv_up; //IWD
+    }
+    /* Alternating sort
+    if (span.getAttribute("sortdir") == 'down') {
+        ARROW = '&nbsp;&nbsp;&uarr;';
+        span.setAttribute('sortdir','up');
+        sortfn = ts_sort_fsv_down; //IWD
+    } else {
+        ARROW = '&nbsp;&nbsp;&darr;';
+        span.setAttribute('sortdir','down');
+        sortfn = ts_sort_fsv_up; //IWD
+    }*/
+    
+    newRows.sort(sortfn);
+    
+    //IWD: This speeds up Mozilla; see top.
+    if(REMOVE_BEFORE_SORT)
+    {
+        var tableNextSib = table.nextSibling;
+        var tableParent = table.parentNode;
+        tableParent.removeChild(table);
+    }
+
+    // We appendChild rows that already exist to the tbody, so it moves them rather than creating new ones
+    //IWD: I prefer sorttop over sortbottom
+    // do sorttop rows only
+    for (i=0;i<newRows.length;i++) { if (newRows[i].className && (newRows[i].className.indexOf('sorttop') != -1)) table.tBodies[0].appendChild(newRows[i]);}
+    // don't do sorttop rows
+    for (i=0;i<newRows.length;i++) { if (!newRows[i].className || (newRows[i].className && (newRows[i].className.indexOf('sorttop') == -1))) table.tBodies[0].appendChild(newRows[i]);}
+    // don't do sortbottom rows
+    //for (i=0;i<newRows.length;i++) { if (!newRows[i].className || (newRows[i].className && (newRows[i].className.indexOf('sortbottom') == -1))) table.tBodies[0].appendChild(newRows[i]);}
+    // do sortbottom rows only
+    //for (i=0;i<newRows.length;i++) { if (newRows[i].className && (newRows[i].className.indexOf('sortbottom') != -1)) table.tBodies[0].appendChild(newRows[i]);}
+    
+    if(REMOVE_BEFORE_SORT)
+    {
+        tableParent.insertBefore(table, tableNextSib)
+    }
+    
+    // Delete any other arrows there may be showing
+    var allspans = document.getElementsByTagName("span");
+    for (var ci=0;ci<allspans.length;ci++) {
+        if (allspans[ci].className == 'sortarrow') {
+            if (getParent(allspans[ci],"table") == getParent(lnk,"table")) { // in the same table as us?
+                allspans[ci].innerHTML = '&nbsp;&nbsp;&nbsp;';
+            }
+        }
+    }
+        
+    span.innerHTML = ARROW;
+}
+
+function getParent(el, pTagName) {
+	if (el == null) return null;
+	else if (el.nodeType == 1 && el.tagName.toLowerCase() == pTagName.toLowerCase())	// Gecko bug, supposed to be uppercase
+		return el;
+	else
+		return getParent(el.parentNode, pTagName);
+}
+
+function ts_sort_fsv_up(a,b) { //IWD
+    aa = a.cells[SORT_COLUMN_INDEX].fsv;
+    bb = b.cells[SORT_COLUMN_INDEX].fsv;
+    if(isNaN(aa))
+    {
+        if(isNaN(bb)) return ts_sort_default(a,b);
+        else return 1;
+    }
+    else if(isNaN(bb)) return -1;
+    else return aa-bb;
+}
+
+function ts_sort_fsv_down(a,b) { //IWD
+    aa = a.cells[SORT_COLUMN_INDEX].fsv;
+    bb = b.cells[SORT_COLUMN_INDEX].fsv;
+    if(isNaN(aa))
+    {
+        if(isNaN(bb)) return ts_sort_default(a,b);
+        else return 1;
+    }
+    else if(isNaN(bb)) return -1;
+    else return bb-aa;
+}
+
+function ts_sort_default(a,b) {
+    aa = ts_getInnerText(a.cells[SORT_COLUMN_INDEX]);
+    bb = ts_getInnerText(b.cells[SORT_COLUMN_INDEX]);
+    if (aa==bb) return 0;
+    if (aa<bb) return -1;
+    return 1;
+}
+
+
+function addEvent(elm, evType, fn, useCapture)
+// addEvent and removeEvent
+// cross-browser event handling for IE5+,  NS6 and Mozilla
+// By Scott Andrew
+{
+  if (elm.addEventListener){
+    elm.addEventListener(evType, fn, useCapture);
+    return true;
+  } else if (elm.attachEvent){
+    var r = elm.attachEvent("on"+evType, fn);
+    return r;
+  } else {
+    alert("Handler could not be removed");
+  }
+}
+
+//IWD: IE6 doesn't support the hasAttribute() method
+function hasAttr(obj, attr)
+{
+    return !!(obj[attr] || attr in obj || (obj.hasAttribute && obj.hasAttribute(attr)));
+}
+
+</script>
+<p><table border='1' width='100%'>
+<tr><td rowspan='6' align='center'>Protein<br>Geometry</td>
+<td>Poor rotamers</td><td bgcolor='#99ff99'>8</td><td bgcolor='#99ff99'>0.92%</td>
+<td>Goal: &lt;1%</td></tr>
+<tr><td>Ramachandran outliers</td><td bgcolor='#ff9999'>6</td><td bgcolor='#ff9999'>0.59%</td>
+<td>Goal: &lt;0.05%</td></tr>
+<tr><td>Ramachandran favored</td><td bgcolor='#ff9999'>934</td><td bgcolor='#ff9999'>91.84%</td>
+<td>Goal: &gt;98%</td></tr>
+<tr><td>C&beta; deviations &gt;0.25&Aring;</td><td bgcolor='#ffff99'>1</td><td bgcolor='#ffff99'>0.11%</td>
+<td>Goal: 0</td></tr>
+<tr><td>Bad backbone bonds:</td><td bgcolor='#99ff99'>0 / 4075</td><td bgcolor='#99ff99'>0.00%</td>
+<td>Goal: 0%</td></tr>
+<tr><td>Bad backbone angles:</td><td bgcolor='#99ff99'>0 / 5092</td><td bgcolor='#99ff99'>0.00%</td>
+<td>Goal: <0.1%</td></tr>
+</table>
+<small>In the two column results, the left column gives the raw count, right column gives the percentage.</small>
+</p>
+
+<p><i>Live sorting requires JavaScript enabled and Safari 2, Firefox 1.5, or IE 6</i></p>
+<table class='sortable' id='unique_tbl_id' width='100%' cellspacing='1' border='0'>
+<tr align='center' bgcolor='#9999cc' class='sorttop'><td sortdir='1'><b>#</b></td><td sortdir='1'><b>Res</b></td><td sortdir='-1'><b>High B</b></td><td sortdir='1'><b>Ramachandran</b></td><td sortdir='1'><b>Rotamer</b></td><td sortdir='-1'><b>C&beta; deviation</b></td><td sortdir='-1'><b>Bond lengths.</b></td><td sortdir='-1'><b>Bond angles.</b></td></tr>
+<tr align='center' bgcolor='#9999cc' class='sorttop'><td sortdir=''></td><td sortdir=''></td><td sortdir=''>Avg: 125.38</td><td sortdir=''>Outliers: 6 of 1017</td><td sortdir=''>Poor rotamers: 8 of 868</td><td sortdir=''>Outliers: 1 of 939</td><td sortdir=''>Outliers: 0 of 1019</td><td sortdir=''>Outliers: 0 of 1019</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='322'>A1067 </td><td sv='ASP'>ASP</td><td sv='102.3'>102.3</td><td sv='18.64'>Favored (18.64%)<br><small>Pre-proline / -66.4,-38.0</small></td><td bgcolor='#ff6699' sv='1'>1%<br><small>chi angles: 265.3,41</small></td><td sv='0.113'>0.113&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='358'>A1103 </td><td sv='ASP'>ASP</td><td sv='102.92'>102.92</td><td sv='72.45'>Favored (72.45%)<br><small>General case / -66.6,-31.6</small></td><td bgcolor='#ff6699' sv='0.4'>0.4%<br><small>chi angles: 331.4,125.6</small></td><td sv='0.074'>0.074&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='409'>A1154 </td><td sv='THR'>THR</td><td sv='133.78'>133.78</td><td bgcolor='#ff6699' sv='-99.98'>OUTLIER (0.02%)<br><small>General case / 59.2,102.7</small></td><td sv='44.6'>44.6% (<i>p</i>)<br><small>chi angles: 66.6</small></td><td sv='0.137'>0.137&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='410'>A1155 </td><td sv='PHE'>PHE</td><td sv='127.28'>127.28</td><td sv='1.24'>Allowed (1.24%)<br><small>General case / -137.5,-19.2</small></td><td bgcolor='#ff6699' sv='0.1'>0.1%<br><small>chi angles: 54.3,34.4</small></td><td sv='0.194'>0.194&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='411'>A1156 </td><td sv='THR'>THR</td><td sv='137.28'>137.28</td><td sv='0.11'>Allowed (0.11%)<br><small>General case / 64.6,160.8</small></td><td bgcolor='#ff6699' sv='0.6'>0.6%<br><small>chi angles: 215.1</small></td><td sv='0.205'>0.205&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='412'>A1157 </td><td sv='PHE'>PHE</td><td sv='135.96'>135.96</td><td sv='64.77'>Favored (64.77%)<br><small>General case / -53.8,-38.7</small></td><td bgcolor='#ff6699' sv='0.3'>0.3%<br><small>chi angles: 246.9,84.4</small></td><td sv='0.045'>0.045&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='506'>A1251 </td><td sv='ILE'>ILE</td><td sv='102.88'>102.88</td><td bgcolor='#ff6699' sv='-100'>OUTLIER (0%)<br><small>Isoleucine or valine / 38.2,105.4</small></td><td sv='7.7'>7.7% (<i>tt</i>)<br><small>chi angles: 174.1,159.6</small></td><td bgcolor='#ff6699' sv='0.269'>0.269&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='604'>A1349 </td><td sv='ASN'>ASN</td><td sv='145.99'>145.99</td><td bgcolor='#ff6699' sv='-99.97'>OUTLIER (0.03%)<br><small>General case / 25.3,53.9</small></td><td sv='21.3'>21.3% (<i>p30</i>)<br><small>chi angles: 51.4,45.3</small></td><td sv='0.185'>0.185&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='721'>A1466 </td><td sv='ILE'>ILE</td><td sv='120.02'>120.02</td><td sv='9.18'>Favored (9.18%)<br><small>Isoleucine or valine / -97.0,-8.8</small></td><td bgcolor='#ff6699' sv='0.2'>0.2%<br><small>chi angles: 337.7,106.4</small></td><td sv='0.06'>0.06&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='772'>A1517 </td><td sv='ASN'>ASN</td><td sv='118.38'>118.38</td><td bgcolor='#ff6699' sv='-99.98'>OUTLIER (0.02%)<br><small>General case / 46.5,85.6</small></td><td sv='58.8'>58.8% (<i>t30</i>)<br><small>chi angles: 189.2,50.4</small></td><td sv='0.078'>0.078&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='796'>A1541 </td><td sv='ILE'>ILE</td><td sv='131.45'>131.45</td><td sv='0.14'>Allowed (0.14%)<br><small>Isoleucine or valine / -105.0,54.9</small></td><td bgcolor='#ff6699' sv='0.7'>0.7%<br><small>chi angles: 332.6,157.8</small></td><td sv='0.031'>0.031&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='837'>A1582 </td><td sv='SER'>SER</td><td sv='117.28'>117.28</td><td bgcolor='#ff6699' sv='-100'>OUTLIER (0%)<br><small>General case / 101.4,-50.3</small></td><td sv='13.2'>13.2% (<i>t</i>)<br><small>chi angles: 166.9</small></td><td sv='0.061'>0.061&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='901'>A1646 </td><td sv='GLU'>GLU</td><td sv='159.91'>159.91</td><td bgcolor='#ff6699' sv='-99.99'>OUTLIER (0.01%)<br><small>General case / 61.8,128.2</small></td><td sv='26.2'>26.2% (<i>tt0</i>)<br><small>chi angles: 192.6,166,49.2</small></td><td sv='0.143'>0.143&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#f0f0f0'><td sv='939'>A1684 </td><td sv='ASP'>ASP</td><td sv='143.12'>143.12</td><td sv='15.27'>Favored (15.27%)<br><small>General case / -110.0,-6.0</small></td><td bgcolor='#ff6699' sv='0.9'>0.9%<br><small>chi angles: 291.3,52.7</small></td><td sv='0.029'>0.029&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+<tr align='center' bgcolor='#ffffff'><td sv='950'>A1695 </td><td sv='ASP'>ASP</td><td sv='151.22'>151.22</td><td sv='36.38'>Favored (36.38%)<br><small>General case / -80.6,138.0</small></td><td bgcolor='#ff6699' sv='0.9'>0.9%<br><small>chi angles: 288.5,50.2</small></td><td sv='0.014'>0.014&Aring;</td><td sv=''>-</td><td sv=''>-</td></tr>
+</table>
+

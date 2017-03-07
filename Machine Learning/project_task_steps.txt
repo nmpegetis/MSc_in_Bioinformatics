@@ -1,0 +1,76 @@
+Ξεκίνησα από εδώ για να μαζέψω το dato μου:
+	http://www.ornl.gov/sci/techresources/Human_Genome/faq/snps.shtml
+Από εδώ βρήκα 3 λινκς που έχουν όλα τα SNPs του ανθρώπινου γονιδιώματος. Πήρα το παρακάτω:
+	http://www.ncbi.nlm.nih.gov/SNP/
+και είδα από εδώ οδηγίες για το πώς να χρησιμοποιήσω αυτή τη βάση:
+	http://www.ornl.gov/sci/techresources/Human_Genome/posters/chromosome/geneguide.shtml#mutation
+	επίσης βοηθητικό είναι το παρακάτω:
+		http://www.ncbi.nlm.nih.gov/About/primer/snps.html
+	
+από τα παραπάνω οδηγήθηκα εδώ:
+	ftp://ftp.ncbi.nih.gov/snp/00readme.txt
+	και κάπου στη μέση δείχνει και το format του SNP record: ***EXAMPLE: FASTA format and data structure for a submitted SNP (ss) record***
+	φαντάζομαι ότι έτσι θα πάρω όλο το dato και μετά αυτό που μένει είναι να το επεξεργαστώ και να βγάλω τα άκυρα αρχικά εκτός και μετά στα έγκυρα, τα στατιστικά
+με αυτό το λινκ:
+	http://www.ncbi.nlm.nih.gov/SNP/snp_tableList.cgi?fld=Population+handle&cond=view+all&str=&cond=&type=pop&fld=str&go=Search+%28case+insensitive%29&.cgifields=cond&.cgifields=fld
+μπορώ να τα δω όλα και σε γραφική μορφή
+
+Πηγαίνοντας τώρα στη βάση έχουμε το σχήμα που φαίνεται εδώ:
+	ftp://ftp.ncbi.nih.gov/snp/database/erd_dbSNP.pdf
+	
+και διαβάζοντας αυτό:
+	ftp://ftp.ncbi.nih.gov/snp/database/README.create_local_dbSNP.txt	
+βλέπουμε ότι όλα τα δεδομένα εδώ μέσα:
+	ftp://ftp.ncbi.nih.gov/snp/database/organism_data/human_9606/
+είναι οι πίνακες της βάσης και οι υποπίνακές τους... Εμάς συγκεκριμένα μας ενδιαφέρει ο πίνακας	....
+
+
+’κυρο.... Αλλαγή τροχιάς:
+Ψάχνω κάτι το οποίο θα επηρεάζει το drug functionality.... Διάβασα αυτά (με σειρά σημαντικότητας):
+	http://afsft.tripod.com/sitebuildercontent/sitebuilderfiles/personalizemedicinerevolutionizingdrugdiscovery.pdf
+	http://genetica.ufcspa.edu.br/artigos/artigos%20genetica%20de%20populacoes/SNPs_doen%C3%A7as%20resposta%20a%20drogas%20e%20evolucao.pdf
+	http://pharmrev.aspetjournals.org/content/63/2/437.full.pdf+html
+	http://www.nature.com/scitable/topicpage/pharmacogenetics-personalized-medicine-and-race-744
+	http://learn.genetics.utah.edu/content/health/pharma/snips/
+	http://www.fda.gov/BiologicsBloodVaccines/ScienceResearch/ucm271385.htm
+	
+Από τα παραπάνω αποφάσισα να βρω τα snps που αφορούν τα:
+	Βλέπε εικόνα στο desktop: gen_poly_enz_drug_response.png
+για να δω πώς θα τα κατεβάσω αυτά τα δεδομένα και με ποιά features είδα αυτό:
+	ftp://ftp.ncbi.nih.gov/pub/factsheets/Factsheet_SNP.pdf
+
+Το dato μου έχει μέγεθος 14623 snps και αφορά μόνο τον άνθρωπο
+ (να τα διαχωρίσω και με βάση το ένζυμο που βρέθηκε για να το κάνω και αυτό feature)
+Θα χρησιμοποιήσω είτε το snp_results_fasta.txt είτε το snp_results_flat.txt.
+Θα τα χρησιμοποιήσω και τα 2 (συγχωνευμένα)
+
+
+
+ΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧΧ
+
+Για το νέο project που επέλεξα κοιτάζω τα:
+http://www.snpedia.com/index.php/SNPedia
+http://www.ncbi.nlm.nih.gov/snp
+ftp://ftp.ncbi.nih.gov/pub/factsheets/Factsheet_SNP.pdf  <-- για τη χρήση του από πάνω
+http://en.wikipedia.org/wiki/Lists_of_diseases
+http://gene4.weizmann.ac.il/   <--- επιβεβαίωση ότι ανήκουν στην συγκκριμένη ομάδα ασθενειών
+http://www.bioinformatics.org/sms2/iupac.html  <-- για το fasta format 
+http://www.ncbi.nlm.nih.gov/books/NBK44476/  <-- eksigei to format tou ASN.1 kai to xml format
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

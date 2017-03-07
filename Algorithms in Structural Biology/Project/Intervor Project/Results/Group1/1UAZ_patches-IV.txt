@@ -1,0 +1,108 @@
+Patches: interface AB with 3 patches
+
+
+Patch id 0
+Patch size 516.10
+Patch #atoms: 78
+   17   CB ALA A   3
+   90   CG PRO A  14
+  556   CB GLU A  74
+  557   CG GLU A  74
+  558   CD GLU A  74
+  559  OE1 GLU A  74
+  573   CG GLN A  76
+  574   CD GLN A  76
+  575  OE1 GLN A  76
+  576  NE2 GLN A  76
+  589   CA SER A  79
+  590    C SER A  79
+  591    O SER A  79
+  592   CB SER A  79
+  595   CA GLU A  80
+  596    C GLU A  80
+  598   CB GLU A  80
+  599   CG GLU A  80
+  600   CD GLU A  80
+  601  OE1 GLU A  80
+  603    N MET A  81
+  604   CA MET A  81
+  605    C MET A  81
+  606    O MET A  81
+  607   CB MET A  81
+  608   CG MET A  81
+  609   SD MET A  81
+  610   CE MET A  81
+  612   CA LEU A  82
+  618  CD2 LEU A  82
+  625  OD1 ASP A  83
+ 1530   CA THR A 199
+ 1533   CB THR A 199
+ 1535  CG2 THR A 199
+ 1555   CA GLY A 203
+ 1573   CA GLY A 206
+ 1576    N LEU A 207
+ 1580   CB LEU A 207
+ 1584    N GLY A 208
+ 1809    N THR B   1
+ 1811    C THR B   1
+ 1812    O THR B   1
+ 1813   CB THR B   1
+ 1814  OG1 THR B   1
+ 1815  CG2 THR B   1
+ 1816    N ALA B   2
+ 1817   CA ALA B   2
+ 1818    C ALA B   2
+ 1819    O ALA B   2
+ 1820   CB ALA B   2
+ 1821    N ALA B   3
+ 1822   CA ALA B   3
+ 1823    C ALA B   3
+ 1824    O ALA B   3
+ 1825   CB ALA B   3
+ 1827   CA VAL B   4
+ 1828    C VAL B   4
+ 1830   CB VAL B   4
+ 1831  CG1 VAL B   4
+ 1833    N GLY B   5
+ 1834   CA GLY B   5
+ 1835    C GLY B   5
+ 1836    O GLY B   5
+ 1838   CA ALA B   6
+ 1839    C ALA B   6
+ 1841   CB ALA B   6
+ 1842    N ASP B   7
+ 1846   CB ASP B   7
+ 1848  OD1 ASP B   7
+ 1879   CA GLY B  12
+ 1881    O GLY B  12
+ 1894   CA PRO B  14
+ 1897   CB PRO B  14
+ 1898   CG PRO B  14
+ 1899   CD PRO B  14
+ 1923  CD2 LEU B  17
+ 1935  CZ2 TRP B  18
+ 1937  CH2 TRP B  18
+
+Patch id 1
+Patch size 49.07
+Patch #atoms: 8
+   59   CA GLY A  10
+   61    O GLY A  10
+ 2399    O SER B  79
+ 2403   CA GLU B  80
+ 2411    N MET B  81
+ 2414    O MET B  81
+ 2415   CB MET B  81
+ 2416   CG MET B  81
+
+Patch id 2
+Patch size 28.27
+Patch #atoms: 5
+   38   CB ASP A   7
+   40  OD1 ASP A   7
+ 2407   CG GLU B  80
+ 2408   CD GLU B  80
+ 2409  OE1 GLU B  80
+
+
+0 atom(s) in more than 1 patch

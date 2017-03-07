@@ -1,0 +1,633 @@
+Patches: interface AB with 6 patches
+
+
+Patch id 0
+Patch size 205.57
+Patch #atoms: 33
+   12    C PRO A   5
+   13    O PRO A   5
+   18   CA CYS A   6
+   19    C CYS A   6
+   21   CB CYS A   6
+   22   SG CYS A   6
+   30    N GLU A   8
+   31   CA GLU A   8
+   32    C GLU A   8
+   34   CB GLU A   8
+   35   CG GLU A   8
+   36   CD GLU A   8
+   37  OE1 GLU A   8
+   38  OE2 GLU A   8
+   39    N SER A   9
+   40   CA SER A   9
+   43   CB SER A   9
+   64   CB SER A  12
+   65   OG SER A  12
+18886  C7' BOG A1603
+18887  C8' BOG A1603
+  604    O PRO B   5
+  609   CA CYS B   6
+  611    O CYS B   6
+  612   CB CYS B   6
+  613   SG CYS B   6
+  615   CA VAL B   7
+  618   CB VAL B   7
+  620  CG2 VAL B   7
+  640   CB LEU B  10
+  641   CG LEU B  10
+  642  CD1 LEU B  10
+  643  CD2 LEU B  10
+
+Patch id 1
+Patch size 24.35
+Patch #atoms: 7
+    4    O GLU A   4
+    6   CG GLU A   4
+    7   CD GLU A   4
+    8  OE1 GLU A   4
+    9  OE2 GLU A   4
+  606   CG PRO B   5
+  607   CD PRO B   5
+
+Patch id 2
+Patch size 87.03
+Patch #atoms: 11
+   96  CE2 PHE A  15
+  126  OG1 THR A  19
+  127  CG2 THR A  19
+  159   CE LYS A  23
+  675  CE2 TYR B  14
+  676   CZ TYR B  14
+  677   OH TYR B  14
+  704  CG2 THR B  17
+  733  CD1 TYR B  21
+18926  C7' BOG B1602
+18927  C8' BOG B1602
+
+Patch id 3
+Patch size 121.90
+Patch #atoms: 21
+  182   CG MET A  26
+  183   SD MET A  26
+  215   CG LYS A  30
+  216   CD LYS A  30
+  217   CE LYS A  30
+  218   NZ LYS A  30
+  238   CD GLU A  33
+  239  OE1 GLU A  33
+  240  OE2 GLU A  33
+18906  C7' BOG A1604
+18907  C8' BOG A1604
+  735  CE1 TYR B  21
+  738   OH TYR B  21
+  756   CB ASP B  24
+  757   CG ASP B  24
+  758  OD1 ASP B  24
+  767  CD2 LEU B  25
+  790   CG LYS B  28
+  791   CD LYS B  28
+  792   CE LYS B  28
+  793   NZ LYS B  28
+
+Patch id 4
+Patch size 443.57
+Patch #atoms: 82
+  391    O LEU A  52
+  394  CD1 LEU A  52
+  397   CA ILE A  53
+  401  CG1 ILE A  53
+  403  CD1 ILE A  53
+  420   CE LYS A  55
+  421   NZ LYS A  55
+  426   CB ALA A  56
+  445  OE1 GLU A  59
+  452   CG LEU A  60
+  453  CD1 LEU A  60
+  454  CD2 LEU A  60
+  474   CB PHE A  63
+  476  CD1 PHE A  63
+  478  CE1 PHE A  63
+  486   CG LEU A  64
+  487  CD1 LEU A  64
+  488  CD2 LEU A  64
+  508   CA PHE A  67
+  509    C PHE A  67
+  510    O PHE A  67
+  511   CB PHE A  67
+  512   CG PHE A  67
+  513  CD1 PHE A  67
+  514  CD2 PHE A  67
+  515  CE1 PHE A  67
+  516  CE2 PHE A  67
+  517   CZ PHE A  67
+  519   CA VAL A  68
+  538   CB LEU A  70
+  541  CD2 LEU A  70
+  542    N GLY A  71
+  543   CA GLY A  71
+  544    C GLY A  71
+  545    O GLY A  71
+  546    N THR A  72
+  551  OG1 THR A  72
+  973   CA PRO B  51
+  974    C PRO B  51
+  975    O PRO B  51
+  976   CB PRO B  51
+  977   CG PRO B  51
+  979    N LEU B  52
+  980   CA LEU B  52
+  983   CB LEU B  52
+ 1005   CA LYS B  55
+ 1008   CB LYS B  55
+ 1009   CG LYS B  55
+ 1010   CD LYS B  55
+ 1011   CE LYS B  55
+ 1024    C THR B  58
+ 1025    O THR B  58
+ 1028  CG2 THR B  58
+ 1030   CA GLU B  59
+ 1032    O GLU B  59
+ 1033   CB GLU B  59
+ 1034   CG GLU B  59
+ 1035   CD GLU B  59
+ 1037  OE2 GLU B  59
+ 1055    C ASN B  62
+ 1056    O ASN B  62
+ 1057   CB ASN B  62
+ 1060  ND2 ASN B  62
+ 1068  CD2 PHE B  63
+ 1069  CE1 PHE B  63
+ 1070  CE2 PHE B  63
+ 1071   CZ PHE B  63
+ 1090   CB TYR B  66
+ 1091   CG TYR B  66
+ 1092  CD1 TYR B  66
+ 1093  CD2 TYR B  66
+ 1094  CE1 TYR B  66
+ 1095  CE2 TYR B  66
+ 1096   CZ TYR B  66
+ 1097   OH TYR B  66
+ 1120   CB GLU B  69
+ 1129   CB LEU B  70
+ 1131  CD1 LEU B  70
+ 1132  CD2 LEU B  70
+18965  C6' BOG B1609
+18966  C7' BOG B1609
+18967  C8' BOG B1609
+
+Patch id 5
+Patch size 374.67
+Patch #atoms: 72
+  248  CD2 LEU A  34
+  274    C ALA A  38
+  275    O ALA A  38
+  276   CB ALA A  38
+  282   CG LYS A  39
+  283   CD LYS A  39
+  284   CE LYS A  39
+  285   NZ LYS A  39
+  295    O TYR A  41
+  296   CB TYR A  41
+  297   CG TYR A  41
+  298  CD1 TYR A  41
+  300  CE1 TYR A  41
+  302   CZ TYR A  41
+  303   OH TYR A  41
+  305   CA PHE A  42
+  307    O PHE A  42
+  308   CB PHE A  42
+  309   CG PHE A  42
+  310  CD1 PHE A  42
+  311  CD2 PHE A  42
+  312  CE1 PHE A  42
+  313  CE2 PHE A  42
+  314   CZ PHE A  42
+  337   CB SER A  45
+  338   OG SER A  45
+  344   CG LYS A  46
+  346   CE LYS A  46
+  370   CB LEU A  49
+  372  CD1 LEU A  49
+  373  CD2 LEU A  49
+  820   CB PRO B  32
+  845   CG GLN B  35
+  846   CD GLN B  35
+  847  OE1 GLN B  35
+  848  NE2 GLN B  35
+  851    C ALA B  36
+  852    O ALA B  36
+  853   CB ALA B  36
+  855   CA GLU B  37
+  856    C GLU B  37
+  857    O GLU B  37
+  858   CB GLU B  37
+  859   CG GLU B  37
+  860   CD GLU B  37
+  862  OE2 GLU B  37
+  881   CB SER B  40
+  882   OG SER B  40
+  889  CD1 TYR B  41
+  891  CE1 TYR B  41
+  916   CA LYS B  44
+  918    O LYS B  44
+  919   CB LYS B  44
+  920   CG LYS B  44
+  921   CD LYS B  44
+  922   CE LYS B  44
+  923   NZ LYS B  44
+  941    C GLU B  47
+  942    O GLU B  47
+  943   CB GLU B  47
+  945   CD GLU B  47
+  946  OE1 GLU B  47
+  949   CA GLN B  48
+  952   CB GLN B  48
+  953   CG GLN B  48
+  954   CD GLN B  48
+  955  OE1 GLN B  48
+  956  NE2 GLN B  48
+18943  C4' BOG B1606
+18944  C5' BOG B1606
+18945  C6' BOG B1606
+18946  C7' BOG B1606
+
+
+0 atom(s) in more than 1 patch
+
+Patches: interface ABW with 4 merged patches
+
+
+Merged patch id 0
+Patch size 510.22
+Patch #atoms: 63
+    4    O GLU A   4
+    5   CB GLU A   4
+    6   CG GLU A   4
+    7   CD GLU A   4
+    8  OE1 GLU A   4
+    9  OE2 GLU A   4
+   12    C PRO A   5
+   13    O PRO A   5
+   18   CA CYS A   6
+   19    C CYS A   6
+   21   CB CYS A   6
+   22   SG CYS A   6
+   30    N GLU A   8
+   31   CA GLU A   8
+   32    C GLU A   8
+   33    O GLU A   8
+   34   CB GLU A   8
+   35   CG GLU A   8
+   36   CD GLU A   8
+   37  OE1 GLU A   8
+   38  OE2 GLU A   8
+   39    N SER A   9
+   40   CA SER A   9
+   42    O SER A   9
+   43   CB SER A   9
+   60    N SER A  12
+   64   CB SER A  12
+   65   OG SER A  12
+   66    N GLN A  13
+   67   CA GLN A  13
+   71   CG GLN A  13
+   74  NE2 GLN A  13
+  106  NE2 GLN A  16
+18886  C7' BOG A1603
+18887  C8' BOG A1603
+  592    N GLU B   4
+  593   CA GLU B   4
+  594    C GLU B   4
+  597   CG GLU B   4
+  601    N PRO B   5
+  604    O PRO B   5
+  605   CB PRO B   5
+  606   CG PRO B   5
+  607   CD PRO B   5
+  608    N CYS B   6
+  609   CA CYS B   6
+  610    C CYS B   6
+  611    O CYS B   6
+  612   CB CYS B   6
+  613   SG CYS B   6
+  615   CA VAL B   7
+  618   CB VAL B   7
+  619  CG1 VAL B   7
+  620  CG2 VAL B   7
+  640   CB LEU B  10
+  641   CG LEU B  10
+  642  CD1 LEU B  10
+  643  CD2 LEU B  10
+20132    O HOH A1609
+20135    O HOH A1612
+20151    O HOH A1628
+20175    O HOH B1621
+20190    O HOH B1636
+
+Merged patch id 1
+Patch size 925.56
+Patch #atoms: 166
+   96  CE2 PHE A  15
+  126  OG1 THR A  19
+  127  CG2 THR A  19
+  153   CA LYS A  23
+  156   CB LYS A  23
+  157   CG LYS A  23
+  158   CD LYS A  23
+  159   CE LYS A  23
+  182   CG MET A  26
+  183   SD MET A  26
+  190   CG GLU A  27
+  191   CD GLU A  27
+  211   CA LYS A  30
+  213    O LYS A  30
+  214   CB LYS A  30
+  215   CG LYS A  30
+  216   CD LYS A  30
+  217   CE LYS A  30
+  218   NZ LYS A  30
+  236   CB GLU A  33
+  237   CG GLU A  33
+  238   CD GLU A  33
+  239  OE1 GLU A  33
+  240  OE2 GLU A  33
+  246   CG LEU A  34
+  247  CD1 LEU A  34
+  248  CD2 LEU A  34
+  274    C ALA A  38
+  275    O ALA A  38
+  276   CB ALA A  38
+  282   CG LYS A  39
+  283   CD LYS A  39
+  284   CE LYS A  39
+  285   NZ LYS A  39
+  293   CA TYR A  41
+  294    C TYR A  41
+  295    O TYR A  41
+  296   CB TYR A  41
+  297   CG TYR A  41
+  298  CD1 TYR A  41
+  299  CD2 TYR A  41
+  300  CE1 TYR A  41
+  301  CE2 TYR A  41
+  302   CZ TYR A  41
+  303   OH TYR A  41
+  305   CA PHE A  42
+  307    O PHE A  42
+  308   CB PHE A  42
+  309   CG PHE A  42
+  310  CD1 PHE A  42
+  311  CD2 PHE A  42
+  312  CE1 PHE A  42
+  313  CE2 PHE A  42
+  314   CZ PHE A  42
+  326    C LYS A  44
+  328   CB LYS A  44
+  329   CG LYS A  44
+  330   CD LYS A  44
+  333    N SER A  45
+  334   CA SER A  45
+  337   CB SER A  45
+  338   OG SER A  45
+  344   CG LYS A  46
+  346   CE LYS A  46
+  361   CB GLN A  48
+  363   CD GLN A  48
+  364  OE1 GLN A  48
+  365  NE2 GLN A  48
+  370   CB LEU A  49
+  371   CG LEU A  49
+  372  CD1 LEU A  49
+  373  CD2 LEU A  49
+18903  C4' BOG A1604
+18904  C5' BOG A1604
+18906  C7' BOG A1604
+18907  C8' BOG A1604
+  675  CE2 TYR B  14
+  676   CZ TYR B  14
+  677   OH TYR B  14
+  704  CG2 THR B  17
+  728   CA TYR B  21
+  733  CD1 TYR B  21
+  735  CE1 TYR B  21
+  738   OH TYR B  21
+  753   CA ASP B  24
+  754    C ASP B  24
+  755    O ASP B  24
+  756   CB ASP B  24
+  757   CG ASP B  24
+  758  OD1 ASP B  24
+  759  OD2 ASP B  24
+  767  CD2 LEU B  25
+  780   CB GLU B  27
+  784  OE2 GLU B  27
+  790   CG LYS B  28
+  791   CD LYS B  28
+  792   CE LYS B  28
+  793   NZ LYS B  28
+  817   CA PRO B  32
+  818    C PRO B  32
+  819    O PRO B  32
+  820   CB PRO B  32
+  840    N GLN B  35
+  841   CA GLN B  35
+  842    C GLN B  35
+  843    O GLN B  35
+  844   CB GLN B  35
+  845   CG GLN B  35
+  846   CD GLN B  35
+  847  OE1 GLN B  35
+  848  NE2 GLN B  35
+  851    C ALA B  36
+  852    O ALA B  36
+  853   CB ALA B  36
+  855   CA GLU B  37
+  856    C GLU B  37
+  857    O GLU B  37
+  858   CB GLU B  37
+  859   CG GLU B  37
+  860   CD GLU B  37
+  861  OE1 GLU B  37
+  862  OE2 GLU B  37
+  881   CB SER B  40
+  882   OG SER B  40
+  883    N TYR B  41
+  884   CA TYR B  41
+  887   CB TYR B  41
+  889  CD1 TYR B  41
+  891  CE1 TYR B  41
+  893   CZ TYR B  41
+  894   OH TYR B  41
+  916   CA LYS B  44
+  918    O LYS B  44
+  919   CB LYS B  44
+  920   CG LYS B  44
+  921   CD LYS B  44
+  922   CE LYS B  44
+  923   NZ LYS B  44
+  941    C GLU B  47
+  942    O GLU B  47
+  943   CB GLU B  47
+  945   CD GLU B  47
+  946  OE1 GLU B  47
+  949   CA GLN B  48
+  952   CB GLN B  48
+  953   CG GLN B  48
+  954   CD GLN B  48
+  955  OE1 GLN B  48
+  956  NE2 GLN B  48
+18926  C7' BOG B1602
+18927  C8' BOG B1602
+18941  C2' BOG B1606
+18943  C4' BOG B1606
+18944  C5' BOG B1606
+18945  C6' BOG B1606
+18946  C7' BOG B1606
+20138    O HOH A1615
+20150    O HOH A1627
+20157    O HOH A1634
+20166    O HOH B1612
+20172    O HOH B1618
+20174    O HOH B1620
+20176    O HOH B1622
+20180    O HOH B1626
+20418    O HOH I1633
+20430    O HOH J1610
+
+Merged patch id 2
+Patch size 785.79
+Patch #atoms: 123
+  391    O LEU A  52
+  394  CD1 LEU A  52
+  395  CD2 LEU A  52
+  397   CA ILE A  53
+  398    C ILE A  53
+  399    O ILE A  53
+  401  CG1 ILE A  53
+  402  CG2 ILE A  53
+  403  CD1 ILE A  53
+  405   CA LYS A  54
+  420   CE LYS A  55
+  421   NZ LYS A  55
+  422    N ALA A  56
+  424    C ALA A  56
+  425    O ALA A  56
+  426   CB ALA A  56
+  445  OE1 GLU A  59
+  449    C LEU A  60
+  451   CB LEU A  60
+  452   CG LEU A  60
+  453  CD1 LEU A  60
+  454  CD2 LEU A  60
+  455    N VAL A  61
+  456   CA VAL A  61
+  461  CG2 VAL A  61
+  474   CB PHE A  63
+  476  CD1 PHE A  63
+  478  CE1 PHE A  63
+  486   CG LEU A  64
+  487  CD1 LEU A  64
+  488  CD2 LEU A  64
+  508   CA PHE A  67
+  509    C PHE A  67
+  510    O PHE A  67
+  511   CB PHE A  67
+  512   CG PHE A  67
+  513  CD1 PHE A  67
+  514  CD2 PHE A  67
+  515  CE1 PHE A  67
+  516  CE2 PHE A  67
+  517   CZ PHE A  67
+  519   CA VAL A  68
+  538   CB LEU A  70
+  541  CD2 LEU A  70
+  542    N GLY A  71
+  543   CA GLY A  71
+  544    C GLY A  71
+  545    O GLY A  71
+  546    N THR A  72
+  551  OG1 THR A  72
+  973   CA PRO B  51
+  974    C PRO B  51
+  975    O PRO B  51
+  976   CB PRO B  51
+  977   CG PRO B  51
+  979    N LEU B  52
+  980   CA LEU B  52
+  983   CB LEU B  52
+ 1005   CA LYS B  55
+ 1008   CB LYS B  55
+ 1009   CG LYS B  55
+ 1010   CD LYS B  55
+ 1011   CE LYS B  55
+ 1024    C THR B  58
+ 1025    O THR B  58
+ 1026   CB THR B  58
+ 1027  OG1 THR B  58
+ 1028  CG2 THR B  58
+ 1030   CA GLU B  59
+ 1032    O GLU B  59
+ 1033   CB GLU B  59
+ 1034   CG GLU B  59
+ 1035   CD GLU B  59
+ 1036  OE1 GLU B  59
+ 1037  OE2 GLU B  59
+ 1045  CD2 LEU B  60
+ 1054   CA ASN B  62
+ 1055    C ASN B  62
+ 1056    O ASN B  62
+ 1057   CB ASN B  62
+ 1058   CG ASN B  62
+ 1060  ND2 ASN B  62
+ 1067  CD1 PHE B  63
+ 1068  CD2 PHE B  63
+ 1069  CE1 PHE B  63
+ 1070  CE2 PHE B  63
+ 1071   CZ PHE B  63
+ 1082    C SER B  65
+ 1084   CB SER B  65
+ 1085   OG SER B  65
+ 1086    N TYR B  66
+ 1087   CA TYR B  66
+ 1090   CB TYR B  66
+ 1091   CG TYR B  66
+ 1092  CD1 TYR B  66
+ 1093  CD2 TYR B  66
+ 1094  CE1 TYR B  66
+ 1095  CE2 TYR B  66
+ 1096   CZ TYR B  66
+ 1097   OH TYR B  66
+ 1117   CA GLU B  69
+ 1118    C GLU B  69
+ 1119    O GLU B  69
+ 1120   CB GLU B  69
+ 1121   CG GLU B  69
+ 1122   CD GLU B  69
+ 1123  OE1 GLU B  69
+ 1129   CB LEU B  70
+ 1131  CD1 LEU B  70
+ 1132  CD2 LEU B  70
+ 1152  NE2 GLN B  73
+18965  C6' BOG B1609
+18966  C7' BOG B1609
+18967  C8' BOG B1609
+20148    O HOH A1625
+20156    O HOH A1633
+20167    O HOH B1613
+20179    O HOH B1625
+20183    O HOH B1629
+20184    O HOH B1630
+20188    O HOH B1634
+20189    O HOH B1635
+20445    O HOH J1625
+
+Merged patch id 3
+Patch size 8.31
+Patch #atoms: 2
+  766  CD1 LEU B  25
+20418    O HOH I1633
+
+
+1 atom(s) in more than 1 patch
+20418    O HOH I1633
+

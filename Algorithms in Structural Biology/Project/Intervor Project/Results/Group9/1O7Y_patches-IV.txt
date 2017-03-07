@@ -1,0 +1,184 @@
+Patches: interface AB with 4 patches
+
+
+Patch id 0
+Patch size 774.09
+Patch #atoms: 154
+  140    O PRO A  21
+  154  NH2 ARG A  22
+  163    C LEU A  24
+  164    O LEU A  24
+  165   CB LEU A  24
+  167  CD1 LEU A  24
+  170   CA GLU A  25
+  171    C GLU A  25
+  172    O GLU A  25
+  174   CG GLU A  25
+  178    N LYS A  26
+  179   CA LYS A  26
+  180    C LYS A  26
+  181    O LYS A  26
+  182   CB LYS A  26
+  183   CG LYS A  26
+  184   CD LYS A  26
+  185   CE LYS A  26
+  186   NZ LYS A  26
+  187    N LEU A  27
+  188   CA LEU A  27
+  189    C LEU A  27
+  190    O LEU A  27
+  191   CB LEU A  27
+  192   CG LEU A  27
+  194  CD2 LEU A  27
+  196   CA GLU A  28
+  199   CB GLU A  28
+  201   CD GLU A  28
+  202  OE1 GLU A  28
+  203  OE2 GLU A  28
+  204    N ILE A  29
+  205   CA ILE A  29
+  207    O ILE A  29
+  208   CB ILE A  29
+  209  CG1 ILE A  29
+  210  CG2 ILE A  29
+  211  CD1 ILE A  29
+  213   CA ILE A  30
+  216   CB ILE A  30
+  217  CG1 ILE A  30
+  218  CG2 ILE A  30
+  219  CD1 ILE A  30
+  221   CA PRO A  31
+  223    O PRO A  31
+  224   CB PRO A  31
+  225   CG PRO A  31
+  226   CD PRO A  31
+  230    O ALA A  32
+  233   CA SER A  33
+  236   CB SER A  33
+  286   CB VAL A  39
+  287  CG1 VAL A  39
+  288  CG2 VAL A  39
+  305  CD1 ILE A  41
+  341   CE LYS A  46
+  342   NZ LYS A  46
+  420   CB PRO A  56
+  486   CA LEU A  65
+  487    C LEU A  65
+  488    O LEU A  65
+  489   CB LEU A  65
+  490   CG LEU A  65
+  492  CD2 LEU A  65
+  493    N LYS A  66
+  494   CA LYS A  66
+  509    C VAL A  68
+  510    O VAL A  68
+  511   CB VAL A  68
+  512  CG1 VAL A  68
+  513  CG2 VAL A  68
+  514    N SER A  69
+  515   CA SER A  69
+  516    C SER A  69
+  517    O SER A  69
+  518   CB SER A  69
+  610    O PRO B  21
+  633    C LEU B  24
+  634    O LEU B  24
+  635   CB LEU B  24
+  637  CD1 LEU B  24
+  638  CD2 LEU B  24
+  640   CA GLU B  25
+  641    C GLU B  25
+  642    O GLU B  25
+  644   CG GLU B  25
+  649   CA LYS B  26
+  652   CB LYS B  26
+  654   CD LYS B  26
+  655   CE LYS B  26
+  656   NZ LYS B  26
+  657    N LEU B  27
+  658   CA LEU B  27
+  659    C LEU B  27
+  660    O LEU B  27
+  661   CB LEU B  27
+  662   CG LEU B  27
+  664  CD2 LEU B  27
+  666   CA GLU B  28
+  669   CB GLU B  28
+  670   CG GLU B  28
+  671   CD GLU B  28
+  673  OE2 GLU B  28
+  674    N ILE B  29
+  675   CA ILE B  29
+  677    O ILE B  29
+  678   CB ILE B  29
+  679  CG1 ILE B  29
+  680  CG2 ILE B  29
+  681  CD1 ILE B  29
+  683   CA ILE B  30
+  687  CG1 ILE B  30
+  688  CG2 ILE B  30
+  689  CD1 ILE B  30
+  690    N PRO B  31
+  691   CA PRO B  31
+  693    O PRO B  31
+  694   CB PRO B  31
+  695   CG PRO B  31
+  696   CD PRO B  31
+  700    O ALA B  32
+  706   CB SER B  33
+  756   CB VAL B  39
+  757  CG1 VAL B  39
+  758  CG2 VAL B  39
+  773  CG1 ILE B  41
+  775  CD1 ILE B  41
+  811   CE LYS B  46
+  812   NZ LYS B  46
+  883   CA PRO B  56
+  885    O PRO B  56
+  886   CB PRO B  56
+  952   CA LEU B  65
+  953    C LEU B  65
+  954    O LEU B  65
+  955   CB LEU B  65
+  956   CG LEU B  65
+  957  CD1 LEU B  65
+  958  CD2 LEU B  65
+  959    N LYS B  66
+  960   CA LYS B  66
+  974   CA VAL B  68
+  975    C VAL B  68
+  976    O VAL B  68
+  977   CB VAL B  68
+  978  CG1 VAL B  68
+  979  CG2 VAL B  68
+  980    N SER B  69
+  981   CA SER B  69
+  982    C SER B  69
+  983    O SER B  69
+  985   OG SER B  69
+  989    O LYS B  70
+  990   CB LYS B  70
+
+Patch id 1
+Patch size 42.70
+Patch #atoms: 2
+  430  OE1 GLU A  57
+  995    N GLU B  71
+
+Patch id 2
+Patch size 17.77
+Patch #atoms: 3
+  497   CB LYS A  66
+  499   CD LYS A  66
+  966   CE LYS B  66
+
+Patch id 3
+Patch size 7.11
+Patch #atoms: 2
+  465   CG LYS A  62
+  985   OG SER B  69
+
+
+1 atom(s) in more than 1 patch
+  985   OG SER B  69
+

@@ -1,0 +1,148 @@
+rsId 199476086,     ---> {1...n} se ena hash map me id kai tha eksetazoume an ta id einai idia se perissoteres apo mia omades astheneiwn
+snpClass snp,		---> {1...n}
+snpType notwithdrawn, ---> {1...n}
+molType genomic,	--->{1...n}
+bitField "050260000A01000011020100", --->{1...n}
+taxId 9606			--->{0,1}			<---an einai ston anthrwpo i oxi (to 9606 antistoixei ston anthrwpo)
+type est,			--->{1...n}
+value { 0, 10, 0 },	--->{1...n}
+stdError { 0, 10, 0 }	--->{1...n}
+byCluster TRUE 		--->{0,1}
+exemplarSs 506984377	--->{1...n}
+seq5 "GAAATGTGCTACACTGGACACCAGAGCCCTGCTTAAATTGGCTTATTCAG",	--->{0...100% gia GC content klp}
+observed "A/C",		---> {1...16} sumfwna me auto: http://www.bioinformatics.org/sms2/iupac.html
+seq3 "TGCCTGTGGTCTGTGCCACCTGCACACAGAAATTTATGGCACCCAAGGAA" --->{0...100% gia GC content klp}
+ssId 506984377,		---> {1...n} se ena hash map me id kai tha eksetazoume an ta id einai idia se perissoteres apo mia omades astheneiwn
+handle "OMIM-CURATED-RECORDS", ---> {1...n} se ena hash map me id kai tha eksetazoume an ta id einai idia se perissoteres apo mia omades astheneiwn
+batchId 1056763,	---> {1...n} se ena hash map me id kai tha eksetazoume an ta id einai idia se perissoteres apo mia omades astheneiwn
+locSnpId "10091",	---> {1...n} 
+subSnpClass snp,	---> {1...n} se ena hash map me id kai tha eksetazoume an ta id einai idia se perissoteres apo mia omades astheneiwn
+orient forward,		---> {0/1} 0 backward
+strand top,			---> {0/1} 1 top
+molType genomic,	---> {1...n}
+buildId 136,		---> {0/1} 0 backward
+methodClass sequence,	---> {1...n}
+validated by-submitter	---> {0/1} by-submitter or not
+seq5 "GAAATGTGCTACACTGGACACCAGAGCCCTGCTTAAATTGGCTTATTCAG",
+observed "A/C",
+seq3 "TGCCTGTGGTCTGTGCCACCTGCACACAGAAATTTATGGCACCCAAGGAA"
+ssId 537712977,
+handle "NCBI-CURATED-RECORDS",
+batchId 1057285,
+locSnpId "23272",
+subSnpClass snp,
+orient forward,
+strand top,
+molType genomic,
+buildId 136,
+methodClass sequence,
+validated by-submitter
+seq5 "GAAATGTGCTACACTGGACACCAGAGCCCTGCTTAAATTGGCTTATTCAG",
+observed "A/C",
+seq3 "TGCCTGTGGTCTGTGCCACCTGCACACAGAAATTTATGGCACCCAAGGAA"
+dbSnpBuild 137,
+genomeBuild "37.4",
+groupLabel "GRCh37.p9",
+current TRUE,
+reference TRUE
+componentType contig,
+accession "NT_030059.13",
+chromosome "10",
+start 49195536,				<---se auto na briskw ti diafora end-start kai kalo tha itan na briskw kai se poia thesi sto gene brisketai auti i thesi(arxi, mesi, telos)
+end 128616068,
+orientation fwd,
+gi "224514917",
+groupTerm "NC_000010.10",
+contigLabel "GCF_000001405.21"
+asnFrom 39483536,
+asnTo 39483536,
+locType exact,
+alnQuality { 1, 10, 0 },
+orient forward,
+physMapInt 88679072,
+leftContigNeighborPos 39483535,
+rightContigNeighborPos 39483537,
+refAllele "C"
+geneId 657,
+symbol "BMPR1A",
+mrnaAcc "NM_004329",
+mrnaVer 2,
+protAcc "NP_004320",
+protVer 2,
+fxnClass missense,
+readingFrame 2,
+allele "A",
+residue "D",
+aaPosition 337,
+soTerm "non_synonymous_codon"
+geneId 657,
+symbol "BMPR1A",
+mrnaAcc "NM_004329",
+mrnaVer 2,
+protAcc "NP_004320",
+protVer 2,
+fxnClass reference,
+readingFrame 2,
+allele "C",
+residue "A",
+aaPosition 337
+mapWeight unique-in-contig,
+chromCount 1,
+placedContigCount 1,
+unplacedContigCount 0,
+seqlocCount 1,
+hapCount 0
+dbSnpBuild 137,
+genomeBuild "37.4",
+groupLabel "HuRef",
+current TRUE
+mapWeight unique-in-contig,
+chromCount 1,
+placedContigCount 1,
+unplacedContigCount 0,
+seqlocCount 1,
+hapCount 0
+dbSnpBuild 137,
+gi 41349436,
+source hgvs,
+accession "NM_004329.2"
+asnFrom 1560,
+asnTo 1560,
+locType exact,
+alnQuality { 1, 10, 0 },
+orient forward,
+leftContigNeighborPos 1559,
+rightContigNeighborPos 1561,
+refAllele "C"
+dbSnpBuild 137,
+gi 221139816,
+source hgvs,
+accession "NG_009362.1"
+asnFrom 167677,
+asnTo 167677,
+locType exact,
+alnQuality { 1, 10, 0 },
+orient forward,
+leftContigNeighborPos 167676,
+rightContigNeighborPos 167678,
+refAllele "C"
+protAcc "NP_004320",
+protGi 41349437,
+protLoc 338,
+protResidue "A",
+rsResidue "D",
+structGi 296278513,
+structLoc 143,
+structResidue "S"
+resourceId "1",
+linkValue "199476086"
+"NC_000010.10:g.88679073C>A",
+"NG_009362.1:g.167678C>A",
+"NM_004329.2:c.1013C>A",
+"NP_004320.2:p.Ala338Asp",
+"NT_030059.13:g.39483537C>A"
+allele "C"
+alleleOrigin 1
+allele "A"
+alleleOrigin 1
+clinicalSignificance "pathogenic"

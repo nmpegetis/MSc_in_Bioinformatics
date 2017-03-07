@@ -1,0 +1,116 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/1UL3.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group9 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 1650 12483 21615 10781
+
++-+Partners: #atoms kept  [A B Wb X]: 721 717 212 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 26
++-+Atoms_residues::#atoms [A B Wb Wi X]: 721 717 186 26 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 155 174 0 26 0
++-+Atoms_residues::#interf atoms annotated: Cali: 169 Caro: 23 Cpep: 34 Nhbd: 30 Naro: 0 NchP: 16 Ohbd: 6 Opep: 35 OchM: 15 Owat: 26 Sh: 1 Pdna: 0 Opd: 0 Orib: 0 Unk: 0 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 391 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 167 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 156 0 0
++-+Total #edges 714
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 170 boundary vor edges
++-+Interf_explorer_SO::shelled 714 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
+ 0 IE_A_B; #facets:  292 area: 1810.99  #loops:   5 #int_edges: 654  #bd_edges: 175; Atom comp. [74;96;0;0;0]; loop lengths [157 3 9 3 3]
+ 1 IE_A_B; #facets:   99 area:  266.22  #loops:   2 #int_edges: 202  #bd_edges:  85; Atom comp. [28;31;0;0;0]; loop lengths [76 9]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 2 391 260 7
++-+Surf_areas::Interface areas<MI_AB>: IE_A_B: 2077.21 
++-+Surf_areas::Chem Interface areas<MI_AB>: ali: 531.77 aro: 0.00 hbd: 100.18 hbw: 0.00 hbdp: 0.00 elu: 2.70 elf: 29.38 hbwp: 0.00 ssb: 0.00 unk: 1413.17 
+
++-+MI::mean curvature-a sH sAbsH:          105.59 1175.38
++-+MI::mean curvature-b sA sL:             2077.21 1880.00
++-+MI::mean curvature-c sH/sA sAbsH/sA:    0.05 0.57
++-+MI::signed   angle mu sigma: 0.06 0.69
++-+MI::signless angle mu sigma: 0.63 0.30
+
++-+Exploring interface MI_AWi_BWi
+ 2 IE_B_Wi; #facets:  180 area:  283.05  #loops:   5 #int_edges: 434  #bd_edges:  78; Atom comp. [61;43;0;14;0]; loop lengths [6 42 20 3 7]
+ 3 IE_B_Wi; #facets:   32 area:  120.86  #loops:   1 #int_edges:  72  #bd_edges:  28; Atom comp. [8;15;0;3;0]; loop lengths [28]
+ 4 IE_A_Wi; #facets:   19 area:   75.69  #loops:   1 #int_edges:  39  #bd_edges:  28; Atom comp. [13;5;0;2;0]; loop lengths [28]
+ 5 IE_B_Wi; #facets:   31 area:   57.70  #loops:   2 #int_edges:  74  #bd_edges:  20; Atom comp. [14;11;0;2;0]; loop lengths [13 7]
+ 6 IE_A_Wi; #facets:   12 area:   57.09  #loops:   1 #int_edges:  27  #bd_edges:  13; Atom comp. [8;4;0;1;0]; loop lengths [13]
+ 7 IE_A_Wi; #facets:   13 area:   44.24  #loops:   1 #int_edges:  26  #bd_edges:  19; Atom comp. [5;4;0;2;0]; loop lengths [19]
+ 8 IE_B_Wi; #facets:   14 area:   35.49  #loops:   1 #int_edges:  30  #bd_edges:  15; Atom comp. [4;10;0;1;0]; loop lengths [15]
+ 9 IE_B_Wi; #facets:   22 area:   20.49  #loops:   1 #int_edges:  58  #bd_edges:   5; Atom comp. [2;20;0;1;0]; loop lengths [5]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 8 323 206 13
++-+Surf_areas::Interface areas<MI_AWi_BWi>: IE_A_Wi: 345.83 IE_B_Wi: 348.79 
++-+Surf_areas::Chem Interface areas<MI_AWi_BWi>: ali: 0.00 aro: 0.00 hbd: 0.00 hbw: 336.65 hbdp: 0.00 elu: 0.00 elf: 0.00 hbwp: 0.00 ssb: 0.00 unk: 357.97 
+
++-+MI::mean curvature-a sH sAbsH:          -1223.81 1729.42
++-+MI::mean curvature-b sA sL:             694.62 2035.60
++-+MI::mean curvature-c sH/sA sAbsH/sA:    -1.76 2.49
++-+MI::signed   angle mu sigma: -0.60 0.72
++-+MI::signless angle mu sigma: 0.85 0.39
+
++-+MI:Stats Before UnionFind
++-+Surf_areas::Interface areas<Areas altogether before UFind>: IE_A_B: 2077.21 IE_A_Wi: 345.83 IE_B_Wi: 348.79 
++-+Surf_areas::Chem Interface areas<Areas altogether before UFind>: ali: 531.77 aro: 0.00 hbd: 100.18 hbw: 336.65 hbdp: 0.00 elu: 2.70 elf: 29.38 hbwp: 0.00 ssb: 0.00 unk: 1771.14 
+
++-+UnionFindAlgo::union_find
+ #CCS FromTo: 10 1
+ #loops FromTo: 20 17
+
++++UnionFindAlgo::process_merged_ccs #0
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  2 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  3 loops
+Start boundary net with  1 loops
++-+Surf_areas::Interface areas<for merged connected component>: IE_A_B: 2077.21 IE_A_Wi: 345.83 IE_B_Wi: 348.79 
++-+Surf_areas::Chem Interface areas<for merged connected component>: ali: 531.77 aro: 0.00 hbd: 100.18 hbw: 336.65 hbdp: 0.00 elu: 2.70 elf: 29.38 hbwp: 0.00 ssb: 0.00 unk: 1771.14 
++-+MCC_record::dump_stats::Nb loops_before - nets_after uf merge: 20 17
+---UnionFindAlgo::process_merged_ccs #0 done
+
++++LTimer::dumpTimes(
+secondsTime:    0.11 AppliManager_score::load_file
+secondsTime:    0.19 AppliManager_score::building_alpha_complex
+secondsTime:    0.01 AppliManager_score::connectivity_stats
+secondsTime:    0.01 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.08 AppliManager_score::interfaces
+total is:    0.40
+---LTimer::dumpTimes)

@@ -1,0 +1,167 @@
+Patches: interface AB with 3 patches
+
+
+Patch id 0
+Patch size 887.24
+Patch #atoms: 143
+    1    N GLY A   3
+    2   CA GLY A   3
+    3    C GLY A   3
+    4    O GLY A   3
+    5    N LEU A   4
+    6   CA LEU A   4
+    9   CB LEU A   4
+   10   CG LEU A   4
+   11  CD1 LEU A   4
+   12  CD2 LEU A   4
+   13    N VAL A   5
+   14   CA VAL A   5
+   15    C VAL A   5
+   16    O VAL A   5
+   17   CB VAL A   5
+   18  CG1 VAL A   5
+   19  CG2 VAL A   5
+   21   CA ALA A   6
+   24   CB ALA A   6
+   25    N SER A   7
+   26   CA SER A   7
+   27    C SER A   7
+   28    O SER A   7
+   30   OG SER A   7
+   33    C ASN A   8
+   34    O ASN A   8
+   35   CB ASN A   8
+   36   CG ASN A   8
+   37  OD1 ASN A   8
+   38  ND2 ASN A   8
+   39    N LEU A   9
+   40   CA LEU A   9
+   43   CB LEU A   9
+   46  CD2 LEU A   9
+  966   CE LYS A 127
+  967   NZ LYS A 127
+  970    C ILE A 128
+  971    O ILE A 128
+  972   CB ILE A 128
+  974  CG2 ILE A 128
+  977   CA LYS A 129
+  978    C LYS A 129
+  979    O LYS A 129
+  980   CB LYS A 129
+  983   CE LYS A 129
+  984   NZ LYS A 129
+  985    N CSO A 130
+  986   CA CSO A 130
+  987   CB CSO A 130
+  988   SG CSO A 130
+  989    C CSO A 130
+  992    N VAL A 131
+  993   CA VAL A 131
+  994    C VAL A 131
+  995    O VAL A 131
+  996   CB VAL A 131
+  997  CG1 VAL A 131
+  998  CG2 VAL A 131
+ 1000   CA ALA A 132
+ 1003   CB ALA A 132
+ 1004    N PHE A 133
+ 1005   CA PHE A 133
+ 1006    C PHE A 133
+ 1007    O PHE A 133
+ 1008   CB PHE A 133
+ 1009   CG PHE A 133
+ 1010  CD1 PHE A 133
+ 1012  CE1 PHE A 133
+ 1013  CE2 PHE A 133
+ 1014   CZ PHE A 133
+ 1016   CA GLU A 134
+ 1026    N GLY B   3
+ 1028    C GLY B   3
+ 1029    O GLY B   3
+ 1030    N LEU B   4
+ 1031   CA LEU B   4
+ 1032    C LEU B   4
+ 1034   CB LEU B   4
+ 1035   CG LEU B   4
+ 1036  CD1 LEU B   4
+ 1037  CD2 LEU B   4
+ 1038    N VAL B   5
+ 1039   CA VAL B   5
+ 1040    C VAL B   5
+ 1041    O VAL B   5
+ 1042   CB VAL B   5
+ 1043  CG1 VAL B   5
+ 1044  CG2 VAL B   5
+ 1046   CA ALA B   6
+ 1049   CB ALA B   6
+ 1050    N SER B   7
+ 1051   CA SER B   7
+ 1052    C SER B   7
+ 1053    O SER B   7
+ 1054   CB SER B   7
+ 1055   OG SER B   7
+ 1058    C ASN B   8
+ 1059    O ASN B   8
+ 1060   CB ASN B   8
+ 1061   CG ASN B   8
+ 1062  OD1 ASN B   8
+ 1063  ND2 ASN B   8
+ 1064    N LEU B   9
+ 1065   CA LEU B   9
+ 1068   CB LEU B   9
+ 1071  CD2 LEU B   9
+ 1075    O ASN B  10
+ 1114   CD GLU B  15
+ 1115  OE1 GLU B  15
+ 1116  OE2 GLU B  15
+ 1918    C ILE B 128
+ 1919    O ILE B 128
+ 1920   CB ILE B 128
+ 1922  CG2 ILE B 128
+ 1925   CA LYS B 129
+ 1926    C LYS B 129
+ 1927    O LYS B 129
+ 1928   CB LYS B 129
+ 1931   CE LYS B 129
+ 1932   NZ LYS B 129
+ 1933    N CSO B 130
+ 1934   CA CSO B 130
+ 1935   CB CSO B 130
+ 1936   SG CSO B 130
+ 1937    C CSO B 130
+ 1940    N VAL B 131
+ 1942    C VAL B 131
+ 1943    O VAL B 131
+ 1944   CB VAL B 131
+ 1945  CG1 VAL B 131
+ 1946  CG2 VAL B 131
+ 1948   CA ALA B 132
+ 1951   CB ALA B 132
+ 1952    N PHE B 133
+ 1953   CA PHE B 133
+ 1954    C PHE B 133
+ 1955    O PHE B 133
+ 1956   CB PHE B 133
+ 1957   CG PHE B 133
+ 1958  CD1 PHE B 133
+ 1960  CE1 PHE B 133
+ 1962   CZ PHE B 133
+ 1970  OE1 GLU B 134
+
+Patch id 1
+Patch size 18.55
+Patch #atoms: 3
+   90  OE1 GLU A  15
+ 1914   CE LYS B 127
+ 1915   NZ LYS B 127
+
+Patch id 2
+Patch size 20.00
+Patch #atoms: 2
+   53  OD1 ASN A  10
+ 1914   CE LYS B 127
+
+
+1 atom(s) in more than 1 patch
+ 1914   CE LYS B 127
+

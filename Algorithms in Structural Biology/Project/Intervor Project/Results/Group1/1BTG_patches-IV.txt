@@ -1,0 +1,66 @@
+Patches: interface AB with 2 patches
+
+
+Patch id 0
+Patch size 189.53
+Patch #atoms: 41
+  440    O SER A  66
+  520   CA ASN A  77
+  521    C ASN A  77
+  522    O ASN A  77
+  523   CB ASN A  77
+  524   CG ASN A  77
+  525  OD1 ASN A  77
+  526  ND2 ASN A  77
+  527    N SER A  78
+  528   CA SER A  78
+  529    C SER A  78
+  530    O SER A  78
+  537   CB TYR A  79
+  539  CD1 TYR A  79
+  541  CE1 TYR A  79
+  544   OH TYR A  79
+  792    C VAL A 111
+  793    O VAL A 111
+  796  CG2 VAL A 111
+  798   CA LEU A 112
+  799    C LEU A 112
+  800    O LEU A 112
+  805    N SER A 113
+  809   CB SER A 113
+  810   OG SER A 113
+  830   NZ LYS A 115
+  845   CA GLY B  10
+  846    C GLY B  10
+  848    N GLU B  11
+  849   CA GLU B  11
+  850    C GLU B  11
+  851    O GLU B  11
+  852   CB GLU B  11
+  858   CA PHE B  12
+  862   CG PHE B  12
+  863  CD1 PHE B  12
+  864  CD2 PHE B  12
+  865  CE1 PHE B  12
+  866  CE2 PHE B  12
+  867   CZ PHE B  12
+ 1285   CD ARG B  69
+
+Patch id 1
+Patch size 102.44
+Patch #atoms: 12
+  174    O GLY A  33
+  176   CA LYS A  34
+  179   CB LYS A  34
+  180   CG LYS A  34
+  181   CD LYS A  34
+  183   NZ LYS A  34
+  184    N GLU A  35
+  187    O GLU A  35
+  188   CB GLU A  35
+ 1673   CZ ARG B 118
+ 1674  NH1 ARG B 118
+ 1675  NH2 ARG B 118
+
+
+0 atom(s) in more than 1 patch

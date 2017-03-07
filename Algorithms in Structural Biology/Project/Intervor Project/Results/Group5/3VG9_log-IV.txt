@@ -1,0 +1,65 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/3VG9.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group5 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 4188 32155 55873 27905
+
++-+Partners: #atoms kept  [A B Wb X]: 2498 1639 51 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 0
++-+Atoms_residues::#atoms [A B Wb Wi X]: 2498 1639 51 0 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 65 69 0 0 0
++-+Atoms_residues::#interf atoms annotated: Cali: 50 Caro: 26 Cpep: 8 Nhbd: 17 Naro: 0 NchP: 6 Ohbd: 15 Opep: 8 OchM: 4 Owat: 0 Sh: 0 Pdna: 0 Opd: 0 Orib: 0 Unk: 0 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 238 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Total #edges 238
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 66 boundary vor edges
++-+Interf_explorer_SO::shelled 238 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
+ 0 IE_A_B; #facets:  164 area:  492.86  #loops:   1 #int_edges: 374  #bd_edges:  76; Atom comp. [44;49;0;0;0]; loop lengths [76]
+ 1 IE_A_B; #facets:   74 area:  247.34  #loops:   1 #int_edges: 158  #bd_edges:  61; Atom comp. [21;22;0;0;0]; loop lengths [61]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 2 238 137 2
++-+Surf_areas::Interface areas<MI_AB>: IE_A_B: 740.21 
++-+Surf_areas::Chem Interface areas<MI_AB>: ali: 200.11 aro: 9.45 hbd: 130.20 hbw: 0.00 hbdp: 0.00 elu: 0.00 elf: 3.82 hbwp: 0.00 ssb: 0.00 unk: 396.63 
+
++-+MI::mean curvature-a sH sAbsH:          -14.47 841.37
++-+MI::mean curvature-b sA sL:             740.21 1349.11
++-+MI::mean curvature-c sH/sA sAbsH/sA:    -0.02 1.14
++-+MI::signed   angle mu sigma: -0.01 0.71
++-+MI::signless angle mu sigma: 0.62 0.35
++++LTimer::dumpTimes(
+secondsTime:    0.31 AppliManager_score::load_file
+secondsTime:    0.44 AppliManager_score::building_alpha_complex
+secondsTime:    0.04 AppliManager_score::connectivity_stats
+secondsTime:    0.02 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.03 AppliManager_score::interfaces
+total is:    0.84
+---LTimer::dumpTimes)

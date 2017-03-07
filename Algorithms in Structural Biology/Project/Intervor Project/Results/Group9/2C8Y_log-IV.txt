@@ -1,0 +1,107 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/2C8Y.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group9 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 2604 19884 34480 17199
+
++-+Partners: #atoms kept  [A B Wb X]: 235 2071 298 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 54
++-+Atoms_residues::#atoms [A B Wb Wi X]: 235 2071 244 54 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 176 235 0 54 0
++-+Atoms_residues::#interf atoms annotated: Cali: 171 Caro: 58 Cpep: 44 Nhbd: 41 Naro: 3 NchP: 16 Ohbd: 11 Opep: 45 OchM: 19 Owat: 54 Sh: 3 Pdna: 0 Opd: 0 Orib: 0 Unk: 0 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 481 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 252 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 282 0 0
++-+Total #edges 1015
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 214 boundary vor edges
++-+Interf_explorer_SO::shelled 1015 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
+ 0 IE_A_B; #facets:  478 area:  954.51  #loops:   3 #int_edges: 1079  #bd_edges: 221; Atom comp. [110;147;0;0;0]; loop lengths [13 199 9]
+ 1 IE_A_B; #facets:    2 area:   12.02  #loops:   1 #int_edges:   1  #bd_edges:   9; Atom comp. [1;2;0;0;0]; loop lengths [9]
+ 2 IE_A_B; #facets:    1 area:    1.50  #loops:   1 #int_edges:   0  #bd_edges:   4; Atom comp. [1;1;0;0;0]; loop lengths [4]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 3 481 234 5
++-+Surf_areas::Interface areas<MI_AB>: IE_A_B: 968.02 
++-+Surf_areas::Chem Interface areas<MI_AB>: ali: 473.27 aro: 28.64 hbd: 105.06 hbw: 0.00 hbdp: 0.00 elu: 2.25 elf: 19.23 hbwp: 0.00 ssb: 9.42 unk: 330.14 
+
++-+MI::mean curvature-a sH sAbsH:          145.39 1437.42
++-+MI::mean curvature-b sA sL:             968.02 2246.59
++-+MI::mean curvature-c sH/sA sAbsH/sA:    0.15 1.48
++-+MI::signed   angle mu sigma: 0.06 0.72
++-+MI::signless angle mu sigma: 0.64 0.33
+
++-+Exploring interface MI_AWi_BWi
+ 3 IE_A_Wi; #facets:  283 area:  761.80  #loops:   1 #int_edges: 616  #bd_edges: 221; Atom comp. [61;92;0;34;0]; loop lengths [221]
+ 4 IE_A_Wi; #facets:  215 area:  459.53  #loops:   6 #int_edges: 515  #bd_edges:  86; Atom comp. [62;59;0;18;0]; loop lengths [51 15 7 3 7 3]
+ 5 IE_A_Wi; #facets:   16 area:   19.95  #loops:   0 #int_edges:  42  #bd_edges:   0; Atom comp. [10;6;0;1;0]; loop lengths []
+ 6 IE_A_Wi; #facets:   20 area:   21.21  #loops:   1 #int_edges:  51  #bd_edges:   6; Atom comp. [3;17;0;1;0]; loop lengths [6]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 4 534 313 8
++-+Surf_areas::Interface areas<MI_AWi_BWi>: IE_A_Wi: 760.41 IE_B_Wi: 502.09 
++-+Surf_areas::Chem Interface areas<MI_AWi_BWi>: ali: 0.00 aro: 0.00 hbd: 0.00 hbw: 449.10 hbdp: 0.00 elu: 0.00 elf: 0.00 hbwp: 0.00 ssb: 0.00 unk: 813.40 
+
++-+MI::mean curvature-a sH sAbsH:          -1152.43 2939.68
++-+MI::mean curvature-b sA sL:             1262.50 3490.87
++-+MI::mean curvature-c sH/sA sAbsH/sA:    -0.91 2.33
++-+MI::signed   angle mu sigma: -0.33 0.89
++-+MI::signless angle mu sigma: 0.84 0.43
+
++-+MI:Stats Before UnionFind
++-+Surf_areas::Interface areas<Areas altogether before UFind>: IE_A_B: 968.02 IE_A_Wi: 760.41 IE_B_Wi: 502.09 
++-+Surf_areas::Chem Interface areas<Areas altogether before UFind>: ali: 473.27 aro: 28.64 hbd: 105.06 hbw: 449.10 hbdp: 0.00 elu: 2.25 elf: 19.23 hbwp: 0.00 ssb: 9.42 unk: 1143.54 
+
++-+UnionFindAlgo::union_find
+ #CCS FromTo: 7 1
+ #loops FromTo: 13 11
+
++++UnionFindAlgo::process_merged_ccs #0
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  2 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
+Start boundary net with  2 loops
+Start boundary net with  1 loops
+Start boundary net with  1 loops
++-+Surf_areas::Interface areas<for merged connected component>: IE_A_B: 968.02 IE_A_Wi: 760.41 IE_B_Wi: 502.09 
++-+Surf_areas::Chem Interface areas<for merged connected component>: ali: 473.27 aro: 28.64 hbd: 105.06 hbw: 449.10 hbdp: 0.00 elu: 2.25 elf: 19.23 hbwp: 0.00 ssb: 9.42 unk: 1143.54 
++-+MCC_record::dump_stats::Nb loops_before - nets_after uf merge: 13 11
+---UnionFindAlgo::process_merged_ccs #0 done
+
++++LTimer::dumpTimes(
+secondsTime:    0.21 AppliManager_score::load_file
+secondsTime:    0.26 AppliManager_score::building_alpha_complex
+secondsTime:    0.02 AppliManager_score::connectivity_stats
+secondsTime:    0.03 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.11 AppliManager_score::interfaces
+total is:    0.63
+---LTimer::dumpTimes)

@@ -1,0 +1,73 @@
+Version 0.1047-3.6-Ic-107
+Running:  /home/mitsias/Intervor/./intervor-static-32.exe -f /home/mitsias/Intervor/PDB_files/4A5W.pdb -C A -C B -w 1 -p all -D /home/mitsias/Intervor/PDB_files/Group9 --log
+
+Keep atoms with the default alternate location id
++-+Partners_classifier::dump_specs:
+ 0; chain(s): <A>
+ 1; chain(s): <B>
++-+AppliManager_flow::load_fileTriangul infos: #simplices [Vces -> Tetras]: 19028 148793 259433 129667
+
++-+Partners: #atoms kept  [A B Wb X]: 12139 6889 0 0
++-+Chemical annotations
++-+Radius used for Cali 1.87
++-+Radius used for Caro 1.76
++-+Radius used for Cpep 1.76
++-+Radius used for Nhbd 1.65
++-+Radius used for Naro 1.65
++-+Radius used for NchP 1.5
++-+Radius used for Ohbd 1.4
++-+Radius used for Opep 1.4
++-+Radius used for OchM 1.4
++-+Radius used for Owat 1.4
++-+Radius used for Sh 1.85
++-+Radius used for Pdna 1.9
++-+Radius used for Opd 1.4
++-+Radius used for Orib 1.4
++-+Radius used for Unk 2
+
++++AS_interf_toolbox::tag_interf_atoms_classify_edges...
++-+Re-labelling Wb to Wi: 0
++-+Atoms_residues::#atoms [A B Wb Wi X]: 12139 6889 0 0 0
++-+Atoms_residues::#iatoms [A B Wb Wi X]: 419 340 0 0 0
++-+Atoms_residues::#interf atoms annotated: Cali: 298 Caro: 109 Cpep: 61 Nhbd: 75 Naro: 4 NchP: 46 Ohbd: 37 Opep: 83 OchM: 41 Owat: 0 Sh: 5 Pdna: 0 Opd: 0 Orib: 0 Unk: 0 
+
++-+Filtering edges on Voronoi facet size: no
++-+Edges of type IE_A_B: #OK #TooLarge #ConvexHull : 1180 0 0
++-+Edges of type IE_A_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Edges of type IE_B_Wi: #OK #TooLarge #ConvexHull : 0 0 0
++-+Total #edges 1180
++++AS_interf_toolbox::tag_interf_atoms_classify_edges
+
++++VSO_shelling_from_boundary...
++-+Interf_explorer_SO::starting with 502 boundary vor edges
++-+Interf_explorer_SO::shelled 1180 vor facets
+---VSO_shelling_from_boundary
+
++-+Exploring interface MI_AB
+ 0 IE_A_B; #facets:   64 area:  301.71  #loops:   1 #int_edges: 127  #bd_edges:  89; Atom comp. [29;18;0;0;0]; loop lengths [89]
+ 1 IE_A_B; #facets:   28 area:  159.75  #loops:   1 #int_edges:  56  #bd_edges:  52; Atom comp. [17;8;0;0;0]; loop lengths [52]
+ 2 IE_A_B; #facets:   71 area:  348.31  #loops:   2 #int_edges: 145  #bd_edges:  92; Atom comp. [28;21;0;0;0]; loop lengths [80 12]
+ 3 IE_A_B; #facets:  198 area:  634.82  #loops:   2 #int_edges: 440  #bd_edges: 149; Atom comp. [68;54;0;0;0]; loop lengths [146 3]
+ 4 IE_A_B; #facets:  477 area: 1729.55  #loops:   9 #int_edges: 1047  #bd_edges: 387; Atom comp. [154;134;0;0;0]; loop lengths [311 3 13 3 10 28 3 13 3]
+ 5 IE_A_B; #facets:  219 area:  675.11  #loops:   3 #int_edges: 482  #bd_edges: 166; Atom comp. [73;62;0;0;0]; loop lengths [160 3 3]
+ 6 IE_A_B; #facets:   18 area:  118.42  #loops:   1 #int_edges:  30  #bd_edges:  47; Atom comp. [7;7;0;0;0]; loop lengths [47]
+ 7 IE_A_B; #facets:   70 area:  263.90  #loops:   1 #int_edges: 136  #bd_edges: 102; Atom comp. [27;23;0;0;0]; loop lengths [102]
+ 8 IE_A_B; #facets:   24 area:  113.31  #loops:   1 #int_edges:  41  #bd_edges:  45; Atom comp. [10;9;0;0;0]; loop lengths [45]
+ 9 IE_A_B; #facets:   11 area:   76.60  #loops:   1 #int_edges:  18  #bd_edges:  27; Atom comp. [6;4;0;0;0]; loop lengths [27]
++-+MI::dump_interf_stats:: #ccs / #facets / #bd_edges / #loops: 10 1180 1156 22
++-+Surf_areas::Interface areas<MI_AB>: IE_A_B: 4421.48 
++-+Surf_areas::Chem Interface areas<MI_AB>: ali: 1531.20 aro: 60.07 hbd: 477.99 hbw: 0.00 hbdp: 0.00 elu: 84.15 elf: 148.12 hbwp: 0.00 ssb: 0.00 unk: 2119.95 
+
++-+MI::mean curvature-a sH sAbsH:          -291.96 4080.41
++-+MI::mean curvature-b sA sL:             4421.48 7030.57
++-+MI::mean curvature-c sH/sA sAbsH/sA:    -0.07 0.92
++-+MI::signed   angle mu sigma: -0.04 0.66
++-+MI::signless angle mu sigma: 0.58 0.31
++++LTimer::dumpTimes(
+secondsTime:    1.54 AppliManager_score::load_file
+secondsTime:    2.12 AppliManager_score::building_alpha_complex
+secondsTime:    0.16 AppliManager_score::connectivity_stats
+secondsTime:    0.12 Interf_explorer_SO::compute_shelling_order
+secondsTime:    0.17 AppliManager_score::interfaces
+total is:    4.11
+---LTimer::dumpTimes)

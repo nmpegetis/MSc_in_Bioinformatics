@@ -1,0 +1,58 @@
+Patches: interface AB with 2 patches
+
+
+Patch id 0
+Patch size 45.45
+Patch #atoms: 8
+ 1129   CB PRO A 173
+ 1130   CG PRO A 173
+ 2584    O SER B 147
+ 2588   CA GLY B 148
+ 2589    C GLY B 148
+ 2591    N SER B 149
+ 2595   CB SER B 149
+ 2596   OG SER B 149
+
+Patch id 1
+Patch size 39.39
+Patch #atoms: 4
+ 1102   CA SER A 170
+ 1105   CB SER A 170
+ 1106   OG SER A 170
+ 2586   OG SER B 147
+
+
+0 atom(s) in more than 1 patch
+
+Patches: interface ABW with 2 merged patches
+
+
+Merged patch id 0
+Patch size 114.77
+Patch #atoms: 15
+ 1126   CA PRO A 173
+ 1127    C PRO A 173
+ 1129   CB PRO A 173
+ 1130   CG PRO A 173
+ 1132    N GLY A 174
+ 1133   CA GLY A 174
+ 2584    O SER B 147
+ 2588   CA GLY B 148
+ 2589    C GLY B 148
+ 2591    N SER B 149
+ 2592   CA SER B 149
+ 2594    O SER B 149
+ 2595   CB SER B 149
+ 2596   OG SER B 149
+ 8487    O HOH B2402
+
+Merged patch id 1
+Patch size 39.39
+Patch #atoms: 4
+ 1102   CA SER A 170
+ 1105   CB SER A 170
+ 1106   OG SER A 170
+ 2586   OG SER B 147
+
+
+0 atom(s) in more than 1 patch
